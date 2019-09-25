@@ -49,18 +49,18 @@ var cameraTargets = {
 var selectedTooltip = null;
 var controlsSelectedTooltip = null;
 
-var playPromise = document.getElementById('background-music').play();
+// var playPromise = document.getElementById('background-music').play();
 
-// In browsers that don’t yet support this functionality,
-// playPromise won’t be defined.
-if (playPromise !== undefined) {
-  playPromise.then(function() {
-    // Automatic playback started!
-  }).catch(function(error) {
-    // Automatic playback failed.
-    // Show a UI element to let the user manually start playback.
-  });
-}
+// // In browsers that don’t yet support this functionality,
+// // playPromise won’t be defined.
+// if (playPromise !== undefined) {
+//   playPromise.then(function() {
+//     // Automatic playback started!
+//   }).catch(function(error) {
+//     // Automatic playback failed.
+//     // Show a UI element to let the user manually start playback.
+//   });
+// }
 
 init();
 animate();
@@ -346,15 +346,26 @@ function addControls() {
         li.setAttribute('tabindex', '0');
     });
 
-    document.getElementById('mute-button').addEventListener('click', function () {
-        var audioElm = document.getElementById('background-music');
-        
-        if (!audioElm.muted) {
-            document.getElementById('mute-button').innerHTML = '<strike>Mute</strike>';
-        } else {
-            document.getElementById('mute-button').innerHTML = 'Mute';
-        }
 
-        audioElm.muted = !audioElm.muted;
+    const muteButton = document.getElementById('mute-button');
+    const unmuteButton = document.getElementById('unmute-button');
+
+    muteButton.addEventListener('click', function () {
+        unmuteButton.style.display = "block";
+        muteButton.style.display = "none";
+        // var audioElm = document.getElementById('background-music');
+        
+        // if (!audioElm.muted) {
+        //     document.getElementById('mute-button').innerHTML = '<strike>Mute</strike>';
+        // } else {
+        //     document.getElementById('mute-button').innerHTML = 'Mute';
+        // }
+
+        // audioElm.muted = !audioElm.muted;
+    });
+
+    unmuteButton.addEventListener('click', function () {
+        muteButton.style.display = "block";
+        unmuteButton.style.display = "none";
     });
 }
