@@ -539,7 +539,7 @@ iframe {
     top: 0;
     line-height: 1.4;
     overflow: auto;
-    max-height: calc(100% - 40px);
+    max-height: calc(100% - 140px);
 	opacity: 0;
 	pointer-events: none;
 	z-index: 0;
