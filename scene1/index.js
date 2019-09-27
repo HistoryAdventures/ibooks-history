@@ -1,7 +1,7 @@
 import * as TWEEN from './js/tween';
 import * as THREE from './build/three.module.js';
 // import Stats from './jsm/libs/stats.module.js';
-import { GUI } from './jsm/libs/dat.gui.module.js';
+// import { GUI } from './jsm/libs/dat.gui.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
 import Hammer from 'hammerjs';
@@ -157,6 +157,9 @@ function init() {
         onDocumentClick(ev);
     });
 
+    // window.addEventListener('touchend', onDocumentClick, false);
+    // window.addEventListener('click', onDocumentClick, false);
+
     // var gui = new GUI();
 
     // gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
@@ -177,6 +180,7 @@ function init() {
     // }};
     // gui.add(obj, 'copyValues');
     // gui.add(download, 'download');
+    setPageSize();
 }
 
 function toggleTooltip(activeTooltip) {
@@ -273,10 +277,18 @@ function getIntersects(event) {
     return null;
 }
 
+function setPageSize() {
+    const body = document.querySelector('.body-inner');
+    body.setAttribute('style', 'width:' + window.innerWidth + 'px; height: ' + window.innerHeight + 'px;');
+    body.setAttribute('width', window.innerWidth * 2);
+    body.setAttribute('height', window.innerHeight * 2);
+}
+
 function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
+    setPageSize();
 }
 function animate() {
     requestAnimationFrame(animate);
@@ -302,7 +314,8 @@ function addControls() {
     var tooltipsCount = tooltips.length;
     document.getElementById('controls').style.display = 'block';
 
-    document.getElementById('next').addEventListener('click', function () {
+    document.getElementById('next').addEventListener('click', function (e) {
+        e.preventDefault();
         var currentOrder = document.getElementById(controlsSelectedTooltip);
         var nextTooltip;
         if (currentOrder) {
@@ -320,7 +333,8 @@ function addControls() {
         setupTween(cameraTargets[controlsSelectedTooltip]);
     });
 
-    document.getElementById('prev').addEventListener('click', function () {
+    document.getElementById('prev').addEventListener('click', function (e) {
+        e.preventDefault();
         var currentOrder = document.getElementById(controlsSelectedTooltip);
         var nextTooltip;
         if (currentOrder) {
@@ -347,25 +361,25 @@ function addControls() {
     });
 
 
-    const muteButton = document.getElementById('mute-button');
-    const unmuteButton = document.getElementById('unmute-button');
+    // const muteButton = document.getElementById('mute-button');
+    // const unmuteButton = document.getElementById('unmute-button');
 
-    muteButton.addEventListener('click', function () {
-        unmuteButton.style.display = "block";
-        muteButton.style.display = "none";
-        // var audioElm = document.getElementById('background-music');
+    // muteButton.addEventListener('click', function () {
+    //     unmuteButton.style.display = "block";
+    //     muteButton.style.display = "none";
+    //     // var audioElm = document.getElementById('background-music');
         
-        // if (!audioElm.muted) {
-        //     document.getElementById('mute-button').innerHTML = '<strike>Mute</strike>';
-        // } else {
-        //     document.getElementById('mute-button').innerHTML = 'Mute';
-        // }
+    //     // if (!audioElm.muted) {
+    //     //     document.getElementById('mute-button').innerHTML = '<strike>Mute</strike>';
+    //     // } else {
+    //     //     document.getElementById('mute-button').innerHTML = 'Mute';
+    //     // }
 
-        // audioElm.muted = !audioElm.muted;
-    });
+    //     // audioElm.muted = !audioElm.muted;
+    // });
 
-    unmuteButton.addEventListener('click', function () {
-        muteButton.style.display = "block";
-        unmuteButton.style.display = "none";
-    });
+    // unmuteButton.addEventListener('click', function () {
+    //     muteButton.style.display = "block";
+    //     unmuteButton.style.display = "none";
+    // });
 }

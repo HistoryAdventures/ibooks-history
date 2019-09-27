@@ -16,5 +16,9 @@
     <string>1.0</string>
     <key>MainHTML</key>
     <string>index.html</string>
+    <key>Height</key>
+	<integer>1024</integer>
+    <key>Width</key>
+	<integer>768</integer>
 </dict>
 </plist>
