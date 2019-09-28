@@ -5,6 +5,7 @@ import * as THREE from './build/three.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
 import Hammer from 'hammerjs';
+
 var container, stats, controls;
 var camera, scene, renderer;
 var mouse = new THREE.Vector2();
@@ -48,24 +49,18 @@ var cameraTargets = {
 };
 var selectedTooltip = null;
 var controlsSelectedTooltip = null;
-
-// var playPromise = document.getElementById('background-music').play();
-
-// // In browsers that don’t yet support this functionality,
-// // playPromise won’t be defined.
-// if (playPromise !== undefined) {
-//   playPromise.then(function() {
-//     // Automatic playback started!
-//   }).catch(function(error) {
-//     // Automatic playback failed.
-//     // Show a UI element to let the user manually start playback.
-//   });
-// }
+var features = {
+    loader: true,
+    touchEvents: true,
+    navigation: true,
+};
 
 init();
 animate();
+
 function init() {
     container = document.getElementById('container');
+
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
     camera.position.set(4, 5, 5);
     scene = new THREE.Scene();
@@ -79,9 +74,13 @@ function init() {
     loadingManager.onProgress = function (url, loaded, total) {
         if (total === loaded) {
             setTimeout(function () {
-                var loader = document.getElementById('loader');
-                loader.classList.add('off');
-                addControls();
+                var uiLoader = document.getElementById('loader');
+                if (uiLoader && features.loader) {
+                    uiLoader.classList.add('off');
+                }
+                if (features.navigation) {
+                    addControls();
+                }
             }, 1000);
         }
     };
@@ -89,16 +88,20 @@ function init() {
     // models
     var loader = new ColladaLoader(loadingManager);
 
-    loader.load('./models/scene13/scene.dae', function (collada) {
+    loader.load('./models/scene14/scene.dae', function (collada) {
         model = collada.scene;
         for (var mat in collada.library.materials) {
             collada.library.materials[mat].build.side = THREE.DoubleSide;
             collada.library.materials[mat].build.alphaTest = 0.05;
         }
 
+        agents = [];
+
         agents = model.children.filter(function (mod) {
             return mod.name.includes('Agent');
         });
+
+        papers = [];
 
         papers = model.children.filter(function (mod) {
             return mod.name.includes('Paper');
@@ -152,6 +155,10 @@ function init() {
     window.addEventListener('resize', onWindowResize, false);
 
     // add events
+    // if (features.touchEvents) {
+    //     $('#container').on('vclick', onDocumentClick);
+    // }
+
     var hammertime = new Hammer(document.querySelector('#container'), {});
     hammertime.on('tap', function(ev) {
         onDocumentClick(ev);
@@ -160,27 +167,18 @@ function init() {
     // window.addEventListener('touchend', onDocumentClick, false);
     // window.addEventListener('click', onDocumentClick, false);
 
-    // var gui = new GUI();
+    // setPageSize();
+}
 
-    // gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
-    // gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
-    // gui.add(camera.position, 'y', -50, 50).step(0.1).listen();
+var uiTooltips = document.getElementById('tooltips');
 
-    // var obj = { copyValues: function(){
-    //     navigator.clipboard.writeText(`x: ${camera.position.x.toFixed(1)}, y: ${camera.position.y.toFixed(1)}, z: ${camera.position.z.toFixed(1)}`);
-    //     setTimeout(function (){
-    //         document.activeElement.blur();
-    //     }, 4000);
-    // }};
-    // var download = { download: function () {
-    //     window.open('wdgts/scene-09-04.2.wdgt.zip');
-    //     setTimeout(function (){
-    //         document.activeElement.blur();
-    //     }, 4000);
-    // }};
-    // gui.add(obj, 'copyValues');
-    // gui.add(download, 'download');
-    setPageSize();
+if (uiTooltips) {
+    uiTooltips.addEventListener('click', function (e) {
+        if (e.target.matches('.tooltip-close')) {
+            selectedTooltip = null;
+            toggleTooltip(null);
+        }
+    });
 }
 
 function toggleTooltip(activeTooltip) {
@@ -243,6 +241,9 @@ function getIntersects(event) {
     if (event.srcEvent) {
         mouse.x = (event.srcEvent.clientX / window.innerWidth) * 2 - 1;
         mouse.y = - (event.srcEvent.clientY / window.innerHeight) * 2 + 1;
+    } else {
+        mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+        mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
     }
 
     raycaster.setFromCamera(mouse, camera);
@@ -277,18 +278,18 @@ function getIntersects(event) {
     return null;
 }
 
-function setPageSize() {
-    const body = document.querySelector('.body-inner');
-    body.setAttribute('style', 'width:' + window.innerWidth + 'px; height: ' + window.innerHeight + 'px;');
-    body.setAttribute('width', window.innerWidth * 2);
-    body.setAttribute('height', window.innerHeight * 2);
-}
+// function setPageSize() {
+//     const body = document.querySelector('.body-inner');
+//     body.setAttribute('style', 'width:' + window.innerWidth + 'px; height: ' + window.innerHeight + 'px;');
+//     body.setAttribute('width', window.innerWidth * 2);
+//     body.setAttribute('height', window.innerHeight * 2);
+// }
 
 function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
-    setPageSize();
+    // setPageSize();
 }
 function animate() {
     requestAnimationFrame(animate);
@@ -348,38 +349,4 @@ function addControls() {
             setupTween(cameraTargets[controlsSelectedTooltip]);
         }
     });
-
-    document.getElementById('tooltips').addEventListener('click', function (e) {
-        if (e.target.matches('.tooltip-close')) {
-            selectedTooltip = null;
-            toggleTooltip(null);
-        }
-    })
-
-    document.querySelectorAll('.dg.main .cr').forEach(function (li) {
-        li.setAttribute('tabindex', '0');
-    });
-
-
-    // const muteButton = document.getElementById('mute-button');
-    // const unmuteButton = document.getElementById('unmute-button');
-
-    // muteButton.addEventListener('click', function () {
-    //     unmuteButton.style.display = "block";
-    //     muteButton.style.display = "none";
-    //     // var audioElm = document.getElementById('background-music');
-        
-    //     // if (!audioElm.muted) {
-    //     //     document.getElementById('mute-button').innerHTML = '<strike>Mute</strike>';
-    //     // } else {
-    //     //     document.getElementById('mute-button').innerHTML = 'Mute';
-    //     // }
-
-    //     // audioElm.muted = !audioElm.muted;
-    // });
-
-    // unmuteButton.addEventListener('click', function () {
-    //     muteButton.style.display = "block";
-    //     unmuteButton.style.display = "none";
-    // });
 }

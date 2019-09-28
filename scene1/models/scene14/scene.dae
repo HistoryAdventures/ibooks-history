@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
     </contributor>
-    <created>2019-09-03T23:40:34</created>
-    <modified>2019-09-03T23:40:34</modified>
+    <created>2019-09-28T10:45:54</created>
+    <modified>2019-09-28T10:45:54</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -893,7 +893,7 @@
         <instance_light url="#Spot-light"/>
       </node>
       <node id="Agent3" name="Agent3" type="NODE">
-        <matrix sid="transform">1 0 0 0 0 -1.62921e-7 -1 0 0 1 -1.62921e-7 0 0 0 0 1</matrix>
+        <matrix sid="transform">1 0 0 0 0 -1.84493e-7 -1 0 0 1.132409 -1.62921e-7 0 0 0 0 1</matrix>
         <instance_geometry url="#Default_002-mesh" name="Agent3">
           <bind_material>
             <technique_common>
