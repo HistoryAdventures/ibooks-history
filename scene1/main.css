@@ -85,7 +85,7 @@ h1 a {
 .tooltip {
     background: -webkit-linear-gradient(0deg, rgba(255,237,25,.75) 0%, rgba(0,0,0,.75) 25%, rgba(0,0,0,.75) 100%);
 	background: linear-gradient(0deg, rgba(255,237,25,.75) 0%, rgba(0,0,0,.75) 25%, rgba(0,0,0,.75) 100%);
-    padding: 20px 150px 20px 50px;
+    padding: 20px 150px 70px 50px;
     max-width: calc(100% - 140px);
     opacity: 1;
     position: fixed;
@@ -154,11 +154,12 @@ h1 a {
 	right: 5px;
 	background: none;
 	border: 0;
-	height: 30px;
-	width: 30px;
+	height: 70px;
+	width: 70px;
 	font-size: 24px;
 	color: #ffed19;
 	font-family: 'Favorit';
+	font-size: 36px;
 }
 
 .controls-top {
@@ -179,7 +180,7 @@ h1 a {
 .controls-inner {
 	margin: auto;
 	position: relative;
-	padding: 10px 50px;
+	padding: 20px 50px;
 }
 
 .controls-current {
@@ -190,9 +191,9 @@ h1 a {
 	position: absolute;
 	background: none;
 	border: 0;
-	height: 30px;
-	width: 30px;
-	font-size: 24px;
+	height: 70px;
+	width: 70px;
+	font-size: 48px;
 	color: #ffed19;
 	font-family: 'Lyno';
 	pointer-events: all;
