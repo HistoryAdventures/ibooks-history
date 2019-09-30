@@ -85,7 +85,7 @@ h1 a {
 .tooltip {
     background: -webkit-linear-gradient(0deg, rgba(255,237,25,.75) 0%, rgba(0,0,0,.75) 25%, rgba(0,0,0,.75) 100%);
 	background: linear-gradient(0deg, rgba(255,237,25,.75) 0%, rgba(0,0,0,.75) 25%, rgba(0,0,0,.75) 100%);
-    padding: 20px 150px 70px 50px;
+    padding: 20px 150px 100px 50px;
     max-width: calc(100% - 140px);
     opacity: 1;
     position: fixed;

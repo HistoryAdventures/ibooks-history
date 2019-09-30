@@ -48,8 +48,12 @@ function init() {
     // models
     var loader = new ColladaLoader(loadingManager);
 
-    loader.load('./models/Ribbon.dae', function (collada) {
+    loader.load('./models/Ribbon v2.dae', function (collada) {
         model = collada.scene;
+        for (var mat in collada.library.materials) {
+            collada.library.materials[mat].build.side = THREE.DoubleSide;
+            collada.library.materials[mat].build.alphaTest = 0.05;
+        }
         model.scale.set(0.1,0.1,0.1);
         model.position.set(0,0,-1);
     });
@@ -89,10 +93,10 @@ function init() {
     controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
     controls.dampingFactor = 0.05;
     controls.screenSpacePanning = false;
-    controls.minDistance = 3;
+    controls.minDistance = 0.2;
     controls.maxDistance = 15;
     controls.target.set(0, 1, 0);
-    controls.maxPolarAngle = Math.PI / 2;
+    // controls.maxPolarAngle = Math.PI / 2;
     controls.update();
     //
     // stats = new Stats();
