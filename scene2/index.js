@@ -22,7 +22,7 @@ function init() {
     container = document.getElementById('container');
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
-    camera.position.set(4, 5, 5);
+    camera.position.set(-10, 5, -9);
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0xbbbbbb);
 
@@ -94,7 +94,7 @@ function init() {
     controls.dampingFactor = 0.03;
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
-    controls.maxDistance = 10;
+    controls.maxDistance = 15;
     controls.target.set(0, 1, 0);
     controls.zoomSpeed = 0.5;
     // controls.maxPolarAngle = Math.PI / 2;
