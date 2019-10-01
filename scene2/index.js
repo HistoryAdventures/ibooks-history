@@ -96,7 +96,7 @@ function init() {
     controls.minDistance = 0.01;
     controls.maxDistance = 15;
     controls.target.set(0, 1, 0);
-    controls.zoomSpeed = 0.5;
+    controls.zoomSpeed = 0.3;
     // controls.maxPolarAngle = Math.PI / 2;
     controls.update();
     //
