@@ -22,7 +22,7 @@ function init() {
     container = document.getElementById('container');
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
-    camera.position.set(-10, 5, -9);
+    camera.position.set(20, 5, -45);
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0xbbbbbb);
 
@@ -41,6 +41,8 @@ function init() {
                 if (features.navigation) {
                     addControls();
                 }
+
+                setupTween({x: -6, y: 5, z: -16});
             }, 1000);
         }
     };
@@ -95,7 +97,7 @@ function init() {
     controls.dampingFactor = 0.03;
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
-    controls.maxDistance = 15;
+    controls.maxDistance = 50;
     controls.target.set(0, 1, 0);
     controls.zoomSpeed = 0.3;
     // controls.maxPolarAngle = Math.PI / 2;
@@ -110,6 +112,17 @@ function init() {
     // if (features.touchEvents) {
     //     $('#container').on('vclick', onDocumentClick);
     // }
+}
+
+function setupTween(target) {
+    new TWEEN.Tween(camera.position)
+        .to(target, 2000)
+        .easing(TWEEN.Easing.Cubic.Out)
+        .onUpdate(function () {
+            controls.target.set(0, 1, 0);
+            controls.update();
+        })
+        .start();
 }
 
 function onWindowResize() {
