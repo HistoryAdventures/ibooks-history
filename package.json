@@ -5,12 +5,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "dev": "ENV=DEV webpack-dev-server --open --port 3000 --hot --host 0.0.0.0",
+    "dev": "cross-env NODE_ENV=dev webpack-dev-server --open --port 3000 --hot --host 0.0.0.0",
     "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cross-env": "^6.0.3",
     "express": "^4.17.1",
     "hammerjs": "^2.0.8",
     "serve-static": "^1.14.1"

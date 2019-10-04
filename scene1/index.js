@@ -1,7 +1,7 @@
 import * as TWEEN from './js/tween';
 import * as THREE from './build/three.module.js';
 // import Stats from './jsm/libs/stats.module.js';
-// import { GUI } from './jsm/libs/dat.gui.module.js';
+import { GUI } from './jsm/libs/dat.gui.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
 import Hammer from 'hammerjs';
@@ -170,6 +170,14 @@ function init() {
     // window.addEventListener('click', onDocumentClick, false);
 
     // setPageSize();
+
+    if (process.env.NODE_ENV !== 'production') {
+        var gui = new GUI();
+
+        gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
+        gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
+        gui.add(camera.position, 'y', -50, 50).step(0.1).listen();
+    }
 }
 
 var uiTooltips = document.getElementById('tooltips');
