@@ -1,5 +1,5 @@
 const path = require('path');
-const scene = 'scene4';
+const scene = 'scene2';
 
 module.exports = {
   entry: `./${scene}/index.js`,
