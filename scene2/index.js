@@ -22,7 +22,7 @@ function init() {
     container = document.getElementById('container');
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
-    camera.position.set(20, 5, -45);
+    camera.position.set(-20, 5, 45);
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0xbbbbbb);
 
@@ -42,7 +42,7 @@ function init() {
                     addControls();
                 }
 
-                setupTween({x: -6, y: 5, z: -16});
+                setupTween({x: 6, y: 5, z: 16});
             }, 1000);
         }
     };
@@ -50,7 +50,7 @@ function init() {
     // models
     var loader = new ColladaLoader(loadingManager);
 
-    loader.load('./models/Ribbon.dae', function (collada) {
+    loader.load('./models/ribbopn rev05.dae', function (collada) {
         model = collada.scene;
         for (var mat in collada.library.materials) {
             collada.library.materials[mat].build.side = THREE.DoubleSide;
