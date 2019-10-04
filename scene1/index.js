@@ -4,7 +4,7 @@ import * as THREE from './build/three.module.js';
 // import { GUI } from './jsm/libs/dat.gui.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
-// import Hammer from 'hammerjs';
+import Hammer from 'hammerjs';
 
 var container, stats, controls;
 var camera, scene, renderer;
@@ -161,10 +161,10 @@ function init() {
     //     $('#container').on('vclick', onDocumentClick);
     // }
 
-    // var hammertime = new Hammer(document.querySelector('#container'), {});
-    // hammertime.on('tap', function(ev) {
-    //     onDocumentClick(ev);
-    // });
+    var hammertime = new Hammer(document.querySelector('#container'), {});
+    hammertime.on('tap', function(ev) {
+        onDocumentClick(ev);
+    });
 
     // window.addEventListener('touchend', onDocumentClick, false);
     // window.addEventListener('click', onDocumentClick, false);
