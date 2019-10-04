@@ -81,6 +81,8 @@ function init() {
                 if (features.navigation) {
                     addControls();
                 }
+
+                addAudioControls();
             }, 1000);
         }
     };
@@ -349,4 +351,32 @@ function addControls() {
             setupTween(cameraTargets[controlsSelectedTooltip]);
         }
     });
+}
+
+function addAudioControls() {
+    var muteButton = document.getElementById('mute-button');
+    var unmuteButton = document.getElementById('unmute-button');
+    var music = document.getElementById('music');
+
+    muteButton.addEventListener('click', function () {
+        muteButton.style.display = 'none';
+        unmuteButton.style.display = 'block';
+
+        music.muted = true;
+        console.log(music.muted);
+    });
+
+    unmuteButton.addEventListener('click', function () {
+        unmuteButton.style.display = 'none';
+        muteButton.style.display = 'block';
+
+        music.muted = false;
+        console.log(music.muted);
+    });
+
+    setTimeout(function () {
+        if (music.paused) {
+            music.play();
+        }
+    }, 2000);
 }
