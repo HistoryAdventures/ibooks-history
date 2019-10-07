@@ -157,19 +157,11 @@ function init() {
     window.addEventListener('resize', onWindowResize, false);
 
     // add events
-    // if (features.touchEvents) {
-    //     $('#container').on('vclick', onDocumentClick);
-    // }
 
     var hammertime = new Hammer(document.querySelector('#container'), {});
     hammertime.on('tap', function(ev) {
         onDocumentClick(ev);
     });
-
-    // window.addEventListener('touchend', onDocumentClick, false);
-    // window.addEventListener('click', onDocumentClick, false);
-
-    // setPageSize();
 
     if (process.env.NODE_ENV !== 'production') {
         var gui = new GUI();
@@ -238,7 +230,7 @@ function onDocumentClick(event) {
 
 function setupTween(target) {
     new TWEEN.Tween(camera.position)
-        .to(target, 1000)
+        .to(target, 1100)
         .easing(TWEEN.Easing.Linear.None)
         .onUpdate(function () {
             controls.target.set(0, 1, 0);
@@ -288,22 +280,15 @@ function getIntersects(event) {
     return null;
 }
 
-// function setPageSize() {
-//     const body = document.querySelector('.body-inner');
-//     body.setAttribute('style', 'width:' + window.innerWidth + 'px; height: ' + window.innerHeight + 'px;');
-//     body.setAttribute('width', window.innerWidth * 2);
-//     body.setAttribute('height', window.innerHeight * 2);
-// }
-
 function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
-    // setPageSize();
 }
+
 function animate() {
-    requestAnimationFrame(animate);
     TWEEN.update();
+    requestAnimationFrame(animate);
     render();
     // stats.update();
 }
