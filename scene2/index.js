@@ -86,6 +86,13 @@ function init() {
     // spotLight.shadow.camera.far = 800;
     // scene.add(spotLight);
 
+    var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+    var material = new THREE.MeshStandardMaterial( {color: 0xdadaff, side: THREE.BackSide } );
+    var cube = new THREE.Mesh( geometry, material );
+    cube.scale.set(60,50,60);
+    cube.position.y = 10;
+    scene.add( cube );
+
     // renderer
 
     renderer = new THREE.WebGLRenderer();
@@ -100,7 +107,7 @@ function init() {
     controls.dampingFactor = 0.03;
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
-    controls.maxDistance = 50;
+    controls.maxDistance = 40;
     controls.target.set(0, 1, 0);
     controls.zoomSpeed = 0.3;
     // controls.maxPolarAngle = Math.PI / 2;
