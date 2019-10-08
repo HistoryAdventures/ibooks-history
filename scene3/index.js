@@ -48,7 +48,7 @@ function init() {
     // models
     var loader = new ColladaLoader(loadingManager);
 
-    loader.load('./models/Scene rev02.dae', function (collada) {
+    loader.load('./models/Australian_invasion.dae', function (collada) {
         model = collada.scene;
         for (var mat in collada.library.materials) {
             collada.library.materials[mat].build.side = THREE.DoubleSide;
@@ -59,27 +59,27 @@ function init() {
     });
 
     // lights
-    var ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
-    scene.add(ambientLight);
-    var directionalLight = new THREE.DirectionalLight(0xffffff, 0.1);
-    directionalLight.position.set(0, 1, 1).normalize();
-    scene.add(directionalLight);
-    var spotLight;
-    spotLight = new THREE.SpotLight(0xffffff, 1);
-    spotLight.position.set(0, 2, 0);
-    var targetObject = new THREE.Object3D();
-    targetObject.position.set(0, 0, 0);
-    scene.add(targetObject);
-    spotLight.target = targetObject;
-    spotLight.angle = Math.PI / 3;
-    spotLight.penumbra = 0.05;
-    spotLight.decay = 1;
-    spotLight.distance = 50;
-    spotLight.shadow.mapSize.width = 1024;
-    spotLight.shadow.mapSize.height = 1024;
-    spotLight.shadow.camera.near = 10;
-    spotLight.shadow.camera.far = 800;
-    scene.add(spotLight);
+    // var ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+    // scene.add(ambientLight);
+    // var directionalLight = new THREE.DirectionalLight(0xffffff, 0.1);
+    // directionalLight.position.set(0, 1, 1).normalize();
+    // scene.add(directionalLight);
+    // var spotLight;
+    // spotLight = new THREE.SpotLight(0xffffff, 1);
+    // spotLight.position.set(0, 2, 0);
+    // var targetObject = new THREE.Object3D();
+    // targetObject.position.set(0, 0, 0);
+    // scene.add(targetObject);
+    // spotLight.target = targetObject;
+    // spotLight.angle = Math.PI / 3;
+    // spotLight.penumbra = 0.05;
+    // spotLight.decay = 1;
+    // spotLight.distance = 50;
+    // spotLight.shadow.mapSize.width = 1024;
+    // spotLight.shadow.mapSize.height = 1024;
+    // spotLight.shadow.camera.near = 10;
+    // spotLight.shadow.camera.far = 800;
+    // scene.add(spotLight);
 
     // renderer
 
