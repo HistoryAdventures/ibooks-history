@@ -1,9 +1,13 @@
 import * as TWEEN from './js/tween';
 import * as THREE from './build/three.module.js';
-// import Stats from './jsm/libs/stats.module.js';
+import Stats from './jsm/libs/stats.module.js';
 // import { GUI } from './jsm/libs/dat.gui.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
+
+import { EffectComposer } from './jsm/postprocessing/EffectComposer.js';
+import { RenderPass } from './jsm/postprocessing/RenderPass.js';
+import { BokehPass } from './jsm/postprocessing/BokehPass.js';
 
 var container, stats, controls;
 var camera, scene, renderer;
@@ -13,7 +17,14 @@ var features = {
     loader: true,
     touchEvents: false,
     navigation: false,
+    stats: false,
+    dof: false
 };
+
+var width = window.innerWidth;
+var height = window.innerHeight;
+
+var postprocessing = {};
 
 init();
 animate();
@@ -86,7 +97,7 @@ function init() {
     // spotLight.shadow.camera.far = 800;
     // scene.add(spotLight);
 
-    var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+    var geometry = new THREE.SphereGeometry( 5, 32, 32 );
     var material = new THREE.MeshStandardMaterial( {color: 0xdadaff, side: THREE.BackSide } );
     var cube = new THREE.Mesh( geometry, material );
     cube.scale.set(60,50,60);
@@ -112,16 +123,21 @@ function init() {
     controls.zoomSpeed = 0.3;
     // controls.maxPolarAngle = Math.PI / 2;
     controls.update();
-    //
-    // stats = new Stats();
-    // container.appendChild( stats.dom );
-    //
+    
+    if (features.stats) {
+        stats = new Stats();
+        container.appendChild( stats.dom );
+    }
+    
     window.addEventListener('resize', onWindowResize, false);
 
     // // add events
     // if (features.touchEvents) {
     //     $('#container').on('vclick', onDocumentClick);
     // }
+    if (features.dof) {
+        initPostprocessing();
+    }
 }
 
 function setupTween(target) {
@@ -144,9 +160,37 @@ function animate() {
     requestAnimationFrame(animate);
     TWEEN.update();
     render();
-    // stats.update();
+    if (features.stats) {
+        stats.update();
+    }
 }
 function render() {
     controls.update();
     renderer.render(scene, camera);
+    if (features.dof) {
+        postprocessing.composer.render( 0.1 );
+    }
+    
+}
+function initPostprocessing() {
+
+    var renderPass = new RenderPass( scene, camera );
+
+    var bokehPass = new BokehPass( scene, camera, {
+        focus: 70.0,
+        aperture: 0.00005,
+        maxblur: 1,
+
+        width: width,
+        height: height
+    } );
+
+    var composer = new EffectComposer( renderer );
+
+    composer.addPass( renderPass );
+    composer.addPass( bokehPass );
+
+    postprocessing.composer = composer;
+    postprocessing.bokeh = bokehPass;
+
 }
