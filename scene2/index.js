@@ -61,7 +61,7 @@ function init() {
     // models
     var loader = new ColladaLoader(loadingManager);
 
-    loader.load('./models/ribbon.dae', function (collada) {
+    loader.load('./models/ribbopn rev09.dae', function (collada) {
         model = collada.scene;
         for (var mat in collada.library.materials) {
             collada.library.materials[mat].build.side = THREE.DoubleSide;
