@@ -156,6 +156,7 @@ function onWindowResize() {
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
 }
+
 function animate() {
     requestAnimationFrame(animate);
     TWEEN.update();
@@ -164,6 +165,7 @@ function animate() {
         stats.update();
     }
 }
+
 function render() {
     controls.update();
     renderer.render(scene, camera);
@@ -172,6 +174,7 @@ function render() {
     }
     
 }
+
 function initPostprocessing() {
 
     var renderPass = new RenderPass( scene, camera );
