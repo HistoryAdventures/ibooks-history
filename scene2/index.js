@@ -3,6 +3,7 @@ import * as THREE from './build/three.module.js';
 import Stats from './jsm/libs/stats.module.js';
 // import { GUI } from './jsm/libs/dat.gui.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
+import { TrackballControls } from './jsm/controls/TrackballControls.js';
 import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
 
 import { EffectComposer } from './jsm/postprocessing/EffectComposer.js';
@@ -112,17 +113,19 @@ function init() {
     renderer.antialias = true;
     container.appendChild(renderer.domElement);
 
+    createControls( camera );
+
     // controls 
-    controls = new OrbitControls(camera, renderer.domElement);
-    controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
-    controls.dampingFactor = 0.03;
-    controls.screenSpacePanning = false;
-    controls.minDistance = 0.01;
-    controls.maxDistance = 40;
-    controls.target.set(0, 1, 0);
-    controls.zoomSpeed = 0.3;
-    // controls.maxPolarAngle = Math.PI / 2;
-    controls.update();
+    // controls = new OrbitControls(camera, renderer.domElement);
+    // controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
+    // controls.dampingFactor = 0.03;
+    // controls.screenSpacePanning = false;
+    // controls.minDistance = 0.01;
+    // controls.maxDistance = 40;
+    // controls.target.set(0, 1, 0);
+    // controls.zoomSpeed = 0.3;
+    // // controls.maxPolarAngle = Math.PI / 2;
+    // controls.update();
     
     if (features.stats) {
         stats = new Stats();
@@ -140,6 +143,20 @@ function init() {
     }
 }
 
+function createControls( camera ) {
+    controls = new TrackballControls( camera, renderer.domElement );
+    controls.rotateSpeed = 1.4;
+    controls.zoomSpeed = 0.6;
+    controls.panSpeed = 0.1;
+    controls.minDistance = 0.01;
+    controls.maxDistance = 40;
+    controls.staticMoving = false;
+    controls.enableDamping = true;
+    controls.dynamicDampingFactor = 0.03;
+    controls.keys = [ 65, 83, 68 ];
+    // controls.addEventListener( 'change', render );
+}
+
 function setupTween(target) {
     new TWEEN.Tween(camera.position)
         .to(target, 2000)
@@ -155,10 +172,12 @@ function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
+    controls.handleResize();
 }
 
 function animate() {
     requestAnimationFrame(animate);
+    controls.update();
     TWEEN.update();
     render();
     if (features.stats) {
