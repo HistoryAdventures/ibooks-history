@@ -70,43 +70,43 @@
     </library_cameras>
     <library_images>
         <image id="Image0001" name="Image0001">
-            <init_from>file:///C:/Users/Mak/Desktop/Julius%20-%20Spy%20Scene/Painting%20scene%209-19/Images/British_flag.jpg</init_from>
+            <init_from>Misc/British_flag.jpg</init_from>
         </image>
         <image id="Image0002" name="Image0002">
             <init_from>file:///C:/Users/Mak/Desktop/Julius%20-%20Spy%20Scene/Painting%20scene%209-19/Images/Gradient.jpg</init_from>
         </image>
         <image id="Image0003" name="Image0003">
-            <init_from>file:///C:/Users/Mak/Desktop/Julius%20-%20Spy%20Scene/Painting%20scene%209-19/Images/Ship_01.jpg</init_from>
+            <init_from>Objects/Ship_01.png</init_from>
         </image>
         <image id="Image0004" name="Image0004">
-            <init_from>file:///C:/Users/Mak/Desktop/Julius%20-%20Spy%20Scene/Painting%20scene%209-19/Images/Silhouettes/Jiembe_Cutouts_07.jpg</init_from>
+            <init_from>/Objects/Jiembe_Cutouts_07_g.png</init_from>
         </image>
         <image id="Image0005" name="Image0005">
-            <init_from>file:///C:/Users/Mak/Desktop/Julius%20-%20Spy%20Scene/Painting%20scene%209-19/Images/Silhouettes/Jiembe_Cutouts_072.jpg</init_from>
+            <init_from>/Objects/Jiembe_Cutouts_072.png</init_from>
         </image>
         <image id="Image0006" name="Image0006">
-            <init_from>file:///C:/Users/Mak/Desktop/Julius%20-%20Spy%20Scene/Painting%20scene%209-19/Images/Silhouettes/Jiembe_Cutouts_073.jpg</init_from>
+            <init_from>/Objects/Jiembe_Cutouts_073.png</init_from>
         </image>
         <image id="Image0007" name="Image0007">
-            <init_from>file:///C:/Users/Mak/Desktop/Julius%20-%20Spy%20Scene/Painting%20scene%209-19/Images/Silhouettes/Jiembe_Cutouts_07_abor.png</init_from>
+            <init_from>/Objects/Jiembe_Cutouts_07_abor.png</init_from>
         </image>
         <image id="Image0008" name="Image0008">
-            <init_from>file:///C:/Users/Mak/Desktop/Julius%20-%20Spy%20Scene/Painting%20scene%209-19/Images/Silhouettes/Jiembe_Cutouts_07_abor_single.jpg</init_from>
+            <init_from>/Objects/Jiembe_Cutouts_07_abor_single.jpg</init_from>
         </image>
         <image id="Image0009" name="Image0009">
-            <init_from>file:///C:/Users/Mak/Desktop/Julius%20-%20Spy%20Scene/Painting%20scene%209-19/Images/Terrain%20LP/Untitled_defaultMat_BaseColor.jpg</init_from>
+            <init_from>/Terrain/Untitled_defaultMat_BaseColor.jpg</init_from>
         </image>
         <image id="Image0010" name="Image0010">
-            <init_from>file:///C:/Users/Mak/Desktop/Julius%20-%20Spy%20Scene/Painting%20scene%209-19/Images/Terrain%20LP/Untitled_defaultMat_Normal.jpg</init_from>
+            <init_from>/Terrain/Untitled_defaultMat_Normal.jpg</init_from>
         </image>
         <image id="Image0011" name="Image0011">
-            <init_from>file:///C:/Users/Mak/Desktop/Julius%20-%20Spy%20Scene/Painting%20scene%209-19/Images/Water/New_Graph_basecolor.png</init_from>
+            <init_from>/Water/New_Graph_basecolor.png</init_from>
         </image>
         <image id="Image0012" name="Image0012">
-            <init_from>file:///C:/Users/Mak/Desktop/Julius%20-%20Spy%20Scene/Painting%20scene%209-19/objects/Rock/Rock/Rock_Tex/Rock_d.jpg</init_from>
+            <init_from>Rocks/Rock_d.jpg</init_from>
         </image>
         <image id="Image0013" name="Image0013">
-            <init_from>file:///C:/Users/Mak/Desktop/Julius%20-%20Spy%20Scene/Painting%20scene%209-19/objects/Rock/Rock/Rock_Tex/Rock_n.jpg</init_from>
+            <init_from>Rocks/Rock_n.jpg</init_from>
         </image>
     </library_images>
     <library_materials>

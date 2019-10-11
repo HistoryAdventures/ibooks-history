@@ -48,11 +48,12 @@ function init() {
     // models
     var loader = new ColladaLoader(loadingManager);
 
-    loader.load('./models/Scene rev02.dae', function (collada) {
+    loader.load('./models/Australian_invasion_v5.dae', function (collada) {
         model = collada.scene;
         for (var mat in collada.library.materials) {
             collada.library.materials[mat].build.side = THREE.DoubleSide;
             collada.library.materials[mat].build.alphaTest = 0.05;
+            collada.library.materials[mat].build.shininess = 30;
         }
         // model.scale.set(0.4,0.4,0.4);
         // model.position.set(0,0,-1);
@@ -61,7 +62,7 @@ function init() {
     // lights
     var ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
     scene.add(ambientLight);
-    var directionalLight = new THREE.DirectionalLight(0xffffff, 0.1);
+    var directionalLight = new THREE.DirectionalLight(0xffffff, 0.4);
     directionalLight.position.set(0, 1, 1).normalize();
     scene.add(directionalLight);
     var spotLight;
@@ -71,7 +72,7 @@ function init() {
     targetObject.position.set(0, 0, 0);
     scene.add(targetObject);
     spotLight.target = targetObject;
-    spotLight.angle = Math.PI / 3;
+    spotLight.angle = Math.PI / 2;
     spotLight.penumbra = 0.05;
     spotLight.decay = 1;
     spotLight.distance = 50;
@@ -79,7 +80,7 @@ function init() {
     spotLight.shadow.mapSize.height = 1024;
     spotLight.shadow.camera.near = 10;
     spotLight.shadow.camera.far = 800;
-    scene.add(spotLight);
+    // scene.add(spotLight);
 
     // renderer
 
@@ -94,10 +95,10 @@ function init() {
     controls.dampingFactor = 0.03;
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
-    controls.maxDistance = 15;
+    controls.maxDistance = 6;
     controls.target.set(0, 1, 0);
     controls.zoomSpeed = 0.5;
-    // controls.maxPolarAngle = Math.PI / 2;
+    controls.maxPolarAngle = Math.PI / 1.95;
     controls.update();
     //
     // stats = new Stats();
