@@ -139,7 +139,7 @@ function createControls( camera ) {
     controls.minDistance = 3;
     controls.maxDistance = 15;
     controls.target.set(0, 1, 0);
-    controls.maxPolarAngle = Math.PI / 2;
+    controls.maxPolarAngle = Math.PI / 1.5;
     controls.update();
 }
 
