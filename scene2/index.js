@@ -35,6 +35,7 @@ function init() {
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
     camera.position.set(-20, 5, 45);
+    var cameraAnimatePos = {x: 6, y: 5, z: 16};
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0xbbbbbb);
 
@@ -54,7 +55,7 @@ function init() {
                     addControls();
                 }
 
-                setupTween({x: 6, y: 5, z: 16});
+                setupTween(cameraAnimatePos);
             }, 1000);
         }
     };
