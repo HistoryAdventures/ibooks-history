@@ -1,9 +1,8 @@
 import * as TWEEN from './js/tween';
 import * as THREE from './build/three.module.js';
 import Stats from './jsm/libs/stats.module.js';
-// import { GUI } from './jsm/libs/dat.gui.module.js';
+import { GUI } from './jsm/libs/dat.gui.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
-import { TrackballControls } from './jsm/controls/TrackballControls.js';
 import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
 
 import { EffectComposer } from './jsm/postprocessing/EffectComposer.js';
@@ -129,6 +128,14 @@ function init() {
     // }
     if (features.dof) {
         initPostprocessing();
+    }
+
+    if (process.env.NODE_ENV !== 'production') {
+        var gui = new GUI();
+
+        gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
+        gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
+        gui.add(camera.position, 'y', -50, 50).step(0.1).listen();
     }
 }
 
