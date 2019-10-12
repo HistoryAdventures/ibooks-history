@@ -114,18 +114,6 @@ function init() {
     container.appendChild(renderer.domElement);
 
     createControls( camera );
-
-    // controls 
-    // controls = new OrbitControls(camera, renderer.domElement);
-    // controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
-    // controls.dampingFactor = 0.03;
-    // controls.screenSpacePanning = false;
-    // controls.minDistance = 0.01;
-    // controls.maxDistance = 40;
-    // controls.target.set(0, 1, 0);
-    // controls.zoomSpeed = 0.3;
-    // // controls.maxPolarAngle = Math.PI / 2;
-    // controls.update();
     
     if (features.stats) {
         stats = new Stats();
@@ -144,17 +132,15 @@ function init() {
 }
 
 function createControls( camera ) {
-    controls = new TrackballControls( camera, renderer.domElement );
-    controls.rotateSpeed = 1.4;
-    controls.zoomSpeed = 0.6;
-    controls.panSpeed = 0.1;
-    controls.minDistance = 0.01;
-    controls.maxDistance = 40;
-    controls.staticMoving = false;
+    controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
-    controls.dynamicDampingFactor = 0.03;
-    controls.keys = [ 65, 83, 68 ];
-    // controls.addEventListener( 'change', render );
+    controls.dampingFactor = 0.05;
+    controls.screenSpacePanning = false;
+    controls.minDistance = 3;
+    controls.maxDistance = 15;
+    controls.target.set(0, 1, 0);
+    controls.maxPolarAngle = Math.PI / 2;
+    controls.update();
 }
 
 function setupTween(target) {
