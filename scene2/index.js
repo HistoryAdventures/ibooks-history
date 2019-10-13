@@ -34,7 +34,7 @@ function init() {
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
     camera.position.set(-0, -1, 13);
-    var cameraAnimatePos = {x: 0, y: 1, z: 13};
+    var cameraAnimatePos = {x: 0, y: 1, z: 17};
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0xbbbbbb);
 
