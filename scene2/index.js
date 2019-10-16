@@ -33,8 +33,8 @@ function init() {
     container = document.getElementById('container');
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
-    camera.position.set(-20, 5, 45);
-    var cameraAnimatePos = {x: 6, y: 5, z: 16};
+    camera.position.set(-0, -1, 13);
+    var cameraAnimatePos = {x: 0, y: 1, z: 17};
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0xbbbbbb);
 
@@ -69,7 +69,7 @@ function init() {
             collada.library.materials[mat].build.alphaTest = 0.05;
         }
         model.scale.set(0.4,0.4,0.4);
-        model.position.set(0,0,-1);
+        model.position.set(0,1.3,-1);
     });
 
     // lights
@@ -144,10 +144,12 @@ function createControls( camera ) {
     controls.enableDamping = true;
     controls.dampingFactor = 0.05;
     controls.screenSpacePanning = false;
-    controls.minDistance = 3;
-    controls.maxDistance = 15;
+    controls.minDistance = -15;
+    controls.maxDistance = 13;
     controls.target.set(0, 1, 0);
-    controls.maxPolarAngle = Math.PI / 1.5;
+    controls.maxPolarAngle = Math.PI / 2;
+    controls.maxAzimuthAngle = Math.PI / 2.5;
+    controls.minAzimuthAngle = Math.PI / -2.5;
     controls.update();
 }
 
