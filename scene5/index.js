@@ -48,7 +48,7 @@ function init() {
     // models
     var loader = new ColladaLoader(loadingManager);
 
-    loader.load('./models/Australian_invasion_v6.dae', function (collada) {
+    loader.load('./models/Opium Wars Room.dae', function (collada) {
         model = collada.scene;
         for (var mat in collada.library.materials) {
             collada.library.materials[mat].build.side = THREE.DoubleSide;
