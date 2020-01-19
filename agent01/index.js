@@ -82,9 +82,9 @@ function init() {
   scene.add(targetObject);
   spotLight.target = targetObject;
   spotLight.angle = Math.PI / 5;
-  spotLight.penumbra = 0.05;
   spotLight.decay = 1;
   spotLight.distance = 10;
+  spotLight.penumbra = 1;
   spotLight.shadow.mapSize.width = 1024;
   spotLight.shadow.mapSize.height = 1024;
   spotLight.shadow.camera.near = 10;
@@ -124,6 +124,7 @@ function init() {
 
     gui.add(ambientLight, 'intensity', 0, 4).name("Ambient light").step(0.01).listen();
     gui.add(spotLight, 'intensity', 0, 4).name("Spot light").step(0.01).listen();
+    gui.add(spotLight, 'penumbra', 0, 1).name("Spot feather").step(0.01).listen();
     gui.add(fireLight, 'intensity', 0, 4).name("Firelight").step(0.01).listen();
 
     // gui.add(fireLight.position, 'z', -50, 50).name('fire z').step(0.1).listen();
