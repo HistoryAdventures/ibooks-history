@@ -129,7 +129,7 @@ function init() {
   controls.dampingFactor = 0.03;
   controls.screenSpacePanning = false;
   controls.minDistance = 0.01;
-  controls.maxDistance = 6;
+  controls.maxDistance = 5.4;
   controls.target.set(0, 1, 0);
   controls.zoomSpeed = 0.5;
   controls.maxPolarAngle = Math.PI / 1.95;
