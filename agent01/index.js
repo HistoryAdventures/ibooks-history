@@ -62,20 +62,33 @@ function init() {
     }
     model.scale.set(1.4,1.4,1.4);
     model.position.set(3.2,-1,0.8);
+
+    model.traverse(function(child) {
+      child.castShadow = true;
+      child.receiveShadow = true;
+    });
   });
 
   // lights
-  var fireLight = new THREE.PointLight(0xeecccc, 1.4);
+  var fireLight = new THREE.PointLight(0xeecccc, 1.03);
   fireLight.position.set(-2.7, -0.4, -4.7);
+  fireLight.distance = 10;
+  fireLight.penumbra = 1;
+  // fireLight.castShadow = true;
+  // fireLight.shadow.mapSize.width = 1024;
+  // fireLight.shadow.mapSize.height = 1024;
+  // fireLight.shadow.camera.near = 0.4;
+  // fireLight.shadow.camera.far = 20;
+  
   scene.add(fireLight);
 
-  var ambientLight = new THREE.AmbientLight(0xcccccc, 0.05);
+  var ambientLight = new THREE.AmbientLight(0xcccccc, 0.0);
   scene.add(ambientLight);
   var directionalLight = new THREE.DirectionalLight(0xffffff, 0.4);
   directionalLight.position.set(0, 1, 1).normalize();
   // scene.add(directionalLight);
   var spotLight;
-  spotLight = new THREE.SpotLight(0xffffff, 1.4);
+  spotLight = new THREE.SpotLight(0xffffff, 1.47);
   spotLight.position.set(0, 3.5, 0);
   var targetObject = new THREE.Object3D();
   targetObject.position.set(0, 0, 0);
@@ -85,21 +98,28 @@ function init() {
   spotLight.decay = 1;
   spotLight.distance = 10;
   spotLight.penumbra = 1;
+  spotLight.castShadow = true;
   spotLight.shadow.mapSize.width = 1024;
   spotLight.shadow.mapSize.height = 1024;
-  spotLight.shadow.camera.near = 10;
-  spotLight.shadow.camera.far = 800;
+  spotLight.shadow.camera.near = 2;
+  spotLight.shadow.camera.far = 8;
   scene.add(spotLight);
 
   var lightHelper;
   lightHelper = new THREE.SpotLightHelper( spotLight );
   // scene.add( lightHelper );
 
+  // //Create a helper for the shadow camera (optional)
+  // var helper = new THREE.CameraHelper( spotLight.shadow.camera );
+  // scene.add( helper );
+
   // renderer
 
   renderer = new THREE.WebGLRenderer();
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
   container.appendChild(renderer.domElement);
 
   // controls
