@@ -71,14 +71,15 @@ function init() {
 
   // lights
   var fireLight = new THREE.PointLight(0xeecccc, 1.03);
-  fireLight.position.set(-2.7, -0.4, -4.7);
-  fireLight.distance = 10;
+  fireLight.position.set(-2.6, 0.1, -4.6);
+  fireLight.distance = 8;
   fireLight.penumbra = 1;
-  // fireLight.castShadow = true;
-  // fireLight.shadow.mapSize.width = 1024;
-  // fireLight.shadow.mapSize.height = 1024;
-  // fireLight.shadow.camera.near = 0.4;
-  // fireLight.shadow.camera.far = 20;
+  fireLight.shadow.radius = 8;
+  fireLight.castShadow = true;
+  fireLight.shadow.mapSize.width = 1024;
+  fireLight.shadow.mapSize.height = 1024;
+  fireLight.shadow.camera.near = 0.5;
+  fireLight.shadow.camera.far = 10;
   
   scene.add(fireLight);
 
@@ -89,19 +90,19 @@ function init() {
   // scene.add(directionalLight);
   var spotLight;
   spotLight = new THREE.SpotLight(0xffffff, 1.47);
-  spotLight.position.set(0, 3.5, 0);
+  spotLight.position.set(0, 2.8, 0);
   var targetObject = new THREE.Object3D();
   targetObject.position.set(0, 0, 0);
   scene.add(targetObject);
   spotLight.target = targetObject;
-  spotLight.angle = Math.PI / 5;
+  spotLight.angle = Math.PI / 3.5;
   spotLight.decay = 1;
   spotLight.distance = 10;
   spotLight.penumbra = 1;
   spotLight.castShadow = true;
   spotLight.shadow.mapSize.width = 1024;
   spotLight.shadow.mapSize.height = 1024;
-  spotLight.shadow.camera.near = 2;
+  spotLight.shadow.camera.near = 1.5;
   spotLight.shadow.camera.far = 8;
   scene.add(spotLight);
 
@@ -147,9 +148,9 @@ function init() {
     gui.add(spotLight, 'penumbra', 0, 1).name("Spot feather").step(0.01).listen();
     gui.add(fireLight, 'intensity', 0, 4).name("Firelight").step(0.01).listen();
 
-    // gui.add(fireLight.position, 'z', -50, 50).name('fire z').step(0.1).listen();
-    // gui.add(fireLight.position, 'x', -50, 50).name('fire x').step(0.1).listen();
-    // gui.add(fireLight.position, 'y', -50, 50).name('fire y').step(0.1).listen();
+    gui.add(fireLight.position, 'z', -50, 50).name('fire z').step(0.1).listen();
+    gui.add(fireLight.position, 'x', -50, 50).name('fire x').step(0.1).listen();
+    gui.add(fireLight.position, 'y', -50, 50).name('fire y').step(0.1).listen();
 
     gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
     gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
