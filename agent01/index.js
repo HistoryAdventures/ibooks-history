@@ -1,7 +1,7 @@
 import * as TWEEN from "./js/tween";
 import * as THREE from "./build/three.module.js";
 // import Stats from './jsm/libs/stats.module.js';
-// import { GUI } from './jsm/libs/dat.gui.module.js';
+import { GUI } from './jsm/libs/dat.gui.module.js';
 import { OrbitControls } from "./jsm/controls/OrbitControls.js";
 import { ColladaLoader } from "./jsm/loaders/ColladaLoader.js";
 
@@ -115,10 +115,13 @@ function init() {
   //
   window.addEventListener("resize", onWindowResize, false);
 
-  // // add events
-  // if (features.touchEvents) {
-  //     $('#container').on('vclick', onDocumentClick);
-  // }
+  if (process.env.NODE_ENV !== 'production') {
+    var gui = new GUI();
+
+    gui.add(ambientLight, 'intensity', -1, 4).name("Ambient light").step(0.01).listen();
+    // gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
+    // gui.add(camera.position, 'y', -50, 50).step(0.1).listen();
+}
 }
 
 function onWindowResize() {
