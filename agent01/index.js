@@ -29,7 +29,7 @@ function init() {
   );
   camera.position.set(10, 5, 9);
   scene = new THREE.Scene();
-  scene.background = new THREE.Color(0xbbbbbb);
+  scene.background = new THREE.Color(0x111111);
 
   // loading manager
   var loadingManager = new THREE.LoadingManager(function() {
@@ -83,7 +83,7 @@ function init() {
   
   scene.add(fireLight);
 
-  var ambientLight = new THREE.AmbientLight(0xcccccc, 0.0);
+  var ambientLight = new THREE.AmbientLight(0xcccccc, 0.21);
   scene.add(ambientLight);
   var directionalLight = new THREE.DirectionalLight(0xffffff, 0.4);
   directionalLight.position.set(0, 1, 1).normalize();
@@ -148,9 +148,9 @@ function init() {
     gui.add(spotLight, 'penumbra', 0, 1).name("Spot feather").step(0.01).listen();
     gui.add(fireLight, 'intensity', 0, 4).name("Firelight").step(0.01).listen();
 
-    gui.add(fireLight.position, 'z', -50, 50).name('fire z').step(0.1).listen();
-    gui.add(fireLight.position, 'x', -50, 50).name('fire x').step(0.1).listen();
-    gui.add(fireLight.position, 'y', -50, 50).name('fire y').step(0.1).listen();
+    // gui.add(fireLight.position, 'z', -50, 50).name('fire z').step(0.1).listen();
+    // gui.add(fireLight.position, 'x', -50, 50).name('fire x').step(0.1).listen();
+    // gui.add(fireLight.position, 'y', -50, 50).name('fire y').step(0.1).listen();
 
     gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
     gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
