@@ -48,18 +48,14 @@ function init() {
     // models
     var loader = new ColladaLoader(loadingManager);
 
-    loader.load('./models/model1/opium.dae', function (collada) {
+    loader.load('./models/model6/opium.dae', function (collada) {
         model = collada.scene;
         for (var mat in collada.library.materials) {
-            // collada.library.materials[mat].build.side = THREE.DoubleSide;
+            collada.library.materials[mat].build.side = THREE.DoubleSide;
             collada.library.materials[mat].build.alphaTest = 0.05;
             // collada.library.materials[mat].build.shininess = 30;
         }
 
-        for (var node in collada.library.nodes) {
-            collada.library.nodes[node].build.receiveShadow = true;
-            collada.library.nodes[node].build.receiveShadow = true;
-        }
         // model.scale.set(0.4,0.4,0.4);
         // model.position.set(0,0,-1);
     });
@@ -81,7 +77,6 @@ function init() {
     spotLight.penumbra = 0.05;
     spotLight.decay = 1;
     spotLight.distance = 50;
-    spotLight.castShadow = true;
     spotLight.shadow.mapSize.width = 1024;
     spotLight.shadow.mapSize.height = 1024;
     spotLight.shadow.camera.near = 10;
@@ -93,8 +88,6 @@ function init() {
     renderer = new THREE.WebGLRenderer();
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.shadowMap.enabled = true;
-    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     container.appendChild(renderer.domElement);
 
     // controls 
