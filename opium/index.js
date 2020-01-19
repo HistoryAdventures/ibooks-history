@@ -90,11 +90,11 @@ function init() {
     // models
     var loader = new ColladaLoader(loadingManager);
 
-    loader.load('./models/Opium wars_1.DAE', function (collada) {
+    loader.load('./models/model1/opium.dae', function (collada) {
         model = collada.scene;
         for (var mat in collada.library.materials) {
-            collada.library.materials[mat].build.side = THREE.DoubleSide;
-            collada.library.materials[mat].build.alphaTest = 0.05;
+            // collada.library.materials[mat].build.side = THREE.DoubleSide;
+            // collada.library.materials[mat].build.alphaTest = 0.05;
         }
 
         agents = [];
@@ -111,7 +111,7 @@ function init() {
     });
 
     // lights
-    var ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+    var ambientLight = new THREE.AmbientLight(0xcccccc, 0.1);
     scene.add(ambientLight);
     var directionalLight = new THREE.DirectionalLight(0xffffff, 0.1);
     directionalLight.position.set(0, 1, 1).normalize();
