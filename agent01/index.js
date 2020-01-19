@@ -27,7 +27,7 @@ function init() {
     0.1,
     2000
   );
-  camera.position.set(-10, 5, -9);
+  camera.position.set(10, 5, 9);
   scene = new THREE.Scene();
   scene.background = new THREE.Color(0xbbbbbb);
 
@@ -58,13 +58,17 @@ function init() {
     for (var mat in collada.library.materials) {
       // collada.library.materials[mat].build.side = THREE.DoubleSide;
       collada.library.materials[mat].build.alphaTest = 0.05;
-      // collada.library.materials[mat].build.shininess = 300;
+      collada.library.materials[mat].build.shininess = 30;
     }
     model.scale.set(1.4,1.4,1.4);
     model.position.set(3.2,-1,0.8);
   });
 
   // lights
+  var fireLight = new THREE.PointLight(0xeecccc, 1.4);
+  fireLight.position.set(-2.7, -0.4, -4.7);
+  scene.add(fireLight);
+
   var ambientLight = new THREE.AmbientLight(0xcccccc, 0.05);
   scene.add(ambientLight);
   var directionalLight = new THREE.DirectionalLight(0xffffff, 0.4);
@@ -118,7 +122,14 @@ function init() {
   if (process.env.NODE_ENV !== 'production' || true) {
     var gui = new GUI();
 
-    gui.add(ambientLight, 'intensity', -1, 4).name("Ambient light").step(0.01).listen();
+    gui.add(ambientLight, 'intensity', 0, 4).name("Ambient light").step(0.01).listen();
+    gui.add(spotLight, 'intensity', 0, 4).name("Spot light").step(0.01).listen();
+    gui.add(fireLight, 'intensity', 0, 4).name("Firelight").step(0.01).listen();
+
+    // gui.add(fireLight.position, 'z', -50, 50).name('fire z').step(0.1).listen();
+    // gui.add(fireLight.position, 'x', -50, 50).name('fire x').step(0.1).listen();
+    // gui.add(fireLight.position, 'y', -50, 50).name('fire y').step(0.1).listen();
+
     gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
     gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
     gui.add(camera.position, 'y', -50, 50).step(0.1).listen();
