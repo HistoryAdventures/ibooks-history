@@ -90,12 +90,12 @@ function init() {
   // scene.add(directionalLight);
   var spotLight;
   spotLight = new THREE.SpotLight(0xffffff, 1.47);
-  spotLight.position.set(0, 2.8, 0);
+  spotLight.position.set(0, 2, 0);
   var targetObject = new THREE.Object3D();
   targetObject.position.set(0, 0, 0);
   scene.add(targetObject);
   spotLight.target = targetObject;
-  spotLight.angle = Math.PI / 3.5;
+  spotLight.angle = Math.PI / 3;
   spotLight.decay = 1;
   spotLight.distance = 10;
   spotLight.penumbra = 1;
