@@ -115,12 +115,13 @@ function init() {
   //
   window.addEventListener("resize", onWindowResize, false);
 
-  if (process.env.NODE_ENV !== 'production') {
+  if (process.env.NODE_ENV !== 'production' || true) {
     var gui = new GUI();
 
     gui.add(ambientLight, 'intensity', -1, 4).name("Ambient light").step(0.01).listen();
-    // gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
-    // gui.add(camera.position, 'y', -50, 50).step(0.1).listen();
+    gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
+    gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
+    gui.add(camera.position, 'y', -50, 50).step(0.1).listen();
 }
 }
 
