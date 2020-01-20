@@ -23,6 +23,11 @@
     src: url("fonts/Lyno\ Family/LynoStan.otf") format("opentype");
 }
 
+@font-face {
+    font-family: 'LynoUlys';
+    src: url("fonts/Lyno\ Family/LynoUlys.otf") format("opentype");
+}
+
 /* * {
 	box-sizing: border-box;
 	-webkit-font-smoothing: antialiased;
@@ -85,7 +90,7 @@ h1 a {
 .tooltip {
     background: -webkit-linear-gradient(0deg, rgba(0, 135, 203,.75) 0%, rgba(0,0,0,.75) 25%, rgba(0,0,0,.75) 100%);
 	background: linear-gradient(0deg, rgba(0, 135, 203,.75) 0%, rgba(0,0,0,.75) 25%, rgba(0,0,0,.75) 100%);
-    padding: 20px 150px 20px 50px;
+    padding: 20px 150px 120px 50px;
     max-width: calc(100% - 140px);
     opacity: 1;
     position: fixed;
@@ -96,7 +101,6 @@ h1 a {
 	opacity: 0;
 	pointer-events: none;
 	z-index: 0;
-	padding-bottom: 120px;
 }
 
 .tooltip[data-open="left"] {
@@ -135,8 +139,13 @@ h1 a {
 
 .tooltip h2 {
 	font-size: 62px;
-	line-height: 1.2;
+	line-height: 0.9;
 	font-family: 'Lyno', monospace;
+}
+
+.tooltip h2 i {
+	font-family: 'LynoUlys', monospace;
+	font-style: normal;
 }
 
 .tooltip a {
@@ -151,16 +160,28 @@ h1 a {
 
 .tooltip-close {
 	position: absolute;
-	top: 5px;
-	right: 5px;
+	top: 30px;
+	right: 30px;
 	background: none;
 	border: 0;
-	height: 30px;
-	width: 30px;
-	font-size: 24px;
+	width: 56px;
+	height: 56px;
+	font-size: 0;
 	/* color: #ffed19;  */
 	color: var(--text-color);
 	font-family: 'Favorit';
+}
+
+.tooltip-close:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	display: block;
+	top: 0;
+	left: 0;
+	/* image svg cant inherit color #0087CB to %230087CB:( */
+	background-image: url("data:image/svg+xml;utf8,%3Csvg%20id%3D%22Layer_2%22%20data-name%3D%22Layer%202%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2255.39%22%20height%3D%2255.39%22%20viewBox%3D%220%200%2055.39%2055.39%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3Anone%3Bstroke%3A%230087CB%3Bstroke-miterlimit%3A10%3Bstroke-width%3A1.5px%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctitle%3Eex%3C%2Ftitle%3E%3Cline%20class%3D%22cls-1%22%20x1%3D%220.53%22%20y1%3D%220.53%22%20x2%3D%2254.86%22%20y2%3D%2254.86%22%2F%3E%3Cline%20class%3D%22cls-1%22%20x1%3D%2254.86%22%20y1%3D%220.53%22%20x2%3D%220.53%22%20y2%3D%2254.86%22%2F%3E%3C%2Fsvg%3E");
 }
 
 .controls-top {
@@ -192,11 +213,11 @@ h1 a {
 	position: absolute;
 	background: none;
 	border: 0;
-	height: 30px;
-	width: 30px;
+	height: 50px;
+	width: 50px;
 	font-size: 24px;
 	color: var(--text-color);
-	font-family: 'Lyno';
+	font-family: 'Lyno', monospace;
 	pointer-events: all;
 }
 

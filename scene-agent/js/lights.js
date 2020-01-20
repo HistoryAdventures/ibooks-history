@@ -35,10 +35,11 @@ export default {
         const spot5 = this.pictureLight({ x: -3.5, y: 2.1, z: -5.1 });
         scene.add(spot5);
 
-        const spot6 = this.pictureLight({ x: -2.2, y: 2.1, z: -5.1 }, "spot6");
+        const spot6 = this.pictureLight({ x: -2.2, y: 2.1, z: -5.1 });
         scene.add(spot6);
 
-        const spot7 = this.pictureLight({ x: 2.2, y: 2.1, z: -5.1 }, "spot7");
+        // const spot7 = this.pictureLight({ x: 2.2, y: 2.1, z: -5.1 }, "spot7");
+        const spot7 = this.pictureLight({ x: 2.2, y: 2.1, z: -5.1 });
         scene.add(spot7);
 
         // Create a helper for the shadow camera (optional)

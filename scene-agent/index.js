@@ -1,7 +1,7 @@
 import * as TWEEN from './js/tween';
 import * as THREE from './build/three.module.js';
-import Stats from './jsm/libs/stats.module.js';
-import { GUI } from './jsm/libs/dat.gui.module.js';
+// import Stats from './jsm/libs/stats.module.js';
+// import { GUI } from './jsm/libs/dat.gui.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
 import lights from './js/lights';
@@ -16,38 +16,39 @@ var raycaster = new THREE.Raycaster();
 
 var cameraTargets = {
     "agent-1": {
-        x: -0, y: 1, z: 4
+        x: -3.3, y: 1, z: -4
     },
     "agent-2": {
-        x: -5, y: 2, z: 0
+        x: 2.2, y: 1, z: -4.6
     },
     "agent-3": {
-        x: -3, y: 2, z: -3
+        x: 4.8, y: 1, z: -1.6
     },
     "agent-4": {
-        x: -1, y: 2, z: -4
+        x: 5, y: 1, z: -1
     },
     "agent-5": {
-        x: 2, y: 2, z: -4
+        x: 2.2, y: 1, z: 4.6
     },
     "agent-6": {
-        x: 4, y: 2, z: -2
+        x: 1.1, y: 1, z: 5
     },
     "agent-7": {
-        x: 4, y: 2, z: 0
+        x: -1.8, y: 0.8, z: 4.9
     },
     Paper1: {
-        x: -2, y: 2, z: 2
-    },
-    Paper2: {
-        x: -2, y: 2, z: 2
+        x: 0, y: 4, z: -3.7
     },
     Paper3: {
-        x: 2, y: 2, z: 2
+        x: -4.6, y: 3.3, z: 1.6
+    },
+    Paper2: {
+        x: -0.7, y: 3, z: 3.2
     },
     Paper4: {
-        x: 1, y: 2, z: 2
-    }
+        x: 3.7, y: 3.8, z: 1.1
+    },
+    
 };
 
 var features = {
@@ -65,7 +66,7 @@ function init() {
     container = document.getElementById('container');
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
-    camera.position.set(10, 5, 9);
+    camera.position.set(-7, 5, 9);
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0x333333);
 
@@ -149,8 +150,8 @@ function init() {
     controls.maxPolarAngle = Math.PI / 1.95;
     controls.update();
     //
-    stats = new Stats();
-    container.appendChild(stats.dom);
+    // stats = new Stats();
+    // container.appendChild(stats.dom);
     //
     window.addEventListener("resize", onWindowResize, false);
 
@@ -337,7 +338,7 @@ function animate() {
     requestAnimationFrame(animate);
     TWEEN.update();
     render();
-    stats.update();
+    // stats.update();
 }
 function render() {
     controls.update();
