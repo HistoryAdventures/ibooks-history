@@ -1,0 +1,271 @@
+:root {
+	--color-blue: #049EF4;
+	--text-color: #0087CB;;
+	--secondary-text-color: #9e9e9e;
+
+	--font-size: 16px;
+	--line-height: 26px;
+
+	--border-style: 1px solid #E8E8E8;
+	--header-height: 48px;
+	--panel-width: 300px;
+	--panel-padding: 16px;
+	--icon-size: 20px;
+}
+
+@font-face {
+    font-family: 'Favorit';
+    src: url("fonts/Favorit/Favorit_Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Lyno';
+    src: url("fonts/Lyno\ Family/LynoStan.otf") format("opentype");
+}
+
+/* * {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+} */
+
+html {
+	font-size: calc(var(--font-size) - 1px);
+	line-height: calc(var(--line-height) - 1px);
+}
+
+body {
+	font-family: 'Favorit', monospace;
+	color: var(--text-color);
+	margin: 0;
+	background-color: #222222;
+}
+
+.body-inner {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+h2 {
+	padding: 0;
+	margin: 16px 0;
+	line-height: var(--line-height);
+	font-weight: 500;
+}
+
+h3 {
+	margin: 0;
+	font-weight: 500;
+	font-size: calc(var(--font-size) - 1px);
+	line-height: var(--line-height);
+	color: var(--secondary-text-color);
+}
+
+h1 a {
+	color: var(--color-blue);
+}
+
+.spacer {
+	color: var(--secondary-text-color);
+	margin-left: 2px;
+	padding-right: 2px;
+}
+
+.tooltip {
+    background: -webkit-linear-gradient(0deg, rgba(0, 135, 203,.75) 0%, rgba(0,0,0,.75) 25%, rgba(0,0,0,.75) 100%);
+	background: linear-gradient(0deg, rgba(0, 135, 203,.75) 0%, rgba(0,0,0,.75) 25%, rgba(0,0,0,.75) 100%);
+    padding: 20px 150px 20px 50px;
+    max-width: calc(100% - 140px);
+    opacity: 1;
+    position: fixed;
+    transition: all 300ms;
+    top: 0;
+    line-height: 1.4;
+    overflow: auto;
+	opacity: 0;
+	pointer-events: none;
+	z-index: 0;
+	padding-bottom: 120px;
+}
+
+.tooltip[data-open="left"] {
+	left: 0;
+	right: 100px;
+	transform: translate(-200px, 50px);
+    -webkit-transform: translate(-200px, 50px);
+}
+
+.tooltip[data-open="right"] {
+	right: 0;
+	transform: translate(200px, 50px);
+	-webkit-transform: translate(200px, 50px);
+	left: 100px;
+}
+
+.tooltip.active {
+    opacity: 1;
+	z-index: 1;
+	pointer-events: all;
+}
+
+.tooltip-open .tooltip[data-open="left"] {
+    transform: translate(50px, 50px);
+    -webkit-transform: translate(50px, 50px);
+}
+
+.tooltip-open .tooltip[data-open="right"] {
+    transform: translate(-50px, 50px);
+	-webkit-transform: translate(-50px, 50px);
+}
+
+.tooltip *:first-child {
+    margin-top: 0;
+}
+
+.tooltip h2 {
+	font-size: 62px;
+	line-height: 1.2;
+	font-family: 'Lyno', monospace;
+}
+
+.tooltip a {
+	color: cadetblue;
+}
+
+.tooltip img {
+	max-width: 100%;
+	margin: 1em 0 2em;
+	max-height: 400px;
+}
+
+.tooltip-close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background: none;
+	border: 0;
+	height: 30px;
+	width: 30px;
+	font-size: 24px;
+	/* color: #ffed19;  */
+	color: var(--text-color);
+	font-family: 'Favorit';
+}
+
+.controls-top {
+	position: fixed;
+    top: 20px;
+	z-index: 1;
+	right: 0;
+}
+
+.controls-bottom {
+    position: fixed;
+    bottom: 20px;
+	z-index: 1;
+	left: 0;
+	width: 100%;
+}
+
+.controls-inner {
+	margin: auto;
+	position: relative;
+	padding: 10px 50px;
+}
+
+.controls-current {
+	font-size: 0;
+}
+
+.prev, .next {
+	position: absolute;
+	background: none;
+	border: 0;
+	height: 30px;
+	width: 30px;
+	font-size: 24px;
+	color: var(--text-color);
+	font-family: 'Lyno';
+	pointer-events: all;
+}
+
+.prev {
+    left: 30px;
+    top: 0;
+}
+
+.next {
+    right: 30px;
+    top: 0;
+}
+
+.loader {
+    font-family: 'Lyno';
+    position: absolute;
+    background: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    opacity: 1;
+    transition: opacity 800ms;
+    z-index: 1;
+	pointer-events: none;
+	-webkit-animation-name: loader; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-out;
+	animation-name: loader;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes loader {
+	0% { color: var(--text-color);}
+	50% { color: black;}
+	100% { color: var(--text-color);}
+  }
+  
+  /* Standard syntax */
+  @keyframes loader {
+	0% { color: var(--text-color);}
+	50% { color: black;}
+	100% { color: var(--text-color);}
+  }
+
+.loader.off {
+    opacity: 0;
+}
+
+.dg .cr.function:focus::after {
+	content: ' copied';
+}
+
+.mute-button {
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+	border: 0;
+	pointer-events: all;
+}

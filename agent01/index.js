@@ -39,13 +39,13 @@ function init() {
   loadingManager.onProgress = function(url, loaded, total) {
     if (total === loaded) {
       setTimeout(function() {
-        var uiLoader = document.getElementById("loader");
-        if (uiLoader && features.loader) {
-          uiLoader.classList.add("off");
-        }
-        if (features.navigation) {
-          addControls();
-        }
+        // var uiLoader = document.getElementById("loader");
+        // if (uiLoader && features.loader) {
+        //   uiLoader.classList.add("off");
+        // }
+        // if (features.navigation) {
+        //   addControls();
+        // }
       }, 1000);
     }
   };
