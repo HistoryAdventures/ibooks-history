@@ -16,7 +16,65 @@
 	</head>
 	<body>
         <div class="body-inner">
+            <div id="tooltips">
+                <div id="hotspot-opium" class="tooltip" data-order="1" data-open="left">
+                    <button class="tooltip-close">X</button>
+                    <h2>Opium</h2>
+                    <p>Produced from the seeds of the Poppy plant, is a strong, addictive, and illegal drug. Alongside its recreational use, it does have painkilling properties, which has led to it being used in medicinal contexts.</p>
+                    <p>Opium has been used by humans throughout history, with the poppy being cultivated in ancient Mesopotamia by the Sumerians as early as 3400 BC. In China, the drug had been recreationally used since the 15th century, but its rarity and expense meant that use was very limited. The British use of Opium to circumvent the Canton system, coupled with the discovery that the drug could be smoked (which increased its addictiveness), meant that Opium became a real problem in Chinese society.</p>
+                    <p>British victory in the First Opium War meant that the problems associated with Opium and its use in China continued throughout the nineteenth century largely unabated. Historians have estimated that by the early years of the twentieth century, as many as 25% of the adult male population of China was consuming opium.</p>
+                </div>
+    
+                <div id="hotspot-emperor" class="tooltip" data-order="2" data-open="right">
+                    <button class="tooltip-close">X</button>
+                    <h2>Daoguang Emperor </h2>
+                    <p>
+                        The Daoguang Emperor was the eight of the Qing dynasty which had ruled China since the first half of the seventeenth century (1630). He came to power relatively late in his life (aged 38) and his reign was marked by strife and conflict, both internal and external.
+                    </p>
+                    <p>
+                        The emperor was a vociferous critic of the Opium that was pouring into his country. He issued a wealth of imperial edicts that banned the drug, blasting it as a poison, and threatened those who traded it with death if they refused to turn over their supply to the authorities (those who did so were treated surprisingly leniently). His appointment of Lin Zexu as the Imperial Commissioner to tackle the opium problem backfired: Lin’s vigorous attempts at combating the trade, including the destruction of the opium at Humen in 1839, hastened the start of the First Opium War. 
+                    </p>
+                    <p>
+                        Defeat in the First Opium War was a disaster for the Emperor. It not only confirmed the supremacy of the European military forces, but the Chinese were compelled to cede Hong Kong to the British in 1842, providing their imperial antagonist with a permanent base from which to operate in the far east.
+                    </p>
+                </div>
+    
+                <div id="hotspot-paper1" class="tooltip" data-order="3" data-open="right">
+                    <button class="tooltip-close">X</button>
+                    <h2>Lin Zexu</h2>
+                    <p>
+                        Lin was a scholar and official working for the Qing dynasty. He rose to prominence for his consistent opposition to the Opium Trade that he recognised as ruining his country. In 1838 he went so far as writing an open letter to Queen Victoria to implore the monarch to stop allowing Britain to fill his country with “poison”. Lin’s letter received no response (it was allegedly lost in transit…), but it did appear in the The London Times newspaper for the public. 
+                    </p>
+                    <p>
+                        Lin’s fierce resistance to the Opium trade, including the destruction of the drug at Humen, has led to his ambivalent reputation. On the one hand, he is praised for his moral principles and his efforts to right the ills he correctly identified in his country. On the other, there are those that argue that his tactics were too belligerent and ultimately led to China’s defeat in the First Opium War.
+                    </p>
+                </div>
+
+                <div id="hotspot-paper2" class="tooltip" data-order="4" data-open="right">
+                    <button class="tooltip-close">X</button>
+                    <h2>Canton System </h2>
+                    <p>
+                        In operation from the mid-eighteenth century through to the end of the First Opium War (1757 – 1842), the Canton System is the name given to the Chinese system for attempting to control imports. All trade was centred on the southern port city of Canton (modern Guangzhou), and this was done to counter the belief that the country was under threat from external influences. 
+                    </p>
+                    <p>
+                        British demand for tea, and a Chinese reluctance to trade in anything other than silver, saw the East India Company begin to sell opium grown on its Indian plantations, which were then shipped into China to be sold for silver. Chinese resistance to this policy ultimately led to the First Opium War. British victory broke the Canton system, with the 1842 Treaty of Nanking forcing open other Chinese ports, such as Shanghai.
+                    </p>
+                </div>
+            </div>
+
             <div id="container"></div>
+
+            <div id="controls" class="controls controls-bottom" style="display: none;">
+                <div class="controls-inner">
+                    <button id="prev" class="prev">
+                        <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="30" height="36" viewBox="0 0 19.92 24"><defs><style>.cls-1{fill:currentColor;}</style></defs><path class="cls-1" d="M955.94,5895.64v7.78l-4.42,4.22,4.42,4.22v7.78l-12.1-12Zm7.83,0v7.78l-4.37,4.22,4.37,4.22v7.78l-7.83-7.78v-8.45Z" transform="translate(-943.84 -5895.64)"/></svg>
+                    </button>
+                    <span id="controls-current" class="controls-current">Select an annotation</span>
+                    <button id="next" class="next">
+                        <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="30" height="36" viewBox="0 0 19.92 24"><defs><style>.cls-1{fill:currentColor;}</style></defs><path class="cls-1" d="M1589.53,5903.42v8.45l4.42-4.22-4.42-4.22v-7.78l12.1,12-12.1,12v-7.78l-7.83,7.78v-7.78l4.37-4.22-4.37-4.22v-7.78Z" transform="translate(-1581.7 -5895.64)"/></svg>
+                    </button>
+                </div>
+            </div>
 
             <div id="loader" class="loader">Loading...</div>
         </div>
