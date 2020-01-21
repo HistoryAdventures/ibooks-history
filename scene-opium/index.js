@@ -22,9 +22,12 @@ var cameraTargets = {
     "hotspot-emperor": {
         x: 0.3, y: 1.7, z: -3.3
     },
-    "hotspot-opium": {
+    "hotspot-opium1": {
         x: 3.7, y: 1.7, z: 1.4
     },
+    "hotspot-mirror-back": {
+        x: 1.8, y: 1, z: -3.6
+    }
 };
 var hotspots;
 var selectedTooltip = null;
@@ -156,13 +159,16 @@ function init() {
     var pointLight7 = makePointLight({ x: 1, y: 0.5, z: -2.5 });
     scene.add(pointLight7);
 
+    var pointLight8 = makePointLight({ x: -1.9, y: 0.7, z: 0.7 });
+    scene.add(pointLight8);
+
     // renderer
 
     renderer = new THREE.WebGLRenderer();
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.shadowMap.enabled = true;
-    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    // renderer.shadowMap.enabled = true;
+    // renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     container.appendChild(renderer.domElement);
 
     // controls 
@@ -238,6 +244,11 @@ function onDocumentClick(event) {
     // console.log(camera.position);
 
     if (selectedTooltip) {
+
+        if (selectedTooltip.includes("opium")) {
+            selectedTooltip = "hotspot-opium1";
+        } 
+
         controlsSelectedTooltip = selectedTooltip;
         setControlLabel(controlsSelectedTooltip);
         cameraTarget = cameraTargets[selectedTooltip];

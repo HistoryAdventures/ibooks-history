@@ -1,5 +1,5 @@
 const path = require("path");
-const scene = "scene-agent";
+const scene = "scene-opium";
 
 module.exports = {
   entry: `./${scene}/index.js`,
