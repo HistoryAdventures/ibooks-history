@@ -23,7 +23,7 @@ var cameraTargets = {
         x: 0.3, y: 1.7, z: -3.3
     },
     "hotspot-opium1": {
-        x: 3.7, y: 1.7, z: 1.4
+        x: 3, y: 2.2, z: -2.4
     },
     "hotspot-mirror-back": {
         x: 1.8, y: 1, z: -3.6
@@ -42,9 +42,9 @@ animate();
 
 function init() {
     var gui;
-    // if (process.env.NODE_ENV !== 'production') {
-    //     gui = new GUI();
-    // }
+    if (process.env.NODE_ENV !== 'production') {
+        gui = new GUI();
+    }
 
     container = document.getElementById('container');
 
