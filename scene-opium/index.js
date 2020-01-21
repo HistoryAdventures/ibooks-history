@@ -38,6 +38,11 @@ init();
 animate();
 
 function init() {
+    var gui;
+    // if (process.env.NODE_ENV !== 'production') {
+    //     gui = new GUI();
+    // }
+
     container = document.getElementById('container');
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
@@ -87,33 +92,77 @@ function init() {
     });
 
     // lights
-    var ambientLight = new THREE.AmbientLight(0xcccccc, 0.5);
+    var ambientLight = new THREE.AmbientLight(0xcccccc, 0.15);
     scene.add(ambientLight);
     var directionalLight = new THREE.DirectionalLight(0xffffff, 0.4);
     directionalLight.position.set(0, 1, 1).normalize();
     // scene.add(directionalLight);
     var spotLight;
     spotLight = new THREE.SpotLight(0xffffff, 1);
-    spotLight.position.set(0, 2, 0);
+    spotLight.position.set(0.2, 2.1, -1.1);
     var targetObject = new THREE.Object3D();
     targetObject.position.set(0, 0, 0);
     scene.add(targetObject);
     spotLight.target = targetObject;
-    spotLight.angle = Math.PI / 3;
-    spotLight.penumbra = 0.05;
-    spotLight.decay = 1;
+    spotLight.angle = Math.PI / 2.5;
+    spotLight.penumbra = 0.6;
+    spotLight.decay = 0.2;
     spotLight.distance = 50;
+    spotLight.castShadow = true;
     spotLight.shadow.mapSize.width = 1024;
     spotLight.shadow.mapSize.height = 1024;
-    spotLight.shadow.camera.near = 10;
-    spotLight.shadow.camera.far = 800;
+    spotLight.shadow.camera.near = 1;
+    spotLight.shadow.camera.far = 50;
     scene.add(spotLight);
+
+    function makePointLight(pos, name) {
+        var pointLight;
+        pointLight = new THREE.PointLight(0xffffff, 1);
+        pointLight.position.set(pos.x, pos.y, pos.z);
+        // pointLight.angle = Math.PI / 8;
+        pointLight.decay = 1;
+        pointLight.distance = 1.5;
+        pointLight.penumbra = 0;
+
+        if (gui && name) {
+            gui.add(pointLight.position, 'z', -10, 10).name(name + 'z').step(0.1).listen();
+            gui.add(pointLight.position, 'x', -10, 10).name(name + 'x').step(0.1).listen();
+            gui.add(pointLight.position, 'y', -10, 10).name(name + 'y').step(0.1).listen();
+        }
+        return pointLight;
+    }
+
+    var pointLight1 = makePointLight({ x: -0.5, y: 0.8, z: -1.8 });
+    scene.add(pointLight1);
+
+    var pointLight2 = makePointLight({ x: 1.2, y: 0.8, z: -0.3 });
+    scene.add(pointLight2);
+
+    var pointLight21 = makePointLight({ x: 1.2, y: 0.8, z: 0.6});
+    scene.add(pointLight21);
+
+    var pointLight3 = makePointLight({ x: -1.8, y: 1.1, z: 3.4 });
+    scene.add(pointLight3);
+
+    var pointLight4 = makePointLight({ x: 1, y: 1, z: -1.4 });
+    scene.add(pointLight4);
+
+    var pointLight5 = makePointLight({ x: 1, y: 1, z: -1.4 });
+    scene.add(pointLight5);
+
+    var pointLight6 = makePointLight({ x: 1, y: 1, z: -2.5 });
+    scene.add(pointLight6);
+
+    var pointLight7 = makePointLight({ x: 1, y: 0.5, z: -2.5 });
+    scene.add(pointLight7);
 
     // renderer
 
     renderer = new THREE.WebGLRenderer();
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.shadowMap.enabled = true;
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     container.appendChild(renderer.domElement);
 
     // controls 
@@ -139,12 +188,6 @@ function init() {
     hammertime.on('tap', function (ev) {
         onDocumentClick(ev);
     });
-
-    var gui;
-    // if (process.env.NODE_ENV !== 'production') {
-    //     gui = new GUI();
-    // }
-
 
     if (process.env.NODE_ENV !== 'production' && gui) {
         //     gui.add(ambientLight, 'intensity', 0, 4).name("Ambient light").step(0.01).listen();
