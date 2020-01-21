@@ -94,12 +94,14 @@ function init() {
     controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
     controls.dampingFactor = 0.03;
+    controls.enablePan = false;
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
-    controls.maxDistance = 6;
+    controls.maxDistance = 4;
     controls.target.set(0, 1, 0);
     controls.zoomSpeed = 0.5;
     controls.maxPolarAngle = Math.PI / 1.95;
+    controls.minPolarAngle = Math.PI / 2.5;
     controls.update();
     //
     // stats = new Stats();
