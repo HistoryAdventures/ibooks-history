@@ -150,21 +150,17 @@ function init() {
         scene.add(sprite8);
 
 
-
-        var sprite9 = makeSprite({ x: 1.4, y: 0, z: 0 }, 'sprite9');
+        var sprite9 = makeSprite({ x: 1.3, y: 2.4, z: 0 }, 'sprite9');
         scene.add(sprite9);
 
-        var sprite10 = makeSprite({ x: 1.6, y: 0.6, z: 0 }, 'sprite10');
+        var sprite10 = makeSprite({ x: 1.6, y: 1.8, z: 0 }, 'sprite10');
         scene.add(sprite10);
 
         var sprite11 = makeSprite({ x: 1.7, y: 1.2, z: 0 }, 'sprite11');
         scene.add(sprite11);
 
-        var sprite12 = makeSprite({ x: 1.6, y: 1.8, z: 0 }, 'sprite12');
+        var sprite12 = makeSprite({ x: 1.6, y: 0.6, z: 0 }, 'sprite12');
         scene.add(sprite12);
-
-        var sprite13 = makeSprite({ x: 1.3, y: 2.4, z: 0 }, 'sprite13');
-        scene.add(sprite13);
 
         hotspots = [sprite1, sprite2, sprite3, sprite3, sprite4, sprite5, sprite6, sprite7, sprite8, sprite9, sprite10, sprite11, sprite12];
     });
