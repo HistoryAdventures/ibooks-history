@@ -13,21 +13,45 @@ var mouse = new THREE.Vector2();
 var raycaster = new THREE.Raycaster();
 
 var cameraTargets = {
-    "hotspot-paper1": {
-        x: -1.3, y: 1.3, z: -3.8
+    "sprite1": {
+        x: 2.3, y: 0.5, z: 3.1
     },
-    "hotspot-paper2": {
-        x: -0.8, y: 1.3, z: -3.8
+    "sprite2": {
+        x: 2.2, y: -0.3, z: 2.9
     },
-    "hotspot-emperor": {
-        x: 0.3, y: 1.7, z: -3.3
+    "sprite3": {
+        x: 2.2, y: -0.3, z: 2.9
     },
-    "hotspot-opium1": {
-        x: 3, y: 2.2, z: -2.4
+    "sprite4": {
+        x: 2.2, y: -0.3, z: 2.9
     },
-    "hotspot-mirror-back": {
-        x: 1.8, y: 1, z: -3.6
-    }
+    "sprite5": {
+        x: 2.2, y: -0.3, z: 2.9
+    },
+    "sprite6": {
+        x: 2.2, y: -0.3, z: 2.9
+    },
+    "sprite7": {
+        x: 0.0, y: -1.6, z: 3
+    },
+    "sprite8": {
+        x: -2.2, y: -0.3, z: 2.9
+    },
+    "sprite9": {
+        x: -2.2, y: -0.3, z: 2.9
+    },
+    "sprite10": {
+        x: -2.2, y: -0.3, z: 2.9
+    },
+    "sprite11": {
+        x: -2.2, y: -0.3, z: 2.9
+    },
+    "sprite12": {
+        x: -2.2, y: -0.3, z: 2.9
+    },
+    "sprite13": {
+        x: -2.2, y: -0.3, z: 2.9
+    },
 };
 var hotspots;
 var selectedTooltip = null;
@@ -75,6 +99,22 @@ function init() {
     // models
     var loader = new ColladaLoader(loadingManager);
 
+    function makeSprite(pos, name, showHelper = false) {
+        var spriteMap = new THREE.TextureLoader().load( "africa.svg" );
+        var spriteMaterial = new THREE.SpriteMaterial( { map: spriteMap, color: 0xffffff } );
+        var sprite = new THREE.Sprite( spriteMaterial );
+        sprite.position.set(pos.x, pos.y, pos.z);
+        sprite.scale.set(0.5,0.5,0.5);
+        sprite.name = name;
+
+        if (gui && name && showHelper) {
+            gui.add(sprite.position, 'z', -10, 10).name(name + 'z').step(0.1).listen();
+            gui.add(sprite.position, 'x', -10, 10).name(name + 'x').step(0.1).listen();
+            gui.add(sprite.position, 'y', -10, 10).name(name + 'y').step(0.1).listen();
+        }
+        return sprite;
+    }
+
     loader.load('./models/model6/khari.dae', function (dae) {
         model = dae.scene;
         for (var mat in dae.library.materials) {
@@ -83,16 +123,50 @@ function init() {
             dae.library.materials[mat].build.shininess = 30;
         }
 
-        hotspots = [];
+        var sprite1 = makeSprite({ x: -1.4, y: 0, z: 0 }, 'sprite1');
+        scene.add(sprite1);
 
-        model.traverse(function (child) {
-            child.castShadow = true;
-            child.receiveShadow = true;
+        var sprite2 = makeSprite({ x: -1.6, y: 0.6, z: 0 }, 'sprite2');
+        scene.add(sprite2);
 
-            if (child.name.includes('hotspot')) {
-                hotspots.push(child);
-            }
-        });
+        var sprite3 = makeSprite({ x: -1.7, y: 1.2, z: 0 }, 'sprite3');
+        scene.add(sprite3);
+
+        var sprite4 = makeSprite({ x: -1.6, y: 1.8, z: 0 }, 'sprite4');
+        scene.add(sprite4);
+
+        var sprite5 = makeSprite({ x: -1.3, y: 2.4, z: 0 }, 'sprite5');
+        scene.add(sprite5);
+
+
+
+        var sprite6 = makeSprite({ x: -0.7, y: 2.7, z: 0 }, 'sprite6');
+        scene.add(sprite6);
+
+        var sprite7 = makeSprite({ x: 0, y: 2.9, z: 0 }, 'sprite7');
+        scene.add(sprite7);
+
+        var sprite8 = makeSprite({ x: 0.7, y: 2.7, z: 0 }, 'sprite8');
+        scene.add(sprite8);
+
+
+
+        var sprite9 = makeSprite({ x: 1.4, y: 0, z: 0 }, 'sprite9');
+        scene.add(sprite9);
+
+        var sprite10 = makeSprite({ x: 1.6, y: 0.6, z: 0 }, 'sprite10');
+        scene.add(sprite10);
+
+        var sprite11 = makeSprite({ x: 1.7, y: 1.2, z: 0 }, 'sprite11');
+        scene.add(sprite11);
+
+        var sprite12 = makeSprite({ x: 1.6, y: 1.8, z: 0 }, 'sprite12');
+        scene.add(sprite12);
+
+        var sprite13 = makeSprite({ x: 1.3, y: 2.4, z: 0 }, 'sprite13');
+        scene.add(sprite13);
+
+        hotspots = [sprite1, sprite2, sprite3, sprite3, sprite4, sprite5, sprite6, sprite7, sprite8, sprite9, sprite10, sprite11, sprite12];
     });
 
     // lights
@@ -101,10 +175,6 @@ function init() {
     var directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
     directionalLight.position.set(0, 1, 1).normalize();
     scene.add(directionalLight);
-
-    var directionalLight2 = new THREE.DirectionalLight(0xffffff, 1);
-    directionalLight2.position.set(1, 1, -1).normalize();
-    scene.add(directionalLight2);
 
     function makePointLight(pos, name) {
         var pointLight;
@@ -142,14 +212,18 @@ function init() {
     controls.maxDistance = 4;
     controls.target.set(0, 1, 0);
     controls.zoomSpeed = 0.5;
-    controls.maxPolarAngle = Math.PI / 1.95;
-    controls.minPolarAngle = Math.PI / 2.5;
+    // Polar limits top bottom
+    // controls.maxPolarAngle = Math.PI / 1.95;
+    // controls.minPolarAngle = Math.PI / 2.5;
+    controls.maxAzimuthAngle = Math.PI / 2; 
+    controls.minAzimuthAngle = Math.PI / -2;
     controls.update();
     //
     // stats = new Stats();
     // container.appendChild( stats.dom );
     //
     window.addEventListener('resize', onWindowResize, false);
+
 
     var hammertime = new Hammer(document.querySelector('#container'), {});
     hammertime.on('tap', function (ev) {
@@ -205,11 +279,6 @@ function onDocumentClick(event) {
     // console.log(camera.position);
 
     if (selectedTooltip) {
-
-        if (selectedTooltip.includes("opium")) {
-            selectedTooltip = "hotspot-opium1";
-        } 
-
         controlsSelectedTooltip = selectedTooltip;
         setControlLabel(controlsSelectedTooltip);
         cameraTarget = cameraTargets[selectedTooltip];
