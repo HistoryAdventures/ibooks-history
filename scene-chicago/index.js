@@ -13,20 +13,20 @@ var mouse = new THREE.Vector2();
 var raycaster = new THREE.Raycaster();
 
 var cameraTargets = {
-    "hotspot-paper1": {
-        x: -1.3, y: 1.3, z: -3.8
+    "hotspot-1": {
+        x: 2.6, y: 3.1, z: -2.2
     },
-    "hotspot-paper2": {
-        x: -0.8, y: 1.3, z: -3.8
+    "hotspot-2": {
+        x: 2.6, y: 3.1, z: -2.2
     },
-    "hotspot-emperor": {
-        x: 0.3, y: 1.7, z: -3.3
+    "hotspot-3": {
+        x: 2.6, y: 3.1, z: -2.2
     },
-    "hotspot-opium1": {
-        x: 3, y: 2.2, z: -2.4
+    "hotspot-4": {
+        x: 2.6, y: 3.1, z: -2.2
     },
-    "hotspot-mirror-back": {
-        x: 1.8, y: 1, z: -3.6
+    "hotspot-5": {
+        x: 2.6, y: 3.1, z: -2.2
     }
 };
 var hotspots;
@@ -42,16 +42,16 @@ animate();
 
 function init() {
     var gui;
-    if (process.env.NODE_ENV !== 'production') {
-        gui = new GUI();
-    }
+    // if (process.env.NODE_ENV !== 'production') {
+    //     gui = new GUI();
+    // }
 
     container = document.getElementById('container');
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
     camera.position.set(0, 5, 6);
     scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x333333);
+    scene.background = new THREE.Color(0x87CEFA);
 
     // loading manager
     var loadingManager = new THREE.LoadingManager(function () {
@@ -83,12 +83,11 @@ function init() {
             dae.library.materials[mat].build.shininess = 30;
         }
 
+        model.scale.set(4,4,4);
+
         hotspots = [];
 
         model.traverse(function (child) {
-            child.castShadow = true;
-            child.receiveShadow = true;
-
             if (child.name.includes('hotspot')) {
                 hotspots.push(child);
             }
@@ -96,15 +95,11 @@ function init() {
     });
 
     // lights
-    var ambientLight = new THREE.AmbientLight(0xcccccc, 0.15);
+    var ambientLight = new THREE.AmbientLight(0xcccccc, 0.6);
     scene.add(ambientLight);
-    var directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
-    directionalLight.position.set(0, 1, 1).normalize();
+    var directionalLight = new THREE.DirectionalLight(0xffffff, 0.6);
+    directionalLight.position.set(0, 2, 1).normalize();
     scene.add(directionalLight);
-
-    var directionalLight2 = new THREE.DirectionalLight(0xffffff, 1);
-    directionalLight2.position.set(1, 1, -1).normalize();
-    scene.add(directionalLight2);
 
     function makePointLight(pos, name) {
         var pointLight;
@@ -139,11 +134,11 @@ function init() {
     controls.enablePan = true;
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
-    controls.maxDistance = 4;
+    controls.maxDistance = 8;
     controls.target.set(0, 1, 0);
     controls.zoomSpeed = 0.5;
-    controls.maxPolarAngle = Math.PI / 1.95;
-    controls.minPolarAngle = Math.PI / 2.5;
+    controls.maxPolarAngle = Math.PI / 1.9;
+    // controls.minPolarAngle = Math.PI / 4;
     controls.update();
     //
     // stats = new Stats();
