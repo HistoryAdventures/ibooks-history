@@ -13,43 +13,40 @@ var mouse = new THREE.Vector2();
 var raycaster = new THREE.Raycaster();
 
 var cameraTargets = {
-    "sprite1": {
+    "hotspot-1": {
         x: 2.3, y: 0.5, z: 3.1
     },
-    "sprite2": {
+    "hotspot-2": {
         x: 2.2, y: -0.3, z: 2.9
     },
-    "sprite3": {
+    "hotspot-3": {
         x: 2.2, y: -0.3, z: 2.9
     },
-    "sprite4": {
+    "hotspot-4": {
         x: 2.2, y: -0.3, z: 2.9
     },
-    "sprite5": {
+    "hotspot-5": {
         x: 2.2, y: -0.3, z: 2.9
     },
-    "sprite6": {
+    "hotspot-6": {
         x: 2.2, y: -0.3, z: 2.9
     },
-    "sprite7": {
+    "hotspot-7": {
         x: 0.0, y: -1.6, z: 3
     },
-    "sprite8": {
+    "hotspot-8": {
         x: -2.2, y: -0.3, z: 2.9
     },
-    "sprite9": {
+    "hotspot-9": {
         x: -2.2, y: -0.3, z: 2.9
     },
-    "sprite10": {
+    "hotspot-10": {
         x: -2.2, y: -0.3, z: 2.9
     },
-    "sprite11": {
+    "hotspot-11": {
         x: -2.2, y: -0.3, z: 2.9
     },
-    "sprite12": {
-        x: -2.2, y: -0.3, z: 2.9
-    },
-    "sprite13": {
+    "hotspot-12": {
         x: -2.2, y: -0.3, z: 2.9
     },
 };
@@ -66,14 +63,14 @@ animate();
 
 function init() {
     var gui;
-    if (process.env.NODE_ENV !== 'production') {
-        gui = new GUI();
-    }
+    // if (process.env.NODE_ENV !== 'production') {
+    //     gui = new GUI();
+    // }
 
     container = document.getElementById('container');
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
-    camera.position.set(0, 5, 6);
+    camera.position.set(0, 0, 6);
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0x333333);
 
@@ -122,47 +119,14 @@ function init() {
             dae.library.materials[mat].build.side = THREE.DoubleSide;
             dae.library.materials[mat].build.shininess = 30;
         }
+        
+        hotspots = [];
 
-        var sprite1 = makeSprite({ x: -1.4, y: 0, z: 0 }, 'sprite1');
-        scene.add(sprite1);
-
-        var sprite2 = makeSprite({ x: -1.6, y: 0.6, z: 0 }, 'sprite2');
-        scene.add(sprite2);
-
-        var sprite3 = makeSprite({ x: -1.7, y: 1.2, z: 0 }, 'sprite3');
-        scene.add(sprite3);
-
-        var sprite4 = makeSprite({ x: -1.6, y: 1.8, z: 0 }, 'sprite4');
-        scene.add(sprite4);
-
-        var sprite5 = makeSprite({ x: -1.3, y: 2.4, z: 0 }, 'sprite5');
-        scene.add(sprite5);
-
-
-
-        var sprite6 = makeSprite({ x: -0.7, y: 2.7, z: 0 }, 'sprite6');
-        scene.add(sprite6);
-
-        var sprite7 = makeSprite({ x: 0, y: 2.9, z: 0 }, 'sprite7');
-        scene.add(sprite7);
-
-        var sprite8 = makeSprite({ x: 0.7, y: 2.7, z: 0 }, 'sprite8');
-        scene.add(sprite8);
-
-
-        var sprite9 = makeSprite({ x: 1.3, y: 2.4, z: 0 }, 'sprite9');
-        scene.add(sprite9);
-
-        var sprite10 = makeSprite({ x: 1.6, y: 1.8, z: 0 }, 'sprite10');
-        scene.add(sprite10);
-
-        var sprite11 = makeSprite({ x: 1.7, y: 1.2, z: 0 }, 'sprite11');
-        scene.add(sprite11);
-
-        var sprite12 = makeSprite({ x: 1.6, y: 0.6, z: 0 }, 'sprite12');
-        scene.add(sprite12);
-
-        hotspots = [sprite1, sprite2, sprite3, sprite3, sprite4, sprite5, sprite6, sprite7, sprite8, sprite9, sprite10, sprite11, sprite12];
+        model.traverse(function (child) {
+            if (child.name.includes('hotspot')) {
+                hotspots.push(child);
+            }
+        });
     });
 
     // lights
@@ -204,8 +168,8 @@ function init() {
     controls.dampingFactor = 0.03;
     controls.enablePan = false;
     controls.screenSpacePanning = false;
-    controls.minDistance = 0.01;
-    controls.maxDistance = 4;
+    controls.minDistance = 2;
+    controls.maxDistance = 8;
     controls.target.set(0, 1, 0);
     controls.zoomSpeed = 0.5;
     // Polar limits top bottom
