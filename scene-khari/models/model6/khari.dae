@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-02-21, commit time:10:41, hash:8928d99</authoring_tool>
     </contributor>
-    <created>2020-01-30T22:17:15</created>
-    <modified>2020-01-30T22:17:15</modified>
+    <created>2020-01-31T00:26:29</created>
+    <modified>2020-01-31T00:26:29</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -14,8 +14,8 @@
     <image id="Map-1" name="Map-1">
       <init_from>Map-1.png</init_from>
     </image>
-    <image id="Map__14" name="Map__14">
-      <init_from>Map%20#14.jpg</init_from>
+    <image id="Map-14" name="Map-14">
+      <init_from>Map-14.jpg</init_from>
     </image>
     <image id="Map-4" name="Map-4">
       <init_from>Map-4.png</init_from>
@@ -43,14 +43,14 @@
             <source>Map-1-surface</source>
           </sampler2D>
         </newparam>
-        <newparam sid="Map__14-surface">
+        <newparam sid="Map-14-surface">
           <surface type="2D">
-            <init_from>Map__14</init_from>
+            <init_from>Map-14</init_from>
           </surface>
         </newparam>
-        <newparam sid="Map__14-sampler">
+        <newparam sid="Map-14-sampler">
           <sampler2D>
-            <source>Map__14-surface</source>
+            <source>Map-14-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -77,7 +77,7 @@
           <extra>
             <technique profile="FCOLLADA">
               <bump>
-                <texture texture="Map__14-sampler"/>
+                <texture texture="Map-14-sampler"/>
               </bump>
             </technique>
           </extra>
