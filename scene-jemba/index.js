@@ -13,44 +13,20 @@ var mouse = new THREE.Vector2();
 var raycaster = new THREE.Raycaster();
 
 var cameraTargets = {
-    "sprite1": {
-        x: 2.3, y: 0.5, z: 3.1
+    "hotspot-aborigines": {
+        x: 0.8, y: 1.5, z: -1.8
     },
-    "sprite2": {
-        x: 2.2, y: -0.3, z: 2.9
+    "hotspot-camps": {
+        x: 1.5, y: 1.4, z: -1.3
     },
-    "sprite3": {
-        x: 2.2, y: -0.3, z: 2.9
+    "hotspot-officials": {
+        x: -0.3, y: 1.3, z: -2
     },
-    "sprite4": {
-        x: 2.2, y: -0.3, z: 2.9
+    "hotspot-settlers": {
+        x: 0.3, y: 1.2, z: -2
     },
-    "sprite5": {
-        x: 2.2, y: -0.3, z: 2.9
-    },
-    "sprite6": {
-        x: 2.2, y: -0.3, z: 2.9
-    },
-    "sprite7": {
-        x: 0.0, y: -1.6, z: 3
-    },
-    "sprite8": {
-        x: -2.2, y: -0.3, z: 2.9
-    },
-    "sprite9": {
-        x: -2.2, y: -0.3, z: 2.9
-    },
-    "sprite10": {
-        x: -2.2, y: -0.3, z: 2.9
-    },
-    "sprite11": {
-        x: -2.2, y: -0.3, z: 2.9
-    },
-    "sprite12": {
-        x: -2.2, y: -0.3, z: 2.9
-    },
-    "sprite13": {
-        x: -2.2, y: -0.3, z: 2.9
+    "hotspot-ship": {
+        x: 0.4, y: 1.2, z: 2
     },
 };
 var hotspots;
@@ -66,16 +42,16 @@ animate();
 
 function init() {
     var gui;
-    if (process.env.NODE_ENV !== 'production') {
-        gui = new GUI();
-    }
+    // if (process.env.NODE_ENV !== 'production') {
+    //     gui = new GUI();
+    // }
 
     container = document.getElementById('container');
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
-    camera.position.set(0, 5, -6);
+    camera.position.set(0, 8, -6);
     scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x333333);
+    scene.background = new THREE.Color(0x87ceeb);
 
     // loading manager
     var loadingManager = new THREE.LoadingManager(function () {
@@ -123,19 +99,44 @@ function init() {
             dae.library.materials[mat].build.shininess = 30;
         }
 
+        model.scale.set(2,2,2);
+
         hotspots = [];
+
+        model.traverse(function (child) {
+            if (child.name.includes('hotspot')) {
+                hotspots.push(child);
+            }
+        });
     });
 
     // lights
     var ambientLight = new THREE.AmbientLight(0xcccccc, 0.45);
     scene.add(ambientLight);
     var directionalLight = new THREE.DirectionalLight(0xffffff, 0.7);
-    directionalLight.position.set(0, 1, 1).normalize();
+    directionalLight.position.set(0, 2.5, -10).normalize();
     scene.add(directionalLight);
 
+    // gui.add(directionalLight.position, 'z', -10, 10).name('light1' + 'z').step(0.1).listen();
+    // gui.add(directionalLight.position, 'x', -10, 10).name('light1' + 'x').step(0.1).listen();
+    // gui.add(directionalLight.position, 'y', -10, 10).name('light1' + 'y').step(0.1).listen();
+
     var directionalLight2 = new THREE.DirectionalLight(0xffffff, 0.6);
-    directionalLight2.position.set(1, 1, 0).normalize();
+    directionalLight2.position.set(10, 10, 5).normalize();
     scene.add(directionalLight2);
+
+
+    // gui.add(directionalLight2.position, 'z', -10, 10).name('light2' + 'z').step(0.1).listen();
+    // gui.add(directionalLight2.position, 'x', -10, 10).name('light2' + 'x').step(0.1).listen();
+    // gui.add(directionalLight2.position, 'y', -10, 10).name('light2' + 'y').step(0.1).listen();
+
+    var directionalLight3 = new THREE.DirectionalLight(0xffffff, 0.6);
+    directionalLight3.position.set(-10, -4, 5).normalize();
+    scene.add(directionalLight3);
+
+    // gui.add(directionalLight3.position, 'z', -10, 10).name('light3' + 'z').step(0.1).listen();
+    // gui.add(directionalLight3.position, 'x', -10, 10).name('light3' + 'x').step(0.1).listen();
+    // gui.add(directionalLight3.position, 'y', -10, 10).name('light3' + 'y').step(0.1).listen();
 
     function makePointLight(pos, name) {
         var pointLight;
@@ -143,7 +144,7 @@ function init() {
         pointLight.position.set(pos.x, pos.y, pos.z);
         // pointLight.angle = Math.PI / 8;
         pointLight.decay = 1;
-        pointLight.distance = 1.5;
+        pointLight.distance = 4;
         pointLight.penumbra = 0;
 
         if (gui && name) {
@@ -153,6 +154,9 @@ function init() {
         }
         return pointLight;
     }
+
+    const point1 = makePointLight({x: 0.1, y: 0.6, z: -2.5});
+    scene.add(point1);
 
     // renderer
 
@@ -170,8 +174,8 @@ function init() {
     controls.enablePan = false;
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
-    controls.maxDistance = 2;
-    controls.target.set(0, 1, 0);
+    controls.maxDistance = 6;
+    controls.target.set(0, 1, 3);
     controls.zoomSpeed = 0.9;
     // Polar limits top bottom
     controls.maxPolarAngle = Math.PI / 1.95;
