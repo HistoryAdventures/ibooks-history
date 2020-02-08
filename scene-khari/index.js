@@ -123,7 +123,7 @@ function init() {
         hotspots = [];
 
         model.traverse(function (child) {
-            if (child.name.includes('hotspot')) {
+            if (child && child.name && child.name.includes('hotspot')) {
                 hotspots.push(child);
             }
         });
