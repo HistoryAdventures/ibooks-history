@@ -4,7 +4,7 @@ import * as THREE from './build/three.module.js';
 import { GUI } from './jsm/libs/dat.gui.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
-import Hammer from 'hammerjs';
+import Hammer from '../shared/hammer';
 
 var container, stats, controls;
 var camera, scene, renderer;
