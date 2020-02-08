@@ -1,3 +1,4 @@
+import '@babel/polyfill';
 import * as TWEEN from './js/tween';
 import * as THREE from './build/three.module.js';
 // import Stats from './jsm/libs/stats.module.js';
@@ -123,7 +124,7 @@ function init() {
         hotspots = [];
 
         model.traverse(function (child) {
-            if (child && child.name && child.name.includes('hotspot')) {
+            if (child.name.includes('hotspot')) {
                 hotspots.push(child);
             }
         });
