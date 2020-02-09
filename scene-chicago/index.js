@@ -1,3 +1,4 @@
+import '@babel/polyfill';
 import * as TWEEN from './js/tween';
 import * as THREE from './build/three.module.js';
 // import Stats from './jsm/libs/stats.module.js';
