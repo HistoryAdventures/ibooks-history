@@ -114,7 +114,7 @@ function init() {
     // });
 
     // lights
-    var ambientLight = new THREE.AmbientLight(0xcccccc, 0.95);
+    var ambientLight = new THREE.AmbientLight(0xcccccc, 0.15);
     scene.add(ambientLight);
     // var directionalLight = new THREE.DirectionalLight(0xffffff, 0.4);
     // directionalLight.position.set(0, 1, 1).normalize();
@@ -136,6 +136,38 @@ function init() {
     // spotLight.shadow.camera.near = 1;
     // spotLight.shadow.camera.far = 50;
     // scene.add(spotLight);
+
+    // var spotLight2;
+    // spotLight2 = new THREE.SpotLight(0xffffff, 1);
+    // spotLight2.position.set(1, 2.1, -4.6);
+    // var targetObject2 = new THREE.Object3D();
+    // targetObject2.position.set(-0.5, 0, -1.2);
+    // scene.add(targetObject2);
+    // spotLight2.target = targetObject2;
+    // spotLight2.angle = Math.PI / 2.5;
+    // spotLight2.penumbra = 0.6;
+    // spotLight2.decay = 0.2;
+    // spotLight2.distance = 50;
+    // spotLight2.castShadow = true;
+    // spotLight2.shadow.mapSize.width = 1024;
+    // spotLight2.shadow.mapSize.height = 1024;
+    // spotLight2.shadow.camera.near = 1;
+    // spotLight2.shadow.camera.far = 50;
+    // scene.add(spotLight2);
+
+    // var spotLightHelper = new THREE.SpotLightHelper( spotLight2 );
+    // scene.add( spotLightHelper );
+
+    // if (gui) {
+    //     gui.add(targetObject2.position, 'z', -10, 10).name('targetObject2z').step(0.1).listen();
+    //     gui.add(targetObject2.position, 'x', -10, 10).name('targetObject2x').step(0.1).listen();
+    //     gui.add(targetObject2.position, 'y', -10, 10).name('targetObject2y').step(0.1).listen();
+
+    //     gui.add(spotLight2.position, 'z', -10, 10).name('spotLight2z').step(0.1).listen();
+    //     gui.add(spotLight2.position, 'x', -10, 10).name('spotLight2x').step(0.1).listen();
+    //     gui.add(spotLight2.position, 'y', -10, 10).name('spotLight2y').step(0.1).listen();
+    // }
+
 
     function makePointLight(pos, name) {
         var pointLight;
@@ -222,6 +254,7 @@ function init() {
     outlinePass.edgeGlow = 1;
     outlinePass.edgeThickness = 3;
     outlinePass.pulsePeriod = 5;
+    outlinePass.hiddenEdgeColor = new THREE.Color(0x000000);
     composer.addPass( outlinePass );
 
     //
@@ -285,6 +318,9 @@ function onDocumentClick(event) {
             selectedTooltip = "hotspot-opium1";
         }
 
+        if (selectedTooltip.includes("mirror")) {
+            selectedTooltip = "hotspot-mirror-back";
+        }
         controlsSelectedTooltip = selectedTooltip;
         setControlLabel(controlsSelectedTooltip);
         cameraTarget = cameraTargets[selectedTooltip];
