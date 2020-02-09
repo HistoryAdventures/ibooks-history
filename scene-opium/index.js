@@ -1,14 +1,20 @@
 import '@babel/polyfill';
 import * as TWEEN from './js/tween';
 import * as THREE from './build/three.module.js';
-// import Stats from './jsm/libs/stats.module.js';
+import Stats from './jsm/libs/stats.module.js';
 import { GUI } from './jsm/libs/dat.gui.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
+import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
+
+import { RenderPass } from './jsm/postprocessing/RenderPass.js';
+import { EffectComposer } from './jsm/postprocessing/EffectComposer.js';
+import { OutlinePass } from './jsm/postprocessing/OutlinePass.js';
 import Hammer from 'hammerjs';
 
 var container, stats, controls;
 var camera, scene, renderer;
+var composer, outlinePass;
 var model;
 var mouse = new THREE.Vector2();
 var raycaster = new THREE.Raycaster();
@@ -30,7 +36,7 @@ var cameraTargets = {
         x: 1.8, y: 1, z: -3.6
     }
 };
-var hotspots;
+var hotspots = [];
 var selectedTooltip = null;
 var controlsSelectedTooltip = null;
 var features = {
@@ -76,48 +82,60 @@ function init() {
     // models
     var loader = new ColladaLoader(loadingManager);
 
-    loader.load('./models/model6/opium.dae', function (dae) {
+    loader.load('./models/model2/opium.dae', function (dae) {
         model = dae.scene;
         for (var mat in dae.library.materials) {
             dae.library.materials[mat].build.side = THREE.DoubleSide;
             dae.library.materials[mat].build.shininess = 30;
         }
 
-        hotspots = [];
-
         model.traverse(function (child) {
-            child.castShadow = true;
-            child.receiveShadow = true;
-
             if (child.name.includes('hotspot')) {
                 hotspots.push(child);
             }
         });
+
+        outlinePass.selectedObjects = hotspots;
     });
 
+    // var loader = new GLTFLoader(loadingManager);
+
+    // loader.load('./models/model1/opium.gltf', function (gltf) {
+    //     gltf.scene.traverse(function (child) {
+    //         if (child.name.includes('hotspot')) {
+    //             hotspots.push(child);
+                
+    //         }
+    //     });
+
+    //     outlinePass.selectedObjects = hotspots;
+    
+    //     model = gltf.scene;
+    // });
+
     // lights
-    var ambientLight = new THREE.AmbientLight(0xcccccc, 0.15);
+    var ambientLight = new THREE.AmbientLight(0xcccccc, 0.95);
     scene.add(ambientLight);
-    var directionalLight = new THREE.DirectionalLight(0xffffff, 0.4);
-    directionalLight.position.set(0, 1, 1).normalize();
-    // scene.add(directionalLight);
-    var spotLight;
-    spotLight = new THREE.SpotLight(0xffffff, 1);
-    spotLight.position.set(0.2, 2.1, -1.1);
-    var targetObject = new THREE.Object3D();
-    targetObject.position.set(0, 0, 0);
-    scene.add(targetObject);
-    spotLight.target = targetObject;
-    spotLight.angle = Math.PI / 2.5;
-    spotLight.penumbra = 0.6;
-    spotLight.decay = 0.2;
-    spotLight.distance = 50;
-    spotLight.castShadow = true;
-    spotLight.shadow.mapSize.width = 1024;
-    spotLight.shadow.mapSize.height = 1024;
-    spotLight.shadow.camera.near = 1;
-    spotLight.shadow.camera.far = 50;
-    scene.add(spotLight);
+    // var directionalLight = new THREE.DirectionalLight(0xffffff, 0.4);
+    // directionalLight.position.set(0, 1, 1).normalize();
+    // // scene.add(directionalLight);
+    // var spotLight;
+    // spotLight = new THREE.SpotLight(0xffffff, 1);
+    // spotLight.position.set(0.2, 2.1, -1.1);
+    // var targetObject = new THREE.Object3D();
+    // targetObject.position.set(0, 0, 0);
+    // scene.add(targetObject);
+    // spotLight.target = targetObject;
+    // spotLight.angle = Math.PI / 2.5;
+    // spotLight.penumbra = 0.6;
+    // spotLight.decay = 0.2;
+    // spotLight.distance = 50;
+    // spotLight.castShadow = true;
+    // spotLight.shadow.mapSize.width = 1024;
+    // spotLight.shadow.mapSize.height = 1024;
+    // spotLight.shadow.camera.near = 1;
+    // spotLight.shadow.camera.far = 50;
+    // scene.add(spotLight);
 
     function makePointLight(pos, name) {
         var pointLight;
@@ -136,38 +154,39 @@ function init() {
         return pointLight;
     }
 
-    var pointLight1 = makePointLight({ x: -0.5, y: 0.8, z: -1.8 });
-    scene.add(pointLight1);
+    // var pointLight1 = makePointLight({ x: -0.5, y: 0.8, z: -1.8 });
+    // scene.add(pointLight1);
 
-    var pointLight2 = makePointLight({ x: 1.2, y: 0.8, z: -0.3 });
-    scene.add(pointLight2);
+    // var pointLight2 = makePointLight({ x: 1.2, y: 0.8, z: -0.3 });
+    // scene.add(pointLight2);
 
-    var pointLight21 = makePointLight({ x: 1.2, y: 0.8, z: 0.6});
-    scene.add(pointLight21);
+    // var pointLight21 = makePointLight({ x: 1.2, y: 0.8, z: 0.6});
+    // scene.add(pointLight21);
 
-    var pointLight3 = makePointLight({ x: -1.8, y: 1.1, z: 3.4 });
-    scene.add(pointLight3);
+    // var pointLight3 = makePointLight({ x: -1.8, y: 1.1, z: 3.4 });
+    // scene.add(pointLight3);
 
-    var pointLight4 = makePointLight({ x: 1, y: 1, z: -1.4 });
-    scene.add(pointLight4);
+    // var pointLight4 = makePointLight({ x: 1, y: 1, z: -1.4 });
+    // scene.add(pointLight4);
 
-    var pointLight5 = makePointLight({ x: 1, y: 1, z: -1.4 });
-    scene.add(pointLight5);
+    // var pointLight5 = makePointLight({ x: 1, y: 1, z: -1.4 });
+    // scene.add(pointLight5);
 
-    var pointLight6 = makePointLight({ x: 1, y: 1, z: -2.5 });
-    scene.add(pointLight6);
+    // var pointLight6 = makePointLight({ x: 1, y: 1, z: -2.5 });
+    // scene.add(pointLight6);
 
-    var pointLight7 = makePointLight({ x: 1, y: 0.5, z: -2.5 });
-    scene.add(pointLight7);
+    // var pointLight7 = makePointLight({ x: 1, y: 0.5, z: -2.5 });
+    // scene.add(pointLight7);
 
-    var pointLight8 = makePointLight({ x: -1.9, y: 0.7, z: 0.7 });
-    scene.add(pointLight8);
+    // var pointLight8 = makePointLight({ x: -1.9, y: 0.7, z: 0.7 });
+    // scene.add(pointLight8);
 
     // renderer
 
     renderer = new THREE.WebGLRenderer();
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(window.innerWidth, window.innerHeight);
+    // renderer.toneMappingExposure = 0.8;
     // renderer.shadowMap.enabled = true;
     // renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     container.appendChild(renderer.domElement);
@@ -186,10 +205,26 @@ function init() {
     controls.minPolarAngle = Math.PI / 2.5;
     controls.update();
     //
-    // stats = new Stats();
-    // container.appendChild( stats.dom );
+    stats = new Stats();
+    container.appendChild(stats.dom);
     //
     window.addEventListener('resize', onWindowResize, false);
+
+    // postprocessing
+
+    composer = new EffectComposer( renderer );
+
+    var renderPass = new RenderPass( scene, camera );
+    composer.addPass( renderPass );
+
+    outlinePass = new OutlinePass( new THREE.Vector2( window.innerWidth, window.innerHeight ), scene, camera );
+    outlinePass.edgeStrength = 4;
+    outlinePass.edgeGlow = 1;
+    outlinePass.edgeThickness = 3;
+    outlinePass.pulsePeriod = 5;
+    composer.addPass( outlinePass );
+
+    //
 
     var hammertime = new Hammer(document.querySelector('#container'), {});
     hammertime.on('tap', function (ev) {
@@ -248,7 +283,7 @@ function onDocumentClick(event) {
 
         if (selectedTooltip.includes("opium")) {
             selectedTooltip = "hotspot-opium1";
-        } 
+        }
 
         controlsSelectedTooltip = selectedTooltip;
         setControlLabel(controlsSelectedTooltip);
@@ -371,7 +406,8 @@ function animate() {
     requestAnimationFrame(animate);
     TWEEN.update();
     render();
-    // stats.update();
+    stats.update();
+    composer.render();
 }
 function render() {
     controls.update();

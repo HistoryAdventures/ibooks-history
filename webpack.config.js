@@ -3,7 +3,7 @@ const scene = "scene-opium";
 
 module.exports = {
   entry: `./${scene}/index.js`,
-  mode: 'production',
+  mode: 'development',
   module: {
     rules: [
       {

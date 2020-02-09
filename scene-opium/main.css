@@ -290,3 +290,9 @@ h1 a {
 	border: 0;
 	pointer-events: all;
 }
+
+@media screen and (max-width: 500px) {
+	.tooltip h2 {
+		font-size: 23px;
+	}
+}
