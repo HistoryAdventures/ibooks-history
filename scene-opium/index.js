@@ -5,7 +5,7 @@ import Stats from './jsm/libs/stats.module.js';
 import { GUI } from './jsm/libs/dat.gui.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
-import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
+// import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
 
 import { RenderPass } from './jsm/postprocessing/RenderPass.js';
 import { EffectComposer } from './jsm/postprocessing/EffectComposer.js';
@@ -92,6 +92,12 @@ function init() {
         model.traverse(function (child) {
             if (child.name.includes('hotspot')) {
                 hotspots.push(child);
+            }
+
+            if (child.name === 'floor') {
+                var texture = new THREE.TextureLoader().load( "./models/model2/floor-light-map.png" );
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = 0.5;
             }
         });
 
