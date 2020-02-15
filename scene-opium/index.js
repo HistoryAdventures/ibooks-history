@@ -95,7 +95,66 @@ function init() {
             }
 
             if (child.name === 'floor') {
-                var texture = new THREE.TextureLoader().load( "./models/model2/floor-light-map.png" );
+                var texture = new THREE.TextureLoader().load( "./models/model2/lm/floor-light.png" );
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = 0.5;
+            }
+
+            // if (child.name === 'kolona2') {
+            //     var texture = new THREE.TextureLoader().load( "./models/model2/lm/kolona-lm-2.png" );
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = 0.5;
+            // }
+
+            // if (child.name === 'kolona1') {
+            //     var texture = new THREE.TextureLoader().load( "./models/model2/lm/kolona-lm2.png" );
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = 0.5;
+            // }
+
+
+            if (child.name === 'Table') {
+                var texture = new THREE.TextureLoader().load( "./models/model2/lm/table-light.png" );
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = 0.5;
+            }
+
+            // small table
+            if (child.name === 'Rectangle02') {
+                var texture = new THREE.TextureLoader().load( "./models/model2/lm/table2-lm.png" );
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = 0.5;
+            }
+            
+            // if (child.name === 'mirror-back1') {
+            //     var texture = new THREE.TextureLoader().load( "./models/model2/lm/" );
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = 0.5;
+            // }
+
+            // metal scale top
+            if (child.name === 'Box059') {
+                var texture = new THREE.TextureLoader().load( "./models/model2/lm/meta-lm-1.png" );
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = 0.5;
+            }
+
+            // chains
+            if (child.name === 'Box28') {
+                var texture = new THREE.TextureLoader().load( "./models/model2/lm/meta-lm-4.png" );
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = 0.5;
+            }
+
+            // metal scale
+            if (child.name === 'Box078') {
+                var texture = new THREE.TextureLoader().load( "./models/model2/lm/meta-lm-5.png" );
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = 0.5;
+            }
+
+            if (child.name === 'wall 003') {
+                var texture = new THREE.TextureLoader().load( "./models/model2/lm/wall-a-light.png" );
                 child.material.lightMap = texture;
                 child.material.lightMapIntensity = 0.5;
             }
@@ -181,7 +240,7 @@ function init() {
         pointLight.position.set(pos.x, pos.y, pos.z);
         // pointLight.angle = Math.PI / 8;
         pointLight.decay = 1;
-        pointLight.distance = 1.5;
+        pointLight.distance = 2;
         pointLight.penumbra = 0;
 
         if (gui && name) {
@@ -192,8 +251,8 @@ function init() {
         return pointLight;
     }
 
-    // var pointLight1 = makePointLight({ x: -0.5, y: 0.8, z: -1.8 });
-    // scene.add(pointLight1);
+    var pointLight1 = makePointLight({ x: 1.2, y: 1, z: -2.8 });
+    scene.add(pointLight1);
 
     // var pointLight2 = makePointLight({ x: 1.2, y: 0.8, z: -0.3 });
     // scene.add(pointLight2);
