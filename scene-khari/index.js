@@ -114,7 +114,6 @@ function init() {
     }
 
     loader.load('./models/model6/khari.dae', function (dae) {
-        model = dae.scene;
         for (var mat in dae.library.materials) {
             dae.library.materials[mat].build.alphaTest = 0.05;
             dae.library.materials[mat].build.side = THREE.DoubleSide;
@@ -123,11 +122,18 @@ function init() {
         
         hotspots = [];
 
-        model.traverse(function (child) {
+        dae.scene.traverse(function (child) {
             if (child.name.includes('hotspot')) {
                 hotspots.push(child);
             }
+
+            if (child.name === 'Plane002') {
+                var texture = new THREE.TextureLoader().load('./models//model6/Seamless-white-crease-paper-texture_NRM.jpg');
+                child.material.normalMap = texture;
+            }
         });
+
+        model = dae.scene;
     });
 
     // lights
