@@ -100,21 +100,15 @@ function init() {
     var loader = new ColladaLoader(loadingManager);
 
     loader.load("./models/model1/agent01.dae", function (dae) {
-        model = dae.scene;
         for (var mat in dae.library.materials) {
             dae.library.materials[mat].build.side = THREE.DoubleSide;
             dae.library.materials[mat].build.alphaTest = 0.05;
             dae.library.materials[mat].build.shininess = 30;
         }
-        model.scale.set(1.4, 1.4, 1.4);
-        model.position.set(3.2, -1, 0.8);
-
-
 
         agents = [];
         papers = [];
-
-        model.traverse(function (child) {
+        dae.scene.traverse(function (child) {
             child.castShadow = true;
             child.receiveShadow = true;
 
@@ -173,6 +167,9 @@ function init() {
             
         });
 
+        model = dae.scene;
+        model.scale.set(1.4, 1.4, 1.4);
+        model.position.set(3.2, -1, 0.8);
         outlinePass.selectedObjects = [].concat(papers, agents);
     });
 
