@@ -1,15 +1,19 @@
 import '@babel/polyfill';
 import * as TWEEN from './js/tween';
 import * as THREE from './build/three.module.js';
-// import Stats from './jsm/libs/stats.module.js';
-// import { GUI } from './jsm/libs/dat.gui.module.js';
+import Stats from './jsm/libs/stats.module.js';
+import { GUI } from './jsm/libs/dat.gui.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
+import { RenderPass } from './jsm/postprocessing/RenderPass.js';
+import { EffectComposer } from './jsm/postprocessing/EffectComposer.js';
+import { OutlinePass } from './jsm/postprocessing/OutlinePass.js';
 import lights from './js/lights';
 import Hammer from 'hammerjs';
 
 var container, stats, controls;
 var camera, scene, renderer;
+var composer, outlinePass;
 var model;
 var agents, papers;
 var mouse = new THREE.Vector2();
@@ -76,6 +80,8 @@ function init() {
         scene.add(model);
     });
 
+    var textureLoader = new THREE.TextureLoader();
+
     loadingManager.onProgress = function (url, loaded, total) {
         if (total === loaded) {
             setTimeout(function () {
@@ -96,7 +102,7 @@ function init() {
     loader.load("./models/model1/agent01.dae", function (dae) {
         model = dae.scene;
         for (var mat in dae.library.materials) {
-            // dae.library.materials[mat].build.side = THREE.DoubleSide;
+            dae.library.materials[mat].build.side = THREE.DoubleSide;
             dae.library.materials[mat].build.alphaTest = 0.05;
             dae.library.materials[mat].build.shininess = 30;
         }
@@ -119,7 +125,55 @@ function init() {
             if (child.name.includes('Paper')) {
                 papers.push(child);
             }
+
+            var lightMapIntensity = 0.3;
+
+            if (child.name === 'Box186') {
+                var texture = textureLoader.load( "./models/model1/wall-tiles-lm.png" );
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = lightMapIntensity;
+            }
+
+            if (child.name === 'floor') {
+                var texture = textureLoader.load( "./models/model1/floor-lm.png" );
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = lightMapIntensity;
+            }
+
+            if (child.name === 'wall-1') {
+                var texture = textureLoader.load( "./models/model1/wall-dark-lm.png" );
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = lightMapIntensity;
+            }
+
+            if (child.name === 'room') {
+                var texture = textureLoader.load( "./models/model1/walls-lm.png" );
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = lightMapIntensity;
+            }
+
+            if (child.name === 'Table_01') {
+                var texture = textureLoader.load( "./models/model1/table-lm.png" );
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = lightMapIntensity + 0.2;
+            }
+
+            if (child.name === 'Chair012') {
+                var texture = textureLoader.load( "./models/model1/chair-lm-1.png" );
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = lightMapIntensity;
+            }
+
+            if (child.name === 'chair004') {
+                var texture = textureLoader.load( "./models/model1/chair-lmn-2.png" );
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = lightMapIntensity;
+            }
+
+            
         });
+
+        outlinePass.selectedObjects = [].concat(papers, agents);
     });
 
     var gui;
@@ -150,10 +204,11 @@ function init() {
     controls.target.set(0, 1, 0);
     controls.zoomSpeed = 0.5;
     controls.maxPolarAngle = Math.PI / 1.95;
+    controls.minPolarAngle = Math.PI / 2.5;
     controls.update();
     //
-    // stats = new Stats();
-    // container.appendChild(stats.dom);
+    stats = new Stats();
+    container.appendChild(stats.dom);
     //
     window.addEventListener("resize", onWindowResize, false);
 
@@ -178,6 +233,23 @@ function init() {
     hammertime.on('tap', function (ev) {
         onDocumentClick(ev);
     });
+
+    // postprocessing
+
+    composer = new EffectComposer( renderer );
+
+    var renderPass = new RenderPass( scene, camera );
+    composer.addPass( renderPass );
+
+    outlinePass = new OutlinePass( new THREE.Vector2( window.innerWidth, window.innerHeight ), scene, camera );
+    outlinePass.edgeStrength = 4;
+    outlinePass.edgeGlow = 1;
+    outlinePass.edgeThickness = 3;
+    outlinePass.pulsePeriod = 5;
+    outlinePass.hiddenEdgeColor = new THREE.Color(0x000000);
+    composer.addPass( outlinePass );
+
+    //
 }
 
 var uiTooltips = document.getElementById('tooltips');
@@ -340,7 +412,8 @@ function animate() {
     requestAnimationFrame(animate);
     TWEEN.update();
     render();
-    // stats.update();
+    stats.update();
+    composer.render();
 }
 function render() {
     controls.update();

@@ -20,27 +20,27 @@ export default {
             gui.add(fireplaceLight, 'intensity', 0, 4).name("Firelight").step(0.01).listen();
         }
 
-        const spot1 = this.pictureLight({ x: 3.4, y: 2.1, z: 4.9 });
-        scene.add(spot1);
+        // const spot1 = this.pictureLight({ x: 3.4, y: 2.1, z: 4.9 });
+        // scene.add(spot1);
 
-        const spot2 = this.pictureLight({ x: -3.8, y: 2.1, z: 4.9 });
-        scene.add(spot2);
+        // const spot2 = this.pictureLight({ x: -3.8, y: 2.1, z: 4.9 });
+        // scene.add(spot2);
 
-        const spot3 = this.pictureLight({ x: -5.5, y: 2.1, z: 3 });
-        scene.add(spot3);
+        // const spot3 = this.pictureLight({ x: -5.5, y: 2.1, z: 3 });
+        // scene.add(spot3);
 
-        const spot4 = this.pictureLight({ x: -5.5, y: 2.1, z: 1.4 });
-        scene.add(spot4);
+        // const spot4 = this.pictureLight({ x: -5.5, y: 2.1, z: 1.4 });
+        // scene.add(spot4);
 
-        const spot5 = this.pictureLight({ x: -3.5, y: 2.1, z: -5.1 });
-        scene.add(spot5);
+        // const spot5 = this.pictureLight({ x: -3.5, y: 2.1, z: -5.1 });
+        // scene.add(spot5);
 
-        const spot6 = this.pictureLight({ x: -2.2, y: 2.1, z: -5.1 });
-        scene.add(spot6);
+        // const spot6 = this.pictureLight({ x: -2.2, y: 2.1, z: -5.1 });
+        // scene.add(spot6);
 
-        // const spot7 = this.pictureLight({ x: 2.2, y: 2.1, z: -5.1 }, "spot7");
-        const spot7 = this.pictureLight({ x: 2.2, y: 2.1, z: -5.1 });
-        scene.add(spot7);
+        // // const spot7 = this.pictureLight({ x: 2.2, y: 2.1, z: -5.1 }, "spot7");
+        // const spot7 = this.pictureLight({ x: 2.2, y: 2.1, z: -5.1 });
+        // scene.add(spot7);
 
         // Create a helper for the shadow camera (optional)
         // var helper = new THREE.CameraHelper( spotLight );
@@ -71,7 +71,7 @@ export default {
         spotLight.target = targetObject;
         spotLight.angle = Math.PI / 3;
         spotLight.decay = 1;
-        spotLight.distance = 10;
+        spotLight.distance = 2;
         spotLight.penumbra = 1;
         // spotLight.castShadow = true;
         spotLight.shadow.mapSize.width = 1024;
