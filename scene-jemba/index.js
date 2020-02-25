@@ -5,10 +5,14 @@ import * as THREE from './build/three.module.js';
 import { GUI } from './jsm/libs/dat.gui.module.js';
 import { OrbitControls } from './jsm/controls/OrbitControls.js';
 import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
+import { RenderPass } from './jsm/postprocessing/RenderPass.js';
+import { EffectComposer } from './jsm/postprocessing/EffectComposer.js';
+import { OutlinePass } from './jsm/postprocessing/OutlinePass.js';
 import Hammer from 'hammerjs';
 
 var container, stats, controls;
 var camera, scene, renderer;
+var composer, outlinePass;
 var model;
 var mouse = new THREE.Vector2();
 var raycaster = new THREE.Raycaster();
@@ -109,6 +113,8 @@ function init() {
                 hotspots.push(child);
             }
         });
+
+        outlinePass.selectedObjects = hotspots;
     });
 
     // lights
@@ -210,6 +216,23 @@ function init() {
         gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
         gui.add(camera.position, 'y', -50, 50).step(0.1).listen();
     }
+
+    // postprocessing
+
+    composer = new EffectComposer( renderer );
+
+    var renderPass = new RenderPass( scene, camera );
+    composer.addPass( renderPass );
+
+    outlinePass = new OutlinePass( new THREE.Vector2( window.innerWidth, window.innerHeight ), scene, camera );
+    outlinePass.edgeStrength = 4;
+    outlinePass.edgeGlow = 1;
+    outlinePass.edgeThickness = 3;
+    outlinePass.pulsePeriod = 5;
+    outlinePass.hiddenEdgeColor = new THREE.Color(0x000000);
+    composer.addPass( outlinePass );
+
+    //
 }
 
 var uiTooltips = document.getElementById('tooltips');
@@ -366,6 +389,7 @@ function animate() {
     requestAnimationFrame(animate);
     TWEEN.update();
     render();
+    composer.render();
     // stats.update();
 }
 function render() {

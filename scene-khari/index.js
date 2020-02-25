@@ -80,6 +80,8 @@ function init() {
         scene.add(model);
     });
 
+    var textureLoader = new THREE.TextureLoader();
+
     loadingManager.onProgress = function (url, loaded, total) {
         if (total === loaded) {
             setTimeout(function () {
@@ -97,27 +99,11 @@ function init() {
     // models
     var loader = new ColladaLoader(loadingManager);
 
-    function makeSprite(pos, name, showHelper = false) {
-        var spriteMap = new THREE.TextureLoader().load( "africa.svg" );
-        var spriteMaterial = new THREE.SpriteMaterial( { map: spriteMap, color: 0xffffff } );
-        var sprite = new THREE.Sprite( spriteMaterial );
-        sprite.position.set(pos.x, pos.y, pos.z);
-        sprite.scale.set(0.5,0.5,0.5);
-        sprite.name = name;
-
-        if (gui && name && showHelper) {
-            gui.add(sprite.position, 'z', -10, 10).name(name + 'z').step(0.1).listen();
-            gui.add(sprite.position, 'x', -10, 10).name(name + 'x').step(0.1).listen();
-            gui.add(sprite.position, 'y', -10, 10).name(name + 'y').step(0.1).listen();
-        }
-        return sprite;
-    }
-
     loader.load('./models/model6/khari.dae', function (dae) {
         for (var mat in dae.library.materials) {
             dae.library.materials[mat].build.alphaTest = 0.05;
             dae.library.materials[mat].build.side = THREE.DoubleSide;
-            dae.library.materials[mat].build.shininess = 30;
+            dae.library.materials[mat].build.shininess = 5;
         }
         
         hotspots = [];
@@ -127,13 +113,18 @@ function init() {
                 hotspots.push(child);
             }
 
-            if (child.name === 'Plane002') {
-                var texture = new THREE.TextureLoader().load('./models//model6/Seamless-white-crease-paper-texture_NRM.jpg');
-                child.material.normalMap = texture;
+            if (child.name === 'feather') {
+                child.material.normalMap = textureLoader.load('./models/model6/mask f_ copy_NRM.jpg');
+                child.material.normalScale = new THREE.Vector2(0.3, 0.3);
+            }
+
+            if (child.name === 'mask') {
+                child.material.bumpMap = textureLoader.load('./models/model6/mask_02___Default_Height.png');
+                child.material.bumpScale = 0.05;
             }
         });
 
-        model = dae.scene;
+        model = dae.scene;        
     });
 
     // lights
@@ -175,15 +166,15 @@ function init() {
     controls.dampingFactor = 0.03;
     controls.enablePan = false;
     controls.screenSpacePanning = false;
-    controls.minDistance = 2;
-    controls.maxDistance = 8;
+    controls.minDistance = 1;
+    controls.maxDistance = 6;
     controls.target.set(0, 1, 0);
     controls.zoomSpeed = 0.5;
     // Polar limits top bottom
-    // controls.maxPolarAngle = Math.PI / 1.95;
-    // controls.minPolarAngle = Math.PI / 2.5;
-    controls.maxAzimuthAngle = Math.PI / 2; 
-    controls.minAzimuthAngle = Math.PI / -2;
+    controls.maxPolarAngle = Math.PI / 1.6;
+    controls.minPolarAngle = Math.PI / 8;
+    controls.maxAzimuthAngle = Math.PI / 2.3; 
+    controls.minAzimuthAngle = Math.PI / -2.3;
     controls.update();
     //
     // stats = new Stats();
