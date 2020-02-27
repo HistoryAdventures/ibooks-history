@@ -114,11 +114,15 @@ function init() {
             }
 
             if (child.name === 'feather') {
-                child.material.normalMap = textureLoader.load('./models/model6/mask f_ copy_NRM.jpg');
+                child.material.color = new THREE.Color( 0xffffff );
+                // child.material.combine = THREE.AddOperation;
+                child.material.map = textureLoader.load('./models/model6/mask%20f_%20copy.png');
+                child.material.normalMap = textureLoader.load('./models/model6/mask%20f_%20copy_NRM.jpg');
                 child.material.normalScale = new THREE.Vector2(0.3, 0.3);
             }
 
             if (child.name === 'mask') {
+                child.material.color = new THREE.Color( 0xffeeee );
                 child.material.bumpMap = textureLoader.load('./models/model6/mask_02___Default_Height.png');
                 child.material.bumpScale = 0.05;
             }
