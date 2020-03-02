@@ -102,7 +102,7 @@ function init() {
     loader.load('./models/model6/khari.dae', function (dae) {
         for (var mat in dae.library.materials) {
             dae.library.materials[mat].build.alphaTest = 0.05;
-            dae.library.materials[mat].build.side = THREE.DoubleSide;
+            // dae.library.materials[mat].build.side = THREE.DoubleSide;
             dae.library.materials[mat].build.shininess = 5;
         }
         
@@ -123,8 +123,8 @@ function init() {
 
             if (child.name === 'mask') {
                 child.material.color = new THREE.Color( 0xffeeee );
-                child.material.bumpMap = textureLoader.load('./models/model6/mask_02___Default_Height.png');
-                child.material.bumpScale = 0.05;
+                child.material.bumpMap = textureLoader.load('./models/model6/Seamless-white-crease-paper-texture_NRM.jpg');
+                child.material.bumpScale = 0.015;
             }
         });
 
@@ -170,15 +170,15 @@ function init() {
     controls.dampingFactor = 0.03;
     controls.enablePan = false;
     controls.screenSpacePanning = false;
-    controls.minDistance = 1;
-    controls.maxDistance = 6;
+    controls.minDistance = 3;
+    controls.maxDistance = 9;
     controls.target.set(0, 1, 0);
     controls.zoomSpeed = 0.5;
     // Polar limits top bottom
     controls.maxPolarAngle = Math.PI / 1.6;
-    controls.minPolarAngle = Math.PI / 8;
-    controls.maxAzimuthAngle = Math.PI / 2.3; 
-    controls.minAzimuthAngle = Math.PI / -2.3;
+    controls.minPolarAngle = Math.PI / 5;
+    controls.maxAzimuthAngle = Math.PI / 3;
+    controls.minAzimuthAngle = Math.PI / -3;
     controls.update();
     //
     // stats = new Stats();
