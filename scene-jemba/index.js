@@ -101,7 +101,7 @@ function init() {
         for (var mat in dae.library.materials) {
             dae.library.materials[mat].build.alphaTest = 0.05;
             dae.library.materials[mat].build.side = THREE.DoubleSide;
-            dae.library.materials[mat].build.shininess = 30;
+            dae.library.materials[mat].build.shininess = 5;
         }
 
         model.scale.set(2,2,2);
@@ -111,6 +111,24 @@ function init() {
         model.traverse(function (child) {
             if (child.name.includes('hotspot')) {
                 hotspots.push(child);
+            }
+
+            if (child.name === 'rock') {
+                var texture = new THREE.TextureLoader().load( "./models/model6/stone-lm.png");
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = 0.3;
+            }
+
+            if (child.name === 'sand') {
+                var texture = new THREE.TextureLoader().load( "./models/model6/sand-lm.png");
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = 0.2;
+            }
+
+            if (child.name === 'water') {
+                var texture = new THREE.TextureLoader().load( "./models/model6/water-lm.png");
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = 0.5;
             }
         });
 
