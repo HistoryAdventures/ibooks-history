@@ -13,10 +13,11 @@ export default {
         scene.add(ambientLight);
         scene.add(fireplaceLight);
 
-        if (this.gui) {
+        if (window.location.hash === '#debug') {
             gui.add(ambientLight, 'intensity', 0, 4).name("Ambient light").step(0.01).listen();
             gui.add(mainLight, 'intensity', 0, 4).name("Spot light").step(0.01).listen();
             gui.add(mainLight, 'penumbra', 0, 1).name("Spot feather").step(0.01).listen();
+            gui.add(mainLight, 'distance', 0, 5).name("Distance").step(0.01).listen();
             gui.add(fireplaceLight, 'intensity', 0, 4).name("Firelight").step(0.01).listen();
         }
 
@@ -62,7 +63,7 @@ export default {
     },
     mainLight(scene) {
         var spotLight;
-        spotLight = new THREE.SpotLight(0xffffff, 1.47);
+        spotLight = new THREE.SpotLight(0xffffff, 3);
         spotLight.position.set(0, 1.8, 0);
 
         var targetObject = new THREE.Object3D();
@@ -71,7 +72,7 @@ export default {
         spotLight.target = targetObject;
         spotLight.angle = Math.PI / 3;
         spotLight.decay = 1;
-        spotLight.distance = 2;
+        spotLight.distance = 3;
         spotLight.penumbra = 1;
         // spotLight.castShadow = true;
         spotLight.shadow.mapSize.width = 1024;
@@ -82,7 +83,7 @@ export default {
         return spotLight;
     },
     ambientLight() {
-        return new THREE.AmbientLight(0xcccccc, 0.21);
+        return new THREE.AmbientLight(0xcccccc, 0.14);
     },
     pictureLight(pos, name) {
         var spotLight;

@@ -63,6 +63,7 @@ var features = {
 
 var selectedTooltip = null;
 var controlsSelectedTooltip = null;
+var gui;
 
 init();
 animate();
@@ -74,6 +75,10 @@ function init() {
     camera.position.set(-7, 5, 9);
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0x333333);
+
+    if (window.location.hash === '#debug') {
+        gui = new GUI();
+    }
 
     // loading manager
     var loadingManager = new THREE.LoadingManager(function () {
@@ -103,7 +108,7 @@ function init() {
         for (var mat in dae.library.materials) {
             dae.library.materials[mat].build.side = THREE.DoubleSide;
             dae.library.materials[mat].build.alphaTest = 0.05;
-            dae.library.materials[mat].build.shininess = 30;
+            dae.library.materials[mat].build.shininess = 5;
         }
 
         agents = [];
@@ -122,10 +127,16 @@ function init() {
 
             var lightMapIntensity = 0.3;
 
-            if (child.name === 'Box186') {
-                var texture = textureLoader.load( "./models/model1/wall-tiles-lm.png" );
+            // if (child.name === 'Box186') {
+            //     var texture = textureLoader.load( "./models/model1/wall-tiles-lm.png" );
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = lightMapIntensity;
+            // }
+
+            if (child.name.includes('frame') || child.name.includes('agent')) {
+                var texture = textureLoader.load( "./models/model1/frame-lm.png" );
                 child.material.lightMap = texture;
-                child.material.lightMapIntensity = lightMapIntensity;
+                child.material.lightMapIntensity = lightMapIntensity + 0.6;
             }
 
             if (child.name === 'floor') {
@@ -134,35 +145,35 @@ function init() {
                 child.material.lightMapIntensity = lightMapIntensity;
             }
 
-            if (child.name === 'wall-1') {
-                var texture = textureLoader.load( "./models/model1/wall-dark-lm.png" );
-                child.material.lightMap = texture;
-                child.material.lightMapIntensity = lightMapIntensity;
-            }
+            // if (child.name === 'wall-1') {
+            //     var texture = textureLoader.load( "./models/model1/wall-dark-lm.png" );
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = lightMapIntensity;
+            // }
 
-            if (child.name === 'room') {
-                var texture = textureLoader.load( "./models/model1/walls-lm.png" );
-                child.material.lightMap = texture;
-                child.material.lightMapIntensity = lightMapIntensity;
-            }
+            // if (child.name === 'room') {
+            //     var texture = textureLoader.load( "./models/model1/walls-lm.png" );
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = lightMapIntensity;
+            // }
 
-            if (child.name === 'Table_01') {
-                var texture = textureLoader.load( "./models/model1/table-lm.png" );
-                child.material.lightMap = texture;
-                child.material.lightMapIntensity = lightMapIntensity + 0.2;
-            }
+            // if (child.name === 'Table_01') {
+            //     var texture = textureLoader.load( "./models/model1/table-lm.png" );
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = lightMapIntensity + 0.2;
+            // }
 
-            if (child.name === 'Chair012') {
-                var texture = textureLoader.load( "./models/model1/chair-lm-1.png" );
-                child.material.lightMap = texture;
-                child.material.lightMapIntensity = lightMapIntensity;
-            }
+            // if (child.name === 'Chair012') {
+            //     var texture = textureLoader.load( "./models/model1/chair-lm-1.png" );
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = lightMapIntensity;
+            // }
 
-            if (child.name === 'chair004') {
-                var texture = textureLoader.load( "./models/model1/chair-lmn-2.png" );
-                child.material.lightMap = texture;
-                child.material.lightMapIntensity = lightMapIntensity;
-            }
+            // if (child.name === 'chair004') {
+            //     var texture = textureLoader.load( "./models/model1/chair-lmn-2.png" );
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = lightMapIntensity;
+            // }
 
             
         });
@@ -212,8 +223,6 @@ function init() {
     window.addEventListener("resize", onWindowResize, false);
 
     if (window.location.hash === '#debug') {
-        var gui = new GUI();
-
         //     gui.add(ambientLight, 'intensity', 0, 4).name("Ambient light").step(0.01).listen();
         //     gui.add(spotLight, 'intensity', 0, 4).name("Spot light").step(0.01).listen();
         //     gui.add(spotLight, 'penumbra', 0, 1).name("Spot feather").step(0.01).listen();
