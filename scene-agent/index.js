@@ -53,17 +53,26 @@ var cameraTargets = {
     Paper4: {
         x: 3.7, y: 3.8, z: 1.1
     },
-    
+
 };
 
 var features = {
     loader: true,
     navigation: true,
+    sfx: true,
 };
 
 var selectedTooltip = null;
 var controlsSelectedTooltip = null;
 var gui;
+var audioLib = {
+    papers: [],
+    lastPlayedPaperIndex: 0,
+    ambient: null,
+    muteButton: document.getElementById('mute-button'),
+    unmuteButton: document.getElementById('unmute-button'),
+    mute: false,
+};
 
 init();
 animate();
@@ -134,13 +143,13 @@ function init() {
             // }
 
             if (child.name.includes('frame') || child.name.includes('agent')) {
-                var texture = textureLoader.load( "./models/model1/frame-lm.png" );
+                var texture = textureLoader.load("./models/model1/frame-lm.png");
                 child.material.lightMap = texture;
                 child.material.lightMapIntensity = lightMapIntensity + 0.6;
             }
 
             if (child.name === 'floor') {
-                var texture = textureLoader.load( "./models/model1/floor-lm.png" );
+                var texture = textureLoader.load("./models/model1/floor-lm.png");
                 child.material.lightMap = texture;
                 child.material.lightMapIntensity = lightMapIntensity;
             }
@@ -175,13 +184,40 @@ function init() {
             //     child.material.lightMapIntensity = lightMapIntensity;
             // }
 
-            
+
         });
 
         model = dae.scene;
         model.scale.set(1.4, 1.4, 1.4);
         model.position.set(3.2, -1, 0.8);
         outlinePass.selectedObjects = [].concat(papers, agents);
+
+        // load sounds
+        if (features.sfx) {
+            audioLib.papers.push(new Audio('./audio/Agent 355 3d Accomplishment 1_1.m4a'));
+            audioLib.papers.push(new Audio('./audio/Agent 355 3d Accomplishment 2_1.m4a'));
+            audioLib.papers.push(new Audio('./audio/Agent 355 3d Accomplishment 3_1.m4a'));
+            audioLib.papers.push(new Audio('./audio/Agent 355 3d Accomplishment 4_1.m4a'));
+
+            audioLib.ambient = new Audio('./audio/Agent 355 3d Background.m4a');
+            audioLib.ambient.play();
+
+            audioLib.muteButton.addEventListener('click', () => {
+                audioLib.ambient.pause();
+                audioLib.muteButton.style.display = 'none';
+                audioLib.unmuteButton.style.display = 'block';
+                audioLib.mute = true;
+            });
+
+            audioLib.unmuteButton.addEventListener('click', () => {
+                audioLib.ambient.play();
+                audioLib.unmuteButton.style.display = 'none';
+                audioLib.muteButton.style.display = 'block';
+                audioLib.mute = false;
+            });
+        } else {
+            audioLib.muteButton.style.display = 'none';
+        }
     });
 
     var gui;
@@ -214,7 +250,7 @@ function init() {
     controls.maxPolarAngle = Math.PI / 1.95;
     controls.minPolarAngle = Math.PI / 2.5;
     controls.update();
-    
+
     if (window.location.hash === '#debug') {
         stats = new Stats();
         container.appendChild(stats.dom);
@@ -244,20 +280,18 @@ function init() {
 
     // postprocessing
 
-    composer = new EffectComposer( renderer );
+    composer = new EffectComposer(renderer);
 
-    var renderPass = new RenderPass( scene, camera );
-    composer.addPass( renderPass );
+    var renderPass = new RenderPass(scene, camera);
+    composer.addPass(renderPass);
 
-    outlinePass = new OutlinePass( new THREE.Vector2( window.innerWidth, window.innerHeight ), scene, camera );
+    outlinePass = new OutlinePass(new THREE.Vector2(window.innerWidth, window.innerHeight), scene, camera);
     outlinePass.edgeStrength = 4;
     outlinePass.edgeGlow = 1;
     outlinePass.edgeThickness = 3;
     outlinePass.pulsePeriod = 5;
     outlinePass.hiddenEdgeColor = new THREE.Color(0x000000);
-    composer.addPass( outlinePass );
-
-    //
+    composer.addPass(outlinePass);
 }
 
 var uiTooltips = document.getElementById('tooltips');
@@ -288,20 +322,11 @@ function onDocumentClick(event) {
     var activeTooltip = document.getElementById(selectedTooltip);
     toggleTooltip(activeTooltip);
 
-    var cameraTarget;
-
-    // console.log(camera.position);
-
     if (selectedTooltip) {
         controlsSelectedTooltip = selectedTooltip;
         setControlLabel(controlsSelectedTooltip);
         cameraTarget = cameraTargets[selectedTooltip];
     }
-
-    // removed this for intuitivity
-    // if (activeTooltip) {
-    //     setupTween(cameraTarget);
-    // }
 }
 
 function setupTween(target) {
@@ -339,6 +364,18 @@ function getIntersects(event) {
         var inter = raycaster.intersectObject(paper, true);
         if (inter.length) {
             interStack = interStack.concat(inter);
+            // play document sound
+            if (audioLib && audioLib.papers.length && !audioLib.mute) {
+                muteAllPapers();
+                let newAudioIndex = Math.floor(Math.random() * 4);
+                while (newAudioIndex === audioLib.lastPlayedPaperIndex) {
+                    newAudioIndex = Math.floor(Math.random() * 4);
+                }
+                audioLib.lastPlayedPaperIndex = newAudioIndex;
+                audioLib.papers[newAudioIndex].play();
+
+                throw Error('bad bad bad');
+            }
         }
     });
 
@@ -347,6 +384,15 @@ function getIntersects(event) {
     }
 
     return null;
+}
+
+function muteAllPapers() {
+    if (audioLib && audioLib.papers.length) {
+        audioLib.papers.forEach((audio) => {
+            audio.pause();
+            audio.currentTime = 0;
+        });
+    }
 }
 
 function toggleTooltip(activeTooltip) {
@@ -416,6 +462,7 @@ function onWindowResize() {
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
 }
+
 function animate() {
     requestAnimationFrame(animate);
     TWEEN.update();
