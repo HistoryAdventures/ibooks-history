@@ -1,8 +1,14 @@
-const path = require("path");
-const scene = "scene-jemba";
+const path = require('path');
 
 module.exports = {
-  entry: `./${scene}/index.js`,
+  entry: {
+    'scene-agent': './scene-agent/index.js',
+    'scene-chicago': './scene-chicago/index.js',
+    'scene-jemba': './scene-jemba/index.js',
+    'scene-khari': './scene-khari/index.js',
+    'scene-opium': './scene-opium/index.js',
+    'scene-video': './scene-video/index.js',
+  },
   mode: 'development',
   module: {
     rules: [
@@ -12,18 +18,23 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env'],
-            plugins: ["@babel/plugin-transform-template-literals"]
+            plugins: ['@babel/plugin-transform-template-literals']
           }
         }
       }
     ]
   },
   output: {
-    filename: "main.js",
-    path: path.resolve(__dirname, `./${scene}`)
+    filename: '[name]/main.js',
+    path: __dirname,
+  },
+  resolve: {
+    alias: {
+      '@scripts': path.resolve(__dirname, 'scripts'),
+    }
   },
   devServer: {
-    contentBase: `./${scene}`,
-    disableHostCheck: true
+    contentBase: './',
+    disableHostCheck: true,
   }
 };

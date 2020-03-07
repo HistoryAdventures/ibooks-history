@@ -1,4 +1,4 @@
-import * as THREE from '../build/three.module.js';
+import * as THREE from '@scripts/build/three.module.js';
 
 export default {
     setup(scene, gui) {

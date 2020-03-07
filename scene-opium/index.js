@@ -1,16 +1,16 @@
 import '@babel/polyfill';
-import * as TWEEN from './js/tween';
-import * as THREE from './build/three.module.js';
-import Stats from './jsm/libs/stats.module.js';
-import { GUI } from './jsm/libs/dat.gui.module.js';
-import { OrbitControls } from './jsm/controls/OrbitControls.js';
-import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
-// import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
+import * as TWEEN from '@scripts/js/tween';
+import * as THREE from '@scripts/build/three.module.js';
+import Stats from '@scripts/jsm/libs/stats.module.js';
+import { GUI } from '@scripts/jsm/libs/dat.gui.module.js';
+import { OrbitControls } from '@scripts/jsm/controls/OrbitControls.js';
+import { ColladaLoader } from '@scripts/jsm/loaders/ColladaLoader.js';
+// import { GLTFLoader } from '@scripts/jsm/loaders/GLTFLoader.js';
 
-import { RenderPass } from './jsm/postprocessing/RenderPass.js';
-import { EffectComposer } from './jsm/postprocessing/EffectComposer.js';
-import { OutlinePass } from './jsm/postprocessing/OutlinePass.js';
-import Hammer from 'hammerjs';
+import { RenderPass } from '@scripts/jsm/postprocessing/RenderPass.js';
+import { EffectComposer } from '@scripts/jsm/postprocessing/EffectComposer.js';
+import { OutlinePass } from '@scripts/jsm/postprocessing/OutlinePass.js';
+import Hammer from '@scripts/hammerjs';
 
 var container, stats, controls;
 var camera, scene, renderer;
@@ -49,7 +49,7 @@ animate();
 
 function init() {
     var gui;
-    if (process.env.NODE_ENV !== 'production') {
+    if (window.location.hash === '#debug') {
         gui = new GUI();
     }
 
@@ -95,7 +95,7 @@ function init() {
             }
 
             if (child.name === 'floor') {
-                var texture = new THREE.TextureLoader().load( "./models/model2/lm/floor-light.png" );
+                var texture = new THREE.TextureLoader().load("./models/model2/lm/floor-light.png");
                 child.material.lightMap = texture;
                 child.material.lightMapIntensity = 0.5;
             }
@@ -114,18 +114,18 @@ function init() {
 
 
             if (child.name === 'Table') {
-                var texture = new THREE.TextureLoader().load( "./models/model2/lm/table-light.png" );
+                var texture = new THREE.TextureLoader().load("./models/model2/lm/table-light.png");
                 child.material.lightMap = texture;
                 child.material.lightMapIntensity = 0.5;
             }
 
             // small table
             if (child.name === 'Rectangle02') {
-                var texture = new THREE.TextureLoader().load( "./models/model2/lm/table2-lm.png" );
+                var texture = new THREE.TextureLoader().load("./models/model2/lm/table2-lm.png");
                 child.material.lightMap = texture;
                 child.material.lightMapIntensity = 0.5;
             }
-            
+
             // if (child.name === 'mirror-back1') {
             //     var texture = new THREE.TextureLoader().load( "./models/model2/lm/" );
             //     child.material.lightMap = texture;
@@ -134,27 +134,27 @@ function init() {
 
             // metal scale top
             if (child.name === 'Box059') {
-                var texture = new THREE.TextureLoader().load( "./models/model2/lm/meta-lm-1.png" );
+                var texture = new THREE.TextureLoader().load("./models/model2/lm/meta-lm-1.png");
                 child.material.lightMap = texture;
                 child.material.lightMapIntensity = 0.5;
             }
 
             // chains
             if (child.name === 'Box28') {
-                var texture = new THREE.TextureLoader().load( "./models/model2/lm/meta-lm-4.png" );
+                var texture = new THREE.TextureLoader().load("./models/model2/lm/meta-lm-4.png");
                 child.material.lightMap = texture;
                 child.material.lightMapIntensity = 0.5;
             }
 
             // metal scale
             if (child.name === 'Box078') {
-                var texture = new THREE.TextureLoader().load( "./models/model2/lm/meta-lm-5.png" );
+                var texture = new THREE.TextureLoader().load("./models/model2/lm/meta-lm-5.png");
                 child.material.lightMap = texture;
                 child.material.lightMapIntensity = 0.5;
             }
 
             if (child.name === 'wall 003') {
-                var texture = new THREE.TextureLoader().load( "./models/model2/lm/wall-a-light.png" );
+                var texture = new THREE.TextureLoader().load("./models/model2/lm/wall-a-light.png");
                 child.material.lightMap = texture;
                 child.material.lightMapIntensity = 0.5;
             }
@@ -169,12 +169,12 @@ function init() {
     //     gltf.scene.traverse(function (child) {
     //         if (child.name.includes('hotspot')) {
     //             hotspots.push(child);
-                
+
     //         }
     //     });
 
     //     outlinePass.selectedObjects = hotspots;
-    
+
     //     model = gltf.scene;
     // });
 
@@ -301,26 +301,27 @@ function init() {
     controls.maxPolarAngle = Math.PI / 1.95;
     controls.minPolarAngle = Math.PI / 2.5;
     controls.update();
-    //
-    stats = new Stats();
-    container.appendChild(stats.dom);
-    //
+
+    if (window.location.hash === '#debug') {
+        stats = new Stats();
+        container.appendChild(stats.dom);
+    }
     window.addEventListener('resize', onWindowResize, false);
 
     // postprocessing
 
-    composer = new EffectComposer( renderer );
+    composer = new EffectComposer(renderer);
 
-    var renderPass = new RenderPass( scene, camera );
-    composer.addPass( renderPass );
+    var renderPass = new RenderPass(scene, camera);
+    composer.addPass(renderPass);
 
-    outlinePass = new OutlinePass( new THREE.Vector2( window.innerWidth, window.innerHeight ), scene, camera );
+    outlinePass = new OutlinePass(new THREE.Vector2(window.innerWidth, window.innerHeight), scene, camera);
     outlinePass.edgeStrength = 4;
     outlinePass.edgeGlow = 1;
     outlinePass.edgeThickness = 3;
     outlinePass.pulsePeriod = 5;
     outlinePass.hiddenEdgeColor = new THREE.Color(0x000000);
-    composer.addPass( outlinePass );
+    composer.addPass(outlinePass);
 
     //
 
@@ -329,7 +330,7 @@ function init() {
         onDocumentClick(ev);
     });
 
-    if (process.env.NODE_ENV !== 'production' && gui) {
+    if (window.location.hash === '#debug') {
         //     gui.add(ambientLight, 'intensity', 0, 4).name("Ambient light").step(0.01).listen();
         //     gui.add(spotLight, 'intensity', 0, 4).name("Spot light").step(0.01).listen();
         //     gui.add(spotLight, 'penumbra', 0, 1).name("Spot feather").step(0.01).listen();
@@ -507,7 +508,9 @@ function animate() {
     requestAnimationFrame(animate);
     TWEEN.update();
     render();
-    stats.update();
+    if (window.location.hash === '#debug') {
+        stats.update();
+    }
     composer.render();
 }
 function render() {

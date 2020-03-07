@@ -1,11 +1,11 @@
 import '@babel/polyfill';
-import * as TWEEN from './js/tween';
-import * as THREE from './build/three.module.js';
-// import Stats from './jsm/libs/stats.module.js';
-import { GUI } from './jsm/libs/dat.gui.module.js';
-import { OrbitControls } from './jsm/controls/OrbitControls.js';
-import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
-import Hammer from 'hammerjs';
+import * as TWEEN from '@scripts/js/tween';
+import * as THREE from '@scripts/build/three.module.js';
+import Stats from '@scripts/jsm/libs/stats.module.js';
+import { GUI } from '@scripts/jsm/libs/dat.gui.module.js';
+import { OrbitControls } from '@scripts/jsm/controls/OrbitControls.js';
+import { ColladaLoader } from '@scripts/jsm/loaders/ColladaLoader.js';
+import Hammer from '@scripts/hammerjs';
 
 var container, stats, controls;
 var camera, scene, renderer;
@@ -43,9 +43,9 @@ animate();
 
 function init() {
     var gui;
-    // if (process.env.NODE_ENV !== 'production') {
-    //     gui = new GUI();
-    // }
+    if (window.location.hash === '#debug') {
+        gui = new GUI();
+    }
 
     container = document.getElementById('container');
 
@@ -84,7 +84,7 @@ function init() {
             dae.library.materials[mat].build.shininess = 30;
         }
 
-        model.scale.set(4,4,4);
+        model.scale.set(4, 4, 4);
 
         hotspots = [];
 
@@ -141,10 +141,11 @@ function init() {
     controls.maxPolarAngle = Math.PI / 1.9;
     // controls.minPolarAngle = Math.PI / 4;
     controls.update();
-    //
-    // stats = new Stats();
-    // container.appendChild( stats.dom );
-    //
+
+    if (window.location.hash === '#debug') {
+        stats = new Stats();
+        container.appendChild(stats.dom);
+    }
     window.addEventListener('resize', onWindowResize, false);
 
     var hammertime = new Hammer(document.querySelector('#container'), {});
@@ -152,7 +153,7 @@ function init() {
         onDocumentClick(ev);
     });
 
-    if (process.env.NODE_ENV !== 'production' && gui) {
+    if (window.location.hash === '#debug') {
         //     gui.add(ambientLight, 'intensity', 0, 4).name("Ambient light").step(0.01).listen();
         //     gui.add(spotLight, 'intensity', 0, 4).name("Spot light").step(0.01).listen();
         //     gui.add(spotLight, 'penumbra', 0, 1).name("Spot feather").step(0.01).listen();
@@ -204,7 +205,7 @@ function onDocumentClick(event) {
 
         if (selectedTooltip.includes("opium")) {
             selectedTooltip = "hotspot-opium1";
-        } 
+        }
 
         controlsSelectedTooltip = selectedTooltip;
         setControlLabel(controlsSelectedTooltip);
@@ -317,18 +318,22 @@ function addControls() {
     });
 }
 
-
 function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
 }
+
 function animate() {
     requestAnimationFrame(animate);
     TWEEN.update();
     render();
-    // stats.update();
+
+    if (window.location.hash === '#debug') {
+        stats.update();
+    }
 }
+
 function render() {
     controls.update();
     renderer.render(scene, camera);

@@ -1,11 +1,11 @@
 import '@babel/polyfill';
-import * as TWEEN from './js/tween';
-import * as THREE from './build/three.module.js';
-// import Stats from './jsm/libs/stats.module.js';
-import { GUI } from './jsm/libs/dat.gui.module.js';
-import { OrbitControls } from './jsm/controls/OrbitControls.js';
-import { ColladaLoader } from './jsm/loaders/ColladaLoader.js';
-import Hammer from '../shared/hammer';
+import * as TWEEN from '@scripts/js/tween';
+import * as THREE from '@scripts/build/three.module.js';
+import Stats from '@scripts/jsm/libs/stats.module.js';
+import { GUI } from '@scripts/jsm/libs/dat.gui.module.js';
+import { OrbitControls } from '@scripts/jsm/controls/OrbitControls.js';
+import { ColladaLoader } from '@scripts/jsm/loaders/ColladaLoader.js';
+import Hammer from '@scripts/hammerjs';
 
 var container, stats, controls;
 var camera, scene, renderer;
@@ -64,9 +64,9 @@ animate();
 
 function init() {
     var gui;
-    // if (process.env.NODE_ENV !== 'production') {
-    //     gui = new GUI();
-    // }
+    if (window.location.hash === '#debug') {
+        gui = new GUI();
+    }
 
     container = document.getElementById('container');
 
@@ -105,7 +105,7 @@ function init() {
             // dae.library.materials[mat].build.side = THREE.DoubleSide;
             dae.library.materials[mat].build.shininess = 5;
         }
-        
+
         hotspots = [];
 
         dae.scene.traverse(function (child) {
@@ -114,7 +114,7 @@ function init() {
             }
 
             if (child.name === 'feather') {
-                child.material.color = new THREE.Color( 0xffffff );
+                child.material.color = new THREE.Color(0xffffff);
                 // child.material.combine = THREE.AddOperation;
                 child.material.map = textureLoader.load('./models/model6/mask%20f_%20copy.png');
                 child.material.normalMap = textureLoader.load('./models/model6/mask%20f_%20copy_NRM.jpg');
@@ -122,13 +122,13 @@ function init() {
             }
 
             if (child.name === 'mask') {
-                child.material.color = new THREE.Color( 0xffeeee );
+                child.material.color = new THREE.Color(0xffeeee);
                 child.material.bumpMap = textureLoader.load('./models/model6/Seamless-white-crease-paper-texture_NRM.jpg');
                 child.material.bumpScale = 0.015;
             }
         });
 
-        model = dae.scene;        
+        model = dae.scene;
     });
 
     // lights
@@ -180,10 +180,11 @@ function init() {
     controls.maxAzimuthAngle = Math.PI / 3;
     controls.minAzimuthAngle = Math.PI / -3;
     controls.update();
-    //
-    // stats = new Stats();
-    // container.appendChild( stats.dom );
-    //
+
+    if (window.location.hash === '#debug') {
+        stats = new Stats();
+        container.appendChild(stats.dom);
+    }
     window.addEventListener('resize', onWindowResize, false);
 
 
@@ -191,8 +192,7 @@ function init() {
     hammertime.on('tap', function (ev) {
         onDocumentClick(ev);
     });
-
-    if (process.env.NODE_ENV !== 'production' && gui) {
+    if (window.location.hash === '#debug') {
         //     gui.add(ambientLight, 'intensity', 0, 4).name("Ambient light").step(0.01).listen();
         //     gui.add(spotLight, 'intensity', 0, 4).name("Spot light").step(0.01).listen();
         //     gui.add(spotLight, 'penumbra', 0, 1).name("Spot feather").step(0.01).listen();
@@ -352,18 +352,21 @@ function addControls() {
     });
 }
 
-
 function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
 }
+
 function animate() {
     requestAnimationFrame(animate);
     TWEEN.update();
     render();
-    // stats.update();
+    if (window.location.hash === '#debug') {
+        stats.update();
+    }
 }
+
 function render() {
     controls.update();
     renderer.render(scene, camera);
