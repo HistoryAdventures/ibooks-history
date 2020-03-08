@@ -75,6 +75,7 @@ function init() {
 
     // models
     var loader = new ColladaLoader(loadingManager);
+    var textureLoader = new THREE.TextureLoader();
 
     loader.load('./models/model6/chicago.dae', function (dae) {
         model = dae.scene;
@@ -91,6 +92,13 @@ function init() {
         model.traverse(function (child) {
             if (child.name.includes('hotspot')) {
                 hotspots.push(child);
+            }
+            
+            const lightMapIntensity = 0.3;
+            if (child.name.includes('sky')) {
+                var texture = textureLoader.load("./models/model6/frame-lm.png");
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = lightMapIntensity + 0.3;
             }
         });
     });
