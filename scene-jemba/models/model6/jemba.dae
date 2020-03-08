@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-02-21, commit time:10:41, hash:8928d99</authoring_tool>
     </contributor>
-    <created>2020-03-04T23:24:06</created>
-    <modified>2020-03-04T23:24:06</modified>
+    <created>2020-03-08T15:08:37</created>
+    <modified>2020-03-08T15:08:37</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -18955,7 +18955,7 @@
         </instance_geometry>
       </node>
       <node id="hotspot-aborigines" name="hotspot-aborigines" type="NODE">
-        <matrix sid="transform">0.01150037 0 0 0.1286668 0 0.01150037 5.02697e-10 -1.79255 0 -5.02697e-10 0.01150037 -1.161465 0 0 0 1</matrix>
+        <matrix sid="transform">0.01150037 0 0 0.107606 0 0.01150037 5.02697e-10 -1.79255 0 -5.02697e-10 0.01150037 -1.161465 0 0 0 1</matrix>
         <instance_geometry url="#Untitled_044-mesh" name="hotspot-aborigines">
           <bind_material>
             <technique_common>
@@ -18965,7 +18965,7 @@
         </instance_geometry>
       </node>
       <node id="hotspot-settlers" name="hotspot-settlers" type="NODE">
-        <matrix sid="transform">0.01150037 0 0 0.1408558 0 0.01150037 5.02697e-10 -1.773198 0 -5.02697e-10 0.01150037 -1.161465 0 0 0 1</matrix>
+        <matrix sid="transform">0.01150037 0 0 0.1408558 0 0.01150037 5.02697e-10 -1.757218 0 -5.02697e-10 0.01150037 -1.161465 0 0 0 1</matrix>
         <instance_geometry url="#Untitled_383-mesh" name="hotspot-settlers">
           <bind_material>
             <technique_common>
@@ -18975,7 +18975,7 @@
         </instance_geometry>
       </node>
       <node id="hotspot-officials" name="hotspot-officials" type="NODE">
-        <matrix sid="transform">0.01150037 0 0 0.1408558 0 0.01150037 5.02697e-10 -1.781173 0 -5.02697e-10 0.01150037 -1.161465 0 0 0 1</matrix>
+        <matrix sid="transform">0.01150037 0 0 0.1408558 0 0.01150037 5.02697e-10 -1.769347 0 -5.02697e-10 0.01150037 -1.161465 0 0 0 1</matrix>
         <instance_geometry url="#Untitled_385-mesh" name="hotspot-officials">
           <bind_material>
             <technique_common>

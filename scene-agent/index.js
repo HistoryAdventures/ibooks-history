@@ -373,8 +373,6 @@ function getIntersects(event) {
                 }
                 audioLib.lastPlayedPaperIndex = newAudioIndex;
                 audioLib.papers[newAudioIndex].play();
-
-                throw Error('bad bad bad');
             }
         }
     });

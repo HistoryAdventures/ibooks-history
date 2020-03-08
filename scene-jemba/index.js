@@ -40,6 +40,20 @@ var controlsSelectedTooltip = null;
 var features = {
     loader: true,
     navigation: true,
+    sfx: true,
+};
+var audioLib = {
+    ambient: null,
+    muteButton: document.getElementById('mute-button'),
+    unmuteButton: document.getElementById('unmute-button'),
+    mute: false,
+    hotspots: {
+        "hotspot-aborigines": null,
+        "hotspot-camps": null,
+        "hotspot-officials": null,
+        "hotspot-settlers": null,
+        "hotspot-ship": null,
+    }
 };
 
 init();
@@ -133,6 +147,34 @@ function init() {
         });
 
         outlinePass.selectedObjects = hotspots;
+
+        // load sounds
+        if (features.sfx) {
+            audioLib.hotspots["hotspot-aborigines"] = new Audio('./audio/Jiemba 3d Imperial Aborigines.m4a');
+            audioLib.hotspots["hotspot-ship"] = new Audio('./audio/2020-03-08 15.39.58.m4a');
+            audioLib.hotspots["hotspot-camps"] = new Audio('./audio/Jiemba 3d Imperial First Colony.m4a');
+            audioLib.hotspots["hotspot-officials"] = new Audio('./audio/Jiemba 3d Imperial Competition.m4a');
+            audioLib.hotspots["hotspot-settlers"] = new Audio('./audio/2020-03-08 15.40.15.m4a');
+
+            audioLib.ambient = new Audio('./audio/Jiemba 3d Background_1.m4a');
+            audioLib.ambient.play();
+
+            audioLib.muteButton.addEventListener('click', () => {
+                audioLib.ambient.pause();
+                audioLib.muteButton.style.display = 'none';
+                audioLib.unmuteButton.style.display = 'block';
+                audioLib.mute = true;
+            });
+
+            audioLib.unmuteButton.addEventListener('click', () => {
+                audioLib.ambient.play();
+                audioLib.unmuteButton.style.display = 'none';
+                audioLib.muteButton.style.display = 'block';
+                audioLib.mute = false;
+            });
+        } else {
+            audioLib.muteButton.style.display = 'none';
+        }
     });
 
     // lights
@@ -326,6 +368,12 @@ function getIntersects(event) {
         var inter = raycaster.intersectObject(agent, true);
         if (inter.length) {
             interStack = interStack.concat(inter);
+
+            // play document sound
+            if (audioLib && audioLib.hotspots && !audioLib.mute) {
+                muteAllHotspots();
+                audioLib.hotspots[inter[0].object.name].play();
+            }
         }
     });
 
@@ -334,6 +382,16 @@ function getIntersects(event) {
     }
 
     return null;
+}
+
+
+function muteAllHotspots() {
+    if (audioLib && audioLib.hotspots.length) {
+        Object.keys(audioLib.hotspots).forEach((key) => {
+            audioLib.hotspots[key].pause();
+            audioLib.hotspots[key].currentTime = 0;
+        });
+    }
 }
 
 function toggleTooltip(activeTooltip) {
