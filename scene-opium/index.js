@@ -15,7 +15,7 @@ import Hammer from '@scripts/hammerjs';
 var container, stats, controls;
 var camera, scene, renderer;
 var composer, outlinePass;
-var model;
+var model, modelScales, modelBalls, modelMirror, modelTable;
 var mouse = new THREE.Vector2();
 var raycaster = new THREE.Raycaster();
 
@@ -58,11 +58,15 @@ function init() {
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
     camera.position.set(-6, 5, -9);
     scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x333333);
+    scene.background = new THREE.Color(0x000000);
 
     // loading manager
     var loadingManager = new THREE.LoadingManager(function () {
         scene.add(model);
+        scene.add(modelScales);
+        scene.add(modelBalls);
+        scene.add(modelMirror);
+        scene.add(modelTable);
     });
 
     loadingManager.onProgress = function (url, loaded, total) {
@@ -95,9 +99,9 @@ function init() {
             }
 
             if (child.name === 'floor') {
-                var texture = new THREE.TextureLoader().load("./models/model2/lm/floor-light.png");
+                var texture = new THREE.TextureLoader().load("./models/model2/floor-lm.png");
                 child.material.lightMap = texture;
-                child.material.lightMapIntensity = 0.5;
+                child.material.lightMapIntensity = 0.3;
             }
 
             // if (child.name === 'kolona2') {
@@ -113,18 +117,18 @@ function init() {
             // }
 
 
-            if (child.name === 'Table') {
-                var texture = new THREE.TextureLoader().load("./models/model2/lm/table-light.png");
-                child.material.lightMap = texture;
-                child.material.lightMapIntensity = 0.5;
-            }
+            // if (child.name === 'Table') {
+            //     var texture = new THREE.TextureLoader().load("./models/model2/lm/table-light.png");
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = 0.5;
+            // }
 
-            // small table
-            if (child.name === 'Rectangle02') {
-                var texture = new THREE.TextureLoader().load("./models/model2/lm/table2-lm.png");
-                child.material.lightMap = texture;
-                child.material.lightMapIntensity = 0.5;
-            }
+            // // small table
+            // if (child.name === 'Rectangle02') {
+            //     var texture = new THREE.TextureLoader().load("./models/model2/lm/table2-lm.png");
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = 0.5;
+            // }
 
             // if (child.name === 'mirror-back1') {
             //     var texture = new THREE.TextureLoader().load( "./models/model2/lm/" );
@@ -133,34 +137,50 @@ function init() {
             // }
 
             // metal scale top
-            if (child.name === 'Box059') {
-                var texture = new THREE.TextureLoader().load("./models/model2/lm/meta-lm-1.png");
-                child.material.lightMap = texture;
-                child.material.lightMapIntensity = 0.5;
-            }
+            // if (child.name === 'Box059') {
+            //     var texture = new THREE.TextureLoader().load("./models/model2/lm/meta-lm-1.png");
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = 0.5;
+            // }
 
-            // chains
-            if (child.name === 'Box28') {
-                var texture = new THREE.TextureLoader().load("./models/model2/lm/meta-lm-4.png");
-                child.material.lightMap = texture;
-                child.material.lightMapIntensity = 0.5;
-            }
+            // // chains
+            // if (child.name === 'Box28') {
+            //     var texture = new THREE.TextureLoader().load("./models/model2/lm/meta-lm-4.png");
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = 0.5;
+            // }
 
-            // metal scale
-            if (child.name === 'Box078') {
-                var texture = new THREE.TextureLoader().load("./models/model2/lm/meta-lm-5.png");
-                child.material.lightMap = texture;
-                child.material.lightMapIntensity = 0.5;
-            }
+            // // metal scale
+            // if (child.name === 'Box078') {
+            //     var texture = new THREE.TextureLoader().load("./models/model2/lm/meta-lm-5.png");
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = 0.5;
+            // }
 
-            if (child.name === 'wall 003') {
-                var texture = new THREE.TextureLoader().load("./models/model2/lm/wall-a-light.png");
-                child.material.lightMap = texture;
-                child.material.lightMapIntensity = 0.5;
-            }
+            // if (child.name === 'wall 003') {
+            //     var texture = new THREE.TextureLoader().load("./models/model2/lm/wall-a-light.png");
+            //     child.material.lightMap = texture;
+            //     child.material.lightMapIntensity = 0.5;
+            // }
         });
 
         outlinePass.selectedObjects = hotspots;
+    });
+
+    loader.load('./models/model2/opium-scales.dae', function (dae) {
+        modelScales = dae.scene;
+    });
+
+    loader.load('./models/model2/balls-on-ground.dae', function (dae) {
+        modelBalls = dae.scene;
+    });
+
+    loader.load('./models/model2/mirror.dae', function (dae) {
+        modelMirror = dae.scene;
+    });
+
+    loader.load('./models/model2/table.dae', function (dae) {
+        modelTable = dae.scene;
     });
 
     // var loader = new GLTFLoader(loadingManager);
@@ -184,23 +204,24 @@ function init() {
     // var directionalLight = new THREE.DirectionalLight(0xffffff, 0.4);
     // directionalLight.position.set(0, 1, 1).normalize();
     // // scene.add(directionalLight);
-    // var spotLight;
-    // spotLight = new THREE.SpotLight(0xffffff, 1);
-    // spotLight.position.set(0.2, 2.1, -1.1);
-    // var targetObject = new THREE.Object3D();
-    // targetObject.position.set(0, 0, 0);
-    // scene.add(targetObject);
-    // spotLight.target = targetObject;
-    // spotLight.angle = Math.PI / 2.5;
-    // spotLight.penumbra = 0.6;
-    // spotLight.decay = 0.2;
-    // spotLight.distance = 50;
-    // spotLight.castShadow = true;
-    // spotLight.shadow.mapSize.width = 1024;
-    // spotLight.shadow.mapSize.height = 1024;
-    // spotLight.shadow.camera.near = 1;
-    // spotLight.shadow.camera.far = 50;
-    // scene.add(spotLight);
+    var spotLight;
+    spotLight = new THREE.SpotLight(0xffffff, 1);
+    // z 00.5 x 0.2 y 2.23
+    spotLight.position.set(1, 2.24, -1);
+    var targetObject = new THREE.Object3D();
+    targetObject.position.set(0, 0, 0);
+    scene.add(targetObject);
+    spotLight.target = targetObject;
+    spotLight.angle = Math.PI / 3;
+    spotLight.penumbra = 0.6;
+    spotLight.decay = 0.2;
+    spotLight.distance = 50;
+    spotLight.castShadow = true;
+    spotLight.shadow.mapSize.width = 1024;
+    spotLight.shadow.mapSize.height = 1024;
+    spotLight.shadow.camera.near = 1;
+    spotLight.shadow.camera.far = 50;
+    scene.add(spotLight);
 
     // var spotLight2;
     // spotLight2 = new THREE.SpotLight(0xffffff, 1);
@@ -254,8 +275,8 @@ function init() {
     var pointLight1 = makePointLight({ x: 1.2, y: 1, z: -2.8 });
     scene.add(pointLight1);
 
-    // var pointLight2 = makePointLight({ x: 1.2, y: 0.8, z: -0.3 });
-    // scene.add(pointLight2);
+    var pointLight2 = makePointLight({ x: 1.2, y: 1.2, z: -1.5 });
+    scene.add(pointLight2);
 
     // var pointLight21 = makePointLight({ x: 1.2, y: 0.8, z: 0.6});
     // scene.add(pointLight21);
@@ -331,14 +352,13 @@ function init() {
     });
 
     if (window.location.hash === '#debug') {
-        //     gui.add(ambientLight, 'intensity', 0, 4).name("Ambient light").step(0.01).listen();
-        //     gui.add(spotLight, 'intensity', 0, 4).name("Spot light").step(0.01).listen();
-        //     gui.add(spotLight, 'penumbra', 0, 1).name("Spot feather").step(0.01).listen();
-        //     gui.add(fireLight, 'intensity', 0, 4).name("Firelight").step(0.01).listen();
+        gui.add(ambientLight, 'intensity', 0, 4).name("Ambient light").step(0.01).listen();
+        gui.add(spotLight, 'intensity', 0, 4).name("Spot light").step(0.01).listen();
+        gui.add(spotLight, 'penumbra', 0, 1).name("Spot feather").step(0.01).listen();
 
-        //     // gui.add(fireLight.position, 'z', -50, 50).name('fire z').step(0.1).listen();
-        //     // gui.add(fireLight.position, 'x', -50, 50).name('fire x').step(0.1).listen();
-        //     // gui.add(fireLight.position, 'y', -50, 50).name('fire y').step(0.1).listen();
+        gui.add(spotLight.position, 'z', -50, 50).name("Spot z").step(0.01).listen();
+        gui.add(spotLight.position, 'x', -50, 50).name("Spot x").step(0.01).listen();
+        gui.add(spotLight.position, 'y', -50, 50).name("Spot y").step(0.01).listen();
 
         gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
         gui.add(camera.position, 'x', -50, 50).step(0.1).listen();

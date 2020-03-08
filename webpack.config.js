@@ -9,7 +9,7 @@ module.exports = {
     'scene-opium': './scene-opium/index.js',
     'scene-video': './scene-video/index.js',
   },
-  mode: 'development',
+  mode: 'production',
   module: {
     rules: [
       {
