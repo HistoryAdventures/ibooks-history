@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-02-21, commit time:10:41, hash:8928d99</authoring_tool>
     </contributor>
-    <created>2020-03-08T14:24:33</created>
-    <modified>2020-03-08T14:24:33</modified>
+    <created>2020-03-08T16:19:25</created>
+    <modified>2020-03-08T16:19:25</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -2764,7 +2764,7 @@
         </instance_geometry>
       </node>
       <node id="hotspot-paper1" name="hotspot-paper1" type="NODE">
-        <matrix sid="transform">0.004317306 1.58347e-9 0.009020026 -0.5408538 0.009020026 -4.6536e-10 -0.004317306 1.663852 -2.63878e-10 0.01 -1.62921e-9 -4.65661e-10 0 0 0 1</matrix>
+        <matrix sid="transform">0.004317306 1.58347e-9 0.009020026 -0.5408538 0.009020026 -4.6536e-10 -0.004317306 1.663852 -2.63878e-10 0.01 -1.62921e-9 0.01535426 0 0 0 1</matrix>
         <instance_geometry url="#Untitled_050-mesh" name="hotspot-paper1">
           <bind_material>
             <technique_common>
@@ -2818,7 +2818,7 @@
       <node id="Mirror" name="Mirror" type="NODE">
         <matrix sid="transform">-0.004038441 -0.009148278 7.73057e-11 1.115434 0.009148278 -0.004038441 4.30224e-10 1.905744 -3.62361e-10 2.44465e-10 0.01 0.7836113 0 0 0 1</matrix>
         <node id="hotspot-mirror-back" name="hotspot-mirror-back" type="NODE">
-          <matrix sid="transform">-0.626781 -0.04848294 -0.8795452 0.2018738 -0.8808793 0.0327089 0.6259286 0.03392029 -0.001459522 1.07953 -0.05846655 18.0708 0 0 0 1</matrix>
+          <matrix sid="transform">-0.6056973 -0.04685206 -0.849959 2.035309 -0.8512482 0.03160864 0.6048735 -0.7754364 -0.001410426 1.043217 -0.05649984 18.0708 0 0 0 1</matrix>
           <instance_geometry url="#Untitled_093-mesh" name="hotspot-mirror-back">
             <bind_material>
               <technique_common>
@@ -2827,9 +2827,9 @@
             </bind_material>
           </instance_geometry>
         </node>
-        <node id="Plane035" name="Plane035" type="NODE">
-          <matrix sid="transform">-0.5898638 -0.04562745 -0.8277409 -2.633652 -0.8289964 0.03078254 0.5890615 1.946945 -0.001373465 1.015946 -0.05502314 18.0708 0 0 0 1</matrix>
-          <instance_geometry url="#Untitled_106-mesh" name="Plane035">
+        <node id="hotspot-mirror-front" name="hotspot-mirror-front" type="NODE">
+          <matrix sid="transform">-0.5898638 -0.04562745 -0.8277409 -4.370712 -0.8289964 0.03078254 0.5890615 2.71376 -0.001373465 1.015946 -0.05502314 18.0708 0 0 0 1</matrix>
+          <instance_geometry url="#Untitled_106-mesh" name="hotspot-mirror-front">
             <bind_material>
               <technique_common>
                 <instance_material symbol="_5_-_Default-material" target="#_5_-_Default-material"/>
@@ -3145,9 +3145,9 @@
         </instance_geometry>
       </node>
       <node id="PictureOnWall" name="PictureOnWall" type="NODE">
-        <matrix sid="transform">0.01 0 0 -1.808063 0 0.01 4.37114e-10 -3.968013 0 -4.37114e-10 0.01 1.301497 0 0 0 1</matrix>
+        <matrix sid="transform">0.01 0 0 -1.808063 0 0.01 4.37114e-10 -3.899309 0 -4.37114e-10 0.01 1.301497 0 0 0 1</matrix>
         <node id="Cylinder006" name="Cylinder006" type="NODE">
-          <matrix sid="transform">-2.8213e-7 -2.8213e-7 -1 55.2902 -1 -2.98023e-8 2.8213e-7 3.05176e-5 1.3909e-8 1 -2.8213e-7 89.8492 0 0 0 1</matrix>
+          <matrix sid="transform">-2.8213e-7 -2.8213e-7 -0.9999999 55.29019 -1 -2.98022e-8 5.14547e-7 3.05176e-5 -2.42379e-8 1 -3.59705e-7 89.84918 0 0 0 1</matrix>
           <instance_geometry url="#Untitled_027-mesh" name="Cylinder006">
             <bind_material>
               <technique_common>
@@ -3157,7 +3157,7 @@
           </instance_geometry>
         </node>
         <node id="Cylinder007" name="Cylinder007" type="NODE">
-          <matrix sid="transform">-2.8213e-7 -2.8213e-7 -1 55.2902 -1 -2.98023e-8 2.8213e-7 3.05176e-5 1.3909e-8 1 -2.8213e-7 -89.84917 0 0 0 1</matrix>
+          <matrix sid="transform">-2.8213e-7 -2.8213e-7 -0.9999999 55.29019 -1 -2.98022e-8 5.14547e-7 3.05176e-5 -2.42379e-8 1 -3.59705e-7 -89.84918 0 0 0 1</matrix>
           <instance_geometry url="#Untitled_119-mesh" name="Cylinder007">
             <bind_material>
               <technique_common>
@@ -3167,7 +3167,7 @@
           </instance_geometry>
         </node>
         <node id="hotspot-emperor" name="hotspot-emperor" type="NODE">
-          <matrix sid="transform">-0.923465 -4.98266e-14 1.583e-7 -0.6101074 1.39439e-7 1.87068e-7 1.048375 0.04891968 -6.88863e-14 1.148213 -2.16628e-7 0.1562347 0 0 0 1</matrix>
+          <matrix sid="transform">-0.923465 -4.98266e-14 1.583e-7 -0.6101074 3.54068e-7 1.87068e-7 1.048375 0.04891968 -7.16381e-8 1.148213 -1.76636e-7 0.1562195 0 0 0 1</matrix>
           <instance_geometry url="#Untitled_016-mesh" name="hotspot-emperor">
             <bind_material>
               <technique_common>
@@ -3175,15 +3175,6 @@
               </technique_common>
             </bind_material>
           </instance_geometry>
-        </node>
-      </node>
-      <node id="Scales" name="Scales" type="NODE">
-        <matrix sid="transform">0.01 0 0 0.8023281 0 0.01 4.37114e-10 -0.1138611 0 -4.37114e-10 0.01 1.892837 0 0 0 1</matrix>
-        <node id="MetalScale" name="MetalScale" type="NODE">
-          <matrix sid="transform">-2.37005e-7 -1.454725 -3.0072e-7 82.41807 1.454725 -2.31133e-7 3.02281e-7 32.30631 -2.23067e-7 -5.51316e-7 1.961141 -78.90513 0 0 0 1</matrix>
-        </node>
-        <node id="WeightedBoxes" name="WeightedBoxes" type="NODE">
-          <matrix sid="transform">-1.09288 1.6502e-7 -1.84951e-7 -84.36485 -1.60609e-7 -1.09288 -1.64994e-8 -3.876002 -4.31553e-7 -1.73693e-8 1.09288 -99.19648 0 0 0 1</matrix>
         </node>
       </node>
       <node id="Window007" name="Window007" type="NODE">
@@ -3266,7 +3257,7 @@
         </instance_geometry>
       </node>
       <node id="hotspot-paper2" name="hotspot-paper2" type="NODE">
-        <matrix sid="transform">0.004317304 1.38949e-9 0.009020025 -0.5408538 0.009020025 -8.70649e-10 -0.004317304 1.663852 1.85444e-10 0.009999999 -1.62921e-9 -4.65661e-10 0 0 0 1</matrix>
+        <matrix sid="transform">0.004317304 1.38949e-9 0.009020025 -0.5408538 0.009020025 -8.70649e-10 -0.004317304 1.663852 1.85444e-10 0.009999999 -1.62921e-9 0.01535426 0 0 0 1</matrix>
         <instance_geometry url="#Untitled_148-mesh" name="hotspot-paper2">
           <bind_material>
             <technique_common>
