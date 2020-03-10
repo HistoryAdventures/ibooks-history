@@ -10,11 +10,23 @@ cp -rf scene-jemba scene-jemba.wdgt
 cp -rf scene-khari scene-khari.wdgt
 cp -rf scene-opium scene-opium.wdgt
 
+cp -rf documents/agent document-agent.wdgt
+cp -rf documents/chicago document-chicago.wdgt
+cp -rf documents/jemba document-jemba.wdgt
+cp -rf documents/khari document-khari.wdgt
+cp -rf documents/opium document-opium.wdgt
+
 zip -r scene-agent.zip scene-agent.wdgt
 zip -r scene-chicago.zip scene-chicago.wdgt
 zip -r scene-jemba.zip scene-jemba.wdgt
 zip -r scene-khari.zip scene-khari.wdgt
 zip -r scene-opium.zip scene-opium.wdgt
+
+zip -r document-agent.zip document-agent.wdgt
+zip -r document-chicago.zip document-chicago.wdgt
+zip -r document-jemba.zip document-jemba.wdgt
+zip -r document-khari.zip document-khari.wdgt
+zip -r document-opium.zip document-opium.wdgt
 
 mv scene-agent.zip ./builds
 mv scene-chicago.zip ./builds
@@ -22,8 +34,20 @@ mv scene-jemba.zip ./builds
 mv scene-khari.zip ./builds
 mv scene-opium.zip ./builds
 
+mv document-agent.zip ./builds
+mv document-chicago.zip ./builds
+mv document-jemba.zip ./builds
+mv document-khari.zip ./builds
+mv document-opium.zip ./builds
+
 rm -rf scene-agent.wdgt
 rm -rf scene-chicago.wdgt
 rm -rf scene-jemba.wdgt
 rm -rf scene-khari.wdgt
 rm -rf scene-opium.wdgt
+
+rm -rf document-agent.wdgt
+rm -rf document-chicago.wdgt
+rm -rf document-jemba.wdgt
+rm -rf document-khari.wdgt
+rm -rf document-opium.wdgt
