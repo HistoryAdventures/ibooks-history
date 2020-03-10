@@ -1,3 +1,9 @@
+body {
+  background: #000000;
+  background-image: linear-gradient(to bottom, black 0%, black 70%, #f2003d 100%);
+  font-family: 'Favorit', Verdana, Geneva, sans-serif;
+}
+
 .hotspot.none {
   border-left: 0px solid black;
   border-top: 0px solid black;
@@ -35,7 +41,7 @@
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, white));
   background: -moz-linear-gradient(top, white, white);
   background-image: -ms-linear-gradient(top, white, white);
-  color: #3498db;
+  color: #f2003d;
   font-family: Verdana, Geneva, sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -82,7 +88,7 @@ circle {
   fill: white; }
 
 circle, line, path {
-  stroke: #3498db; }
+  stroke: #f2003d; }
 
 @media print {
 .hotspot.none {
@@ -170,4 +176,27 @@ circle {
 
 circle, line, path {
   stroke: #7d7777; }
+}
+
+#tools {
+  width: 100%;
+  text-align: center;
+  left: 0 !important;
+  right: auto !important;
+  transform: scale(1.5);
+  bottom: 30px !important;
+}
+
+#tools .bw-button {
+  display: inline-block;
+}
+
+#tools line {
+  stroke-width: 4;
+  stroke: white;
+}
+
+#tools line.white {
+  stroke-width: 2;
+  stroke: black;
 }
