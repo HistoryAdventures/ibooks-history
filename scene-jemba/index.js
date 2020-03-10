@@ -8,7 +8,6 @@ import { ColladaLoader } from '@scripts/jsm/loaders/ColladaLoader.js';
 import { RenderPass } from '@scripts/jsm/postprocessing/RenderPass.js';
 import { EffectComposer } from '@scripts/jsm/postprocessing/EffectComposer.js';
 import { OutlinePass } from '@scripts/jsm/postprocessing/OutlinePass.js';
-import Hammer from '@scripts/hammerjs';
 
 var container, stats, controls;
 var camera, scene, renderer;
@@ -58,6 +57,8 @@ var audioLib = {
 
 init();
 animate();
+
+var touchStartFresh = false;
 
 function init() {
     var gui;
@@ -258,10 +259,35 @@ function init() {
     window.addEventListener('resize', onWindowResize, false);
 
 
-    var hammertime = new Hammer(document.querySelector('#container'), {});
-    hammertime.on('tap', function (ev) {
-        onDocumentClick(ev);
-    });
+    // var hammertime = new Hammer(document.querySelector('#container'), {});
+    // hammertime.on('tap', function (ev) {
+    //     onDocumentClick(ev);
+    // });
+
+    if (('ontouchstart' in window) || window.TouchEvent || window.DocumentTouch && document instanceof DocumentTouch) {
+        
+        window.addEventListener('touchstart', () => {
+            touchStartFresh = true;
+
+            setTimeout(() => {
+                touchStartFresh = false;
+            }, 200);
+        });
+
+        window.addEventListener('touchend', (ev) => {
+            if (touchStartFresh) {
+                onDocumentClick(ev);    
+            }
+        });
+
+        window.addEventListener('touchcancel', () => {
+            touchStartFresh = false;
+        });
+    } else {
+        window.addEventListener('click', (ev) => {
+            onDocumentClick(ev);
+        });    
+    }
 
     if (window.location.hash === '#debug') {
         //     gui.add(ambientLight, 'intensity', 0, 4).name("Ambient light").step(0.01).listen();
@@ -352,12 +378,17 @@ function setupTween(target) {
 }
 
 function getIntersects(event) {
-    if (event.srcEvent) {
-        mouse.x = (event.srcEvent.clientX / window.innerWidth) * 2 - 1;
-        mouse.y = - (event.srcEvent.clientY / window.innerHeight) * 2 + 1;
+    if (('ontouchstart' in window) || window.TouchEvent || window.DocumentTouch && document instanceof DocumentTouch) {
+        mouse.x = (event.changedTouches[0].clientX / window.innerWidth) * 2 - 1;
+        mouse.y = - (event.changedTouches[0].clientY / window.innerHeight) * 2 + 1;
     } else {
-        mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-        mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
+        if (event.srcEvent) {
+            mouse.x = (event.srcEvent.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = - (event.srcEvent.clientY / window.innerHeight) * 2 + 1;
+        } else {
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
+        }
     }
 
     raycaster.setFromCamera(mouse, camera);
