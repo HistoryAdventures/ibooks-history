@@ -5,21 +5,25 @@ import Stats from '@scripts/jsm/libs/stats.module.js';
 import { GUI } from '@scripts/jsm/libs/dat.gui.module.js';
 import { OrbitControls } from '@scripts/jsm/controls/OrbitControls.js';
 import { ColladaLoader } from '@scripts/jsm/loaders/ColladaLoader.js';
-import { RenderPass } from '@scripts/jsm/postprocessing/RenderPass.js';
-import { EffectComposer } from '@scripts/jsm/postprocessing/EffectComposer.js';
-import { OutlinePass } from '@scripts/jsm/postprocessing/OutlinePass.js';
 import lights from './js/lights';
-import Hammer from '@scripts/hammerjs';
+
+import { addEvents } from '@scripts/onDocumentClick';
+import { addControls } from '@scripts/addControls';
+import { onWindowResize } from '@scripts/onWindowResize';
+import tooltips from '@scripts/tooltips';
+import outlineCompose from '@scripts/outlineCompose';
 
 var container, stats, controls;
 var camera, scene, renderer;
 var composer, outlinePass;
 var model;
-var agents, papers;
-var mouse = new THREE.Vector2();
-var raycaster = new THREE.Raycaster();
+var features = {
+    loader: true,
+    navigation: true,
+    sfx: true,
+};
 
-var cameraTargets = {
+window.cameraTargets = {
     "agent-1": {
         x: -3.3, y: 1, z: -4
     },
@@ -55,17 +59,10 @@ var cameraTargets = {
     },
 
 };
-
-var features = {
-    loader: true,
-    navigation: true,
-    sfx: true,
-};
-
-var selectedTooltip = null;
-var controlsSelectedTooltip = null;
-var gui;
-var audioLib = {
+window.hotspots = [];
+window.selectedTooltip = null;
+window.controlsSelectedTooltip = null;
+window.audioLib = {
     papers: [],
     lastPlayedPaperIndex: 0,
     ambient: null,
@@ -78,6 +75,13 @@ init();
 animate();
 
 function init() {
+    var gui;
+    if (window.location.hash === '#debug') {
+        gui = new GUI();
+        stats = new Stats();
+        container.appendChild(stats.dom);
+    }
+
     container = document.getElementById('container');
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
@@ -85,17 +89,10 @@ function init() {
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0x333333);
 
-    if (window.location.hash === '#debug') {
-        gui = new GUI();
-    }
-
     // loading manager
     var loadingManager = new THREE.LoadingManager(function () {
         scene.add(model);
     });
-
-    var textureLoader = new THREE.TextureLoader();
-
     loadingManager.onProgress = function (url, loaded, total) {
         if (total === loaded) {
             setTimeout(function () {
@@ -111,6 +108,7 @@ function init() {
     };
 
     // models
+    var textureLoader = new THREE.TextureLoader();
     var loader = new ColladaLoader(loadingManager);
 
     loader.load("./models/model1/agent01.dae", function (dae) {
@@ -120,27 +118,15 @@ function init() {
             dae.library.materials[mat].build.shininess = 5;
         }
 
-        agents = [];
-        papers = [];
         dae.scene.traverse(function (child) {
             child.castShadow = true;
             child.receiveShadow = true;
 
-            if (child.name.includes('agent')) {
-                agents.push(child);
-            }
-
-            if (child.name.includes('Paper')) {
-                papers.push(child);
+            if (child.name.includes('agent') || child.name.includes('Paper')) {
+                hotspots.push(child);
             }
 
             var lightMapIntensity = 0.3;
-
-            // if (child.name === 'Box186') {
-            //     var texture = textureLoader.load( "./models/model1/wall-tiles-lm.png" );
-            //     child.material.lightMap = texture;
-            //     child.material.lightMapIntensity = lightMapIntensity;
-            // }
 
             if (child.name.includes('frame') || child.name.includes('agent')) {
                 var texture = textureLoader.load("./models/model1/frame-lm.png");
@@ -153,44 +139,12 @@ function init() {
                 child.material.lightMap = texture;
                 child.material.lightMapIntensity = lightMapIntensity;
             }
-
-            // if (child.name === 'wall-1') {
-            //     var texture = textureLoader.load( "./models/model1/wall-dark-lm.png" );
-            //     child.material.lightMap = texture;
-            //     child.material.lightMapIntensity = lightMapIntensity;
-            // }
-
-            // if (child.name === 'room') {
-            //     var texture = textureLoader.load( "./models/model1/walls-lm.png" );
-            //     child.material.lightMap = texture;
-            //     child.material.lightMapIntensity = lightMapIntensity;
-            // }
-
-            // if (child.name === 'Table_01') {
-            //     var texture = textureLoader.load( "./models/model1/table-lm.png" );
-            //     child.material.lightMap = texture;
-            //     child.material.lightMapIntensity = lightMapIntensity + 0.2;
-            // }
-
-            // if (child.name === 'Chair012') {
-            //     var texture = textureLoader.load( "./models/model1/chair-lm-1.png" );
-            //     child.material.lightMap = texture;
-            //     child.material.lightMapIntensity = lightMapIntensity;
-            // }
-
-            // if (child.name === 'chair004') {
-            //     var texture = textureLoader.load( "./models/model1/chair-lmn-2.png" );
-            //     child.material.lightMap = texture;
-            //     child.material.lightMapIntensity = lightMapIntensity;
-            // }
-
-
         });
 
         model = dae.scene;
         model.scale.set(1.4, 1.4, 1.4);
         model.position.set(3.2, -1, 0.8);
-        outlinePass.selectedObjects = [].concat(papers, agents);
+        outlinePass.selectedObjects = hotspots;
 
         // load sounds
         if (features.sfx) {
@@ -200,7 +154,11 @@ function init() {
             audioLib.papers.push(new Audio('./audio/Agent 355 3d Accomplishment 4_1.m4a'));
 
             audioLib.ambient = new Audio('./audio/Agent 355 3d Background.m4a');
-            audioLib.ambient.play();
+            try {
+                audioLib.ambient.play();
+            } catch (e) {
+                // for autoplay https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide
+            }
 
             audioLib.muteButton.addEventListener('click', () => {
                 audioLib.ambient.pause();
@@ -220,21 +178,13 @@ function init() {
         }
     });
 
-    var gui;
-    // if (process.env.NODE_ENV !== 'production') {
-    //     gui = new GUI();
-    // }
-
     // lights
     lights.setup(scene, gui);
 
     // renderer
-
     renderer = new THREE.WebGLRenderer();
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(window.innerWidth, window.innerHeight);
-    // renderer.shadowMap.enabled = true;
-    // renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     container.appendChild(renderer.domElement);
 
     // controls
@@ -252,13 +202,6 @@ function init() {
     controls.update();
 
     if (window.location.hash === '#debug') {
-        stats = new Stats();
-        container.appendChild(stats.dom);
-    }
-
-    window.addEventListener("resize", onWindowResize, false);
-
-    if (window.location.hash === '#debug') {
         //     gui.add(ambientLight, 'intensity', 0, 4).name("Ambient light").step(0.01).listen();
         //     gui.add(spotLight, 'intensity', 0, 4).name("Spot light").step(0.01).listen();
         //     gui.add(spotLight, 'penumbra', 0, 1).name("Spot feather").step(0.01).listen();
@@ -273,192 +216,19 @@ function init() {
         gui.add(camera.position, 'y', -50, 50).step(0.1).listen();
     }
 
-    var hammertime = new Hammer(document.querySelector('#container'), {});
-    hammertime.on('tap', function (ev) {
-        onDocumentClick(ev);
-    });
+    window.addEventListener("resize", onWindowResize, false);
+    window.camera = camera;
+    window.controls = controls;
+    window.renderer = renderer;
+    window.scene = scene;
+
+    addEvents();
+    tooltips();
 
     // postprocessing
-
-    composer = new EffectComposer(renderer);
-
-    var renderPass = new RenderPass(scene, camera);
-    composer.addPass(renderPass);
-
-    outlinePass = new OutlinePass(new THREE.Vector2(window.innerWidth, window.innerHeight), scene, camera);
-    outlinePass.edgeStrength = 4;
-    outlinePass.edgeGlow = 1;
-    outlinePass.edgeThickness = 3;
-    outlinePass.pulsePeriod = 5;
-    outlinePass.hiddenEdgeColor = new THREE.Color(0x000000);
-    composer.addPass(outlinePass);
-}
-
-var uiTooltips = document.getElementById('tooltips');
-
-if (uiTooltips) {
-    uiTooltips.addEventListener('click', function (e) {
-        if (e.target.matches('.tooltip-close')) {
-            selectedTooltip = null;
-            toggleTooltip(null);
-        }
-    });
-}
-
-function onDocumentClick(event) {
-    if (event.target.matches('.tooltip') || event.target.parentElement.matches('.tooltip')) {
-        return;
-    }
-
-    if (event.target.matches('.controls') ||
-        event.target.parentElement.matches('.controls') ||
-        event.target.parentElement.parentElement.matches('.controls')
-    ) {
-        return;
-    }
-
-    selectedTooltip = getIntersects(event);
-
-    var activeTooltip = document.getElementById(selectedTooltip);
-    toggleTooltip(activeTooltip);
-
-    if (selectedTooltip) {
-        controlsSelectedTooltip = selectedTooltip;
-        setControlLabel(controlsSelectedTooltip);
-        cameraTarget = cameraTargets[selectedTooltip];
-    }
-}
-
-function setupTween(target) {
-    new TWEEN.Tween(camera.position)
-        .to(target, 1100)
-        .easing(TWEEN.Easing.Linear.None)
-        .onUpdate(function () {
-            controls.target.set(0, 1, 0);
-            controls.update();
-        })
-        .start();
-}
-
-function getIntersects(event) {
-    if (event.srcEvent) {
-        mouse.x = (event.srcEvent.clientX / window.innerWidth) * 2 - 1;
-        mouse.y = - (event.srcEvent.clientY / window.innerHeight) * 2 + 1;
-    } else {
-        mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-        mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
-    }
-
-    raycaster.setFromCamera(mouse, camera);
-
-    var interStack = [];
-
-    agents.forEach(function (agent) {
-        var inter = raycaster.intersectObject(agent, true);
-        if (inter.length) {
-            interStack = interStack.concat(inter);
-        }
-    });
-
-    papers.forEach(function (paper) {
-        var inter = raycaster.intersectObject(paper, true);
-        if (inter.length) {
-            interStack = interStack.concat(inter);
-            // play document sound
-            if (audioLib && audioLib.papers.length && !audioLib.mute) {
-                muteAllPapers();
-                let newAudioIndex = Math.floor(Math.random() * 4);
-                while (newAudioIndex === audioLib.lastPlayedPaperIndex) {
-                    newAudioIndex = Math.floor(Math.random() * 4);
-                }
-                audioLib.lastPlayedPaperIndex = newAudioIndex;
-                audioLib.papers[newAudioIndex].play();
-            }
-        }
-    });
-
-    if (interStack.length && interStack[0].object.name !== 'Table') {
-        return interStack[0].object.name;
-    }
-
-    return null;
-}
-
-function muteAllPapers() {
-    if (audioLib && audioLib.papers.length) {
-        audioLib.papers.forEach((audio) => {
-            audio.pause();
-            audio.currentTime = 0;
-        });
-    }
-}
-
-function toggleTooltip(activeTooltip) {
-    document.querySelectorAll('.tooltip').forEach(function (tooltip) {
-        tooltip.classList.remove('active');
-    });
-
-    if (activeTooltip) {
-        activeTooltip.classList.add('active');
-        document.getElementById('tooltips').classList.add('tooltip-open');
-    } else {
-        document.getElementById('tooltips').classList.remove('tooltip-open');
-    }
-}
-
-function setControlLabel(tooltipId) {
-    var tooltip = document.getElementById(tooltipId);
-    var currentLabelElement = document.getElementById('controls-current');
-    currentLabelElement.innerText = tooltip.querySelector('h2').innerText;
-
-    toggleTooltip(tooltip);
-}
-
-function addControls() {
-    var tooltips = document.querySelectorAll('.tooltip');
-    var tooltipsCount = tooltips.length;
-    document.getElementById('controls').style.display = 'block';
-
-    document.getElementById('next').addEventListener('click', function (e) {
-        e.preventDefault();
-        var currentOrder = document.getElementById(controlsSelectedTooltip);
-        var nextTooltip;
-        if (currentOrder) {
-            nextTooltip = (parseInt(currentOrder.getAttribute('data-order')) - 1);
-            if (nextTooltip > 0) {
-                setControlLabel(document.querySelector(`[data-order="${nextTooltip}"]`).id);
-                controlsSelectedTooltip = document.querySelector(`[data-order="${nextTooltip}"]`).id;
-                setupTween(cameraTargets[controlsSelectedTooltip]);
-                return;
-            }
-        }
-
-        setControlLabel(document.querySelector(`[data-order="${tooltipsCount}"]`).id);
-        controlsSelectedTooltip = document.querySelector(`[data-order="${tooltipsCount}"]`).id;
-        setupTween(cameraTargets[controlsSelectedTooltip]);
-    });
-
-    document.getElementById('prev').addEventListener('click', function (e) {
-        e.preventDefault();
-        var currentOrder = document.getElementById(controlsSelectedTooltip);
-        var nextTooltip;
-        if (currentOrder) {
-            nextTooltip = (parseInt(currentOrder.getAttribute('data-order'))) % tooltipsCount + 1;
-            setControlLabel(document.querySelector(`[data-order="${nextTooltip}"]`).id);
-            controlsSelectedTooltip = document.querySelector(`[data-order="${nextTooltip}"]`).id;
-            setupTween(cameraTargets[controlsSelectedTooltip]);
-        } else {
-            setControlLabel(document.querySelector(`[data-order="1"]`).id);
-            controlsSelectedTooltip = document.querySelector(`[data-order="1"]`).id;
-            setupTween(cameraTargets[controlsSelectedTooltip]);
-        }
-    });
-}
-
-function onWindowResize() {
-    camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectionMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
+    var processing = outlineCompose();
+    composer = processing.composer;
+    outlinePass = processing.outlinePass;
 }
 
 function animate() {
@@ -470,6 +240,7 @@ function animate() {
     }
     composer.render();
 }
+
 function render() {
     controls.update();
     renderer.render(scene, camera);
