@@ -1,12 +1,12 @@
 <!DOCTYPE widget>
 <HotspotImage>
-<background_picture alttext="" caption="" rid="VNV5X13C7ARE80YMCJQC" height="768" width="561" orientation="1" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/Source analysis/Chicago/sn84025828-19060407.png</background_picture>
+<background_picture rid="VNV5X13C7ARE80YMCJQC" height="768" autosize="true" alttext="" width="561" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/Source analysis/Chicago/sn84025828-19060407.png</background_picture>
 <resize-policy value="Image draggable and resizeable">Image draggable and resizeable</resize-policy>
 <position>
-<Width>0</Width>
-<Height>0</Height>
-<X>0</X>
-<Y>0</Y>
+<Width>601</Width>
+<Height>825</Height>
+<X>-21</X>
+<Y>-21</Y>
 </position>
 <hotspots>
 <TextPopup>
@@ -19,7 +19,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This cartoon depicts the ‘Beef Trust’ (the conglomeration of organisations with a vested interest in the production and sale of beef) as a ferocious tiger which is able to terrify the local lawmakers (represented here by the City Hall and Court House buildings) into doing as it wishes. In short, the capitalist enterprise has grown too powerful for local legislation to control; the implication is that more power is needed to restore them to legality. To drive home this point, the artist has depicted the Tiger trampling over a charge from a grand jury. &lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
-<marker-type value="none">None (hidden hotspot)</marker-type>
+<marker-type value="label">Label</marker-type>
 <position>
 <Width>100</Width>
 <Height>40</Height>
@@ -27,11 +27,11 @@ p, li { white-space: pre-wrap; }
 <Y>83</Y>
 </position>
 <point>
-<x></x>
-<y></y>
+<x>-35</x>
+<y>81</y>
 </point>
 <marker-label searchable="true"></marker-label>
-<marker-image alttext="" caption="" rid="" height="0" width="0" orientation="1" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -47,7 +47,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
-<marker-type value="none">None (hidden hotspot)</marker-type>
+<marker-type value="label">Label</marker-type>
 <position>
 <Width>100</Width>
 <Height>40</Height>
@@ -55,11 +55,11 @@ p, li { white-space: pre-wrap; }
 <Y>190</Y>
 </position>
 <point>
-<x></x>
-<y></y>
+<x>-31</x>
+<y>213</y>
 </point>
 <marker-label searchable="true"></marker-label>
-<marker-image alttext="" caption="" rid="" height="0" width="0" orientation="1" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -73,19 +73,19 @@ p, li { white-space: pre-wrap; }
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The US public were appalled by the revelations made by Sinclair’s novel, especially the abhorrent conditions in which their food was prepared. Allegations of this had been public since the Spanish-American war, when it was revealed that the US army had been knowingly supplied with rotten beef as part of their rations. Some who ate it even died! &lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
-<marker-type value="none">None (hidden hotspot)</marker-type>
+<marker-type value="label">Label</marker-type>
 <position>
-<Width>100</Width>
-<Height>40</Height>
-<X>-102</X>
+<Width>102</Width>
+<Height>46</Height>
+<X>-104</X>
 <Y>333</Y>
 </position>
 <point>
-<x></x>
-<y></y>
+<x>-27</x>
+<y>354</y>
 </point>
 <marker-label searchable="true"></marker-label>
-<marker-image alttext="" caption="" rid="" height="0" width="0" orientation="1" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -99,7 +99,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">These calls make clear the entanglement of business and politics, as members of the ‘Beef Trust’ are indicated to be able to exert a level of control over political action and regulation in the US (essentially protecting themselves and their profits).&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
-<marker-type value="none">None (hidden hotspot)</marker-type>
+<marker-type value="label">Label</marker-type>
 <position>
 <Width>100</Width>
 <Height>40</Height>
@@ -107,11 +107,11 @@ p, li { white-space: pre-wrap; }
 <Y>382</Y>
 </position>
 <point>
-<x></x>
-<y></y>
+<x>-27</x>
+<y>403</y>
 </point>
 <marker-label searchable="true"></marker-label>
-<marker-image alttext="" caption="" rid="" height="0" width="0" orientation="1" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -125,7 +125,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This paragraph, although succinct, brings to the fore one of the key aspects of Sinclair’s expose and the consequential Neill-Reynolds Report ordered by President Roosevelt in 1906. There was a massive imbalance between the number of inspectors (11!) compared to the volume of work they would have been required to complete to ensure the safety of the food. Diseased food products, as the report makes clear, were inevitable. Mandatory inspections of livestock before slaughter and postmortem inspections of carcasses became law after the Meat Inspection Act.&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
-<marker-type value="none">None (hidden hotspot)</marker-type>
+<marker-type value="label">Label</marker-type>
 <position>
 <Width>100</Width>
 <Height>40</Height>
@@ -133,11 +133,11 @@ p, li { white-space: pre-wrap; }
 <Y>283</Y>
 </position>
 <point>
-<x></x>
-<y></y>
+<x>-30</x>
+<y>302</y>
 </point>
 <marker-label searchable="true"></marker-label>
-<marker-image alttext="" caption="" rid="" height="0" width="0" orientation="1" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 </hotspots>
@@ -161,7 +161,7 @@ p, li { white-space: pre-wrap; }
 <modified>false</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants template="Dark Background" widget_backgroundimage="" widget_color="#3498DB" widget_font="Verdana">
+<DesignConstants widget_backgroundimage="" template="Dark Background" widget_color="#3498DB" widget_font="Verdana">
 <constant>
 <name>hiddenborderleft</name>
 <kind>BorderLeft</kind>
@@ -318,7 +318,7 @@ p, li { white-space: pre-wrap; }
 <value>#ffffff</value>
 </constant>
 </DesignConstants>
-<cover alttext="" caption="" rid="" height="0" width="0" orientation="1" autosize="true"></cover>
+<cover rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption=""></cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
 <BookWidgetsVersion>6.0.3</BookWidgetsVersion>
 <shortcode></shortcode>

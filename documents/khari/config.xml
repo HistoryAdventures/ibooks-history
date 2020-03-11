@@ -1,12 +1,12 @@
 <!DOCTYPE widget>
 <HotspotImage>
-<background_picture alttext="" caption="" rid="UWMWPU2D4CP6KW8N970W" height="768" width="623" orientation="1" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/Source analysis/Khari/Letter-02.png</background_picture>
-<resize-policy value="Cover entire area, keep aspect ratio">Cover entire area, keep aspect ratio</resize-policy>
+<background_picture rid="S8VJJ5XGZTHDDFP1J1AB" height="768" autosize="true" alttext="" width="623" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/Source analysis/Khari/Khari-Letter-02.png</background_picture>
+<resize-policy value="Image draggable and resizeable">Image draggable and resizeable</resize-policy>
 <position>
-<Width></Width>
-<Height></Height>
-<X></X>
-<Y></Y>
+<Width>660</Width>
+<Height>818</Height>
+<X>-16</X>
+<Y>-19</Y>
 </position>
 <hotspots>
 <TextPopup>
@@ -20,7 +20,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
-<marker-type value="none">None (hidden hotspot)</marker-type>
+<marker-type value="label">Label</marker-type>
 <position>
 <Width>100</Width>
 <Height>19</Height>
@@ -28,11 +28,11 @@ p, li { white-space: pre-wrap; }
 <Y>389</Y>
 </position>
 <point>
-<x></x>
-<y></y>
+<x>-7</x>
+<y>389</y>
 </point>
 <marker-label searchable="true"></marker-label>
-<marker-image alttext="" caption="" rid="" height="0" width="0" orientation="1" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -46,7 +46,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
-<marker-type value="none">None (hidden hotspot)</marker-type>
+<marker-type value="label">Label</marker-type>
 <position>
 <Width>103</Width>
 <Height>14</Height>
@@ -54,11 +54,11 @@ p, li { white-space: pre-wrap; }
 <Y>507</Y>
 </position>
 <point>
-<x></x>
-<y></y>
+<x>-9</x>
+<y>508</y>
 </point>
 <marker-label searchable="true"></marker-label>
-<marker-image alttext="" caption="" rid="" height="0" width="0" orientation="1" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -72,7 +72,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
-<marker-type value="none">None (hidden hotspot)</marker-type>
+<marker-type value="label">Label</marker-type>
 <position>
 <Width>100</Width>
 <Height>17</Height>
@@ -80,11 +80,11 @@ p, li { white-space: pre-wrap; }
 <Y>652</Y>
 </position>
 <point>
-<x></x>
-<y></y>
+<x>-2</x>
+<y>660</y>
 </point>
 <marker-label searchable="true"></marker-label>
-<marker-image alttext="" caption="" rid="" height="0" width="0" orientation="1" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -98,7 +98,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
-<marker-type value="none">None (hidden hotspot)</marker-type>
+<marker-type value="label">Label</marker-type>
 <position>
 <Width>94</Width>
 <Height>19</Height>
@@ -106,12 +106,12 @@ p, li { white-space: pre-wrap; }
 <Y>651</Y>
 </position>
 <point>
-<x></x>
-<y></y>
+<x>610</x>
+<y>660</y>
 </point>
 <marker-label searchable="true"></marker-label>
-<marker-image alttext="" caption="" rid="" height="0" width="0" orientation="1" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
-<popup-location-preference value="right">Right of hotspot</popup-location-preference>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="left">Left of hotspot</popup-location-preference>
 </TextPopup>
 </hotspots>
 <support_student_account value="no">No student accounts</support_student_account>
@@ -134,7 +134,7 @@ p, li { white-space: pre-wrap; }
 <modified>false</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants template="Dark Background" widget_backgroundimage="" widget_color="#3498DB" widget_font="Verdana">
+<DesignConstants widget_backgroundimage="" template="Dark Background" widget_color="#3498DB" widget_font="Verdana">
 <constant>
 <name>hiddenborderleft</name>
 <kind>BorderLeft</kind>
@@ -291,7 +291,7 @@ p, li { white-space: pre-wrap; }
 <value>#ffffff</value>
 </constant>
 </DesignConstants>
-<cover alttext="" caption="" rid="JGQRSLYKEIDD6JHAMQNP" height="768" width="623" orientation="1" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/Source analysis/Khari/cover.png</cover>
+<cover rid="JGQRSLYKEIDD6JHAMQNP" height="768" autosize="true" alttext="" width="623" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/Source analysis/Khari/cover.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
 <BookWidgetsVersion>6.0.3</BookWidgetsVersion>
 <shortcode></shortcode>
