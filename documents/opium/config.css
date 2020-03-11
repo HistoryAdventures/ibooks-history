@@ -1,4 +1,5 @@
 body {
+  position: relative;
   background: #000000;
   background-image: linear-gradient(to bottom, black 0%, black 70%, #f2003d 100%);
   font-family: 'Favorit', Verdana, Geneva, sans-serif;
