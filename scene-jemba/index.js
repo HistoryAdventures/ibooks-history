@@ -60,14 +60,14 @@ init();
 animate();
 
 function init() {
+    container = document.getElementById('container');
+
     var gui;
     if (window.location.hash === '#debug') {
         gui = new GUI();
         stats = new Stats();
         container.appendChild(stats.dom);
     }
-
-    container = document.getElementById('container');
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
     window.camera = camera;
