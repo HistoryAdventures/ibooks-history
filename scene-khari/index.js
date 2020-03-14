@@ -68,6 +68,7 @@ window.cameraTargets = {
 window.hotspots = [];
 window.selectedTooltip = null;
 window.controlsSelectedTooltip = null;
+window.audioLib = {};
 
 init();
 animate();
@@ -193,8 +194,8 @@ function init() {
     controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
     controls.dampingFactor = 0.03;
-    controls.enablePan = false;
-    controls.screenSpacePanning = false;
+    // controls.enablePan = false;
+    controls.screenSpacePanning = true;
     controls.minDistance = 3;
     controls.maxDistance = 9;
     controls.target.set(0, 1, 0);
@@ -205,6 +206,17 @@ function init() {
     controls.maxAzimuthAngle = Math.PI / 3;
     controls.minAzimuthAngle = Math.PI / -3;
     controls.update();
+
+    var minPan = new THREE.Vector3( - 2, - 3, - 2 );
+    var maxPan = new THREE.Vector3( 2, 2, 2 );
+    var _v = new THREE.Vector3();
+    
+    controls.addEventListener("change", function() {
+        _v.copy(controls.target);
+        controls.target.clamp(minPan, maxPan);
+        _v.sub(controls.target);
+        camera.position.sub(_v);
+    })
 
     window.addEventListener("resize", onWindowResize, false);
     window.camera = camera;

@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-02-21, commit time:10:41, hash:8928d99</authoring_tool>
     </contributor>
-    <created>2020-03-14T15:11:42</created>
-    <modified>2020-03-14T15:11:42</modified>
+    <created>2020-03-14T17:33:55</created>
+    <modified>2020-03-14T17:33:55</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -153,7 +153,7 @@
     <effect id="floor-effect">
       <profile_COMMON>
         <technique sid="common">
-          <phong>
+          <lambert>
             <emission>
               <color sid="emission">0 0 0 1</color>
             </emission>
@@ -163,16 +163,10 @@
             <diffuse>
               <color sid="diffuse">0.2738905 0.2738905 0.2738905 1</color>
             </diffuse>
-            <specular>
-              <color sid="specular">0.5 0.5 0.5 1</color>
-            </specular>
-            <shininess>
-              <float sid="shininess">50</float>
-            </shininess>
             <index_of_refraction>
               <float sid="index_of_refraction">1</float>
             </index_of_refraction>
-          </phong>
+          </lambert>
         </technique>
       </profile_COMMON>
     </effect>
