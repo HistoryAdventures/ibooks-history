@@ -183,7 +183,7 @@ function init() {
     renderer = new THREE.WebGLRenderer({ alpha: true });
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setClearColor( 0x000000, 0 );
+    renderer.setClearColor(0x000000, 0);
     container.appendChild(renderer.domElement);
 
     initPostprocessing();
@@ -215,6 +215,20 @@ function init() {
     addEvents();
     tooltips();
 
+    var effectController = {
+        focus: 500.0,
+        aperture: 5,
+        maxblur: 1.0
+    };
+
+    var matChanger = function () {
+        postprocessing.bokeh.uniforms["focus"].value = effectController.focus;
+        postprocessing.bokeh.uniforms["aperture"].value = effectController.aperture * 0.00001;
+        postprocessing.bokeh.uniforms["maxblur"].value = effectController.maxblur;
+    };
+
+    matChanger();
+
     if (window.location.hash === '#debug') {
         //     gui.add(ambientLight, 'intensity', 0, 4).name("Ambient light").step(0.01).listen();
         //     gui.add(spotLight, 'intensity', 0, 4).name("Spot light").step(0.01).listen();
@@ -229,49 +243,33 @@ function init() {
         gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
         gui.add(camera.position, 'y', -50, 50).step(0.1).listen();
 
-        var effectController = {
-            focus: 500.0,
-            aperture:	5,
-            maxblur:	1.0
-        };
-
-        var matChanger = function ( ) {
-            postprocessing.bokeh.uniforms[ "focus" ].value = effectController.focus;
-            postprocessing.bokeh.uniforms[ "aperture" ].value = effectController.aperture * 0.00001;
-            postprocessing.bokeh.uniforms[ "maxblur" ].value = effectController.maxblur;
-        };
-
         gui.add( effectController, "focus", 10.0, 3000.0, 10 ).onChange( matChanger );
         gui.add( effectController, "aperture", 0, 10, 0.1 ).onChange( matChanger );
         gui.add( effectController, "maxblur", 0.0, 3.0, 0.025 ).onChange( matChanger );
-        gui.close();
-
-        matChanger();
     }
 }
 
 function initPostprocessing() {
 
-    var renderPass = new RenderPass( scene2, camera );
-    var renderPass2 = new RenderPass( scene, camera );
+    var renderPass = new RenderPass(scene2, camera);
+    var renderPass2 = new RenderPass(scene, camera);
     renderPass2.clear = false;
 
-    var bokehPass = new BokehPass( scene2, camera, {
-        focus: 1.0,
-        aperture:	0.025,
-        maxblur:	1.0,
-
+    var bokehPass = new BokehPass(scene2, camera, {
+        focus: 500,
+        aperture: 5,
+        maxblur: 1,
         width: width,
         height: height
-    } );
+    });
 
-    var composer = new EffectComposer( renderer );
-    var composer2 = new EffectComposer( renderer );
+    var composer = new EffectComposer(renderer);
+    var composer2 = new EffectComposer(renderer);
 
-    composer.addPass( renderPass );
-    composer.addPass( bokehPass );
+    composer.addPass(renderPass);
+    composer.addPass(bokehPass);
 
-    composer2.addPass( renderPass2 );
+    composer2.addPass(renderPass2);
 
     postprocessing.composer = composer;
     postprocessing.bokeh = bokehPass;
