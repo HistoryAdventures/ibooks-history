@@ -96,7 +96,7 @@ function init() {
             if (child.name.includes('hotspot')) {
                 hotspots.push(child);
             }
-            
+
             const lightMapIntensity = 0.3;
             if (child.name.includes('sky')) {
                 var texture = textureLoader.load("./models/model6/frame-lm.png");
@@ -123,7 +123,7 @@ function init() {
     controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
     controls.dampingFactor = 0.03;
-    controls.enablePan = true;
+    // controls.enablePan = true;
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
     controls.maxDistance = 8;
@@ -133,7 +133,17 @@ function init() {
     // controls.minPolarAngle = Math.PI / 4;
     controls.update();
 
-   
+    var minPan = new THREE.Vector3(-3, -3, -3);
+    var maxPan = new THREE.Vector3(3, 2, 3);
+    var _v = new THREE.Vector3();
+
+    controls.addEventListener("change", function () {
+        _v.copy(controls.target);
+        controls.target.clamp(minPan, maxPan);
+        _v.sub(controls.target);
+        camera.position.sub(_v);
+    });
+
     window.addEventListener('resize', onWindowResize, false);
 
     window.addEventListener("resize", onWindowResize, false);
