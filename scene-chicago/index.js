@@ -101,7 +101,7 @@ function init() {
             if (child.name.includes('sky')) {
                 var texture = textureLoader.load("./models/model6/frame-lm.png");
                 child.material.lightMap = texture;
-                child.material.lightMapIntensity = lightMapIntensity + 0.3;
+                child.material.lightMapIntensity = lightMapIntensity + 0.2;
             }
         });
     });
