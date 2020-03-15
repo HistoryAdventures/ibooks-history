@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-02-21, commit time:10:41, hash:8928d99</authoring_tool>
     </contributor>
-    <created>2020-03-15T18:50:29</created>
-    <modified>2020-03-15T18:50:29</modified>
+    <created>2020-03-15T18:58:16</created>
+    <modified>2020-03-15T18:58:16</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -33708,7 +33708,7 @@
         </instance_geometry>
       </node>
       <node id="sky" name="sky" type="NODE">
-        <matrix sid="transform">7.484408 0 0 0.01725095 0 7.484408 0 -0.3715273 0 0 2.49681 2.283612 0 0 0 1</matrix>
+        <matrix sid="transform">7.484408 0 0 0.01725095 0 7.484408 0 -0.3715273 0 0 2.49681 2.259397 0 0 0 1</matrix>
         <instance_geometry url="#Cylinder-mesh" name="sky">
           <bind_material>
             <technique_common>
