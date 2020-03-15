@@ -275,6 +275,7 @@ h1 a {
 }
 
 .mute-button {
+	color: var(--text-color);
 	position: absolute;
 	top: 40px;
 	right: 40px;
@@ -283,4 +284,12 @@ h1 a {
 	background-color: transparent;
 	border: 0;
 	pointer-events: all;
+}
+
+.tooltip h2 {
+	font-size: 50px;
+}
+
+.tooltip img {
+	margin-bottom: 10px !important;
 }
