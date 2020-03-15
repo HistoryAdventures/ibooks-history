@@ -19,6 +19,7 @@ var model, modelScales, modelBalls, modelMirror, modelTable;
 var features = {
     loader: true,
     navigation: true,
+    sfx: true,
 };
 
 window.cameraTargets = {
@@ -41,7 +42,19 @@ window.cameraTargets = {
 window.hotspots = [];
 window.selectedTooltip = null;
 window.controlsSelectedTooltip = null;
-window.audioLib = false;
+window.audioLib = {
+    ambient: null,
+    muteButton: document.getElementById('mute-button'),
+    unmuteButton: document.getElementById('unmute-button'),
+    mute: false,
+    hotspots: {
+        "hotspot-paper1": null,
+        "hotspot-paper2": null,
+        "hotspot-emperor": null,
+        "hotspot-opium1": null,
+        "hotspot-mirror-back": null,
+    }
+};
 
 init();
 animate();
@@ -108,6 +121,41 @@ function init() {
         });
 
         outlinePass.selectedObjects = hotspots;
+
+        // load sounds
+        if (features.sfx) {
+            audioLib.hotspots["hotspot-paper1"] = new Audio('./audio/FeiHong_3d Lin Zexu.m4a');
+            audioLib.hotspots["hotspot-paper2"] = new Audio('./audio/FeiHong_3d Canton.m4a');
+            audioLib.hotspots["hotspot-emperor"] = new Audio('./audio/FeiHong_3d Daoguang Emperor.m4a');
+            audioLib.hotspots["OpiumBalls"] = new Audio('./audio/FeiHong_3d Opium.m4a');
+            audioLib.hotspots["OpiumBalls2"] = new Audio('./audio/FeiHong_3d Opium.m4a');
+            audioLib.hotspots["OpiumBox"] = new Audio('./audio/FeiHong_3d Opium.m4a');
+            audioLib.hotspots["hotspot-mirror-back"] = new Audio('./audio/FeiHong_3d Opium Destruction.mp3');
+
+            audioLib.ambient = new Audio('./audio/FeiHong_3d Background.m4a');
+            audioLib.ambient.loop = true;
+            try {
+                audioLib.ambient.play();
+            } catch (e) {
+                // for autoplay https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide
+            }
+
+            audioLib.muteButton.addEventListener('click', () => {
+                audioLib.ambient.pause();
+                audioLib.muteButton.style.display = 'none';
+                audioLib.unmuteButton.style.display = 'block';
+                audioLib.mute = true;
+            });
+
+            audioLib.unmuteButton.addEventListener('click', () => {
+                audioLib.ambient.play();
+                audioLib.unmuteButton.style.display = 'none';
+                audioLib.muteButton.style.display = 'block';
+                audioLib.mute = false;
+            });
+        } else {
+            audioLib.muteButton.style.display = 'none';
+        }
     });
 
     loader.load('./models/model2/opium-scales.dae', function (dae) {

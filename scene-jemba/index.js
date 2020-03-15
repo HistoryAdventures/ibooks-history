@@ -143,7 +143,12 @@ function init() {
             audioLib.hotspots["hotspot-settlers"] = new Audio('./audio/2020-03-08 15.40.15.m4a');
 
             audioLib.ambient = new Audio('./audio/Jiemba 3d Background_1.m4a');
-            audioLib.ambient.play();
+            audioLib.ambient.loop = true;
+            try {
+                audioLib.ambient.play();
+            } catch (e) {
+                // for autoplay https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide
+            }
 
             audioLib.muteButton.addEventListener('click', () => {
                 audioLib.ambient.pause();

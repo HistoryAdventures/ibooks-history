@@ -154,6 +154,7 @@ function init() {
             audioLib.papers.push(new Audio('./audio/Agent 355 3d Accomplishment 4_1.m4a'));
 
             audioLib.ambient = new Audio('./audio/Agent 355 3d Background.m4a');
+            audioLib.ambient.loop = true;
             try {
                 audioLib.ambient.play();
             } catch (e) {

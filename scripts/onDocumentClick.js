@@ -55,9 +55,12 @@ function getIntersects(event) {
             interStack = interStack.concat(inter);
 
             // play document sound
-            if (audioLib && audioLib.hotspots && !audioLib.mute) {
+            if (audioLib && audioLib.hotspots && !audioLib.mute &&
+                (inter[0].object.name.indexOf('hotspot') > -1) ||
+                (inter[0].object.name.indexOf('Opium') > -1)
+            ) {
                 muteAllHotspots();
-                audioLib.hotspots[inter[0].object.name].play();
+                audioLib.hotspots[inter[0].object.name] && audioLib.hotspots[inter[0].object.name].play();
             }
 
             if (audioLib && audioLib.papers && audioLib.papers.length && !audioLib.mute) {
@@ -71,6 +74,14 @@ function getIntersects(event) {
             }
         }
     });
+
+    if (interStack.length && interStack[0].object.name.indexOf('Opium') > -1) {
+        return 'hotspot-opium1';
+    }
+
+    if (interStack.length && interStack[0].object.name.indexOf('hotspot-mirror') > -1) {
+        return 'hotspot-mirror-back';
+    }
 
     if (interStack.length && interStack[0].object.name !== 'Table') {
         return interStack[0].object.name;
