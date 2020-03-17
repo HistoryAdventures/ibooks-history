@@ -127,11 +127,11 @@ function init() {
             }
 
             if (child.name === 'feather') {
-                child.material.color = new THREE.Color(0xffffff);
+                child.material.color = new THREE.Color(0xcccccc);
                 // child.material.combine = THREE.AddOperation;
                 child.material.map = textureLoader.load('./models/model6/mask%20f_%20copy.png');
                 child.material.normalMap = textureLoader.load('./models/model6/mask%20f_%20copy_NRM.jpg');
-                child.material.normalScale = new THREE.Vector2(0.3, 0.3);
+                child.material.normalScale = new THREE.Vector2(0.15, 0.15);
             }
 
             if (child.name === 'mask') {
@@ -153,16 +153,21 @@ function init() {
     scene.add(ambientLight);
 
     var directionalLight = new THREE.DirectionalLight(0xffffff, 0.6);
-    directionalLight.position.set(0, 1, 1).normalize();
+    directionalLight.position.set(0, 0.7, 1).normalize();
     scene.add(directionalLight);
 
     var directionalLight2 = new THREE.DirectionalLight(0xffffff, 0.6);
-    directionalLight2.position.set(1, 1, 0).normalize();
+    directionalLight2.position.set(1, 0, 0).normalize();
     scene.add(directionalLight2);
 
-    var directionalLight3 = new THREE.DirectionalLight(0xffffff, 0.6);
-    directionalLight3.position.set(-1, 1, 0).normalize();
+    var directionalLight3 = new THREE.DirectionalLight(0xffffff, 0.3);
+    directionalLight3.position.set(-1, 0, 0).normalize();
     scene.add(directionalLight3);
+
+    var pointLight = new THREE.PointLight(0xeedddd, 0.5);
+    pointLight.position.set(0, 1.5, 1);
+    pointLight.distance = 8;
+    scene.add(pointLight);
 
     // lights for mask scene
     var ambientLight2 = new THREE.AmbientLight(0xcccccc, 0.2);
@@ -203,8 +208,8 @@ function init() {
     // Polar limits top bottom
     controls.maxPolarAngle = Math.PI / 1.6;
     controls.minPolarAngle = Math.PI / 5;
-    controls.maxAzimuthAngle = Math.PI / 3;
-    controls.minAzimuthAngle = Math.PI / -3;
+    controls.maxAzimuthAngle = Math.PI / 4.5;
+    controls.minAzimuthAngle = Math.PI / -4.5;
     controls.update();
 
     var minPan = new THREE.Vector3( - 2, - 3, - 2 );
