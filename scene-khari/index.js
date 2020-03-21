@@ -21,6 +21,7 @@ var model, modelBackground;
 var features = {
     loader: true,
     navigation: true,
+    sfx: true,
 };
 var width = window.innerWidth;
 var height = window.innerHeight;
@@ -68,7 +69,26 @@ window.cameraTargets = {
 window.hotspots = [];
 window.selectedTooltip = null;
 window.controlsSelectedTooltip = null;
-window.audioLib = {};
+window.audioLib = {
+    ambient: null,
+    muteButton: document.getElementById('mute-button'),
+    unmuteButton: document.getElementById('unmute-button'),
+    mute: false,
+    hotspots: {
+        "hotspot-1": null,
+        "hotspot-2": null,
+        "hotspot-3": null,
+        "hotspot-4": null,
+        "hotspot-5": null,
+        "hotspot-6": null,
+        "hotspot-7": null,
+        "hotspot-8": null,
+        "hotspot-9": null,
+        "hotspot-10": null,
+        "hotspot-11": null,
+        "hotspot-12": null,
+    }
+};
 
 init();
 animate();
@@ -136,12 +156,52 @@ function init() {
 
             if (child.name === 'mask') {
                 child.material.color = new THREE.Color(0xffeeee);
-                child.material.bumpMap = textureLoader.load('./models/model6/Seamless-white-crease-paper-texture_NRM.jpg');
+                child.material.bumpMap = textureLoader.load('./images/Seamless-white-crease-paper-texture_NRM copy.jpg');
                 child.material.bumpScale = 0.015;
             }
         });
 
         model = dae.scene;
+
+        // load sounds
+        if (features.sfx) {
+            audioLib.hotspots["hotspot-1"] = new Audio('./audio/Khari 3d Button_1.m4a');
+            audioLib.hotspots["hotspot-2"] = new Audio('./audio/Khari 3d Button_2.m4a');
+            audioLib.hotspots["hotspot-3"] = new Audio('./audio/Khari 3d Button_3.m4a');
+            audioLib.hotspots["hotspot-4"] = new Audio('./audio/Khari 3d Button_4.m4a');
+            audioLib.hotspots["hotspot-5"] = new Audio('./audio/Khari 3d Button_5.m4a');
+            audioLib.hotspots["hotspot-6"] = new Audio('./audio/Khari 3d Button_6.m4a');
+            audioLib.hotspots["hotspot-7"] = new Audio('./audio/Khari 3d Button_7.m4a');
+            audioLib.hotspots["hotspot-8"] = new Audio('./audio/Khari 3d Button_8.m4a');
+            audioLib.hotspots["hotspot-9"] = new Audio('./audio/Khari 3d Button_9.m4a');
+            audioLib.hotspots["hotspot-10"] = new Audio('./audio/Khari 3d Button_10.m4a');
+            audioLib.hotspots["hotspot-11"] = new Audio('./audio/Khari 3d Button_11.m4a');
+            audioLib.hotspots["hotspot-12"] = new Audio('./audio/Khari 3d Button_12.m4a');
+
+            audioLib.ambient = new Audio('./audio/Khari 3d Background.m4a');
+            audioLib.ambient.loop = true;
+            try {
+                audioLib.ambient.play();
+            } catch (e) {
+                // for autoplay https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide
+            }
+
+            audioLib.muteButton.addEventListener('click', () => {
+                audioLib.ambient.pause();
+                audioLib.muteButton.style.display = 'none';
+                audioLib.unmuteButton.style.display = 'block';
+                audioLib.mute = true;
+            });
+
+            audioLib.unmuteButton.addEventListener('click', () => {
+                audioLib.ambient.play();
+                audioLib.unmuteButton.style.display = 'none';
+                audioLib.muteButton.style.display = 'block';
+                audioLib.mute = false;
+            });
+        } else {
+            audioLib.muteButton.style.display = 'none';
+        }
     });
 
     loader.load('./models/model6/khari.dae', function (dae) {

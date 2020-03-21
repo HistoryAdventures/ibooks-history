@@ -281,6 +281,7 @@ h1 a {
 }
 
 .mute-button {
+	color: var(--text-color);
 	position: absolute;
 	top: 40px;
 	right: 40px;
