@@ -30,40 +30,40 @@ var sceneRendering;
 
 window.cameraTargets = {
     "hotspot-1": {
-        x: 2.3, y: 0.5, z: 3.1
+        x: 0, y: -2.5, z: 5.4
     },
     "hotspot-2": {
-        x: 2.2, y: -0.3, z: 2.9
+        x: 0, y: -2.5, z: 5.4
     },
     "hotspot-3": {
-        x: 2.2, y: -0.3, z: 2.9
+        x: 0, y: -2.5, z: 5.4
     },
     "hotspot-4": {
-        x: 2.2, y: -0.3, z: 2.9
+        x: 0, y: -2.5, z: 5.4
     },
     "hotspot-5": {
-        x: 2.2, y: -0.3, z: 2.9
+        x: 0, y: -2.5, z: 5.4
     },
     "hotspot-6": {
-        x: 2.2, y: -0.3, z: 2.9
+        x: 0, y: -2.5, z: 5.4
     },
     "hotspot-7": {
-        x: 0.0, y: -1.6, z: 3
+        x: 0, y: -2.5, z: 5.4
     },
     "hotspot-8": {
-        x: -2.2, y: -0.3, z: 2.9
+        x: 0, y: -2.5, z: 5.4
     },
     "hotspot-9": {
-        x: -2.2, y: -0.3, z: 2.9
+        x: 0, y: -2.5, z: 5.4
     },
     "hotspot-10": {
-        x: -2.2, y: -0.3, z: 2.9
+        x: 0, y: -2.5, z: 5.4
     },
     "hotspot-11": {
-        x: -2.2, y: -0.3, z: 2.9
+        x: 0, y: -2.5, z: 5.4
     },
     "hotspot-12": {
-        x: -2.2, y: -0.3, z: 2.9
+        x: 0, y: -2.5, z: 5.4
     },
 };
 window.hotspots = [];
@@ -152,6 +152,7 @@ function init() {
                 child.material.map = textureLoader.load('./models/model6/mask%20f_%20copy.png');
                 child.material.normalMap = textureLoader.load('./models/model6/mask%20f_%20copy_NRM.jpg');
                 child.material.normalScale = new THREE.Vector2(0.15, 0.15);
+                child.material.shininess = 0;
             }
 
             if (child.name === 'mask') {
@@ -224,10 +225,15 @@ function init() {
     directionalLight3.position.set(-1, 0, 0).normalize();
     scene.add(directionalLight3);
 
-    var pointLight = new THREE.PointLight(0xeedddd, 0.5);
-    pointLight.position.set(0, 1.5, 1);
+    var pointLight = new THREE.PointLight(0xeedddd, 0.7);
+    pointLight.position.set(-0.6, 2, 0.8);
     pointLight.distance = 8;
     scene.add(pointLight);
+
+    var pointLight2 = new THREE.PointLight(0xeedddd, 0.5);
+    pointLight2.position.set(-0.4, -3, 2);
+    pointLight2.distance = 8;
+    scene.add(pointLight2);
 
     // lights for mask scene
     var ambientLight2 = new THREE.AmbientLight(0xcccccc, 0.2);
