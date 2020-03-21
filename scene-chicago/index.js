@@ -21,19 +21,19 @@ var features = {
 
 window.cameraTargets = {
     "hotspot-1": {
-        x: 2.6, y: 3.1, z: -2.2
+        x: -2.6, y: 3.1, z: 6.4
     },
     "hotspot-2": {
-        x: 2.6, y: 3.1, z: -2.2
+        x: -3.6, y: 2.9, z: 2.3
     },
     "hotspot-3": {
-        x: 2.6, y: 3.1, z: -2.2
+        x: -4, y: 3.4, z: -5.5
     },
     "hotspot-4": {
-        x: 2.6, y: 3.1, z: -2.2
+        x: -4.6, y: 3.4, z: 5
     },
     "hotspot-5": {
-        x: 2.6, y: 3.1, z: -2.2
+        x: -1.6, y: 1.3, z: 0
     }
 };
 window.hotspots = [];
@@ -101,7 +101,8 @@ function init() {
             if (child.name.includes('sky')) {
                 var texture = textureLoader.load("./models/model6/frame-lm.png");
                 child.material.lightMap = texture;
-                child.material.lightMapIntensity = lightMapIntensity + 0.2;
+                child.material.lightMapIntensity = lightMapIntensity + 0.1;
+                
             }
         });
     });
@@ -109,9 +110,12 @@ function init() {
     // lights
     var ambientLight = new THREE.AmbientLight(0xcccccc, 0.6);
     scene.add(ambientLight);
-    var directionalLight = new THREE.DirectionalLight(0xffffff, 0.6);
-    directionalLight.position.set(0, 2, 1).normalize();
-    scene.add(directionalLight);
+    // var directionalLight = new THREE.DirectionalLight(0xffffff, 0.6);
+    // directionalLight.position.set(0, 2, 1).normalize();
+    // scene.add(directionalLight);
+
+    var light = new THREE.HemisphereLight( 0xffffbb, 0x080820, 0.6 );
+    scene.add( light );
 
     // renderer
     renderer = new THREE.WebGLRenderer();
@@ -165,9 +169,9 @@ function init() {
         //     // gui.add(fireLight.position, 'x', -50, 50).name('fire x').step(0.1).listen();
         //     // gui.add(fireLight.position, 'y', -50, 50).name('fire y').step(0.1).listen();
 
-        gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
         gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
         gui.add(camera.position, 'y', -50, 50).step(0.1).listen();
+        gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
     }
 }
 
