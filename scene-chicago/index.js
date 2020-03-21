@@ -17,6 +17,7 @@ var model;
 var features = {
     loader: true,
     navigation: true,
+    sfx: true
 };
 
 window.cameraTargets = {
@@ -39,7 +40,19 @@ window.cameraTargets = {
 window.hotspots = [];
 window.selectedTooltip = null;
 window.controlsSelectedTooltip = null;
-window.audioLib = false;
+window.audioLib = {
+    ambient: null,
+    muteButton: document.getElementById('mute-button'),
+    unmuteButton: document.getElementById('unmute-button'),
+    mute: false,
+    hotspots: {
+        "hotspot-1": null,
+        "hotspot-2": null,
+        "hotspot-3": null,
+        "hotspot-4": null,
+        "hotspot-5": null,
+    }
+};
 
 init();
 animate();
@@ -105,6 +118,38 @@ function init() {
                 
             }
         });
+
+        if (features.sfx) {
+            audioLib.hotspots["hotspot-1"] = new Audio('./audio/Tom Brown 3d Endangering Enviroment.m4a');
+            audioLib.hotspots["hotspot-2"] = new Audio('./audio/Tom Brown 3d Beef Trust.m4a');
+            audioLib.hotspots["hotspot-3"] = new Audio('./audio/Tom Brown 3d As Far as the eye could see.m4a');
+            audioLib.hotspots["hotspot-4"] = new Audio('./audio/Tom Brown 3d A growing concern.m4a');
+            audioLib.hotspots["hotspot-5"] = new Audio('./audio/Tom Brown 3d Muckraking.m4a');
+
+            audioLib.ambient = new Audio('./audio/Tom Brown 3d Background.m4a');
+            audioLib.ambient.loop = true;
+            try {
+                audioLib.ambient.play();
+            } catch (e) {
+                // for autoplay https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide
+            }
+
+            audioLib.muteButton.addEventListener('click', () => {
+                audioLib.ambient.pause();
+                audioLib.muteButton.style.display = 'none';
+                audioLib.unmuteButton.style.display = 'block';
+                audioLib.mute = true;
+            });
+
+            audioLib.unmuteButton.addEventListener('click', () => {
+                audioLib.ambient.play();
+                audioLib.unmuteButton.style.display = 'none';
+                audioLib.muteButton.style.display = 'block';
+                audioLib.mute = false;
+            });
+        } else {
+            audioLib.muteButton.style.display = 'none';
+        }
     });
 
     // lights
