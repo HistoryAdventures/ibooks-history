@@ -148,6 +148,10 @@ h1 a {
 	font-style: normal;
 }
 
+.tooltip h2 img {
+	margin-bottom: 0;
+}
+
 .tooltip a {
 	color: cadetblue;
 }
