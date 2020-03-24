@@ -192,6 +192,16 @@ circle, line, path {
   z-index: -1;
 }
 
+
+.hotspot.label[popup-location="left"] .content:before {
+  border-right: 44px solid #f2003d;
+  border-left: 0;
+  left: 0;
+  right: 100%;
+  margin-left: -44px;
+}
+
+
 .popup {
   padding: 40px 30px 60px;
   background: #000000;
