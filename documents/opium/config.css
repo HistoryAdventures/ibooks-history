@@ -172,8 +172,12 @@ circle, line, path {
   border-radius: 50%;
   border: 20px solid white;
   position: relative;
+  box-shadow: 0px 0px 2px black;
 }
 
+.hotspot.label {
+  margin-left: -42px;
+}
 
 .hotspot.label .content:before {
   content: '';

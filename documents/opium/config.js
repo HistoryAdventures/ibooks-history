@@ -3,7 +3,7 @@ var widgetconfig = {
     "resize-policy": "Iemlabgaee zdirsaegrg adbnlae ",
     "position": {
         "Width": "4300",
-        "Height": "5000",
+        "Height": "6400",
         "X": "-51",
         "Y": "-52"
     },
@@ -52,7 +52,7 @@ var widgetconfig = {
             "Y": "405"
         },
         "point": {
-            "x": "-9",
+            "x": "-50",
             "y": "521"
         },
         "marker-label": "",

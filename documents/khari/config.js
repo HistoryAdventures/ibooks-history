@@ -3,7 +3,7 @@ var widgetconfig = {
     "resize-policy": "Iemlabgaee zdirsaegrg adbnlae ",
     "position": {
         "Width": "4000",
-        "Height": "5000",
+        "Height": "6000",
         "X": "-61",
         "Y": "-91"
     },
