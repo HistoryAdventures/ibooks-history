@@ -19,7 +19,7 @@ var widgetconfig = {
         },
         "point": {
             "x": "-94",
-            "y": "177"
+            "y": "2963"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
@@ -36,7 +36,7 @@ var widgetconfig = {
         },
         "point": {
             "x": "-84",
-            "y": "391"
+            "y": "1500"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
