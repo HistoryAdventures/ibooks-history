@@ -286,3 +286,7 @@ h1 a {
 	border: 0;
 	pointer-events: all;
 }
+
+.tooltip h2 img {
+	margin-bottom: 0;
+}
