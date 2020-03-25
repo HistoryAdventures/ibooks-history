@@ -73,7 +73,7 @@ var widgetconfig = {
                 "Y": "328"
             },
             "point": {
-                "x": "-72",
+                "x": "3965",
                 "y": "1995"
             },
             "marker-label": "",
@@ -91,7 +91,7 @@ var widgetconfig = {
                 "Y": "238"
             },
             "point": {
-                "x": "3965",
+                "x": "-72",
                 "y": "1995"
             },
             "marker-label": "",
