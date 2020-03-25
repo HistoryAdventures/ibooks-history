@@ -175,6 +175,15 @@ circle, line, path {
 }
 
 
+
+.hotspot.label[popup-location="left"] .content:before {
+  border-right: 44px solid #1bafa3;
+  border-left: 0;
+  left: 0;
+  right: 100%;
+  margin-left: -44px;
+}
+
 .hotspot.label .content:before {
   content: '';
   width: 0;
