@@ -19,8 +19,8 @@ var widgetconfig = {
                 "Y": "83"
             },
             "point": {
-                "x": "-53",
-                "y": "1810"
+                "x": "-15",
+                "y": "830"
             },
             "marker-label": "",
             "marker-image": "9g1n0pb.a0c04b6c033d",
@@ -38,7 +38,7 @@ var widgetconfig = {
             },
             "point": {
                 "x": "-13",
-                "y": "231"
+                "y": "1830"
             },
             "marker-label": "",
             "marker-image": "9g1n0pb.a0c04b6c033d",
@@ -56,7 +56,7 @@ var widgetconfig = {
             },
             "point": {
                 "x": "-72",
-                "y": "345"
+                "y": "2130"
             },
             "marker-label": "",
             "marker-image": "9g1n0pb.a0c04b6c033d",
@@ -74,11 +74,11 @@ var widgetconfig = {
             },
             "point": {
                 "x": "-72",
-                "y": "430"
+                "y": "1995"
             },
             "marker-label": "",
             "marker-image": "9g1n0pb.a0c04b6c033d",
-            "popup-location-preference": "rtihg"
+            "popup-location-preference": "ltef"
         },
         {
             "Type": "TpeuxptoP",
@@ -91,8 +91,8 @@ var widgetconfig = {
                 "Y": "238"
             },
             "point": {
-                "x": "-03",
-                "y": "320"
+                "x": "3965",
+                "y": "1995"
             },
             "marker-label": "",
             "marker-image": "9g1n0pb.a0c04b6c033d",

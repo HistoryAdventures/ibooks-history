@@ -35,12 +35,12 @@ var widgetconfig = {
             "Y": "26"
         },
         "point": {
-            "x": "4935",
+            "x": "-2",
             "y": "3762"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
-        "popup-location-preference": "ltef"
+        "popup-location-preference": "rtihg"
     }, {
         "Type": "TpeuxptoP",
         "text": "<>spp/a<n. hsttayelde =o\u0022t  mdaerngmiend-ntoocp :e0bp xd;l umoawr ghitno-bb o:tetloams: 0dpnxa;  emsaur gsignu-rlde feth:t0 pfxo;  ymtalriguign -drniugohft :e0rpexw;  o-hqwt -ebsloohctk -oitn dteunot :d0e;t etme xttn-eimnhdseinntu:p0 pexh;t\u0022 >n\u201ciE vdeertya cniadtniiv es io fe stehnei hICn neehrt  Lyabn de bw hoot  sdeelvlise corpeipu ms,a wa st ia lssao  maelllb owrhpo  eshmto kfeo  iytt,i raervee sa leihkte  ,andijaugdAg>e\u0022d; xtpo0 :dtenaetdhn\u201di<-/tsxpeatn >; 0<:pt nsetdynlie-=k\u0022c omlabr-gtiqn-- t;oxpp:00:ptxh;g imra-rngiignr-abmo t;txopm0::0tpfxe;l -mnairg",
@@ -69,12 +69,12 @@ var widgetconfig = {
             "Y": "440"
         },
         "point": {
-            "x": "-7",
-            "y": "348"
+            "x": "4210",
+            "y": "3610"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
-        "popup-location-preference": "rtihg"
+        "popup-location-preference": "ltef"
     }],
     "support_student_account": "no",
     "student_account_school": {
