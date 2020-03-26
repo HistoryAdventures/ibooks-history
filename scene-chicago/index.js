@@ -112,16 +112,21 @@ function init() {
 
             const lightMapIntensity = 0.3;
 
+
+            if (child.name.includes('hotspot-1')) {
+                child.material.map = textureLoader.load('./models/model6/3D notes-04_02.png');
+            }
+
             if (child.name.includes('ground')) {
                 var texture = textureLoader.load("./models/model6/ground-lm.jpg");
                 child.material.lightMap = texture;
-                child.material.lightMapIntensity = lightMapIntensity + 0.2;
+                child.material.lightMapIntensity = lightMapIntensity + 0.4;
             }
 
             if (child.name.includes('sky')) {
                 var texture = textureLoader.load("./models/model6/frame-lm.png");
                 child.material.lightMap = texture;
-                child.material.lightMapIntensity = lightMapIntensity + 0.1;
+                child.material.lightMapIntensity = lightMapIntensity + 0;
                 
             }
         });
