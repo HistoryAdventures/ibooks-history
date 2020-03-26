@@ -187,15 +187,15 @@ function init() {
     // controls.enablePan = true;
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
-    controls.maxDistance = 8;
+    controls.maxDistance = 13;
     controls.target.set(0, 1, 0);
     controls.zoomSpeed = 0.5;
-    controls.maxPolarAngle = Math.PI / 1.9;
+    controls.maxPolarAngle = Math.PI / 1.95;
     // controls.minPolarAngle = Math.PI / 4;
     controls.update();
 
     var minPan = new THREE.Vector3(-4, -3, -4);
-    var maxPan = new THREE.Vector3(4, 2, 4);
+    var maxPan = new THREE.Vector3(6, 2, 6);
     var _v = new THREE.Vector3();
 
     controls.addEventListener("change", function () {
