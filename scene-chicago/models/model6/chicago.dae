@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2018-02-21, commit time:10:41, hash:8928d99</authoring_tool>
     </contributor>
-    <created>2020-03-26T13:09:31</created>
-    <modified>2020-03-26T13:09:31</modified>
+    <created>2020-03-26T13:23:50</created>
+    <modified>2020-03-26T13:23:50</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -391,7 +391,7 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <texture texture="_1_png-sampler"/>
+              <texture texture="_1_png-sampler" texcoord="UVMap"/>
             </diffuse>
             <specular>
               <color sid="specular">0.5 0.5 0.5 1</color>
@@ -27033,9 +27033,9 @@
     <geometry id="Plane_006-mesh" name="Plane.006">
       <mesh>
         <source id="Plane_006-mesh-positions">
-          <float_array id="Plane_006-mesh-positions-array" count="30">1 1 -1.74846e-7 -1 1 0 -1 0.3912131 0 0.9336922 0.3809562 0 1 0.5723194 -1.37457e-7 0.9382995 0.5725752 -1.32085e-7 0.9714935 -2.062547 0 0.9898788 -2.062546 -1.7674e-7 0.9714935 0.5485916 -1.5564e-7 0.9898788 0.5485919 -2.22929e-7</float_array>
+          <float_array id="Plane_006-mesh-positions-array" count="24">1 1.303851 -1.88127e-7 -1 1.303851 0 -1 0.3912131 0 1 0.3809562 7.3659e-7 0.9714935 -2.062547 0 0.9898788 -2.062546 -1.7674e-7 0.9714935 1.29476 -1.88257e-7 0.9898788 1.294761 -2.55545e-7</float_array>
           <technique_common>
-            <accessor source="#Plane_006-mesh-positions-array" count="10" stride="3">
+            <accessor source="#Plane_006-mesh-positions-array" count="8" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
@@ -27043,9 +27043,9 @@
           </technique_common>
         </source>
         <source id="Plane_006-mesh-normals">
-          <float_array id="Plane_006-mesh-normals-array" count="18">0 0 -1 3.65987e-6 0 1 0 0 -1 0 0 -1 0 0 -1 3.65987e-6 0 1</float_array>
+          <float_array id="Plane_006-mesh-normals-array" count="12">3.65987e-6 0 1 3.36546e-7 -1.00198e-6 -1 3.65987e-6 0 1 0 0 -1</float_array>
           <technique_common>
-            <accessor source="#Plane_006-mesh-normals-array" count="6" stride="3">
+            <accessor source="#Plane_006-mesh-normals-array" count="4" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
@@ -27053,9 +27053,9 @@
           </technique_common>
         </source>
         <source id="Plane_006-mesh-map-0">
-          <float_array id="Plane_006-mesh-map-0-array" count="36">0.9948957 1.013097 -0.004962921 1.013097 0.02588295 0.5857327 0 0 0 0 0 0 -0.004962921 1.013097 -0.004962861 0.5854769 0.02588295 0.5857327 0.02588295 0.5857327 0.02818626 0.3941407 0.9948957 0.4043962 0.9948957 0.4043962 0.9948957 1.013097 0.02588295 0.5857327 0 0 0 0 0 0</float_array>
+          <float_array id="Plane_006-mesh-map-0-array" count="24">0.9999708 0 2.91768e-5 0.9999999 0 0 0.9943639 0.5361538 -0.005500078 0.9924108 -0.005500257 0.5310266 0.9999708 0 1 1 2.91768e-5 0.9999999 0.9943639 0.5361538 0.9943639 0.9924107 -0.005500078 0.9924108</float_array>
           <technique_common>
-            <accessor source="#Plane_006-mesh-map-0-array" count="18" stride="2">
+            <accessor source="#Plane_006-mesh-map-0-array" count="12" stride="2">
               <param name="S" type="float"/>
               <param name="T" type="float"/>
             </accessor>
@@ -27064,17 +27064,17 @@
         <vertices id="Plane_006-mesh-vertices">
           <input semantic="POSITION" source="#Plane_006-mesh-positions"/>
         </vertices>
-        <triangles material="hotspot-1-material" count="4">
+        <triangles material="hotspot-1-material" count="2">
           <input semantic="VERTEX" source="#Plane_006-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Plane_006-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Plane_006-mesh-map-0" offset="2" set="0"/>
-          <p>1 0 0 0 0 1 5 0 2 0 2 6 4 2 7 5 2 8 5 3 9 3 3 10 2 3 11 2 4 12 1 4 13 5 4 14</p>
+          <p>2 1 3 0 1 4 3 1 5 2 3 9 1 3 10 0 3 11</p>
         </triangles>
         <triangles material="flagpole-material" count="2">
           <input semantic="VERTEX" source="#Plane_006-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Plane_006-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Plane_006-mesh-map-0" offset="2" set="0"/>
-          <p>7 1 3 8 1 4 6 1 5 7 5 15 9 5 16 8 5 17</p>
+          <p>5 0 0 6 0 1 4 0 2 5 2 6 7 2 7 6 2 8</p>
         </triangles>
       </mesh>
     </geometry>
