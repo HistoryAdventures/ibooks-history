@@ -144,7 +144,7 @@ function init() {
 
             audioLib.ambient = new Audio('./audio/Jiemba 3d Background_1.m4a');
             audioLib.ambient.loop = true;
-            audioLib.ambient.volume = 0.5;
+            audioLib.ambient.volume = 0.3;
             try {
                 audioLib.ambient.play();
             } catch (e) {
