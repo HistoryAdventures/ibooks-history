@@ -111,6 +111,13 @@ function init() {
             }
 
             const lightMapIntensity = 0.3;
+
+            if (child.name.includes('ground')) {
+                var texture = textureLoader.load("./models/model6/ground-lm.jpg");
+                child.material.lightMap = texture;
+                child.material.lightMapIntensity = lightMapIntensity + 0.2;
+            }
+
             if (child.name.includes('sky')) {
                 var texture = textureLoader.load("./models/model6/frame-lm.png");
                 child.material.lightMap = texture;
