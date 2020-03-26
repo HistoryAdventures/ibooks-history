@@ -165,7 +165,7 @@ function init() {
     });
 
     // lights
-    var ambientLight = new THREE.AmbientLight(0xcccccc, 0.6);
+    var ambientLight = new THREE.AmbientLight(0xcccccc, 0.5);
     scene.add(ambientLight);
     // var directionalLight = new THREE.DirectionalLight(0xffffff, 0.6);
     // directionalLight.position.set(0, 2, 1).normalize();
