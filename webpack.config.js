@@ -8,6 +8,7 @@ module.exports = {
     'scene-khari': './scene-khari/index.js',
     'scene-opium': './scene-opium/index.js',
     'scene-video': './scene-video/index.js',
+    'scene-sample': './scene-sample/index.js',
   },
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   module: {
