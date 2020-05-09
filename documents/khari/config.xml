@@ -1,0 +1,300 @@
+<!DOCTYPE widget>
+<HotspotImage>
+<background_picture rid="S8VJJ5XGZTHDDFP1J1AB" height="768" autosize="true" alttext="" width="623" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/Source analysis/Khari/Khari-Letter-02.png</background_picture>
+<resize-policy value="Image draggable and resizeable">Image draggable and resizeable</resize-policy>
+<position>
+<Width>660</Width>
+<Height>818</Height>
+<X>-16</X>
+<Y>-19</Y>
+</position>
+<hotspots>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">“Being desirous… well-being of the native populations”&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Here the crux of the Berlin Conference is laid bare for all to see. The conference had been prompted by the sudden emergence of a newly unified Germany as a player on the international, imperialistic stage. This text is framed as a way of preventing competition for African territories (&lt;span style=" font-weight:600;">the Scramble for Africa&lt;/span>) boiling over into armed or violent conflict. There is a token gesture made in consideration of the natives and their well-being at the end of this clause as well.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>100</Width>
+<Height>19</Height>
+<X>-80</X>
+<Y>389</Y>
+</position>
+<point>
+<x>-7</x>
+<y>389</y>
+</point>
+<marker-label searchable="true"></marker-label>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="right">Right of hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Article 1&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This article guarantees the free trade of all 14 signatory powers – the 13 European nations and the United States – throughout the Congo Basin. The economic motivations of European imperialism are laid bare.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>103</Width>
+<Height>14</Height>
+<X>-82</X>
+<Y>507</Y>
+</position>
+<point>
+<x>-9</x>
+<y>508</y>
+</point>
+<marker-label searchable="true"></marker-label>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="right">Right of hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Article 6&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This article of the Act is focused on presenting the alleged humanitarian aspects of the European scramble for African territories. Most notably, there is a call here for the European powers to ensure the preservation of the native peoples. This included, significantly, the suppression of any and all slavery that they encountered. This clause also emphasises that Christian missionaries who visited these African territories would be given special protections to assist them in their righteous evangelical missions. Surprisingly, perhaps, alongside this was the guarantee of religious toleration and freedom of worship. This article in particular helped the act gain public acceptance.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>100</Width>
+<Height>17</Height>
+<X>-77</X>
+<Y>652</Y>
+</position>
+<point>
+<x>-2</x>
+<y>660</y>
+</point>
+<marker-label searchable="true"></marker-label>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="right">Right of hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Chapter VI&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This is the part of the Act that is known as the Principle of Effective Occupation. This states that the European powers could acquire the rights over colonial lands, only if they had ‘effective occupation’ of them. This could be presented as treaties with local leaders, if a European flag was flying, or if they established a policed administration system in the territory. This was not just significant in clarifying how a European territory could take control, but it was essential in determining the limitations of their territories. In this sense, it was another form of reducing possible tensions between European imperial powers.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>94</Width>
+<Height>19</Height>
+<X>591</X>
+<Y>651</Y>
+</position>
+<point>
+<x>610</x>
+<y>660</y>
+</point>
+<marker-label searchable="true"></marker-label>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="left">Left of hotspot</popup-location-preference>
+</TextPopup>
+</hotspots>
+<support_student_account value="no">No student accounts</support_student_account>
+<student_account_authproviders/>
+<student_account_school>
+<code></code>
+<name>Anyone</name>
+</student_account_school>
+<student_account_authrestrict>yes</student_account_authrestrict>
+<widget_language></widget_language>
+<LocalizationMap>
+<localization>
+<phrase>Hotspot accesses</phrase>
+<translation></translation>
+<modified>false</modified>
+</localization>
+<localization>
+<phrase>Hotspots accessed</phrase>
+<translation></translation>
+<modified>false</modified>
+</localization>
+</LocalizationMap>
+<DesignConstants widget_backgroundimage="" template="Dark Background" widget_color="#3498DB" widget_font="Verdana">
+<constant>
+<name>hiddenborderleft</name>
+<kind>BorderLeft</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>hiddenborderright</name>
+<kind>BorderRight</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>hiddenbordertop</name>
+<kind>BorderTop</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>hiddenborderbottom</name>
+<kind>BorderBottom</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>hiddenborderradius</name>
+<kind>BorderRadius</kind>
+<value>0px, 0px, 0px, 0px</value>
+</constant>
+<constant>
+<name>hiddenbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 1, 1</value>
+</constant>
+<constant>
+<name>hiddenshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>labelborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>labelborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>labelbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>labelborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>labelborderradius</name>
+<kind>BorderRadius</kind>
+<value>10px, 10px, 10px, 10px</value>
+</constant>
+<constant>
+<name>labelbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>labelcolor</name>
+<kind>TextColor</kind>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>labelfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 20</value>
+</constant>
+<constant>
+<name>labelshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>pointerborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>pointerborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>pointerbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>pointerborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>popupbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>popupborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>popupborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>popupbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>popupborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>popupborderradius</name>
+<kind>BorderRadius</kind>
+<value>10px, 10px, 10px, 10px</value>
+</constant>
+<constant>
+<name>popupshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>popupfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 14</value>
+</constant>
+<constant>
+<name>popupcolor</name>
+<kind>TextColor</kind>
+<value>#000000</value>
+</constant>
+<constant>
+<name>buttonstrokecolor</name>
+<kind>StrokeColor</kind>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>buttonfillcolor</name>
+<kind>FillColor</kind>
+<value>#ffffff</value>
+</constant>
+</DesignConstants>
+<cover rid="JGQRSLYKEIDD6JHAMQNP" height="768" autosize="true" alttext="" width="623" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/Source analysis/Khari/cover.png</cover>
+<widget_orientation value="Vertical">Vertical</widget_orientation>
+<BookWidgetsVersion>6.0.3</BookWidgetsVersion>
+<shortcode></shortcode>
+<label searchable="true"></label>
+<lastupload></lastupload>
+</HotspotImage>
