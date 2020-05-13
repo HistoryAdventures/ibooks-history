@@ -1,0 +1,293 @@
+<!DOCTYPE widget>
+<HotspotImage>
+<background_picture rid="5ZFCWIY09BARY01LHZQ2" height="768" autosize="true" alttext="" width="467" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/Source analysis/Jiemba/Gov_Davey's_proclamation-edit3.jpg</background_picture>
+<resize-policy value="Image draggable and resizeable">Image draggable and resizeable</resize-policy>
+<position>
+<Width>505</Width>
+<Height>822</Height>
+<X>-20</X>
+<Y>-21</Y>
+</position>
+<hotspots>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This wood panel painting uses pictorial forms to explain British justice to the Aborigines (in this instance, in Tasmania). The use of images to communicate, rather than a shared language, indicates one of the issues that undermined peaceful interaction and cooperation.&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This first row shows the ideal colonial settlement, with British settlers and their children mingling sociably with natives.&lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>-107</X>
+<Y>169</Y>
+</position>
+<point>
+<x>-49</x>
+<y>177</y>
+</point>
+<marker-label searchable="true"></marker-label>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="right">Right of hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit';">Here the differences between the natives, who are without clothes, and the finery of the imperial settlers is presented in stark contrast.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>-105</X>
+<Y>311</Y>
+</position>
+<point>
+<x>-48</x>
+<y>319</y>
+</point>
+<marker-label searchable="true"></marker-label>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="right">Right of hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit';">This row of images conveys the consequences of aboriginal violence towards the settlers. This became an increasing problem as the British expanded outwards from their original settlements, coming into conflict with natives for resources. Killing a settler will result I the judicial execution of the native responsible. This will be overseen by the settlers.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>-103</X>
+<Y>445</Y>
+</position>
+<point>
+<x>-43</x>
+<y>448</y>
+</point>
+<marker-label searchable="true"></marker-label>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="right">Right of hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit';">Surprisingly, this row conveys a sense of equality in colonial society. The settlers will face the same punishment as the aborigines for the murder of natives. Again, this will be overseen by the settlers.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>-105</X>
+<Y>593</Y>
+</position>
+<point>
+<x>-40</x>
+<y>612</y>
+</point>
+<marker-label searchable="true"></marker-label>
+<marker-image rid="" height="0" autosize="true" alttext="" width="0" orientation="1" caption="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="right">Right of hotspot</popup-location-preference>
+</TextPopup>
+</hotspots>
+<support_student_account value="no">No student accounts</support_student_account>
+<student_account_authproviders/>
+<student_account_school>
+<code></code>
+<name>Anyone</name>
+</student_account_school>
+<student_account_authrestrict>yes</student_account_authrestrict>
+<widget_language></widget_language>
+<LocalizationMap>
+<localization>
+<phrase>Hotspot accesses</phrase>
+<translation></translation>
+<modified>false</modified>
+</localization>
+<localization>
+<phrase>Hotspots accessed</phrase>
+<translation></translation>
+<modified>false</modified>
+</localization>
+</LocalizationMap>
+<DesignConstants widget_backgroundimage="" template="Dark Background" widget_color="#3498DB" widget_font="Verdana">
+<constant>
+<name>hiddenborderleft</name>
+<kind>BorderLeft</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>hiddenborderright</name>
+<kind>BorderRight</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>hiddenbordertop</name>
+<kind>BorderTop</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>hiddenborderbottom</name>
+<kind>BorderBottom</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>hiddenborderradius</name>
+<kind>BorderRadius</kind>
+<value>0px, 0px, 0px, 0px</value>
+</constant>
+<constant>
+<name>hiddenbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 1, 1</value>
+</constant>
+<constant>
+<name>hiddenshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>labelborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>labelborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>labelbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>labelborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>labelborderradius</name>
+<kind>BorderRadius</kind>
+<value>10px, 10px, 10px, 10px</value>
+</constant>
+<constant>
+<name>labelbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>labelcolor</name>
+<kind>TextColor</kind>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>labelfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 20</value>
+</constant>
+<constant>
+<name>labelshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>pointerborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>pointerborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>pointerbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>pointerborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>popupbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>popupborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>popupborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>popupbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>popupborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>popupborderradius</name>
+<kind>BorderRadius</kind>
+<value>10px, 10px, 10px, 10px</value>
+</constant>
+<constant>
+<name>popupshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>popupfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 14</value>
+</constant>
+<constant>
+<name>popupcolor</name>
+<kind>TextColor</kind>
+<value>#000000</value>
+</constant>
+<constant>
+<name>buttonstrokecolor</name>
+<kind>StrokeColor</kind>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>buttonfillcolor</name>
+<kind>FillColor</kind>
+<value>#ffffff</value>
+</constant>
+</DesignConstants>
+<cover rid="2801HPNBI1LJ2N5Q6UTD" height="768" autosize="true" alttext="" width="467" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/Source analysis/Jiemba/Gov_Davey's_proclamation-edit3.jpg</cover>
+<widget_orientation value="Vertical">Vertical</widget_orientation>
+<BookWidgetsVersion>6.0.3</BookWidgetsVersion>
+<shortcode></shortcode>
+<label searchable="true"></label>
+<lastupload></lastupload>
+</HotspotImage>
