@@ -117,14 +117,41 @@ function init() {
         uiLoader.classList.add('off');
     }
 
-    var geometry = new THREE.PlaneGeometry( 60, 20, 32 );
-    var material = new THREE.MeshBasicMaterial( {color: 0x000000, side: THREE.DoubleSide, opacity: 0, transparent: true } );
-    var plane = new THREE.Mesh( geometry, material );
-    plane.name = 'hotspot-paper1';
-    plane.position.set(98, -58, -131);
-    scene.add( plane );
+    var spriteMap = new THREE.TextureLoader().load( "button.svg" );
+    var spriteMaterial = new THREE.SpriteMaterial( { map: spriteMap } );
 
-    hotspots = [plane];
+    var sprite1 = new THREE.Sprite( spriteMaterial );
+    sprite1.name = 'hotspot-wall';
+    sprite1.position.set(-27, 2, 25);
+    scene.add( sprite1 );
+
+    var sprite2 = new THREE.Sprite( spriteMaterial );
+    sprite2.name = 'hotspot-defenders';
+    sprite2.position.set(42, -1, -14);
+    scene.add( sprite2 );
+
+    var sprite3 = new THREE.Sprite( spriteMaterial );
+    sprite3.name = 'hotspot-siege';
+    sprite3.position.set(3, 2, -40);
+    scene.add( sprite3 );
+
+    var sprite4 = new THREE.Sprite( spriteMaterial );
+    sprite4.name = 'hotspot-army';
+    sprite4.position.set(-32, 2, -14);
+    scene.add( sprite4 );
+
+    var sprite5 = new THREE.Sprite( spriteMaterial );
+    sprite5.name = 'hotspot-christ';
+    sprite5.position.set(25, 2, 29);
+    scene.add( sprite5 );
+
+    sprite1.scale.set(3,3,3);
+    sprite2.scale.set(3,3,3);
+    sprite3.scale.set(3,3,3);
+    sprite4.scale.set(3,3,3);
+    sprite5.scale.set(3,3,3);
+
+    hotspots = [sprite1, sprite2, sprite3, sprite4, sprite5];
 
     // lights
     var ambientLight = new THREE.AmbientLight(0xcccccc, 0.15);
@@ -187,9 +214,25 @@ function init() {
     outlinePass.selectedObjects = hotspots;
 
     if (window.location.hash === '#debug') {
-        gui.add(plane.position, 'z', -200, 200).step(1).listen();
-        gui.add(plane.position, 'x', -200, 200).step(1).listen();
-        gui.add(plane.position, 'y', -200, 200).step(1).listen();
+        gui.add(sprite1.position, 'x', -200, 200).name("button 1 x").step(1).listen();
+        gui.add(sprite1.position, 'y', -200, 200).name("button 1 y").step(1).listen();
+        gui.add(sprite1.position, 'z', -200, 200).name("button 1 z").step(1).listen();
+
+        gui.add(sprite2.position, 'x', -200, 200).name("button 2 x").step(1).listen();
+        gui.add(sprite2.position, 'y', -200, 200).name("button 2 y").step(1).listen();
+        gui.add(sprite2.position, 'z', -200, 200).name("button 2 z").step(1).listen();
+
+        gui.add(sprite3.position, 'x', -200, 200).name("button 3 x").step(1).listen();
+        gui.add(sprite3.position, 'y', -200, 200).name("button 3 y").step(1).listen();
+        gui.add(sprite3.position, 'z', -200, 200).name("button 3 z").step(1).listen();
+
+        gui.add(sprite4.position, 'x', -200, 200).name("button 4 x").step(1).listen();
+        gui.add(sprite4.position, 'y', -200, 200).name("button 4 y").step(1).listen();
+        gui.add(sprite4.position, 'z', -200, 200).name("button 4 z").step(1).listen();
+
+        gui.add(sprite5.position, 'x', -200, 200).name("button 5 x").step(1).listen();
+        gui.add(sprite5.position, 'y', -200, 200).name("button 5 y").step(1).listen();
+        gui.add(sprite5.position, 'z', -200, 200).name("button 5 z").step(1).listen();
     }
 }
 
