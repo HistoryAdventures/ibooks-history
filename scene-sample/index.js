@@ -159,6 +159,8 @@ function init() {
     controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
     controls.dampingFactor = 0.03;
     controls.enablePan = false;
+    controls.enableZoom = true;
+    controls.rotateSpeed = -1; // mouse invert
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
     controls.maxDistance = 4;
