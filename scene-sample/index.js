@@ -145,13 +145,12 @@ function init() {
     sprite5.position.set(25, 2, 29);
     scene.add( sprite5 );
 
-    sprite1.scale.set(3,3,3);
-    sprite2.scale.set(3,3,3);
-    sprite3.scale.set(3,3,3);
-    sprite4.scale.set(3,3,3);
-    sprite5.scale.set(3,3,3);
-
     hotspots = [sprite1, sprite2, sprite3, sprite4, sprite5];
+
+    const scaleFactor = 3;
+    hotspots.forEach(hotspot => {
+        hotspot.scale.set(scaleFactor, scaleFactor, scaleFactor);
+    });
 
     // lights
     var ambientLight = new THREE.AmbientLight(0xcccccc, 0.15);
