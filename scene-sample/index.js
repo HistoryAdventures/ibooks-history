@@ -122,27 +122,27 @@ function init() {
 
     var sprite1 = new THREE.Sprite( spriteMaterial );
     sprite1.name = 'hotspot-wall';
-    sprite1.position.set(-200, 2, 200);
+    sprite1.position.set(-200, 38, 137);
     scene.add( sprite1 );
 
     var sprite2 = new THREE.Sprite( spriteMaterial );
     sprite2.name = 'hotspot-defenders';
-    sprite2.position.set(200, -1, -14);
+    sprite2.position.set(-58, 51, 200);
     scene.add( sprite2 );
 
     var sprite3 = new THREE.Sprite( spriteMaterial );
     sprite3.name = 'hotspot-siege';
-    sprite3.position.set(3, 2, -200);
+    sprite3.position.set(-200, 38, -88);
     scene.add( sprite3 );
 
     var sprite4 = new THREE.Sprite( spriteMaterial );
     sprite4.name = 'hotspot-army';
-    sprite4.position.set(-200, 2, -114);
+    sprite4.position.set(16, -14, -200);
     scene.add( sprite4 );
 
     var sprite5 = new THREE.Sprite( spriteMaterial );
     sprite5.name = 'hotspot-christ';
-    sprite5.position.set(200, 2, 200);
+    sprite5.position.set(77, 16, 200);
     scene.add( sprite5 );
 
     hotspots = [sprite1, sprite2, sprite3, sprite4, sprite5];
