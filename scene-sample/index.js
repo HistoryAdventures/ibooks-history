@@ -192,8 +192,8 @@ function init() {
     controls.maxDistance = 4;
     controls.target.set(0, 1, 0);
     controls.zoomSpeed = 0.5;
-    controls.maxPolarAngle = Math.PI / 4;
-    controls.minPolarAngle = Math.PI / 3.5;
+    controls.maxPolarAngle = Math.PI / 0.5;
+    controls.minPolarAngle = Math.PI / 0.5;
     controls.update();
 
     window.addEventListener("resize", onWindowResize, false);
