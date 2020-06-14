@@ -9,49 +9,95 @@ cp -rf scene-chicago scene-chicago.wdgt
 cp -rf scene-jemba scene-jemba.wdgt
 cp -rf scene-khari scene-khari.wdgt
 cp -rf scene-opium scene-opium.wdgt
-cp -rf scene-sample scene-sample.wdgt
+cp -rf scene-ioannina scene-ioannina.wdgt
+cp -rf scene-luis scene-luis.wdgt
+cp -rf scene-ishi scene-ishi.wdgt
+cp -rf scene-william scene-william.wdgt
+cp -rf scene-jonas scene-jonas.wdgt
+cp -rf scene-arun scene-arun.wdgt
 
 cp -rf documents/agent document-agent.wdgt
 cp -rf documents/chicago document-chicago.wdgt
 cp -rf documents/jemba document-jemba.wdgt
 cp -rf documents/khari document-khari.wdgt
 cp -rf documents/opium document-opium.wdgt
+cp -rf documents/ioannina document-ioannina.wdgt
+cp -rf documents/luis document-luis.wdgt
+cp -rf documents/ishi document-ishi.wdgt
+cp -rf documents/william document-william.wdgt
+cp -rf documents/jonas document-jonas.wdgt
+cp -rf documents/arun document-arun.wdgt
+
 
 zip -r scene-agent.zip scene-agent.wdgt
 zip -r scene-chicago.zip scene-chicago.wdgt
 zip -r scene-jemba.zip scene-jemba.wdgt
 zip -r scene-khari.zip scene-khari.wdgt
 zip -r scene-opium.zip scene-opium.wdgt
-zip -r scene-sample.zip scene-sample.wdgt
+zip -r scene-ioannina.zip scene-ioannina.wdgt
+zip -r scene-luis.zip scene-luis.wdgt
+zip -r scene-ishi.zip scene-ishi.wdgt
+zip -r scene-william.zip scene-william.wdgt
+zip -r scene-jonas.zip scene-jonas.wdgt
+zip -r scene-arun.zip scene-arun.wdgt
+
 
 zip -r document-agent.zip document-agent.wdgt
 zip -r document-chicago.zip document-chicago.wdgt
 zip -r document-jemba.zip document-jemba.wdgt
 zip -r document-khari.zip document-khari.wdgt
 zip -r document-opium.zip document-opium.wdgt
+zip -r document-ioannina.zip document-ioannina.wdgt
+zip -r document-luis.zip document-luis.wdgt
+zip -r document-ishi.zip document-ishi.wdgt
+zip -r document-william.zip document-william.wdgt
+zip -r document-jonas.zip document-jonas.wdgt
+zip -r document-arun.zip document-arun.wdgt
 
 mv scene-agent.zip ./builds
 mv scene-chicago.zip ./builds
 mv scene-jemba.zip ./builds
 mv scene-khari.zip ./builds
 mv scene-opium.zip ./builds
-mv scene-sample.zip ./builds
+mv scene-ioannina.zip ./builds
+mv scene-luis.zip ./builds
+mv scene-ishi.zip ./builds
+mv scene-william.zip ./builds
+mv scene-jonas.zip ./builds
+mv scene-arun.zip ./builds
 
 mv document-agent.zip ./builds
 mv document-chicago.zip ./builds
 mv document-jemba.zip ./builds
 mv document-khari.zip ./builds
 mv document-opium.zip ./builds
+mv document-ioannina.zip ./builds
+mv document-luis.zip ./builds
+mv document-ishi.zip ./builds
+mv document-william.zip ./builds
+mv document-jonas.zip ./builds
+mv document-arun.zip ./builds
 
 rm -rf scene-agent.wdgt
 rm -rf scene-chicago.wdgt
 rm -rf scene-jemba.wdgt
 rm -rf scene-khari.wdgt
 rm -rf scene-opium.wdgt
-rm -rf scene-sample.wdgt
+rm -rf scene-ioannina.wdgt
+rm -rf scene-luis.wdgt
+rm -rf scene-ishi.wdgt
+rm -rf scene-william.wdgt
+rm -rf scene-jonas.wdgt
+rm -rf scene-arun.wdgt
 
 rm -rf document-agent.wdgt
 rm -rf document-chicago.wdgt
 rm -rf document-jemba.wdgt
 rm -rf document-khari.wdgt
 rm -rf document-opium.wdgt
+rm -rf document-ioannina.wdgt
+rm -rf document-luis.wdgt
+rm -rf document-ishi.wdgt
+rm -rf document-william.wdgt
+rm -rf document-jonas.wdgt
+rm -rf document-arun.wdgt
