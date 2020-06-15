@@ -8,7 +8,12 @@ module.exports = {
     'scene-khari': './scene-khari/index.js',
     'scene-opium': './scene-opium/index.js',
     'scene-video': './scene-video/index.js',
-    'scene-sample': './scene-sample/index.js',
+    'scene-ioannina': './scene-ioannina/index.js',
+    'scene-luis': './scene-luis/index.js',
+    'scene-ishi': './scene-ishi/index.js',
+    'scene-william': './scene-william/index.js',
+    'scene-jonas': './scene-jonas/index.js',
+    'scene-arun': './scene-arun/index.js',
   },
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   module: {
