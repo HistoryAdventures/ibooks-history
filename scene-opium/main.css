@@ -90,7 +90,7 @@ h1 a {
 .tooltip {
     background: -webkit-linear-gradient(0deg, rgba(242, 0, 61,.75) 0%, rgba(0,0,0,.75) 25%, rgba(0,0,0,.75) 100%);
 	background: linear-gradient(0deg, rgba(242, 0, 61,.75) 0%, rgba(0,0,0,.75) 25%, rgba(0,0,0,.75) 100%);
-    padding: 20px 150px 120px 50px;
+    padding: 20px 110px 120px 50px;
 	max-width: calc(100% - 140px);
 	max-height: 828px;
     opacity: 1;
@@ -156,7 +156,7 @@ h1 a {
 .tooltip img {
 	max-width: 100%;
 	margin: 1em 0 2em;
-	max-height: 400px;
+	
 }
 
 .tooltip-close {
