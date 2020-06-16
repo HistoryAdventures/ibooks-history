@@ -1187,6 +1187,48 @@ div.bw-dialog {
   pointer-events: none;
 }
 
+
+.bw-info-dialog { 
+  display: block;
+  top: 50px;
+  position: fixed;
+  right: 50px;
+  width: 300px;
+  max-width: 60%;
+  background: #ffffd0;
+  border-radius: 10px;
+  padding: 12px;
+  right: 50px;
+  color: #010539;
+  font-family: verdana;
+  text-align: center;
+  width: 300px;
+  box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.bw-dialog-animate-in { 
+  animation-name: showpopup;
+  animation-duration: 0.5s;
+}
+
+.bw-dialog-animate-out { 
+  animation-name: hidepopup;
+  animation-duration: 0.5s;
+  opacity: 0;
+}
+
+
+@keyframes showpopup {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes hidepopup {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
 @media only screen and (max-width: 800px) {
   html:not(.ibw-platform-osx-ibooks) #menubutton { 
     display: inline-block;
@@ -1212,15 +1254,11 @@ div.bw-dialog {
     animation-duration: 0.5s;
   }
 
-@media only screen and (max-height: 500px) {
-  div.bw-dialog { 
-    overflow-y: auto;
+  @media only screen and (max-height: 500px) {
+    div.bw-dialog { 
+      overflow-y: auto;
+    }
   }
-}
-
-@keyframes showpopup {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
 
 }
+
