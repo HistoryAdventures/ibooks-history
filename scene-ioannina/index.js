@@ -117,7 +117,7 @@ function init() {
         uiLoader.classList.add('off');
     }
 
-    var spriteMap = new THREE.TextureLoader().load( "button.gif" );
+    var spriteMap = new THREE.TextureLoader().load( "button.svg" );
     var spriteMaterial = new THREE.SpriteMaterial( { map: spriteMap } );
 
     var sprite1 = new THREE.Sprite( spriteMaterial );
