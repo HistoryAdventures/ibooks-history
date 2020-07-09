@@ -120,17 +120,8 @@ function init() {
         uiLoader.classList.add('off');
     }
 
-    // var spriteMap = new THREE.TextureLoader().load( "button.gif" );
-
-    var video = document.getElementById( 'button' );
-    video.click();
-
-    var spriteMap = new THREE.VideoTexture( video );
-    // spriteMap.minFilter = THREE.LinearFilter;
-    // spriteMap.magFilter = THREE.LinearFilter;
-    spriteMap.format = THREE.RGBAFormat;
-
-    var spriteMaterial = new THREE.SpriteMaterial( { map: spriteMap, transparent: true } );
+    var spriteMap = new THREE.TextureLoader().load( "button.svg" );
+    var spriteMaterial = new THREE.SpriteMaterial( { map: spriteMap } );
 
     var sprite1 = new THREE.Sprite( spriteMaterial );
     sprite1.name = 'hotspot-wall';
