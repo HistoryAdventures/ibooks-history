@@ -84,7 +84,7 @@ function getIntersects(event) {
     }
 
     if (interStack.length && interStack[0].object.name !== 'Table') {
-        return interStack[0].object.name;
+        return interStack[0].object.name || (interStack[0].object.parent && interStack[0].object.parent.name);
     }
 
     return null;

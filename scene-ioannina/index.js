@@ -120,32 +120,82 @@ function init() {
         uiLoader.classList.add('off');
     }
 
-    var spriteMap = new THREE.TextureLoader().load( "button.svg" );
-    var spriteMaterial = new THREE.SpriteMaterial( { map: spriteMap } );
+    function createButton() {
+        var group = new THREE.Group();
 
-    var sprite1 = new THREE.Sprite( spriteMaterial );
+        var geometry = new THREE.RingGeometry( 4.8, 5, 32 );
+        var material = new THREE.MeshBasicMaterial( { color: 0xffffff, side: THREE.DoubleSide } );
+        var mesh = new THREE.Mesh( geometry, material );
+        group.add( mesh );
+        mesh.scale.set(0.02, 0.02, 0);
+
+        var geometry2 = new THREE.RingGeometry( 4, 4.5, 32 );
+        var material2 = new THREE.MeshBasicMaterial( { color: 0xffffff, side: THREE.DoubleSide } );
+        var mesh2 = new THREE.Mesh( geometry2, material2 );
+        group.add( mesh2 );
+        mesh2.scale.set(0.035, 0.035, 0);
+
+        var geometry3 = new THREE.CircleGeometry( 5, 32 );
+        var material3 = new THREE.MeshBasicMaterial( { color: 0xffffff, side: THREE.DoubleSide, opacity: 0.0, transparent: true, } );
+        var circle = new THREE.Mesh( geometry3, material3 );
+        circle.scale.set(0.3, 0.3, 0);
+        group.add( circle );
+
+        new TWEEN.Tween(mesh.scale)
+            .delay(400)
+            .to({
+                x: 0.15,
+                y: 0.15,
+                z: 0
+            }, 1100)
+            .easing(TWEEN.Easing.Linear.None)
+            .repeat(Infinity)
+            .start();
+
+        new TWEEN.Tween(mesh2.scale)
+            .delay(400)
+            .to({
+                x: 0.175,
+                y: 0.175,
+                z: 0
+            }, 1100)
+            .easing(TWEEN.Easing.Quadratic.In)
+            .repeat(Infinity)
+            .start();
+
+        scene.add(group);
+        
+        return group;
+    }
+
+    var sprite1 = createButton();
     sprite1.name = 'hotspot-wall';
     sprite1.position.set(-200, 38, 137);
+    sprite1.lookAt(0 ,0 ,0);
     scene.add( sprite1 );
 
-    var sprite2 = new THREE.Sprite( spriteMaterial );
+    var sprite2 = createButton();
     sprite2.name = 'hotspot-defenders';
     sprite2.position.set(-58, 51, 200);
+    sprite2.lookAt(0 ,0 ,0);
     scene.add( sprite2 );
 
-    var sprite3 = new THREE.Sprite( spriteMaterial );
+    var sprite3 = createButton();
     sprite3.name = 'hotspot-siege';
     sprite3.position.set(-200, 38, -88);
+    sprite3.lookAt(0 ,0 ,0);
     scene.add( sprite3 );
 
-    var sprite4 = new THREE.Sprite( spriteMaterial );
+    const sprite4 = createButton();
     sprite4.name = 'hotspot-army';
     sprite4.position.set(16, -14, -200);
+    sprite4.lookAt(0 ,0 ,0);
     scene.add( sprite4 );
 
-    var sprite5 = new THREE.Sprite( spriteMaterial );
+    var sprite5 = createButton();
     sprite5.name = 'hotspot-christ';
     sprite5.position.set(77, 16, 200);
+    sprite5.lookAt(0 ,0 ,0);
     scene.add( sprite5 );
 
     hotspots = [sprite1, sprite2, sprite3, sprite4, sprite5];
@@ -213,7 +263,7 @@ function init() {
     composer = processing.composer;
     outlinePass = processing.outlinePass;
 
-    outlinePass.selectedObjects = hotspots;
+    // outlinePass.selectedObjects = hotspots;
 
     if (window.location.hash === '#debug') {
         gui.add(sprite1.position, 'x', -200, 200).name("button 1 x").step(1).listen();
@@ -228,9 +278,9 @@ function init() {
         gui.add(sprite3.position, 'y', -200, 200).name("button 3 y").step(1).listen();
         gui.add(sprite3.position, 'z', -200, 200).name("button 3 z").step(1).listen();
 
-        gui.add(sprite4.position, 'x', -200, 200).name("button 4 x").step(1).listen();
-        gui.add(sprite4.position, 'y', -200, 200).name("button 4 y").step(1).listen();
-        gui.add(sprite4.position, 'z', -200, 200).name("button 4 z").step(1).listen();
+        // gui.add(sprite4.position, 'x', -200, 200).name("button 4 x").step(1).listen();
+        // gui.add(sprite4.position, 'y', -200, 200).name("button 4 y").step(1).listen();
+        // gui.add(sprite4.position, 'z', -200, 200).name("button 4 z").step(1).listen();
 
         gui.add(sprite5.position, 'x', -200, 200).name("button 5 x").step(1).listen();
         gui.add(sprite5.position, 'y', -200, 200).name("button 5 y").step(1).listen();
