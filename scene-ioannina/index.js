@@ -12,6 +12,8 @@ import { onWindowResize } from '@scripts/onWindowResize';
 import tooltips from '@scripts/tooltips';
 import outlineCompose from '@scripts/outlineCompose';
 
+import '../styles/ioannina.scss';
+
 var container, stats, controls;
 var camera, scene, renderer;
 var composer, outlinePass;
@@ -21,6 +23,7 @@ var features = {
     navigation: true,
     sfx: true,
 };
+var videoClicked = false;
 
 window.cameraTargets = {
     "hotspot-paper1": {
@@ -117,8 +120,17 @@ function init() {
         uiLoader.classList.add('off');
     }
 
-    var spriteMap = new THREE.TextureLoader().load( "button.gif" );
-    var spriteMaterial = new THREE.SpriteMaterial( { map: spriteMap } );
+    // var spriteMap = new THREE.TextureLoader().load( "button.gif" );
+
+    var video = document.getElementById( 'button' );
+    video.click();
+
+    var spriteMap = new THREE.VideoTexture( video );
+    // spriteMap.minFilter = THREE.LinearFilter;
+    // spriteMap.magFilter = THREE.LinearFilter;
+    spriteMap.format = THREE.RGBAFormat;
+
+    var spriteMaterial = new THREE.SpriteMaterial( { map: spriteMap, transparent: true } );
 
     var sprite1 = new THREE.Sprite( spriteMaterial );
     sprite1.name = 'hotspot-wall';

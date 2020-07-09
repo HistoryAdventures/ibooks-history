@@ -12,6 +12,8 @@ import { onWindowResize } from '@scripts/onWindowResize';
 import tooltips from '@scripts/tooltips';
 import outlineCompose from '@scripts/outlineCompose';
 
+import '../styles/opium.scss';
+
 var container, stats, controls;
 var camera, scene, renderer;
 var composer, outlinePass;

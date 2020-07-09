@@ -23,7 +23,18 @@ module.exports = {
             plugins: ['@babel/plugin-transform-template-literals']
           }
         }
-      }
+      },
+      {
+        test: /\.s[ac]ss$/i,
+        use: [
+          // Creates `style` nodes from JS strings
+          'style-loader',
+          // Translates CSS into CommonJS
+          'css-loader',
+          // Compiles Sass to CSS
+          'sass-loader'
+        ],
+      },
     ]
   },
   output: {
@@ -36,7 +47,7 @@ module.exports = {
     }
   },
   devServer: {
-    contentBase: './',
+    contentBase: ['./', path.join(__dirname, 'shared')],
     disableHostCheck: true,
   }
 };

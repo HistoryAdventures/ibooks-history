@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Favorit';
+    src: url("/fonts/Favorit/Favorit_Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Lyno';
+    src: url("/fonts/Lyno\ Family/LynoStan.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'LynoUlys';
+    src: url("/fonts/Lyno\ Family/LynoUlys.otf") format("opentype");
+}
+
+body {
+    display: none;
+}

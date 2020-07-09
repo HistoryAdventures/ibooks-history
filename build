@@ -5,12 +5,19 @@ rm -rf builds
 mkdir builds
 
 cp -rf scene-opium scene-opium.wdgt
+cp -rf shared/* scene-opium.wdgt
 cp -rf scene-ioannina scene-ioannina.wdgt
+cp -rf shared/* scene-ioannina.wdgt
 cp -rf scene-luis scene-luis.wdgt
+cp -rf shared/* scene-luis.wdgt
 cp -rf scene-ishi scene-ishi.wdgt
+cp -rf shared/* scene-ishi.wdgt
 cp -rf scene-william scene-william.wdgt
+cp -rf shared/* scene-william.wdgt
 cp -rf scene-jonas scene-jonas.wdgt
+cp -rf shared/* scene-jonas.wdgt
 cp -rf scene-arun scene-arun.wdgt
+cp -rf shared/* scene-arun.wdgt
 
 cp -rf documents/opium document-opium.wdgt
 cp -rf documents/ioannina document-ioannina.wdgt
