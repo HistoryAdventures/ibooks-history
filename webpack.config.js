@@ -6,6 +6,7 @@ module.exports = {
     'scene-video': './scene-video/index.js',
     'scene-ioannina': './scene-ioannina/index.js',
     'scene-luis': './scene-luis/index.js',
+    'scene-luis2': './scene-luis2/index.js',
     'scene-ishi': './scene-ishi/index.js',
     'scene-william': './scene-william/index.js',
     'scene-jonas': './scene-jonas/index.js',
