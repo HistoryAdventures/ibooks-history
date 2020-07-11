@@ -1,7 +1,6 @@
 
 body {
-  background: #000000;
-  background-image: linear-gradient(to bottom, black 0%, black 70%, #0087cb 100%);
+  background: linear-gradient(149.99deg, #6FA8C4 -0.63%, #377C9E 40.32%, #2F5788 102.82%);
   font-family: 'Favorit', Verdana, Geneva, sans-serif;
 }
 
@@ -31,7 +30,7 @@ body {
   -webkit-box-shadow: 0px 0px 0px 0px #888888; }
 
 .hotspot.label .content {
-  color: #3498db;
+  color: transparent !important;
   font-family: 'Favorit', Verdana, Geneva, sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -41,14 +40,16 @@ body {
   width: 4px;
   height: 4px;
   border: 0;
-  background-color: black;
+  background-color: transparent !important;
   border-radius: 50%;
-  border: 20px solid white;
+  border: 20px solid transparent !important;
   position: relative;
+  /* display: none; */
 }
 
-.hotspot.label .content:before {
-  content: '';
+.hotspot.label .content:before,
+.hotspot.label .content:after {
+  content: none !important;
   width: 0;
   height: 0;
   border-top: 22px solid transparent;
@@ -58,6 +59,38 @@ body {
   top: -20px;
   left: 100%;
   z-index: -1;
+}
+
+#hotspot_0 {
+  background-image: url('css/tooltip1.svg');
+  background-size: 100%;
+  border: 0;
+  width: 75px;
+  height: 62px;
+}
+
+#hotspot_1 {
+  background-image: url('css/tooltip2.svg');
+  background-size: 100%;
+  border: 0;
+  width: 75px;
+  height: 62px;
+}
+
+#hotspot_2 {
+  background-image: url('css/tooltip3.svg');
+  background-size: 100%;
+  border: 0;
+  width: 75px;
+  height: 62px;
+}
+
+#hotspot_3 {
+  background-image: url('css/tooltip4.svg');
+  background-size: 100%;
+  border: 0;
+  width: 75px;
+  height: 62px;
 }
 
 .triangle:after {
@@ -78,12 +111,6 @@ body {
   color: white;
   margin-left: 50px;
 }
-
-circle {
-  fill: #ff6633; }
-
-circle, line, path {
-  stroke: black; }
 
 @media print {
 .hotspot.none {
@@ -134,10 +161,11 @@ circle, line, path {
 }
 
 circle {
-  fill: white; }
+  
+}
 
 circle, line, path {
-  stroke: #7d7777; }
+  stroke: #CFE0EA; }
 }
 
 .popup {
@@ -154,7 +182,6 @@ circle, line, path {
   text-align: center;
   left: 0 !important;
   right: auto !important;
-  transform: scale(1.5);
   bottom: 30px !important;
 }
 
@@ -169,5 +196,12 @@ circle, line, path {
 
 #tools line.white {
   stroke-width: 2;
-  stroke: black;
+  stroke: white;
+}
+
+#tools circle {
+  stroke-width: 2px !important;
+  fill: transparent !important;
+  stroke: #CFE0EA !important;
+  stroke-width: 2px !important;
 }
