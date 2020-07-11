@@ -145,17 +145,6 @@ circle, line, path {
   border-radius: 0;
 }
 
-.popupcontent > span {
-  color: #0087cb;
-  font-size: 24px;
-}
-
-.popupcontent > span span {
-  font-size: 24px !important;
-  margin-bottom: 1.5em;
-  display: block;
-}
-
 .popupcontent > p {
   color: #ffffff; 
 }
