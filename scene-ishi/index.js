@@ -215,7 +215,7 @@ function init() {
     composer = processing.composer;
     outlinePass = processing.outlinePass;
 
-    outlinePass.selectedObjects = hotspots;
+    // outlinePass.selectedObjects = hotspots;
 
     if (window.location.hash === '#debug') {
         hotspots.forEach((item, index) => {
