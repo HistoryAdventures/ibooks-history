@@ -11,6 +11,7 @@ import { addControls } from '@scripts/addControls';
 import { onWindowResize } from '@scripts/onWindowResize';
 import tooltips from '@scripts/tooltips';
 import outlineCompose from '@scripts/outlineCompose';
+import createButton from '@scripts/createHotspotButton';
 
 import '../styles/luis.scss';
 
@@ -119,35 +120,31 @@ function init() {
         uiLoader.classList.add('off');
     }
 
-    var spriteMap = new THREE.TextureLoader().load( "button.svg" );
-    var spriteMaterial = new THREE.SpriteMaterial( { map: spriteMap } );
-
-    var sprite1 = new THREE.Sprite( spriteMaterial );
-    sprite1.name = 'hotspot-wall';
+    var sprite1 = createButton();
+    sprite1.name = 'hotspot-1';
     sprite1.position.set(-200, 38, 137);
+    sprite1.lookAt(0 ,0 ,0);
     scene.add( sprite1 );
 
-    var sprite2 = new THREE.Sprite( spriteMaterial );
-    sprite2.name = 'hotspot-defenders';
+    var sprite2 = createButton();
+    sprite2.name = 'hotspot-2';
     sprite2.position.set(-58, 51, 200);
+    sprite2.lookAt(0 ,0 ,0);
     scene.add( sprite2 );
 
-    var sprite3 = new THREE.Sprite( spriteMaterial );
-    sprite3.name = 'hotspot-siege';
+    var sprite3 = createButton();
+    sprite3.name = 'hotspot-3';
     sprite3.position.set(-200, 38, -88);
+    sprite3.lookAt(0 ,0 ,0);
     scene.add( sprite3 );
 
-    var sprite4 = new THREE.Sprite( spriteMaterial );
-    sprite4.name = 'hotspot-army';
+    var sprite4 = createButton();
+    sprite4.name = 'hotspot-4';
     sprite4.position.set(16, -14, -200);
+    sprite4.lookAt(0 ,0 ,0);
     scene.add( sprite4 );
 
-    var sprite5 = new THREE.Sprite( spriteMaterial );
-    sprite5.name = 'hotspot-christ';
-    sprite5.position.set(77, 16, 200);
-    scene.add( sprite5 );
-
-    hotspots = [sprite1, sprite2, sprite3, sprite4, sprite5];
+    hotspots = [sprite1, sprite2, sprite3, sprite4];
 
     const scaleFactor = 10;
     hotspots.forEach(hotspot => {
@@ -215,25 +212,11 @@ function init() {
     outlinePass.selectedObjects = hotspots;
 
     if (window.location.hash === '#debug') {
-        gui.add(sprite1.position, 'x', -200, 200).name("button 1 x").step(1).listen();
-        gui.add(sprite1.position, 'y', -200, 200).name("button 1 y").step(1).listen();
-        gui.add(sprite1.position, 'z', -200, 200).name("button 1 z").step(1).listen();
-
-        gui.add(sprite2.position, 'x', -200, 200).name("button 2 x").step(1).listen();
-        gui.add(sprite2.position, 'y', -200, 200).name("button 2 y").step(1).listen();
-        gui.add(sprite2.position, 'z', -200, 200).name("button 2 z").step(1).listen();
-
-        gui.add(sprite3.position, 'x', -200, 200).name("button 3 x").step(1).listen();
-        gui.add(sprite3.position, 'y', -200, 200).name("button 3 y").step(1).listen();
-        gui.add(sprite3.position, 'z', -200, 200).name("button 3 z").step(1).listen();
-
-        gui.add(sprite4.position, 'x', -200, 200).name("button 4 x").step(1).listen();
-        gui.add(sprite4.position, 'y', -200, 200).name("button 4 y").step(1).listen();
-        gui.add(sprite4.position, 'z', -200, 200).name("button 4 z").step(1).listen();
-
-        gui.add(sprite5.position, 'x', -200, 200).name("button 5 x").step(1).listen();
-        gui.add(sprite5.position, 'y', -200, 200).name("button 5 y").step(1).listen();
-        gui.add(sprite5.position, 'z', -200, 200).name("button 5 z").step(1).listen();
+        hotspots.forEach((item, index) => {
+            gui.add(item.position, 'x', -200, 200).name(`button ${index} x`).step(1).listen();
+            gui.add(item.position, 'y', -200, 200).name(`button ${index} y`).step(1).listen();
+            gui.add(item.position, 'z', -200, 200).name(`button ${index} z`).step(1).listen();    
+        });
     }
 }
 

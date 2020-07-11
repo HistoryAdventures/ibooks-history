@@ -212,21 +212,11 @@ function init() {
     // outlinePass.selectedObjects = hotspots;
 
     if (window.location.hash === '#debug') {
-        gui.add(sprite1.position, 'x', -200, 200).name("button 1 x").step(1).listen();
-        gui.add(sprite1.position, 'y', -200, 200).name("button 1 y").step(1).listen();
-        gui.add(sprite1.position, 'z', -200, 200).name("button 1 z").step(1).listen();
-
-        gui.add(sprite2.position, 'x', -200, 200).name("button 2 x").step(1).listen();
-        gui.add(sprite2.position, 'y', -200, 200).name("button 2 y").step(1).listen();
-        gui.add(sprite2.position, 'z', -200, 200).name("button 2 z").step(1).listen();
-
-        gui.add(sprite3.position, 'x', -200, 200).name("button 3 x").step(1).listen();
-        gui.add(sprite3.position, 'y', -200, 200).name("button 3 y").step(1).listen();
-        gui.add(sprite3.position, 'z', -200, 200).name("button 3 z").step(1).listen();
-
-        gui.add(sprite4.position, 'x', -200, 200).name("button 4 x").step(1).listen();
-        gui.add(sprite4.position, 'y', -200, 200).name("button 4 y").step(1).listen();
-        gui.add(sprite4.position, 'z', -200, 200).name("button 4 z").step(1).listen();
+        hotspots.forEach((item, index) => {
+            gui.add(item.position, 'x', -200, 200).name(`button ${index} x`).step(1).listen();
+            gui.add(item.position, 'y', -200, 200).name(`button ${index} y`).step(1).listen();
+            gui.add(item.position, 'z', -200, 200).name(`button ${index} z`).step(1).listen();    
+        });
     }
 }
 
