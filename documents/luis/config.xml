@@ -1,6 +1,6 @@
 <!DOCTYPE widget>
 <HotspotImage>
-<background_picture alttext="" autosize="true" orientation="1" caption="" width="384" rid="Y09BARY01LHZQ2PBJ3E7" height="768">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/02_Luis/Letter-01.png</background_picture>
+<background_picture orientation="1" caption="" height="428" autosize="true" width="1024" alttext="" rid="KIO5AFZNHYY279WEFVNA">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/02_Luis/Letter-01.png</background_picture>
 <resize-policy value="Image draggable and resizeable">Image draggable and resizeable</resize-policy>
 <position>
 <Width></Width>
@@ -8,7 +8,134 @@
 <X></X>
 <Y></Y>
 </position>
-<hotspots/>
+<hotspots>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">1&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Written as a polemical tract, to convince the Spanish Crown of the need to action to protect the indigenous populations, las Casas can be seen here to provide an idyllic representation of native society. The people, portrayed as amiable, honest, and industrious are juxtaposed with the rapacious, lazy and cruel colonisers. The inclusion of their willingness to embrace Christianity makes clear the close relationship between faith and the exercise of power in the New World.&lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>185</X>
+<Y>63</Y>
+</position>
+<point>
+<x>265</x>
+<y>145</y>
+</point>
+<marker-label searchable="true"></marker-label>
+<marker-image orientation="1" caption="" height="0" autosize="true" width="0" alttext="" rid="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="left">Left of hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">2&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Here, Las Casas can be seen to present to the Crown the terrible demographic collapse of the indigenous populations in the New World. His reference to the 30 other islands around San Juan (Puerto Rico) make clear the complexity of native society, and the spread of destruction as wrought by the effects of colonisation. More notable perhaps, is his insistence not only in their depopulation, but in their destruction. Although he makes no specific reference to violence, and although disease was the greatest killer of native Americans, Las Casas can be seen here to infer that human agency was responsible for the destruction of native society on these islands and many others. &lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>50</X>
+<Y>50</Y>
+</position>
+<point>
+<x>262</x>
+<y>326</y>
+</point>
+<marker-label searchable="true"></marker-label>
+<marker-image orientation="1" caption="" height="0" autosize="true" width="0" alttext="" rid="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="left">Left of hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">3&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Las Casas’ account of the atrocities of the Spanish in the New World fed directly into broader European prejudices concerning the greed and rapacity of both the new imperialists and of the Catholic Church whom they represented. After all, the Catholic Church’s wealth was one of the central grievances behind the Reformation. &lt;br />&lt;br />Although a devout Catholic Las Casas here describes explicitly how greed has contributed to Spanish crimes in their American colonies. That he has specified a greed for gold is notable. It was the extraction of material wealth, the principle of mercantilism, that played a crucial motivating factor in Spanish imperial expansion into the Americas.&lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>444</X>
+<Y>51</Y>
+</position>
+<point>
+<x>504</x>
+<y>62</y>
+</point>
+<marker-label searchable="true"></marker-label>
+<marker-image orientation="1" caption="" height="0" autosize="true" width="0" alttext="" rid="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="left">Left of hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">4&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Crafted with an eye on its rhetorical impact, Las Casas’ descriptions of the Natives and of the Spanish are notable for their stark contrast. As seen above, the natives are frequently idyllic and pacific peoples. By contrast, here describing the Spanish at work on the island of Hispaniola (the Greater Antilles, i.e. the Dominican Republic / Haiti), his descriptions come alive with scenes of almost unimaginable cruelty. He is again keen to stress that these are crimes committed by Christians, designed to shock his contemporary readers into action. &lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Such graphic descriptions fed into the broader European imagination and contributed to the so-called Black Legend. As competition between European states spilled over into brutal warfare in the 16th and 17th centuries, descriptions such as those of Las Casas here inspired horrific artworks, usually in Protestant states, produced to validate their continued struggles against the Catholic Spanish. A notable example are the etchings of Theodor de Bry, a Flemmish artists forced to flee the Netherlands during the repressions of the Spanish Inquisition in the late 16th century. His subsequent work was distinctly anti-Spanish and anti-Catholic in nature, and was frequently inspired by writings such as Las Casas’.&lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>430</X>
+<Y>169</Y>
+</position>
+<point>
+<x>500</x>
+<y>202</y>
+</point>
+<marker-label searchable="true"></marker-label>
+<marker-image orientation="1" caption="" height="0" autosize="true" width="0" alttext="" rid="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="left">Left of hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">5&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Towards the end of his treatise, Las Casas reaffirms that his work is directed to the Spanish Crown, whom ostensibly controlled the colonies (the reality was frequently that in this early modern empire, the vast distances between the colony and the central authority made effective control nigh impossible. Las Casas also refers to the New Laws of 1542, which abolished the slavery of native Americans in the Spanish colonies. Although crimes continued to be committed, and the natives continued to be exploited, maltreated, and brutalised, the promulgation of such laws does indicate that there were movements within Spanish society to change their approach to Empire. &lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>694</X>
+<Y>2</Y>
+</position>
+<point>
+<x>747</x>
+<y>46</y>
+</point>
+<marker-label searchable="true"></marker-label>
+<marker-image orientation="1" caption="" height="0" autosize="true" width="0" alttext="" rid="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="left">Left of hotspot</popup-location-preference>
+</TextPopup>
+</hotspots>
 <support_student_account value="no">No student accounts</support_student_account>
 <student_account_authproviders/>
 <student_account_school>
@@ -29,7 +156,7 @@
 <modified>false</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants widget_font="Verdana" widget_color="#3498DB" widget_backgroundimage="" template="Dark Background">
+<DesignConstants widget_font="Verdana" widget_backgroundimage="" widget_color="#3498DB" template="Dark Background">
 <constant>
 <name>hiddenborderleft</name>
 <kind>BorderLeft</kind>
@@ -186,7 +313,7 @@
 <value>#ffffff</value>
 </constant>
 </DesignConstants>
-<cover alttext="" autosize="true" orientation="1" caption="" width="0" rid="" height="0"></cover>
+<cover orientation="1" caption="" height="1143" autosize="false" width="768" alttext="" rid="PB3DMIF2XJUWMWPU2D4C">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/02_Luis/cover.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
 <BookWidgetsVersion>6.0.5</BookWidgetsVersion>
 <shortcode></shortcode>
