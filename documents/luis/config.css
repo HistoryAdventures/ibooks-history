@@ -114,6 +114,7 @@ body:before {
   font-size: 14px;
   color: white;
   margin-left: 50px;
+  max-width: 600px;
 }
 
 @media print {
