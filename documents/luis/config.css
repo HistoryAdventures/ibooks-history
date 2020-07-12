@@ -97,6 +97,14 @@ body:before {
   height: 62px;
 }
 
+#hotspot_4 {
+  background-image: url('css/tooltip5.svg');
+  background-size: 100%;
+  border: 0;
+  width: 75px;
+  height: 62px;
+}
+
 .triangle:after {
   display: none;
   border-left: 1px solid white;
