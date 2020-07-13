@@ -86,8 +86,8 @@ var widgetconfig = {
             "Y": "2"
         },
         "point": {
-            "x": "774",
-            "y": "46"
+            "x": "4009",
+            "y": "797"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
