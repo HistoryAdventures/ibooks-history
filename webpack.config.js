@@ -12,7 +12,6 @@ module.exports = {
     'scene-william': './scene-william/index.js',
     'scene-jonas': './scene-jonas/index.js',
     'scene-arun': './scene-arun/index.js',
-    'documents/opium': './documents/opium/index.js',
     'documents/ioannina': './documents/ioannina/index.js',
     'documents/luis': './documents/luis/index.js',
     'documents/ishi': './documents/ishi/index.js',
