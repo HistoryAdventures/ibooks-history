@@ -20,12 +20,19 @@ cp -rf scene-arun scene-arun.wdgt
 cp -rf shared/* scene-arun.wdgt
 
 cp -rf documents/opium document-opium.wdgt
+cp -rf documents/_shared/* document-opium.wdgt
 cp -rf documents/ioannina document-ioannina.wdgt
+cp -rf documents/_shared/* document-ioannina.wdgt
 cp -rf documents/luis document-luis.wdgt
+cp -rf documents/_shared/* document-luis.wdgt
 cp -rf documents/ishi document-ishi.wdgt
+cp -rf documents/_shared/* document-ishi.wdgt
 cp -rf documents/william document-william.wdgt
+cp -rf documents/_shared/* document-william.wdgt
 cp -rf documents/jonas document-jonas.wdgt
+cp -rf documents/_shared/* document-jonas.wdgt
 cp -rf documents/arun document-arun.wdgt
+cp -rf documents/_shared/* document-arun.wdgt
 
 
 zip -r scene-opium.zip scene-opium.wdgt
