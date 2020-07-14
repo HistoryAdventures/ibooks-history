@@ -5,11 +5,11 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
-    <string>HotspotImageV02_6.wdgt</string>
+    <string>document-william</string>
     <key>CFBundleIdentifier</key>
-    <string>com.kidimedia.ibook-widgets.hotspotimage-HotspotImageV02_6.wdgt</string>
+    <string>com.kidimedia.ibook-widgets.hotspotimage-document-william</string>
     <key>CFBundleName</key>
-    <string>HotspotImageV02_6.wdgt</string>
+    <string>document-william</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundleVersion</key>

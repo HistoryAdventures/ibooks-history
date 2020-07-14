@@ -1,247 +1,166 @@
+<!DOCTYPE widget>
 <HotspotImage>
-<shortcode>HKSUNB</shortcode>
-<label>HotspotImageV02_6</label>
-<background_picture rid="79WEFVNAPB3DMIF2XJUW" width="2433" height="2980" autosize="false">https://widget-assets-eu.bookwidgets.com/191126/fb755ede32caebbb_S_2433_2980.25bd735b591c9787c1ffa3af6ab16be9.png?filename=%2FUsers%2Fjulius%2FDocuments%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2Fdesign%2F001v.png</background_picture>
+<background_picture alttext="" caption="" orientation="1" width="670" rid="7I1GM9F8Y0Q7CAVJL630" height="768" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/04_William/Gwyn_Before_VA_Council_1640_02.png</background_picture>
 <resize-policy value="Image draggable and resizeable">Image draggable and resizeable</resize-policy>
 <position>
-<X>-3</X>
-<Y>-8</Y>
-<Width>1687</Width>
-<Height>2063</Height>
+<Width>716</Width>
+<Height>864</Height>
+<X>-13</X>
+<Y>-42</Y>
 </position>
 <hotspots>
 <TextPopup>
-<text>
-<text searchable="true">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&#xd;
-&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">&#xd;
-p, li { white-space: pre-wrap; }&#xd;
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">“We hold these Truths to be Self-evident… and the pursuit of happiness”&lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">From the outset, the key ideals explored in this period – liberty, freedom, &lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">and representation – are made prominent in the Declaration. We should never &lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">lose sight of both how important these principles were, but also their limitations.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">1&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">In 1640, the Virginia Governor’s Council was asked to decide on the punishment appropriate for an African – known as John Punch - who had attempted to runaway to Maryland. Their verdict on the case, shown in the document below, would have profound impact on the relationship between Europe, Africa and the Americas. &lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">In the 1640’s Virginia had become a Crown Colony, following the dissolution of the charter King James I had given to the Virginia Company in 1624. The council remained an important institution of colonial administration, now assisting the royally appointed governor. They also served as the highest court in the colony. Members of the council – all men – were typically wealthy and socially prominent.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
-<position/>
+<position>
+<Width></Width>
+<Height></Height>
+<X></X>
+<Y></Y>
+</position>
 <point>
-<x>368</x>
-<y>553</y>
+<x>262</x>
+<y>71</y>
 </point>
 <marker-label searchable="true">1</marker-label>
-<marker-image rid="" width="0" orientation="1" height="0" autosize="true">https://www.bookwidgets.com/create/embedded-resources/HotspotImage/images/markericon.png</marker-image>
-<popup-location-preference value="top">Above hotspot</popup-location-preference>
+<marker-image alttext="" caption="" orientation="1" width="0" rid="" height="0" autosize="true">https://www.bookwidgets.com/create/embedded-resources/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="bottom">Below hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
-<text>
-<text searchable="true">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&#xd;
-&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">&#xd;
-p, li { white-space: pre-wrap; }&#xd;
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">“The History of the Present King… Tyranny over these States”&lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">King George III is presented as the villain of the piece in the Declaration. &lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">As the Monarch, he is an unelected representative of the people. The &lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">declaration lists 27 grievances that the States have with the King’s governance.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">2&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">In this paragraph, several key details emerge. First, there is a clear sense of the legislative hierarchies of colonial society. Hugh Gwyn, from who John Punch and two others have run away, has submitted a petition to the council. This council in turn has indicated that the crime needs to be made known to the Governor in a letter; they are not the ultimate authority in the colony.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">Also of note is the presentation of John Punch himself. Hugh Gwyn is reported to have requested that he be allowed to sell John and his accomplices, in recompense for the “loss” he has incurred. However, note that John is categorically referred to as a servant, not a slave. This has led historians to interpret John Punch originally as an indentured servant; he worked for Hugh Gwyn, without pay, but not indefinitely. &lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
-<position/>
+<position>
+<Width></Width>
+<Height></Height>
+<X></X>
+<Y></Y>
+</position>
 <point>
-<x>606</x>
-<y>726</y>
+<x>-20</x>
+<y>188</y>
 </point>
 <marker-label searchable="true">2</marker-label>
-<marker-image rid="" width="0" orientation="1" height="0" autosize="true">https://www.bookwidgets.com/create/embedded-resources/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" caption="" orientation="1" width="0" rid="" height="0" autosize="true">https://www.bookwidgets.com/create/embedded-resources/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
-<text>
-<text searchable="true">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&#xd;
-&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">&#xd;
-p, li { white-space: pre-wrap; }&#xd;
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">“For imposing Taxes on us without our consent”&lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">We can see here how the issue of taxation without representation&lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;"> – the motivation of the Boston Tea Party – remained prominent in&lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;"> the mindset of the signatories of the Declaration in 1776. &lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">3&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Here, the mechanisms of colonial authority are again made evident. It has granted the power for a party of men to be established, paid by public funds, to hunt down and recover John Punch and his accomplices. Also, of note here are the dates. The establishment of this commission has taken around 25 days since the previous petition was submitted to the council, indicating how slow the processes of government administration and control could be in colonial societies.&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This paragraph also contains clear indications as to the underlying racial elements of colonial society, with the emphasis being clear on John Punch and others as runaway negroes.&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
-<position/>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>390</X>
+<Y>261</Y>
+</position>
 <point>
-<x>652</x>
-<y>1213</y>
+<x>-19</x>
+<y>388</y>
 </point>
 <marker-label searchable="true">3</marker-label>
-<marker-image rid="" width="0" orientation="1" height="0" autosize="true">https://www.bookwidgets.com/create/embedded-resources/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" caption="" orientation="1" width="0" rid="" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
-<text>
-<text searchable="true">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&#xd;
-&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">&#xd;
-p, li { white-space: pre-wrap; }&#xd;
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">“FREE AND INDEPENDENT STATES… Allegiance to the British Crown”&lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">This is the decisive statement of the Declaration. This is the assertion &lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">of sovereignty for the colonies and a rejection of British rule.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">4&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The capture of John Punch and his fellow fugitives is recorded in this paragraph. The brutality of colonial society is made clear, with each man sentenced to be flogged, receiving 30 “stripes” each; with the risk of infection – not to mention shock and blood loss – such punishments were severe and could even be fatal.&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Also of note are the origins of John and his accomplices; one, Victor, is Dutch, whilst the other, James Gregory, is Scottish. Both of these men, Europeans, are sentenced to serve out the rest of their service of indenture, as well as the punishment of an additional year’s service to Hugh and an additional service to the colony of 3 years.&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
-<position/>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>417</X>
+<Y>457</Y>
+</position>
 <point>
-<x>336</x>
-<y>1730</y>
+<x>-22</x>
+<y>640</y>
 </point>
 <marker-label searchable="true">4</marker-label>
-<marker-image rid="" width="0" orientation="1" height="0" autosize="true">https://www.bookwidgets.com/create/embedded-resources/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" caption="" orientation="1" width="0" rid="" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="right">Right of hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">5&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Unlike his fellow – European – runaways, John Punch was sentenced to a much worse fate. He is ordered here to serve his master for the rest of his natural life. Moreover, this punishment is not limited to Virginia, but extended to everywhere (an indication of the Royal Authority with which these colonial courts were invested). &lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This is the true significance of this document. John Punch represents the first known example of legal, African slavery in the North American colonies. No longer an indentured servant, he is now the property – for life – of his master.&lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>21</Width>
+<Height>14</Height>
+<X>360</X>
+<Y>748</Y>
+</position>
+<point>
+<x>360</x>
+<y>764</y>
+</point>
+<marker-label searchable="true"></marker-label>
+<marker-image alttext="" caption="" orientation="1" width="0" rid="" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="top">Above hotspot</popup-location-preference>
 </TextPopup>
 </hotspots>
 <support_student_account value="no">No student accounts</support_student_account>
 <student_account_authproviders/>
 <student_account_school>
-<code/>
+<code></code>
 <name>Anyone</name>
 </student_account_school>
-<student_account_authrestrict>true</student_account_authrestrict>
+<student_account_authrestrict>yes</student_account_authrestrict>
+<widget_language></widget_language>
 <LocalizationMap>
 <localization>
 <phrase>Hotspot accesses</phrase>
-<translation/>
+<translation></translation>
 <modified>false</modified>
 </localization>
 <localization>
 <phrase>Hotspots accessed</phrase>
-<translation/>
+<translation></translation>
 <modified>false</modified>
 </localization>
-<localization>
-<phrase>Authentication error.</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Cancel</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Could not connect to server, check your internet connection.</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Email</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Forgot password?</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Not logged in</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>OK</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Offline</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Online</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Password</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Please sign in</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Received error trying to sign in</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>School code</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Server error when signing in.</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign in</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign in failed</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign in to save your answers online</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign in using</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign in using email and password</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign in using school account</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign out</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign up here</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Username</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Waiting</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Waiting for account sign in to complete...</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Widget configuration error: school doesn't exist</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Wrong username or password, please try again.</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>You need to be signed in to use this widget.</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>You're currently offline and logged in as user:</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>You're currently online and logged in as user:</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>You're offline</phrase>
-<translation/>
-</localization>
 </LocalizationMap>
-<DesignConstants widget_color="#3498DB" widget_backgroundimage=",auto" template="Dark Background" widget_font="Verdana">
+<DesignConstants widget_backgroundimage=",auto" template="Dark Background" widget_color="#3498DB" widget_font="Verdana">
 <constant>
 <name>hiddenborderleft</name>
 <kind>BorderLeft</kind>
@@ -398,6 +317,10 @@ p, li { white-space: pre-wrap; }&#xd;
 <value>#ff6633</value>
 </constant>
 </DesignConstants>
-<cover rid="VCBI4L2AI2XJ29K21QOY" width="623" height="768" autosize="true">https://widget-assets-eu.bookwidgets.com/191126/Default.31f2af8bb76e4461afab2daebcecf978.png?filename=%2FUsers%2Fjulius%2FDocuments%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2Fhotspot_cover.jpg</cover>
+<cover alttext="" caption="" orientation="1" width="576" rid="BJ4MFLFPDO8HIIABG2HA" height="768" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/04_William/default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
+<BookWidgetsVersion>6.0.5</BookWidgetsVersion>
+<shortcode>HKSUNB</shortcode>
+<label searchable="true">HotspotImageV02_6</label>
+<lastupload></lastupload>
 </HotspotImage>

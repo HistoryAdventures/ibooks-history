@@ -1,46 +1,113 @@
 var widgetconfig = {
-    "background_picture": "fgbn7p5.50e8d9e23_23c3a4e2b_bSb_",
+    "background_picture": "Lgentpt.e1r0-3021__8S4_61",
     "resize-policy": "Iemlabgaee zdirsaegrg adbnlae ",
-    "position": { "Width": "1768", "Height": "2306", "X": "-3", "Y": "-8" },
-    "hotspots": [
-           { 
-               "Type": "TpeuxptoP",
-               "text":"<>spp/a<n> nsatpysl/e<=.\u0022s nmoairtgaitni-mtiolp :r0ipexh;t  moasrlgai nt-ubbo t,teorme:w0 psxe;l pmiacrngiirnp- leesfeth:t0 ptxn;a tmraorpgmiin -wroihg hhtt:o0bp xf;o  -tqhtg-ibsl oecsko-li nrdeevnetn: 0d;l utoehxst -eiWn d.ennoti:t0aprxa;l\u0022c>e<Ds peahnt  sntiy lten=e\u0022n ifmoonrtp- feadmaiml ye:r'aF a\u2013v onroiitt'a;t nfeosnetr-pseirz ed:n1a2 p,tm;o\u0022d>e\u201ceWref  h,oyltdr etbhiels e\u2013  Tdrouitrhesp  tsoi hbte  nSie ldfe-reovlipdxeen ts l aaenddi  tyheek  peuhrts u,itte sotfu oh aephpti nmeosrsF\u201d><\u0022/;stppa2n1>:<e/zsipsa-nt>n o<fp  ;s'ttyilreo=v\u0022a Fm'a:rygliinm-atfo-pt:n0opfx ;\u0022 =mealrygtisn -nbaoptst<o>m\u0022:;0xppx0;: tmnaerdgniin--tlxeeftt :;00p:xt;n emdanrig-iknc-orlibg-httq:-0 p;x",
-               "marker-type": "llaeb",
-               "position": { "Width": "", "Height": "", "X": "", "Y": "" },
-               "point": { "x": "0", "y": "500" },
-               "marker-label": "1",
-               "marker-image": "9g1n0pb.a0c04b6c033d",
-               "popup-location-preference": "tpo"
-           },
-            {
-                "Type": "TpeuxptoP",
-                "text":"<>spp/a<n> nsatpysl/e<=.\u0022e cmnaarngrienv-otgo ps:\u20190gpnxi;K  meahrtg ihnt-ibwo tetvoamh: 0spext;a tmSa reghitn -tlaehftt :s0epcxn;a vmeairrggi n7-2r isgthsti:l0 pnxo;i t-aqrta-lbcleodc ke-hiTn d.eenltp:o0e;p  teehxtt -fion deevnitt:a0tpnxe;s\u0022e>r<psepra nd esttcyellee=n\u0022u  fnoan ts-if aemhi l,yh:c'rFaanvooMr ieth't;  sfAo n.tn-osiitzaer:a1l2cpetD; \u0022e>h\u201ctT hnei  Heicsetiopr ye hotf  ftoh en iParlelsievn te hKti nsga   dTeytrnaensneyr po vseir  ItIhIe seeg rSoteaGt egsn\u201di<K/>s\u0022p;atnp>2<1/:sepzains>- t<npo fs t;y'ltei=r\u0022o vmaaFr'g:iynl-itmoapf:-0tpnxo;f  m\u0022a=regliynt-sb ontatposm<:>0\u0022p;xx;p 0m:atrngeidnn-il-etfxte:t0 p;x0;: tmnaerdgniin--krcioglhbt-:t0qp-x ;",
-                "marker-type": "llaeb",
-                "position": { "Width": "", "Height": "", "X": "", "Y": "" },
-                "point": { "x": "0", "y": "720" },
-                "marker-label": "2",
-                "marker-image": "9g1n0pb.a0c04b6c033d",
-                "popup-location-preference": "rtihg"
-            },
-            { 
-                "Type": "TpeuxptoP",
-                "text":"<>spp/a<n> nsatpysl/e<= \u0022. 6m7a7r1g inni- tnoopi:t0aprxa;l cmeaDr geihnt- bfoot tsoemi:r0optxa;n gmiasr geihnt- lfeof tt:e0spdxn;i mm aerhgti nn-ir itgnhetn:i0mpoxr;p  -dqetn-ibalmoecrk -\u2013i nydternatP: 0a;e Tt enxott-sionBd eenhtt: 0fpox ;n\u0022o>i<tsapvaint osmt yelhet= \u0022\u2013  fnoonitt-aftanmeisleyr:p'eFra vtouroihtt'i;w  fnoonitt-asxiazte :f1o2 petu;s\u0022s>i\u201c Feohrt  iwmopho seirnegh  Teaexse sn aocn  euWs> \u0022w;ittph2o1u:te zoiusr- tcnoonfs e;n'tt\u201di<r/osvpaaFn'>:<y/lsipmaanf>- t<npo fs t\u0022y=leel=y\u0022t sm anragpisn<->t\u0022o;px:p00p:xt;n emdanrig-itnx-ebto t;t0o:mt:n0epdxn;i -mkacroglibn--tlqe-f t;:x0pp0x:;t hmgairrg-in",
-                "marker-type": "llaeb",
-                "position": { "Width": "", "Height": "", "X": "", "Y": "" },
-                "point": { "x": "0", "y": "1018" },
-                "marker-label": "3",
-                "marker-image": "9g1n0pb.a0c04b6c033d",
-                "popup-location-preference": "rtihg" 
-            },
-            { 
-                "Type": "TpeuxptoP",
-                "text":"<>spp/a<n> nsatpysl/e<=.\u0022e lmuarr ghisni-ttiorpB: 0fpox ;n omiatrcgeijne-rb oat tdonma: 0spexi;n omlaorcg ienh-tl erfotf: 0yptxn;g imearregvions- rfiog hnto:i0tprxe;s s-aq te-hbtl oscik -siinhdTe n.tn:o0i;t atreaxltc-eiDn deehntt :f0op xt;n\u0022e>m<estpaatns  setvyilsei=c\u0022e df oenhtt- fsaim isliyh:T'>F\u0022a;vtopr2i1t:'e;z ifso-nttn-osfi z;e':t1i2rpotv;a\u0022F>'\u201c:FyRlEiEm aAfN-Dt nIoNfD E\u0022P=EeNlDyEtNsT  nSaTpAsT<E>S\u0022 ; xApl0l:etgnieadnncie- ttxoe tt h;e0 :Btrnietdinsih- kCcroolwbn-\u201dt<q/-s p;axnp>0<:/tshpgainr>- n<ipg rsatmy l;ex=p\u00220 :mtafregli-nn-itgorpa:m0 p;xx;p 0m:amrogtitno-b",
-                "marker-type": "llaeb",
-                "position": { "Width": "", "Height": "", "X": "", "Y": "" },
-                "point": { "x": "0", "y": "1069" }, 
-                "marker-label": "4",
-                "marker-image": "9g1n0pb.a0c04b6c033d",
-                "popup-location-preference": "rtihg" 
-            }
-        ], "support_student_account": "no", "student_account_school": { "name": "Aennyo", "code": "" }, "student_account_authrestrict": "yse", "widget_language": "", "LocalizationMap": { "Hotspot accesses": "", "Hotspots accessed": "" }, "cover": "Dgenfpa.utl", "widget_orientation": "Vlearcti", "WA": "\u005cgC0bhKllQ5MaOLbBXMZ?X4BOE:J9", "student_account_server": "h1tvt/pisp:a///maopci..sbtoeogkdwi", "kmuserid": "6846578804981081", "sec": "{}" };
+    "position": {
+        "Width": "1047",
+        "Height": "1693",
+        "X": "18",
+        "Y": "-4"
+    },
+    "hotspots": [{
+        "Type": "TpeuxptoP",
+        "text": "<>spp/a<n. asitdynlIe =f\u0022o  msaersgsianl-ct ogpn:i0lpuxr;  emhatr ghitni-wb ostntooimt:a0lpexr;  ymfairdgiilno-sl eoftt :e0rpixs;e dm asrighi no-tr idgehwto: 0spaxw;  s-pqath-rbelpo ctkr-aipn dse\u2019ngtn:i0K;  ethetx tn-oi nsdeecnnte:l0opdxn;o\u0022c> Ghecoursg ef oI IgIn<i/rsepfafno>  e<hpT  s.t)y5l9e7=1\u0022  rmeabrogticnO- t3o1p :n0op xd;e smsaarpg ionh-wb(o thtaojma:l0lpaxW;  nmaahrKg iinl-Al edfetm:m0aphxu;M  mfaor ghitna-erdi gehhtt: 0rpoxf;  s-eqctn-eblloodcnko-ci nsdiehn tr:e0f;f ot eoxtt -kilnudMe nltu: 0npexe;y\u0022a>MK ihnagr moOf  lEun-gtlaadnmdO  fbraowma N1 7o6t0  rteot t1e8l0 1s,i hGte odregnen eIpI I",
+        "marker-type": "llaeb",
+        "position": {
+            "Width": "100",
+            "Height": "40",
+            "X": "50",
+            "Y": "50"
+        },
+        "point": {
+            "x": "155",
+            "y": "1900"
+        },
+        "marker-label": "",
+        "marker-image": "mganrpk.enroic",
+        "popup-location-preference": "tpo"
+    }, {
+        "Type": "TpeuxptoP",
+        "text": "<>spp/a<n. esntoytl ey=s\u0022o rm asr\u2019gIiInI- teogpr:o0epGx ;g nmiaKr gdient-abioctetropmp:a0 ptxo;n  meavraghi ns-plaehfrte:p0 pdxl;u omwa rkgliunM- rliug htta:h0tp xe;n i-gqatm-ib lnoacck -eiwn d,esnuth:T0 ;. dtneaxlt -si\u2019nhdaejnatl:l0apWx ;f\u0022o> Nhacwuamb  gOnmidtaatc-suilf nOomcr aphu  Mdaeydeneen  CuIlE  Meuhltk <,/sstpraonf>f e< ps isht yrloef= \u0022m imha regsirnu-btmoipe:r0 pnxa;h tm arreghitna-Rb o.tttroomp:p0upsx ;s imhatr gginni-rleefffto: 0npix ;f lmeasrmgiihn -dreitgphutr:k0npaxb;  y-lqrta-ebnl odcakh- i,nhdaejnatl:l0a;W  t,erxots-siencdeednetr:p0 psx\u2019;k\u0022l>uTMh el Ur e.chispiiteinrtB  oefh tt hdinsi hleebt tterro pspeursv erdi eahst  Nwaewrahbt  o,fy rtthneu oCca rrniaethitc  nSit asteec rooff  tnhgei eMruogfh aflo  Eemcpniersee rfpr ogmn i1w7o9r5g  teoh t1 8o0t1 .e sTnhoep sCearr nnait i,cn eShtwa t,es 0w6a7s1  oenhet  oefc ntihse  soelmdiets td riamhp enroi anle ldleapfe nddaehn cyieehst,  tbu",
+        "marker-type": "llaeb",
+        "position": {
+            "Width": "100",
+            "Height": "40",
+            "X": "1423",
+            "Y": "1205"
+        },
+        "point": {
+            "x": "1828",
+            "y": "1607"
+        },
+        "marker-label": "",
+        "marker-image": "mganrpk.enroic",
+        "popup-location-preference": "tpo"
+    }, {
+        "Type": "TpeuxptoP",
+        "text": "<>spp/a<n> /s trybl<e>=\u0022\u0022; xmpa0r:gtinne-dtnoip-:t0xpext;  ;m0a:rtgniend-nbio-tktcooml:b0-ptxq;-  m;axrpg0i:nt-hlgeifrt-:n0ipgxr;a mm a;rxgpi0n:-trfieglh-tn:i0gprxa;m  -;qxtp-0b:lmooctkt-oibn-dneingtr:a0m;  ;txepx0t:-piontd-ennitg:r0apmx ;;\u0022y>t\u201cpWmee :deuplyyt -rhepcaerigvaerda pY-otuqr- \u0022H=ieglhyntess sp'<s  >Lpe/t<t e.ra iddantIe dn ii ns gtnhien eMpopnathh  yolfi aOdc teohbte rm olrafs te.r e.w  .t\u201dr<u/oscp asni>h  <dpn as tIyIlIe =e\u0022g rmoaerGg ignn-itKo pt:n0aptxs;i dm awroghi nt-sbuojt tsoemz:i0spaxh;p mmea rogsilna- lteIf t.:d0opixr;e pm asrighitn -grniigrhutd: 0ypcxa;m o-lqpti-db lfooc ke-cianpd eenhtt: 0n;o  teevxitt-cienpdsernetp: 0eplxb;a\u0022u>lNaovt ee mtohsa ts dtdhai st il eetstuearc ewba se tpoenn noetd  tbnya tKrionpgm iG esoir gsei hITI I. hoanj a1l2l aMWa yf o1 7e9s6i,m erde felhetc tginnigt o<n/ pk>l u<Mp  lsut ymloer=f\u0022  emcanregdinno-ptsoepr:r0opcx ;e hmta rogti ng-nbioytltpoemr: 0npix ;y amlaerdg ihnt-nloemf-tx:i0sp xy;l rmaaerng ian>-\u0022r;ixgph0t::t0npexd;n i--qttx-ebtl o;c0k:-tinned",
+        "marker-type": "llaeb",
+        "position": {
+            "Width": "100",
+            "Height": "40",
+            "X": "100",
+            "Y": "1616"
+        },
+        "point": {
+            "x": "185",
+            "y": "1618"
+        },
+        "marker-label": "",
+        "marker-image": "mganrpk.enroic",
+        "popup-location-preference": "tpo"
+    }, {
+        "Type": "TpeuxptoP",
+        "text": "<>spp/a<n> /s trybl<e>=\u0022\u0022; xmpa0r:gtinne-dtnoip-:t0xpext;  ;m0a:rtgniend-nbio-tktcooml:b0-ptxq;-  m;axrpg0i:nt-hlgeifrt-:n0ipgxr;a mm a;rxgpi0n:-trfieglh-tn:i0gprxa;m  -;qxtp-0b:lmooctkt-oibn-dneingtr:a0m;  ;txepx0t:-piontd-ennitg:r0apmx ;;\u0022y>t\u201cpYmoeu:re pfyrti-ehnpdasrhgiapr aapn-dt qa-l\u0022l=iealnyctes  wpi<t h> pt/h<e. )Berliutri sshi hN antii orno fa ndde mwiiat hd athh ee hE assetv iItnadiitai nCio mlpaacniyt.i l.o p. \u201de<h/ts pfaon >e n<op(  sCtIyEl ee=h\u0022t  mfaor gtihng-itsorpe:v0op xr;e tmaaerrggi ne-tbaogtittosmn:i0 poxt;  nmaalrpg isni-hl enfot :r0epvxo;  kmlaurMg ilnu- rniigwh tn:a0cp>x\u0022;; x-pq0t:-tbnleodcnki--itnxdeetn t;:00:;t nteedxnti--ikncdoelnbt-:t0qp-x ;;\u0022x>pH0e:rteh gKiirn-gn iGgeroarmg e; xIpI0I: tafiemls- ntiog rraemi n;fxopr0c:em otthteoibr- nbiognrda,m  p;exrph0a:ppso ti-nn itghrea mh o\u0022p=ee ltyhtast  ph<e  ><p/",
+        "marker-type": "llaeb",
+        "position": {
+            "Width": "100",
+            "Height": "40",
+            "X": "1923",
+            "Y": "1128"
+        },
+        "point": {
+            "x": "1923",
+            "y": "1128"
+        },
+        "marker-label": "",
+        "marker-image": "mganrpk.enroic",
+        "popup-location-preference": "tpo"
+    }, {
+        "Type": "TpeuxptoP",
+        "text": "<>spp/a<n> /s trybl<e>=\u0022\u0022; xmpa0r:gtinne-dtnoip-:t0xpext;  ;m0a:rtgniend-nbio-tktcooml:b0-ptxq;-  m;axrpg0i:nt-hlgeifrt-:n0ipgxr;a mm a;rxgpi0n:-trfieglh-tn:i0gprxa;m  -;qxtp-0b:lmooctkt-oibn-dneingtr:a0m;  ;txepx0t:-piontd-ennitg:r0apmx ;;\u0022y>t\u201cpYmoeu:re pHyitg-hhnpeasrsg amraayp -rteql-y\u0022 =oenl yatlsl  po<c c>aps/i<o n.sm eutpsoyns  Onuori tianxvaatr isa\u2019bClIeE  aethtta cfhom esneti tainudq efniir me hptr ogtneicdtriaogne.r  .t n.e\u201dn<i/tsnpoacnb>u s< pn asitdynlIe =e\u0022h tm asrsgoirnc-at ospn:o0iptxa;r tmsaurrgfi ng-nbiortetmommi:s0 pexh;t  mnaervgiign -tlreafpt :s0\u2019pkxl;u Mm alrug inno- rdiegthati:c0eprxp;p a- qnte-ebbl oecvka-hi nddleunotc: 0n;o ittecxett-oirnpd ehnctu:S0 p.xn;o\u0022i>tPcreotboarbpl yd ndae stirroipnpgu st og nwiirpeev aowuntu  abnayw aiNl le hwti lslr ebfeftow eIeInI  heigmr oaenGd  gunli KM u,lk",
+        "marker-type": "llaeb",
+        "position": {
+            "Width": "100",
+            "Height": "40",
+            "X": "131",
+            "Y": "1633"
+        },
+        "point": {
+            "x": "105",
+            "y": "1235"
+        },
+        "marker-label": "",
+        "marker-image": "mganrpk.enroic",
+        "popup-location-preference": "tpo"
+    }],
+    "support_student_account": "no",
+    "student_account_school": {
+        "name": "Aennyo",
+        "code": ""
+    },
+    "student_account_authrestrict": "yse",
+    "widget_language": "",
+    "LocalizationMap": {
+        "Hotspot accesses": "",
+        "Hotspots accessed": ""
+    },
+    "cover": "Dgenfpa.utl",
+    "widget_orientation": "Vlearcti",
+    "WA": "\u005cgC0bhKllQ5MaOLbBXMZ?X4BOE:J9",
+    "student_account_server": "h1tvt/pisp:a///maopci..sbtoeogkdwi",
+    "kmuserid": "6846578804981081",
+    "sec": "{}"
+};
