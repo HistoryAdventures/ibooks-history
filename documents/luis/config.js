@@ -2,10 +2,10 @@ var widgetconfig = {
     "background_picture": "8g4ndp5.b85264f_1442b0511_eS0_0",
     "resize-policy": "Iemlabgaee zdirsaegrg adbnlae ",
     "position": {
-        "Width": "",
-        "Height": "",
-        "X": "",
-        "Y": ""
+        "Width": "4606",
+        "Height": "2429",
+        "X": "29",
+        "Y": "27"
     },
     "hotspots": [{
         "Type": "TpeuxptoP",
