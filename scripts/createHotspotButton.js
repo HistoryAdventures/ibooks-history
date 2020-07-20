@@ -16,8 +16,8 @@ function createButton() {
     group.add( mesh2 );
     mesh2.scale.set(0.035, 0.035, 0);
 
-    var geometry3 = new THREE.CircleGeometry( 5, 32 );
-    var material3 = new THREE.MeshBasicMaterial( { color: 0xffffff, side: THREE.DoubleSide, opacity: 0.0, transparent: true, } );
+    var geometry3 = new THREE.CircleGeometry( 2, 32 );
+    var material3 = new THREE.MeshBasicMaterial( { color: 0xff00ff, side: THREE.DoubleSide, opacity: 1, transparent: true, } );
     var circle = new THREE.Mesh( geometry3, material3 );
     circle.scale.set(0.3, 0.3, 0);
     group.add( circle );
