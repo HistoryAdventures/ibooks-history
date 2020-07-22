@@ -107,7 +107,7 @@ function init() {
     // invert the geometry on the x-axis so that all of the faces point inward
     geometry.scale( - 1, 1, 1 );
 
-    var texture = new THREE.TextureLoader().load( 'textures/Jonas_SphericalMap.jpg' );
+    var texture = new THREE.TextureLoader().load( 'textures/Jonas_SphericalMap_02.jpg' );
     var material = new THREE.MeshBasicMaterial( { map: texture } );
 
     mesh = new THREE.Mesh( geometry, material );
