@@ -33,6 +33,8 @@ cp -rf documents/jonas document-jonas.wdgt
 cp -rf documents/_shared/* document-jonas.wdgt
 cp -rf documents/arun document-arun.wdgt
 cp -rf documents/_shared/* document-arun.wdgt
+cp -rf documents/RiseFallOttomans sequence-ioannina.wdgt
+cp -rf documents/_shared/* sequence-ioannina.wdgt
 
 
 zip -r scene-opium.zip scene-opium.wdgt
@@ -51,6 +53,7 @@ zip -r document-ishi.zip document-ishi.wdgt
 zip -r document-william.zip document-william.wdgt
 zip -r document-jonas.zip document-jonas.wdgt
 zip -r document-arun.zip document-arun.wdgt
+zip -r sequence-ioannina.zip sequence-ioannina.wdgt
 
 mv scene-opium.zip ./builds
 mv scene-ioannina.zip ./builds
@@ -67,6 +70,7 @@ mv document-ishi.zip ./builds
 mv document-william.zip ./builds
 mv document-jonas.zip ./builds
 mv document-arun.zip ./builds
+mv sequence-ioannina.zip ./builds
 
 rm -rf scene-opium.wdgt
 rm -rf scene-ioannina.wdgt
@@ -83,3 +87,4 @@ rm -rf document-ishi.wdgt
 rm -rf document-william.wdgt
 rm -rf document-jonas.wdgt
 rm -rf document-arun.wdgt
+rm -rf sequence-ioannina.wdgt
