@@ -18,6 +18,7 @@ module.exports = {
     'documents/william': './documents/william/index.js',
     'documents/jonas': './documents/jonas/index.js',
     'documents/arun': './documents/arun/index.js',
+    'documents/RiseFallOttomans': './documents/RiseFallOttomans/index.js',
   },
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   module: {

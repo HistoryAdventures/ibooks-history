@@ -1,0 +1,156 @@
+
+
+.navbar {
+  height: 64px;
+  }
+
+#display-wrapper { 
+  padding: 4px;
+  overflow: hidden;
+}
+.sequence .view .display {
+  position: relative;
+  overflow: hidden;
+  width: 982px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+#display-centered, #display { 
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.sequence  .view .display .container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+		
+.sequence .display .cover {
+  opacity: 0;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.caption { 
+  margin: 10x;
+  margin-top: 10px;  
+  min-height: 30px;
+}
+
+.description {
+  width: 100%;
+  text-align: center;
+  height: 65px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.content { 
+  display: inline-block;
+  margin: 5px;
+  min-height: 25px;
+  max-width: 800px;
+  max-height: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 64px;
+}
+
+.left-container .navbutton, .right-container .navbutton { 
+  width: 100%;
+  text-align: center;
+}
+
+.left-container .navbutton.hidden, .right-container .navbutton.hidden { 
+  opacity: 0;
+}
+
+.buttonslot { 
+  display: inline-block;
+  text-align: center;
+  width: 70px;
+}
+
+.buttonslot .number-button { 
+  display: inline-block;
+  text-align: center;
+  width: 20px;
+}
+
+.buttonslot.hide_number .number-button { 
+  display: none;
+}
+#rotate-screen-image {
+  display: none;
+}
+
+@media only screen and (max-width: 550px) {
+
+  html:not(.ibw-platform-osx-ibooks) #picturebuttons { 
+    display: none;
+  }
+}
+
+@media only screen and (min-height: 800px) {
+  html:not(.ibw-platform-osx-ibooks) .description {
+    height: 85px;
+  }
+}
+
+@media only screen and (min-height: 830px) {
+  html:not(.ibw-platform-osx-ibooks) .description {
+    height: 115px;
+  }
+}
+
+@media only screen and (min-height: 860px) {
+  html:not(.ibw-platform-osx-ibooks) .description {
+    height: 145px;
+  }
+}
+@media only screen and (min-height: 890px) {
+  html:not(.ibw-platform-osx-ibooks) .description {
+    height: 175px;
+  }
+}
+
+@media only screen and (max-height: 500px) { 
+
+  html:not(.ibw-platform-osx-ibooks) .navbar {
+    display: none; 
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .description {
+    height: 40px;  
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  @media only screen and (orientation: portrait) {
+
+    html:not(.ibw-platform-osx-ibooks) #rotate-screen-image {
+      display: block;
+      background-image: url(../images/phone_landscape.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 100%;
+      width: 100%;
+      border: 10px solid rgba(0, 0, 0, 0);
+      box-sizing: border-box;
+    }
+
+    html:not(.ibw-platform-osx-ibooks) #container {
+     display: none;	
+    }
+  }
+}
+

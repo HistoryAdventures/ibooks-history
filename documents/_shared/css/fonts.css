@@ -1,4 +1,9 @@
 @font-face {
     font-family: 'Favorit';
-    src: url("css/fonts/Favorit Mono/Favorit_Regular_Mono.otf") format("opentype");
+    src: url("/css/fonts/Favorit/Favorit_Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'LynoStan';
+    src: url("/css/fonts/Lyno%20Family/LynoStan.otf") format("opentype");
 }
