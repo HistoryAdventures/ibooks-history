@@ -108,7 +108,7 @@ function init() {
     // invert the geometry on the x-axis so that all of the faces point inward
     geometry.scale( - 1, 1, 1 );
 
-    var texture = new THREE.TextureLoader().load( 'textures/2294472375_24a3b8ef46_o.jpg' );
+    var texture = new THREE.TextureLoader().load( 'textures/william_360_03.jpg' );
     var material = new THREE.MeshBasicMaterial( { map: texture } );
 
     mesh = new THREE.Mesh( geometry, material );
