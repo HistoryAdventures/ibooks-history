@@ -9,6 +9,7 @@ module.exports = {
     'scene-luis': './scene-luis/index.js',
     'scene-luis2': './scene-luis2/index.js',
     'scene-ishi': './scene-ishi/index.js',
+    'scene-ishi2': './scene-ishi2/index.js',
     'scene-william': './scene-william/index.js',
     'scene-jonas': './scene-jonas/index.js',
     'scene-arun': './scene-arun/index.js',
