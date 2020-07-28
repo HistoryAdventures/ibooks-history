@@ -35,8 +35,8 @@ var widgetconfig = {
             "Y": ""
         },
         "point": {
-            "x": "380",
-            "y": "326"
+            "x": "899",
+            "y": "830"
         },
         "marker-label": "2",
         "marker-image": "9g1n0pb.a0c04b6c033d",
@@ -52,8 +52,8 @@ var widgetconfig = {
             "Y": "216"
         },
         "point": {
-            "x": "318",
-            "y": "215"
+            "x": "995",
+            "y": "650"
         },
         "marker-label": "3",
         "marker-image": "9g1n0pb.a1c_4_60003bdc3",
@@ -69,8 +69,8 @@ var widgetconfig = {
             "Y": "475"
         },
         "point": {
-            "x": "461",
-            "y": "455"
+            "x": "1003",
+            "y": "994"
         },
         "marker-label": "4",
         "marker-image": "9g1n0pb.a1c_4_60003bdc3",
