@@ -71,8 +71,8 @@ function init() {
         container.appendChild(stats.dom);
     }
 
-    camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
-    camera.position.set(-6, 5, -9);
+    camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 2000);
+    camera.position.set(-6, -1, 3);
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0x000000);
 
@@ -121,37 +121,37 @@ function init() {
 
     var sprite1 = createButton();
     sprite1.name = 'hotspot-1';
-    sprite1.position.set(-6, 25, 137);
+    sprite1.position.set(200, 7, 172);
     sprite1.lookAt(0 ,0 ,0);
     scene.add( sprite1 );
 
     var sprite2 = createButton();
     sprite2.name = 'hotspot-2';
-    sprite2.position.set(68, 94, -200);
+    sprite2.position.set(-40, 55, -88);
     sprite2.lookAt(0 ,0 ,0);
     scene.add( sprite2 );
 
     var sprite3 = createButton();
     sprite3.name = 'hotspot-3';
-    sprite3.position.set(-200, 12, 46);
+    sprite3.position.set(200, 12, -75);
     sprite3.lookAt(0 ,0 ,0);
     scene.add( sprite3 );
 
     var sprite4 = createButton();
     sprite4.name = 'hotspot-4';
-    sprite4.position.set(-200, 25, -200);
+    sprite4.position.set(-71, 1, -200);
     sprite4.lookAt(0 ,0 ,0);
     scene.add( sprite4 );
 
     var sprite5 = createButton();
     sprite5.name = 'hotspot-5';
-    sprite5.position.set(-200, 98, 77);
+    sprite5.position.set(-200, -1, -32);
     sprite5.lookAt(0 ,0 ,0);
     scene.add( sprite5 );
 
     var sprite6 = createButton();
     sprite6.name = 'hotspot-6';
-    sprite6.position.set(-200, 20, 77);
+    sprite6.position.set(-58, 3, 85);
     sprite6.lookAt(0 ,0 ,0);
     scene.add( sprite6 );
 
@@ -193,10 +193,10 @@ function init() {
     // controls 
     controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
-    controls.dampingFactor = 0.03;
+    controls.dampingFactor = 0.05;
     controls.enablePan = false;
     controls.enableZoom = true;
-    controls.rotateSpeed = -1; // mouse invert
+    controls.rotateSpeed = -0.4; // mouse invert
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
     controls.maxDistance = 4;

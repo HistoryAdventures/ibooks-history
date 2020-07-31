@@ -73,7 +73,7 @@ function init() {
     }
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
-    camera.position.set(-6, 5, -9);
+    camera.position.set(-6, 5, -5);
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0x000000);
 
@@ -122,25 +122,25 @@ function init() {
 
     var sprite1 = createButton();
     sprite1.name = 'hotspot-1';
-    sprite1.position.set(-200, 38, 137);
+    sprite1.position.set(38, -6, 137);
     sprite1.lookAt(0 ,0 ,0);
     scene.add( sprite1 );
 
     var sprite2 = createButton();
     sprite2.name = 'hotspot-2';
-    sprite2.position.set(-58, 51, 200);
+    sprite2.position.set(-200, 16, 51);
     sprite2.lookAt(0 ,0 ,0);
     scene.add( sprite2 );
 
     var sprite3 = createButton();
     sprite3.name = 'hotspot-3';
-    sprite3.position.set(-200, 38, -88);
+    sprite3.position.set(200, -45, -58);
     sprite3.lookAt(0 ,0 ,0);
     scene.add( sprite3 );
 
     var sprite4 = createButton();
     sprite4.name = 'hotspot-4';
-    sprite4.position.set(16, -14, -200);
+    sprite4.position.set(181, -153, 200);
     sprite4.lookAt(0 ,0 ,0);
     scene.add( sprite4 );
 
@@ -182,10 +182,10 @@ function init() {
     // controls 
     controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
-    controls.dampingFactor = 0.03;
+    controls.dampingFactor = 0.05;
     controls.enablePan = false;
     controls.enableZoom = true;
-    controls.rotateSpeed = -1; // mouse invert
+    controls.rotateSpeed = -0.4; // mouse invert
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
     controls.maxDistance = 4;

@@ -72,8 +72,8 @@ function init() {
         container.appendChild(stats.dom);
     }
 
-    camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
-    camera.position.set(-6, 5, -9);
+    camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.1, 2000);
+    camera.position.set(-6, 2, -14);
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0x000000);
 
@@ -106,7 +106,7 @@ function init() {
 
     var geometry = new THREE.SphereBufferGeometry( 500, 60, 40 );
     // invert the geometry on the x-axis so that all of the faces point inward
-    geometry.scale( - 1, 1, 1 );
+    geometry.scale( -1, 1, 1);
 
     var texture = new THREE.TextureLoader().load( 'textures/william_360_03.jpg' );
     var material = new THREE.MeshBasicMaterial( { map: texture } );
@@ -188,10 +188,10 @@ function init() {
     // controls 
     controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
-    controls.dampingFactor = 0.03;
+    controls.dampingFactor = 0.05;
     controls.enablePan = false;
     controls.enableZoom = true;
-    controls.rotateSpeed = -1; // mouse invert
+    controls.rotateSpeed = -0.4; // mouse invert
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
     controls.maxDistance = 4;

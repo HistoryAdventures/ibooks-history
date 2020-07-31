@@ -1,12 +1,12 @@
 <!DOCTYPE widget>
 <HotspotImage>
-<background_picture autosize="false" rid="5ZFCWIY09BARY01LHZQ2" alttext="" orientation="1" caption="" height="2301" width="1648">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/06_Zamindar/Letter-01.png</background_picture>
+<background_picture orientation="1" width="2695" alttext="" autosize="false" height="3000" caption="" rid="Y09BARY01LHZQ2PBJ3E7">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/06_Arun_Kathjun/cloth1.jpg</background_picture>
 <resize-policy value="Image draggable and resizeable">Image draggable and resizeable</resize-policy>
 <position>
-<Width>1470</Width>
-<Height>1936</Height>
-<X>18</X>
-<Y>-4</Y>
+<Width>703</Width>
+<Height>791</Height>
+<X>-3</X>
+<Y>-1</Y>
 </position>
 <hotspots>
 <TextPopup>
@@ -15,8 +15,11 @@
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
 &lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">George III&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">King of England from 1760 to 1801, George III penned this letter to Nawab Omdat-ul Omrah Mayeen ul Mulk to offer his condolences for the death of Muhammed Ali Khan Wallajah (who passed on 13 October 1795). The offering of such condolences on the King’s part perhaps was owed to his desire to solidify relations with the ruling classes of India.&lt;/p>&lt;/body>&lt;/html></text>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The English Siege of Pondicherry, 1760&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">While the scene depicted is open to interpretation, scholars believe that it reveals &lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">a depiction of the English Siege of Pondicherry that began in 1760. In that siege, the British joined with local forces to attempt to expel the French representatives of the French East India Company whose headquarters stood in the southern Indian city. &lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
@@ -27,12 +30,12 @@ p, li { white-space: pre-wrap; }
 <Y>50</Y>
 </position>
 <point>
-<x>155</x>
-<y>1009</y>
+<x>-70</x>
+<y>147</y>
 </point>
-<marker-label searchable="true"></marker-label>
-<marker-image autosize="true" rid="" alttext="" orientation="1" caption="" height="0" width="0">:/HotspotImage/images/markericon.png</marker-image>
-<popup-location-preference value="top">Above hotspot</popup-location-preference>
+<marker-label searchable="true">1</marker-label>
+<marker-image orientation="1" width="0" alttext="" autosize="true" height="0" caption="" rid="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
 <text searchable="true">
@@ -40,34 +43,10 @@ p, li { white-space: pre-wrap; }
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
 &lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Nawab Omdat-ul Omrah Mayeen ul Mulk&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The recipient of this letter served as Nawab of the Carnatic State of the Mughal Empire from 1795 to 1801. The Carnatic State was one of the oldest imperial dependencies, but they had fallen on hard times since the 1760s, when, in response to the growing presence of foreign forces in their country, threw their support behind the British. Ul Mulk’s predecessor, Wallajah, had nearly bankrupted himself in offering this support. Rather than reimburse him for his efforts, the EIC ended up confiscating much of Wallajah’s land. Thus, we can imagine that ul Mulk would perhaps have not appreciated King George III’s rosy tone.&lt;/p>&lt;/body>&lt;/html></text>
-<images/>
-</text>
-<marker-type value="label">Label</marker-type>
-<position>
-<Width>100</Width>
-<Height>40</Height>
-<X>1234</X>
-<Y>1052</Y>
-</position>
-<point>
-<x>1288</x>
-<y>1076</y>
-</point>
-<marker-label searchable="true"></marker-label>
-<marker-image autosize="true" rid="" alttext="" orientation="1" caption="" height="0" width="0">:/HotspotImage/images/markericon.png</marker-image>
-<popup-location-preference value="top">Above hotspot</popup-location-preference>
-</TextPopup>
-<TextPopup>
-<text searchable="true">
-<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
-&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
-p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">“We duly received Your Highness's Letter dated in the Month of October last. . .”&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Note that this letter was penned by King George III on 12 May 1796, reflecting &lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">a nearly six-month delay in replying to the correspondence from ul Mulk noting the demise of Wallajah. This is important to note because it adds some valuable perspective on the pace of diplomacy during this period. It also emphasizes just how distant King George III and his court were from the daily happenings in India. &lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The French East India Company&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Established in the 1660s at the behest of Jean-Baptiste Colbert, The French East &lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">India Company was designed to stake a claim in East Asia for French interests. Realizing that other European counterparts, like the British, were already carving out terrain in the region, The French king merged several governmental companies to create the French version of the EIC. They set their sites on the island of Madagascar at first, but once they noted the decline of Mughal power they struck on the mainland of India to establish their hubs. The company was eventually dismantled in 1769, not long after this siege.&lt;/p>
 &lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
@@ -75,16 +54,16 @@ p, li { white-space: pre-wrap; }
 <position>
 <Width>100</Width>
 <Height>40</Height>
-<X>100</X>
-<Y>1166</Y>
+<X>50</X>
+<Y>50</Y>
 </position>
 <point>
-<x>158</x>
-<y>1186</y>
+<x>-74</x>
+<y>304</y>
 </point>
-<marker-label searchable="true"></marker-label>
-<marker-image autosize="true" rid="" alttext="" orientation="1" caption="" height="0" width="0">:/HotspotImage/images/markericon.png</marker-image>
-<popup-location-preference value="top">Above hotspot</popup-location-preference>
+<marker-label searchable="true">2</marker-label>
+<marker-image orientation="1" width="0" alttext="" autosize="true" height="0" caption="" rid="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
 <text searchable="true">
@@ -92,9 +71,10 @@ p, li { white-space: pre-wrap; }
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
 &lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">“Your friendship and alliance with the British Nation and with the East India Company. . .”&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Here King George III aims to reinforce their bond, perhaps in the hope that he &lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">can win ul Mulk over on his plan to instigate greater oversight of the EIC (one of the political initiatives he had aimed for in his rule).&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Union Jack&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">In the lower left of this hanging, one will note the presence of the Union Jack flag &lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">as a universal symbol of British forces. It is specially designed here, however, to take on a more kaleidoscopic quality than the typical red, white, and blue that the flag sports. This multicolored representation perhaps symbolically alludes to the various alliances that the British had established within Indian communities.&lt;/p>
 &lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
@@ -102,16 +82,16 @@ p, li { white-space: pre-wrap; }
 <position>
 <Width>100</Width>
 <Height>40</Height>
-<X>1239</X>
-<Y>1281</Y>
+<X>50</X>
+<Y>50</Y>
 </position>
 <point>
-<x>1239</x>
-<y>1281</y>
+<x>-66</x>
+<y>503</y>
 </point>
-<marker-label searchable="true"></marker-label>
-<marker-image autosize="true" rid="" alttext="" orientation="1" caption="" height="0" width="0">:/HotspotImage/images/markericon.png</marker-image>
-<popup-location-preference value="top">Above hotspot</popup-location-preference>
+<marker-label searchable="true">3</marker-label>
+<marker-image orientation="1" width="0" alttext="" autosize="true" height="0" caption="" rid="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
 <text searchable="true">
@@ -119,8 +99,10 @@ p, li { white-space: pre-wrap; }
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
 &lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">“Your Highness may rely on all occasions upon Our invariable attachment and firm protection. . .”&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Probably desiring to wipe out any ill will between him and ul Mulk, King George III offers the Nawab unwavering support and protection. Such protection could have been appreciated on ul Mulk’s part given the simmering frustrations across the Indian subcontinent regarding the inequities of the EIC’s taxation system. &lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Elaborate Flora and Fauna&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">No detail is left overlooked in this elaborate hanging, which not only captures the &lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">details of costuming (from British uniforms to the gowns and skirt cloths of various patterns) but also frames the components of the composition with creatures taken from nature. Along the lower edge of the hanging, for example, one can see what appears to be a stylized river teeming with fish and floating fronds of flora.&lt;/p>
 &lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
@@ -128,16 +110,43 @@ p, li { white-space: pre-wrap; }
 <position>
 <Width>100</Width>
 <Height>40</Height>
-<X>113</X>
-<Y>1336</Y>
+<X>-115</X>
+<Y>653</Y>
 </position>
 <point>
-<x>150</x>
-<y>1352</y>
+<x>-73</x>
+<y>669</y>
 </point>
-<marker-label searchable="true"></marker-label>
-<marker-image autosize="true" rid="" alttext="" orientation="1" caption="" height="0" width="0">:/HotspotImage/images/markericon.png</marker-image>
-<popup-location-preference value="top">Above hotspot</popup-location-preference>
+<marker-label searchable="true">4</marker-label>
+<marker-image orientation="1" width="0" alttext="" autosize="true" height="0" caption="" rid="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="right">Right of hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Chintz&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This hanging was created from chintz fabric, a technique that originated in  Hyderabad, India, and that was incredibly popular from the seventeenth to the nineteenth centuries. Traditional chintz was made using woodblock prints applied to calico fabrics and grew in acclaim among European audiences for the variety possible.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>-124</X>
+<Y>810</Y>
+</position>
+<point>
+<x>-73</x>
+<y>847</y>
+</point>
+<marker-label searchable="true">5</marker-label>
+<marker-image orientation="1" width="0" alttext="" autosize="true" height="0" caption="" rid="">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 </hotspots>
 <support_student_account value="no">No student accounts</support_student_account>
@@ -160,7 +169,7 @@ p, li { white-space: pre-wrap; }
 <modified>false</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants widget_color="#3498DB" widget_font="Verdana" template="Dark Background" widget_backgroundimage="">
+<DesignConstants widget_font="Verdana" widget_backgroundimage="" template="Dark Background" widget_color="#3498DB">
 <constant>
 <name>hiddenborderleft</name>
 <kind>BorderLeft</kind>
@@ -317,7 +326,7 @@ p, li { white-space: pre-wrap; }
 <value>#ffffff</value>
 </constant>
 </DesignConstants>
-<cover autosize="false" rid="PBJ3E7PSIHZC6T0JTB1V" alttext="" orientation="1" caption="" height="1072" width="768">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/06_Zamindar/cover.png</cover>
+<cover orientation="1" width="699" alttext="" autosize="true" height="768" caption="" rid="PSIHZC6T0JTB1VTUBA33">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/06_Arun_Kathjun/DP291194.jpg</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
 <BookWidgetsVersion>6.0.5</BookWidgetsVersion>
 <shortcode></shortcode>

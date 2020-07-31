@@ -1,18 +1,19 @@
-<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" identifier="com.kidimedia.ibook-widgets.hotspotimage-document-arun" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<manifest version="1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="com.kidimedia.ibook-widgets.hotspotimage-document-arun_03" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
 <metadata>
 <schema>ADL SCORM</schema>
 <schemaversion>1.2</schemaversion>
 </metadata>
-<organizations default="hotspotimage-document-arun">
-<organization identifier="hotspotimage-document-arun">
-<title>document-arun</title>
+<organizations default="hotspotimage-document-arun_03">
+<organization identifier="hotspotimage-document-arun_03">
+<title>document-arun_03</title>
 <item identifier="item_1" identifierref="resource_1">
-<title>hotspotimage-document-arun</title>
+<title>hotspotimage-document-arun_03</title>
 </item>
 </organization>
 </organizations>
 <resources>
-<resource type="webcontent" identifier="resource_1" href="index.html" adlcp:scormtype="sco">
+<resource href="index.html" adlcp:scormtype="sco" type="webcontent" identifier="resource_1">
+<file href="cloth1_S_2695_3000.jpg"/>
 <file href="config.css"/>
 <file href="config.js"/>
 <file href="config.xml"/>
@@ -57,7 +58,6 @@
 <file href="/js/jquery.hammer.min.js"/>
 <file href="/js/jquery.tipsy.js"/>
 <file href="/js/jquery.ui.touch-punch.min.js"/>
-<file href="Letter-01_S_1648_2301.png"/>
 <file href="markericon.png"/>
 <file href="resourcemap.json"/>
 </resource>

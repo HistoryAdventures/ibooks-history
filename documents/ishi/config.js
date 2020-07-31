@@ -2,9 +2,9 @@ var widgetconfig = {
     "background_picture": "Pgapijn.t6i1n7g__4S2_01",
     "resize-policy": "Iemlabgaee zdirsaegrg adbnlae ",
     "position": {
-        "Width": "5500",
+        "Width": "5300",
         "Height": "3200",
-        "X": "-119",
+        "X": "-140",
         "Y": "-12"
     },
     "hotspots": [{
@@ -35,8 +35,8 @@ var widgetconfig = {
             "Y": "482"
         },
         "point": {
-            "x": "1113",
-            "y": "1563"
+            "x": "1001",
+            "y": "1557"
         },
         "marker-label": "2",
         "marker-image": "mganrpk.enroic",
