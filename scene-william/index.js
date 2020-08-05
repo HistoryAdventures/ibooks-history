@@ -72,7 +72,7 @@ function init() {
         container.appendChild(stats.dom);
     }
 
-    camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.1, 2000);
+    camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 2000);
     camera.position.set(-6, 2, -14);
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0x000000);
