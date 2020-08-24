@@ -1,247 +1,167 @@
+<!DOCTYPE widget>
 <HotspotImage>
-<shortcode>HKSUNB</shortcode>
-<label>HotspotImageV02_6</label>
-<background_picture rid="79WEFVNAPB3DMIF2XJUW" width="2433" height="2980" autosize="false">https://widget-assets-eu.bookwidgets.com/191126/fb755ede32caebbb_S_2433_2980.25bd735b591c9787c1ffa3af6ab16be9.png?filename=%2FUsers%2Fjulius%2FDocuments%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2Fdesign%2F001v.png</background_picture>
+<background_picture autosize="false" alttext="" width="1024" rid="5ZFCWIY09BARY01LHZQ2" caption="" height="1435" orientation="1">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/05_Jonas/7188bc4b-e9fa-52d6-a43a-8f2b5aef8230.jpeg</background_picture>
 <resize-policy value="Image draggable and resizeable">Image draggable and resizeable</resize-policy>
 <position>
-<X>-3</X>
-<Y>-8</Y>
-<Width>1687</Width>
-<Height>2063</Height>
+<Width>1048</Width>
+<Height>1343</Height>
+<X>-12</X>
+<Y>111</Y>
 </position>
 <hotspots>
 <TextPopup>
-<text>
-<text searchable="true">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&#xd;
-&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">&#xd;
-p, li { white-space: pre-wrap; }&#xd;
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">“We hold these Truths to be Self-evident… and the pursuit of happiness”&lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">From the outset, the key ideals explored in this period – liberty, freedom, &lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">and representation – are made prominent in the Declaration. We should never &lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">lose sight of both how important these principles were, but also their limitations.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Blackbeard’s Iconic Ship&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Queen Anne’s Revenge was the storied vessel of Edward Teach, who himself Queen Anne’s Revenge was the storied vessel of Edward Teach, who himself was better known as the famed pirate Blackbeard. Queen Anne’s Revenge was the flagship vessel of Blackbeard’s fleet and totaled 200 tons. Her name was most likely inspired from Blackbeard’s earlier service in the Royal Navy in the War of Spanish Succession (1701-1714), also known as Queen Anne’s War.&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
-<position/>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>50</X>
+<Y>50</Y>
+</position>
 <point>
-<x>368</x>
-<y>553</y>
+<x>386</x>
+<y>244</y>
 </point>
 <marker-label searchable="true">1</marker-label>
-<marker-image rid="" width="0" orientation="1" height="0" autosize="true">https://www.bookwidgets.com/create/embedded-resources/HotspotImage/images/markericon.png</marker-image>
-<popup-location-preference value="top">Above hotspot</popup-location-preference>
+<marker-image autosize="true" alttext="" width="0" rid="" caption="" height="0" orientation="1">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
-<text>
-<text searchable="true">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&#xd;
-&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">&#xd;
-p, li { white-space: pre-wrap; }&#xd;
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">“The History of the Present King… Tyranny over these States”&lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">King George III is presented as the villain of the piece in the Declaration. &lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">As the Monarch, he is an unelected representative of the people. The &lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">declaration lists 27 grievances that the States have with the King’s governance.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Ship Origins&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Originally built in Bristol, England, around 1710, Queen Anne’s Revenge most likely first functioned as a merchant ship, The Concord, before its capture by French forces. She was eventually redubbed her La Concorde and into service as a slave ship until she was sold in a South American port in 1713. Blackbeard was able to capture the ship in 1717 as it sailed near the West Indies, at which point he offloaded its cargo (slaves, destined for Martinique), and re-equipped the vessel to be prepared for piracy. &lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
-<position/>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>50</X>
+<Y>50</Y>
+</position>
 <point>
-<x>606</x>
-<y>726</y>
+<x>362</x>
+<y>587</y>
 </point>
 <marker-label searchable="true">2</marker-label>
-<marker-image rid="" width="0" orientation="1" height="0" autosize="true">https://www.bookwidgets.com/create/embedded-resources/HotspotImage/images/markericon.png</marker-image>
+<marker-image autosize="true" alttext="" width="0" rid="" caption="" height="0" orientation="1">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
-<text>
-<text searchable="true">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&#xd;
-&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">&#xd;
-p, li { white-space: pre-wrap; }&#xd;
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">“For imposing Taxes on us without our consent”&lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">We can see here how the issue of taxation without representation&lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;"> – the motivation of the Boston Tea Party – remained prominent in&lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;"> the mindset of the signatories of the Declaration in 1776. &lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Cannons&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The most essential weapon for pirate ships was the mounted cannon, which could provide long-distance impact on the high seas with relatively good aim. Most pirate ships had at least a handful of mounted cannons, but Blackbeard’s Queen Anne’s Revenge was purported to have nearly 40 such mounted cannons on board. &lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
-<position/>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>50</X>
+<Y>50</Y>
+</position>
 <point>
-<x>652</x>
-<y>1213</y>
+<x>262</x>
+<y>1188</y>
 </point>
 <marker-label searchable="true">3</marker-label>
-<marker-image rid="" width="0" orientation="1" height="0" autosize="true">https://www.bookwidgets.com/create/embedded-resources/HotspotImage/images/markericon.png</marker-image>
+<marker-image autosize="true" alttext="" width="0" rid="" caption="" height="0" orientation="1">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
-<text>
-<text searchable="true">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&#xd;
-&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">&#xd;
-p, li { white-space: pre-wrap; }&#xd;
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">“FREE AND INDEPENDENT STATES… Allegiance to the British Crown”&lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">This is the decisive statement of the Declaration. This is the assertion &lt;/span>&lt;/p>&#xd;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">of sovereignty for the colonies and a rejection of British rule.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Streamlined Design&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">In addition to being stocked with cannons, however, Blackbeard’s beloved ship also needed to be streamlined and efficient to guarantee speed on the sea (as outrunning the Navy and other vessels was a common occurrence). He was in luck: the Queen Anne’s Revenge was a frigate, which was known as one of the fastest ships on the sea at the time.&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
-<position/>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>50</X>
+<Y>50</Y>
+</position>
 <point>
-<x>336</x>
-<y>1730</y>
+<x>761</x>
+<y>1197</y>
 </point>
 <marker-label searchable="true">4</marker-label>
-<marker-image rid="" width="0" orientation="1" height="0" autosize="true">https://www.bookwidgets.com/create/embedded-resources/HotspotImage/images/markericon.png</marker-image>
-<popup-location-preference value="top">Above hotspot</popup-location-preference>
+<marker-image autosize="true" alttext="" width="0" rid="" caption="" height="0" orientation="1">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="left">Left of hotspot</popup-location-preference>
+</TextPopup>
+<TextPopup>
+<text searchable="true">
+<text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Running Aground and Legacy &lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Between 1717 and 1718, Blackbeard terrorized the eastern seaboard of the United States, but the reign of Queen Anne’s Revenge came to an end in early June 1718, when Blackbeard ran her aground off the coast of North Carolina. Though that was not the end of Blackbeard’s career as a pirate - he surrendered but then immediately returned to piracy - Queen Anne’s Revenge remained undiscovered beneath the waves until the 1990s, when archaeologists first found clues underwater that they had found remains of the ship. Research is ongoing, but many artifacts have been uncovered to tell more of the story of this ship and its captain. &lt;/p>&lt;/body>&lt;/html></text>
+<images/>
+</text>
+<marker-type value="label">Label</marker-type>
+<position>
+<Width>100</Width>
+<Height>40</Height>
+<X>50</X>
+<Y>50</Y>
+</position>
+<point>
+<x>879</x>
+<y>945</y>
+</point>
+<marker-label searchable="true">5</marker-label>
+<marker-image autosize="true" alttext="" width="0" rid="" caption="" height="0" orientation="1">:/HotspotImage/images/markericon.png</marker-image>
+<popup-location-preference value="left">Left of hotspot</popup-location-preference>
 </TextPopup>
 </hotspots>
 <support_student_account value="no">No student accounts</support_student_account>
 <student_account_authproviders/>
 <student_account_school>
-<code/>
+<code></code>
 <name>Anyone</name>
 </student_account_school>
-<student_account_authrestrict>true</student_account_authrestrict>
+<student_account_authrestrict>yes</student_account_authrestrict>
+<widget_language></widget_language>
 <LocalizationMap>
 <localization>
 <phrase>Hotspot accesses</phrase>
-<translation/>
+<translation></translation>
 <modified>false</modified>
 </localization>
 <localization>
 <phrase>Hotspots accessed</phrase>
-<translation/>
+<translation></translation>
 <modified>false</modified>
 </localization>
-<localization>
-<phrase>Authentication error.</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Cancel</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Could not connect to server, check your internet connection.</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Email</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Forgot password?</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Not logged in</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>OK</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Offline</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Online</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Password</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Please sign in</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Received error trying to sign in</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>School code</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Server error when signing in.</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign in</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign in failed</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign in to save your answers online</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign in using</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign in using email and password</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign in using school account</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign out</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Sign up here</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Username</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Waiting</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Waiting for account sign in to complete...</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Widget configuration error: school doesn't exist</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>Wrong username or password, please try again.</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>You need to be signed in to use this widget.</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>You're currently offline and logged in as user:</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>You're currently online and logged in as user:</phrase>
-<translation/>
-</localization>
-<localization>
-<phrase>You're offline</phrase>
-<translation/>
-</localization>
 </LocalizationMap>
-<DesignConstants widget_color="#3498DB" widget_backgroundimage=",auto" template="Dark Background" widget_font="Verdana">
+<DesignConstants widget_backgroundimage="" widget_color="#3498DB" template="Dark Background" widget_font="Verdana">
 <constant>
 <name>hiddenborderleft</name>
 <kind>BorderLeft</kind>
@@ -390,14 +310,18 @@ p, li { white-space: pre-wrap; }&#xd;
 <constant>
 <name>buttonstrokecolor</name>
 <kind>StrokeColor</kind>
-<value>#000000</value>
+<value>#3498DB</value>
 </constant>
 <constant>
 <name>buttonfillcolor</name>
 <kind>FillColor</kind>
-<value>#ff6633</value>
+<value>#ffffff</value>
 </constant>
 </DesignConstants>
-<cover rid="VCBI4L2AI2XJ29K21QOY" width="623" height="768" autosize="true">https://widget-assets-eu.bookwidgets.com/191126/Default.31f2af8bb76e4461afab2daebcecf978.png?filename=%2FUsers%2Fjulius%2FDocuments%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2Fhotspot_cover.jpg</cover>
-<widget_orientation value="Vertical">Vertical</widget_orientation>
+<cover autosize="true" alttext="" width="0" rid="" caption="" height="0" orientation="1"></cover>
+<widget_orientation value="Horizontal">Horizontal</widget_orientation>
+<BookWidgetsVersion>6.0.5</BookWidgetsVersion>
+<shortcode></shortcode>
+<label searchable="true"></label>
+<lastupload></lastupload>
 </HotspotImage>
