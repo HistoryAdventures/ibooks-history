@@ -20,6 +20,12 @@ module.exports = {
     'documents/jonas': './documents/jonas/index.js',
     'documents/arun': './documents/arun/index.js',
     'documents/RiseFallOttomans': './documents/RiseFallOttomans/index.js',
+    'quiz/luis': './quiz/luis/index.js',
+    'quiz/arun': './quiz/arun/index.js',
+    'quiz/ioannina': './quiz/ioannina/index.js',
+    'quiz/ishi': './quiz/ishi/index.js',
+    'quiz/jonas': './quiz/jonas/index.js',
+    'quiz/william': './quiz/william/index.js',
   },
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   module: {
@@ -64,7 +70,13 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      moduleFilename: ({ name }) => name.indexOf('documents') !== -1 ? `${name}/config.css` : `${name}/style.css`,
+      moduleFilename: ({ name }) => { 
+        if (name.indexOf('documents') !== -1 || name.indexOf('quiz') !== -1) {
+          return `${name}/config.css`;
+        }
+
+        return `${name}/style.css`;
+      },
     }),
   ],
   devServer: {

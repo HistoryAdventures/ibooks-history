@@ -1,0 +1,625 @@
+<QuizPlugin>
+<shortcode>4BBJH44</shortcode>
+<label>Ishi Assessment</label>
+<widget_language>en</widget_language>
+<questions>
+<PictureMultpleChoice>
+<Question searchable="true">Which image shows the setting of this narrative?</Question>
+<Answers>
+<node autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/46/46e60198-6260-4d9f-b39b-418c5b2a391c.jpeg?filename=machudownload%20(6).jpeg</node>
+<node autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/8e/8e201791-da5a-4437-8a97-5344fb12edd8.jpeg?filename=alpsdownload%20(6).jpeg</node>
+<node autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/a0/a0fa6cfb-6590-4b00-abb6-b712a4ecdac6.jpeg?filename=fujidownload%20(6).jpeg</node>
+</Answers>
+<Valid value="3">3</Valid>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</PictureMultpleChoice>
+<TextMultpleChoice>
+<Question searchable="true">What phrase best describes the shogun?</Question>
+<Answers version="2" searchable="true">warrior- leaders that controlled Japan&#xd;
+politicians in the Imperial court of Japan&#xd;
+scholarly men and women of the upper Japanese classes&#xd;
+religious leaders established to prevent Christianity from entering Japan.</Answers>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<TextMultiSelect>
+<Question searchable="true"> What long term patterns occurred as a consequence of the Battle of Sekigahara in 1600?  Select two answers.</Question>
+<Answers version="2" searchable="true">The Christians were expelled from Japan for over 200 years.&#xd;
+The various feudal states of Japan became more unified.&#xd;
+Edo (modern Tokyo) developed into a center of power, art, and culture.&#xd;
+Western democracy became a new style of government in Japan.&#xd;
+The Japanese nation fractured into smaller warring states.</Answers>
+<Valid>2 3</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<policy value="all">Score points when all answers are correct.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+<scoring-wrong-answer-weight searchable="true"/>
+</TextMultiSelect>
+<TextMultiSelect>
+<Question searchable="true">Which statements best describe Ishi's opinion of the Christians?</Question>
+<Answers version="2" searchable="true">She thought Christianity was an unusual and interesting religion.&#xd;
+She thought Christianity sounded just like many other religions that have been rejected.&#xd;
+She thought that Shintoism and Buddhism were superior.&#xd;
+She hoped Christianity would become a new and important religion in Japan.&#xd;
+She had disdain for the Christian's opinion of women in power.&#xd;
+She felt they did not belong in Japan.</Answers>
+<Valid>2 3 5 6</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<policy value="all">Score points when all answers are correct.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+<scoring-wrong-answer-weight searchable="true"/>
+</TextMultiSelect>
+<WordMatch>
+<Question searchable="true">Match the term found in Ishi's narrative with the proper description.</Question>
+<pairs>
+<WordPair>
+<source searchable="true">Edo (Tokyo)</source>
+<target searchable="true">center of Japanese art and culture</target>
+</WordPair>
+<WordPair>
+<source searchable="true">Shogun</source>
+<target searchable="true">warrior-leader</target>
+</WordPair>
+<WordPair>
+<source searchable="true">Shinto</source>
+<target searchable="true">traditional religion of Japan</target>
+</WordPair>
+<WordPair>
+<source searchable="true">Mount Fuji</source>
+<target searchable="true">important site in geography, religion, and art</target>
+</WordPair>
+<WordPair/>
+</pairs>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+<version>1</version>
+</WordMatch>
+</questions>
+<id searchable="true">Ishi Assessment</id>
+<submit_answers>false</submit_answers>
+<submit_only_once>false</submit_only_once>
+<submitformfields>
+<formfield defaultValue="" isEditable="true" isVisible="true">student_name</formfield>
+<formfield defaultValue="" isEditable="true" isVisible="true">student_email</formfield>
+<formfield defaultValue="" isEditable="true" isVisible="false">student_class_id</formfield>
+<formfield defaultValue="" isEditable="false" isVisible="false">teacher_email</formfield>
+<formfield defaultValue="" isEditable="true" isVisible="false">student_id</formfield>
+</submitformfields>
+<email_should_have_grading>true</email_should_have_grading>
+<action searchable="true">https://api.bookwidgets.com/api/v1/quiz/post</action>
+<servertype value="BookWidgets">BookWidgets</servertype>
+<examination_mode>false</examination_mode>
+<countdown_time searchable="true">30</countdown_time>
+<exam_mode_submit_dialog_clear>true</exam_mode_submit_dialog_clear>
+<support_student_account value="no">No student accounts</support_student_account>
+<student_account_authproviders/>
+<student_account_school>
+<code/>
+<name/>
+</student_account_school>
+<student_account_authrestrict>true</student_account_authrestrict>
+<show_answers>true</show_answers>
+<color_correct_answers>false</color_correct_answers>
+<show_score value="No">No</show_score>
+<allow_edit_after_check_or_send>false</allow_edit_after_check_or_send>
+<feedback/>
+<show_question_points>false</show_question_points>
+<allow_sharing>false</allow_sharing>
+<share_action searchable="true">https://api.bookwidgets.com/api/v1/quiz/share</share_action>
+<allow_download>false</allow_download>
+<download_action searchable="true">https://api.bookwidgets.com/api/v1/quiz/download</download_action>
+<download_includes_correction value="no">Never include correction when downloading.</download_includes_correction>
+<save_answers>true</save_answers>
+<uuid2>{69c87b40-cecf-11ea-a18a-85a63eed0db6}</uuid2>
+<origbase_version>1</origbase_version>
+<require_password value="Once">Once</require_password>
+<spellcheck>true</spellcheck>
+<random_order>false</random_order>
+<auto_numbering>true</auto_numbering>
+<info_numbering>false</info_numbering>
+<provide_calculator value="None">None</provide_calculator>
+<allow_text_selection>false</allow_text_selection>
+<auto_play_audio>false</auto_play_audio>
+<direction value="left-to-right">left-to-right</direction>
+<LocalizationMap>
+<localization>
+<phrase>Quiz</phrase>
+</localization>
+<localization>
+<phrase>All done !</phrase>
+</localization>
+<localization>
+<phrase>Click the button to submit or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Click the button to see the correct answers or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Click the button to see your score or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Show question list</phrase>
+</localization>
+<localization>
+<phrase>Previous question</phrase>
+</localization>
+<localization>
+<phrase>Next question</phrase>
+</localization>
+<localization>
+<phrase>Switch to edit mode</phrase>
+</localization>
+<localization>
+<phrase>QUESTION</phrase>
+</localization>
+<localization>
+<phrase>Submit</phrase>
+</localization>
+<localization>
+<phrase>Share the quiz by email.</phrase>
+</localization>
+<localization>
+<phrase>Unable to send quiz. Make sure you're connected to the internet.</phrase>
+</localization>
+<localization>
+<phrase>The time allowed for this test has expired.  You can no longer change your answers.</phrase>
+</localization>
+<localization>
+<phrase>Show answers</phrase>
+</localization>
+<localization>
+<phrase>Are you done and do you want to show the answers?</phrase>
+</localization>
+<localization>
+<phrase>Show score</phrase>
+</localization>
+<localization>
+<phrase>Are you done and do you want to show your score?</phrase>
+</localization>
+<localization>
+<phrase>Clear answers and start over</phrase>
+</localization>
+<localization>
+<phrase>Ok</phrase>
+</localization>
+<localization>
+<phrase>The quiz was sent successfully!</phrase>
+</localization>
+<localization>
+<phrase>Your results were sent successfully!  You can now review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Your results were sent successfully!</phrase>
+</localization>
+<localization>
+<phrase>Unable to send quiz results. Make sure you're connected to the internet.</phrase>
+</localization>
+<localization>
+<phrase>Quiz results not accepted.</phrase>
+</localization>
+<localization>
+<phrase>Email address and student name can't be empty.</phrase>
+</localization>
+<localization>
+<phrase>You need to log in to the course before you can send your results! Use the Sign In widget at the start of this book to do so.</phrase>
+</localization>
+<localization>
+<phrase>Please enter password</phrase>
+</localization>
+<localization>
+<phrase>Wrong password...</phrase>
+</localization>
+<localization>
+<phrase>Password</phrase>
+</localization>
+<localization>
+<phrase>Your score is</phrase>
+</localization>
+<localization>
+<phrase>Score</phrase>
+</localization>
+<localization>
+<phrase>Feedback</phrase>
+</localization>
+<localization>
+<phrase>Your answer:</phrase>
+</localization>
+<localization>
+<phrase>The answer:</phrase>
+</localization>
+<localization>
+<phrase>The answers:</phrase>
+</localization>
+<localization>
+<phrase>Correct answers:</phrase>
+</localization>
+<localization>
+<phrase>Tap to select picture</phrase>
+</localization>
+<localization>
+<phrase>No camera on this device</phrase>
+</localization>
+<localization>
+<phrase>This word is correct.</phrase>
+</localization>
+<localization>
+<phrase>Clear the answers and start over?</phrase>
+</localization>
+<localization>
+<phrase>The answers will be permanently deleted and cannot be recovered. Are you sure?</phrase>
+</localization>
+<localization>
+<phrase>Yes, clear</phrase>
+</localization>
+<localization>
+<phrase>No, keep</phrase>
+</localization>
+<localization>
+<phrase>Clear the text and start over?</phrase>
+</localization>
+<localization>
+<phrase>Show hint</phrase>
+</localization>
+<localization>
+<phrase>Answer keys</phrase>
+</localization>
+<localization>
+<phrase>Yes</phrase>
+</localization>
+<localization>
+<phrase>No</phrase>
+</localization>
+<localization>
+<phrase>Clear and restart</phrase>
+</localization>
+<localization>
+<phrase>Check answers</phrase>
+</localization>
+<localization>
+<phrase>Correct answers</phrase>
+</localization>
+<localization>
+<phrase>Wrong answers</phrase>
+</localization>
+<localization>
+<phrase>Unanswered</phrase>
+</localization>
+<localization>
+<phrase>CLEAR</phrase>
+</localization>
+<localization>
+<phrase>Yes, this equation is balanced</phrase>
+</localization>
+<localization>
+<phrase>No, this equation is not balanced</phrase>
+</localization>
+<localization>
+<phrase>Sum of charges:</phrase>
+</localization>
+<localization>
+<phrase>Reactants</phrase>
+</localization>
+<localization>
+<phrase>Products</phrase>
+</localization>
+<localization>
+<phrase>Are you sure?</phrase>
+</localization>
+<localization>
+<phrase>Clear the image and start over?</phrase>
+</localization>
+<localization>
+<phrase>Yes, clear the image</phrase>
+</localization>
+<localization>
+<phrase>No, keep my image</phrase>
+</localization>
+<localization>
+<phrase>Accessing the camera and photo library does not work on this platform.</phrase>
+</localization>
+<localization>
+<phrase>Camera not supported</phrase>
+</localization>
+<localization>
+<phrase>Could not store picture</phrase>
+</localization>
+<localization>
+<phrase>Error inserting picture</phrase>
+</localization>
+<localization>
+<phrase>This widget needs internet access to store pictures.  Please connect and try again.</phrase>
+</localization>
+<localization>
+<phrase>Image upload error</phrase>
+</localization>
+<localization>
+<phrase>Error using picture</phrase>
+</localization>
+<localization>
+<phrase>Authentication error.</phrase>
+</localization>
+<localization>
+<phrase>Cancel</phrase>
+</localization>
+<localization>
+<phrase>Could not connect to server, check your internet connection.</phrase>
+</localization>
+<localization>
+<phrase>Email</phrase>
+</localization>
+<localization>
+<phrase>Forgot password?</phrase>
+</localization>
+<localization>
+<phrase>Not logged in</phrase>
+</localization>
+<localization>
+<phrase>OK</phrase>
+</localization>
+<localization>
+<phrase>Offline</phrase>
+</localization>
+<localization>
+<phrase>Online</phrase>
+</localization>
+<localization>
+<phrase>Password</phrase>
+</localization>
+<localization>
+<phrase>Please sign in</phrase>
+</localization>
+<localization>
+<phrase>Received error trying to sign in</phrase>
+</localization>
+<localization>
+<phrase>School code</phrase>
+</localization>
+<localization>
+<phrase>Server error when signing in.</phrase>
+</localization>
+<localization>
+<phrase>Sign in</phrase>
+</localization>
+<localization>
+<phrase>Sign in failed</phrase>
+</localization>
+<localization>
+<phrase>Sign in to save your answers online</phrase>
+</localization>
+<localization>
+<phrase>Sign in using</phrase>
+</localization>
+<localization>
+<phrase>Sign in using email and password</phrase>
+</localization>
+<localization>
+<phrase>Sign in using school account</phrase>
+</localization>
+<localization>
+<phrase>Sign out</phrase>
+</localization>
+<localization>
+<phrase>Sign up here</phrase>
+</localization>
+<localization>
+<phrase>Username</phrase>
+</localization>
+<localization>
+<phrase>Waiting</phrase>
+</localization>
+<localization>
+<phrase>Waiting for account sign in to complete...</phrase>
+</localization>
+<localization>
+<phrase>Widget configuration error: school doesn't exist</phrase>
+</localization>
+<localization>
+<phrase>Wrong username or password, please try again.</phrase>
+</localization>
+<localization>
+<phrase>You need to be signed in to use this widget.</phrase>
+</localization>
+<localization>
+<phrase>You're currently offline and logged in as user:</phrase>
+</localization>
+<localization>
+<phrase>You're currently online and logged in as user:</phrase>
+</localization>
+<localization>
+<phrase>You're offline</phrase>
+</localization>
+<localization>
+<phrase>Your progress on this activity will be shared with your teacher.</phrase>
+</localization>
+<localization>
+<phrase>More info</phrase>
+</localization>
+<localization>
+<phrase>Class ID</phrase>
+</localization>
+<localization>
+<phrase>Send</phrase>
+</localization>
+<localization>
+<phrase>Send Answer</phrase>
+</localization>
+<localization>
+<phrase>Send Failed</phrase>
+</localization>
+<localization>
+<phrase>Sending, please wait...</phrase>
+</localization>
+<localization>
+<phrase>Student Email</phrase>
+</localization>
+<localization>
+<phrase>Student ID</phrase>
+</localization>
+<localization>
+<phrase>Student Name</phrase>
+</localization>
+<localization>
+<phrase>Teacher Email</phrase>
+</localization>
+<localization>
+<phrase>This field is required:</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading audio</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>You can't specify multiple addresses for field:</phrase>
+</localization>
+<localization>
+<phrase>Submit is disabled because you're not logged in with a student account. e.g. you may be using a parent account.</phrase>
+</localization>
+<localization>
+<phrase>Sent successfully</phrase>
+</localization>
+<localization>
+<phrase>The email address you provided has not been activated.</phrase>
+</localization>
+<localization>
+<phrase>Invalid user name</phrase>
+</localization>
+<localization>
+<phrase>To prevent abuse, results can only be sent to registered email addresses.</phrase>
+</localization>
+<localization>
+<phrase>Activate by clicking on the link in the email which was sent to the address provided.</phrase>
+</localization>
+<localization>
+<phrase>You can also register at www.bookwidgets.com.</phrase>
+</localization>
+<localization>
+<phrase>Unknown error</phrase>
+</localization>
+<localization>
+<phrase>Optional Message</phrase>
+</localization>
+<localization>
+<phrase>Send</phrase>
+</localization>
+<localization>
+<phrase>Send Failed</phrase>
+</localization>
+<localization>
+<phrase>Sending, please wait...</phrase>
+</localization>
+<localization>
+<phrase>Share</phrase>
+</localization>
+<localization>
+<phrase>This field is required:</phrase>
+</localization>
+<localization>
+<phrase>To Email</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>You can't specify multiple addresses for field:</phrase>
+</localization>
+<localization>
+<phrase>Your Email</phrase>
+</localization>
+<localization>
+<phrase>Your Name</phrase>
+</localization>
+<localization>
+<phrase>Click here to download your PDF</phrase>
+</localization>
+<localization>
+<phrase>Could not generate PDF.  Please try again later.</phrase>
+</localization>
+<localization>
+<phrase>Download Failed</phrase>
+</localization>
+<localization>
+<phrase>Download as PDF</phrase>
+</localization>
+<localization>
+<phrase>Generate</phrase>
+</localization>
+<localization>
+<phrase>Generate PDF failed</phrase>
+</localization>
+<localization>
+<phrase>Generating PDF, please wait...</phrase>
+</localization>
+<localization>
+<phrase>PDF generated</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>Your Name</phrase>
+</localization>
+<localization>
+<phrase>Enter your name and click 'Generate' to generate the PDF.</phrase>
+</localization>
+<localization>
+<phrase>Download</phrase>
+</localization>
+</LocalizationMap>
+<DesignConstants widget_font="Verdana" widget_backgroundimage=",auto" widget_color="#3498DB" template="Light Background"/>
+<cover autosize="true" height="768" width="576">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/06/069da741-3376-4319-a7d7-07fd063d7f1f.png?filename=Default.png</cover>
+<widget_orientation value="Vertical">Vertical</widget_orientation>
+</QuizPlugin>

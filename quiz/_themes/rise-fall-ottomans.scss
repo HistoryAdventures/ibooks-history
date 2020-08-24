@@ -1,0 +1,24 @@
+$theme-color: #4A291D;
+$theme-color-light: #4A291D;
+$theme-color-light-nohex: 4A291D;
+$theme-color-bright: #EAC69F;
+$theme-color-bright-nohex: EAC69F;
+$theme-background: #4A291D;
+
+$max-popup-width: 600px;
+
+@import "_sequence-config.scss";
+
+body {
+    background: transparent;
+}
+
+.background {
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: $theme-background;
+}

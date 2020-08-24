@@ -1,0 +1,610 @@
+<QuizPlugin>
+<shortcode>MBBG6MF</shortcode>
+<label>William Assessment</label>
+<widget_language>en</widget_language>
+<questions>
+<PictureMultiSelect>
+<Question searchable="true">Which of the images show a representation of the brutal "middle passage" that enslaved Africans endured?  Choose two images.</Question>
+<Answers>
+<node autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/20/20545565-bd65-42c3-aedd-06c5da13245b.jpg?filename=middle%20passage.jpg</node>
+<node autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/c6/c67db189-40bf-443b-bc1a-85d96669e044.jpeg?filename=sugar%20cane%20field%20(6).jpeg</node>
+<node autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/09/09f8e4ec-cf0d-4ff9-96ff-1d8ca49fcc0b.jpeg?filename=middle%20passage(6).jpeg</node>
+</Answers>
+<Valid searchable="true">1,3</Valid>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<policy value="all">Score points when all answers are correct.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+<scoring-wrong-answer-weight searchable="true"/>
+</PictureMultiSelect>
+<TextMultpleChoice>
+<Question searchable="true">There were many ways for enslaved people to try and cope with the inhuman conditions of slavery.  What plan is William considering at the key turning point in this narrative?</Question>
+<Answers searchable="true" version="2">Armed revolt by enslaved people against slaveholders.&#xd;
+Flight to safety by enslaved people on the Underground Railroad.&#xd;
+Working together with the slaveholder to create better working conditions.&#xd;
+Utilizing inspiration from the stories of the enslaved Hebrews for hope.</Answers>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<PictureMultpleChoice>
+<Question searchable="true">Which map would be most helpful to determine which colonies held the largest numbers of enslaved Africans?</Question>
+<Answers>
+<node autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/ea/eac20c5f-1541-4599-8531-c1bf3106693e?filename=us%20slavery%20map</node>
+<node autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/78/7885bd06-ddbb-4f6b-8486-29d381a478f9?filename=triangualr%20trade%20route</node>
+<node autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/e9/e95beef6-5eb3-4c9f-8686-087221585dd0.jpg?filename=map-of-spanish-empire.jpg</node>
+</Answers>
+<Valid value="2">2</Valid>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</PictureMultpleChoice>
+<TextMultiSelect>
+<Question searchable="true">Njinga's name was changed to "William".  In what other ways did enslaved Africans have their culture and traditions systematically destroyed?</Question>
+<Answers searchable="true" version="2">Enslaved people rarely interacted with other enslaved Africans.&#xd;
+Enslaved people were converted to Christianity.&#xd;
+Enslaved people were forced to use English to communicate.&#xd;
+Enslaved people were not allowed to sing, dance, or create art.&#xd;
+Enslaved people were given only basic European style clothing.</Answers>
+<Valid>2 3 5</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<policy value="all">Score points when all answers are correct.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+<scoring-wrong-answer-weight searchable="true"/>
+</TextMultiSelect>
+<TextMultpleChoice>
+<Question searchable="true">Analyze the image of William.  Which of the following conclusions are supported by the image?</Question>
+<Answers searchable="true" version="2">Some enslaved people were skilled and worked with tools.&#xd;
+Enslaved people lived in houses made from strong materials such as bricks.&#xd;
+Enslaved people were given adequate clothing and supplies to be comfortable.&#xd;
+William cooperated with the slave holder and worked as an overseer.&#xd;
+William had scars from abusive treatment.</Answers>
+<Valid value="5">5</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+</questions>
+<id searchable="true">William Assessment</id>
+<submit_answers>false</submit_answers>
+<submit_only_once>false</submit_only_once>
+<submitformfields>
+<formfield isVisible="true" isEditable="true" defaultValue="">student_name</formfield>
+<formfield isVisible="true" isEditable="true" defaultValue="">student_email</formfield>
+<formfield isVisible="false" isEditable="true" defaultValue="">student_class_id</formfield>
+<formfield isVisible="false" isEditable="false" defaultValue="">teacher_email</formfield>
+<formfield isVisible="false" isEditable="true" defaultValue="">student_id</formfield>
+</submitformfields>
+<email_should_have_grading>true</email_should_have_grading>
+<action searchable="true">https://api.bookwidgets.com/api/v1/quiz/post</action>
+<servertype value="BookWidgets">BookWidgets</servertype>
+<examination_mode>false</examination_mode>
+<countdown_time searchable="true">30</countdown_time>
+<exam_mode_submit_dialog_clear>true</exam_mode_submit_dialog_clear>
+<support_student_account value="no">No student accounts</support_student_account>
+<student_account_authproviders/>
+<student_account_school>
+<code/>
+<name/>
+</student_account_school>
+<student_account_authrestrict>true</student_account_authrestrict>
+<show_answers>true</show_answers>
+<color_correct_answers>false</color_correct_answers>
+<show_score value="No">No</show_score>
+<allow_edit_after_check_or_send>false</allow_edit_after_check_or_send>
+<feedback/>
+<show_question_points>false</show_question_points>
+<allow_sharing>false</allow_sharing>
+<share_action searchable="true">https://api.bookwidgets.com/api/v1/quiz/share</share_action>
+<allow_download>false</allow_download>
+<download_action searchable="true">https://api.bookwidgets.com/api/v1/quiz/download</download_action>
+<download_includes_correction value="no">Never include correction when downloading.</download_includes_correction>
+<save_answers>true</save_answers>
+<uuid2>{fff3f0a0-cf7d-11ea-a222-896fd3502390}</uuid2>
+<origbase_version>1</origbase_version>
+<require_password value="Once">Once</require_password>
+<spellcheck>true</spellcheck>
+<random_order>false</random_order>
+<auto_numbering>true</auto_numbering>
+<info_numbering>false</info_numbering>
+<provide_calculator value="None">None</provide_calculator>
+<allow_text_selection>false</allow_text_selection>
+<auto_play_audio>false</auto_play_audio>
+<direction value="left-to-right">left-to-right</direction>
+<LocalizationMap>
+<localization>
+<phrase>Quiz</phrase>
+</localization>
+<localization>
+<phrase>All done !</phrase>
+</localization>
+<localization>
+<phrase>Click the button to submit or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Click the button to see the correct answers or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Click the button to see your score or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Show question list</phrase>
+</localization>
+<localization>
+<phrase>Previous question</phrase>
+</localization>
+<localization>
+<phrase>Next question</phrase>
+</localization>
+<localization>
+<phrase>Switch to edit mode</phrase>
+</localization>
+<localization>
+<phrase>QUESTION</phrase>
+</localization>
+<localization>
+<phrase>Submit</phrase>
+</localization>
+<localization>
+<phrase>Share the quiz by email.</phrase>
+</localization>
+<localization>
+<phrase>Unable to send quiz. Make sure you're connected to the internet.</phrase>
+</localization>
+<localization>
+<phrase>The time allowed for this test has expired.  You can no longer change your answers.</phrase>
+</localization>
+<localization>
+<phrase>Show answers</phrase>
+</localization>
+<localization>
+<phrase>Are you done and do you want to show the answers?</phrase>
+</localization>
+<localization>
+<phrase>Show score</phrase>
+</localization>
+<localization>
+<phrase>Are you done and do you want to show your score?</phrase>
+</localization>
+<localization>
+<phrase>Clear answers and start over</phrase>
+</localization>
+<localization>
+<phrase>Ok</phrase>
+</localization>
+<localization>
+<phrase>The quiz was sent successfully!</phrase>
+</localization>
+<localization>
+<phrase>Your results were sent successfully!  You can now review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Your results were sent successfully!</phrase>
+</localization>
+<localization>
+<phrase>Unable to send quiz results. Make sure you're connected to the internet.</phrase>
+</localization>
+<localization>
+<phrase>Quiz results not accepted.</phrase>
+</localization>
+<localization>
+<phrase>Email address and student name can't be empty.</phrase>
+</localization>
+<localization>
+<phrase>You need to log in to the course before you can send your results! Use the Sign In widget at the start of this book to do so.</phrase>
+</localization>
+<localization>
+<phrase>Please enter password</phrase>
+</localization>
+<localization>
+<phrase>Wrong password...</phrase>
+</localization>
+<localization>
+<phrase>Password</phrase>
+</localization>
+<localization>
+<phrase>Your score is</phrase>
+</localization>
+<localization>
+<phrase>Score</phrase>
+</localization>
+<localization>
+<phrase>Feedback</phrase>
+</localization>
+<localization>
+<phrase>Your answer:</phrase>
+</localization>
+<localization>
+<phrase>The answer:</phrase>
+</localization>
+<localization>
+<phrase>The answers:</phrase>
+</localization>
+<localization>
+<phrase>Correct answers:</phrase>
+</localization>
+<localization>
+<phrase>Tap to select picture</phrase>
+</localization>
+<localization>
+<phrase>No camera on this device</phrase>
+</localization>
+<localization>
+<phrase>This word is correct.</phrase>
+</localization>
+<localization>
+<phrase>Clear the answers and start over?</phrase>
+</localization>
+<localization>
+<phrase>The answers will be permanently deleted and cannot be recovered. Are you sure?</phrase>
+</localization>
+<localization>
+<phrase>Yes, clear</phrase>
+</localization>
+<localization>
+<phrase>No, keep</phrase>
+</localization>
+<localization>
+<phrase>Clear the text and start over?</phrase>
+</localization>
+<localization>
+<phrase>Show hint</phrase>
+</localization>
+<localization>
+<phrase>Answer keys</phrase>
+</localization>
+<localization>
+<phrase>Yes</phrase>
+</localization>
+<localization>
+<phrase>No</phrase>
+</localization>
+<localization>
+<phrase>Clear and restart</phrase>
+</localization>
+<localization>
+<phrase>Check answers</phrase>
+</localization>
+<localization>
+<phrase>Correct answers</phrase>
+</localization>
+<localization>
+<phrase>Wrong answers</phrase>
+</localization>
+<localization>
+<phrase>Unanswered</phrase>
+</localization>
+<localization>
+<phrase>CLEAR</phrase>
+</localization>
+<localization>
+<phrase>Yes, this equation is balanced</phrase>
+</localization>
+<localization>
+<phrase>No, this equation is not balanced</phrase>
+</localization>
+<localization>
+<phrase>Sum of charges:</phrase>
+</localization>
+<localization>
+<phrase>Reactants</phrase>
+</localization>
+<localization>
+<phrase>Products</phrase>
+</localization>
+<localization>
+<phrase>Are you sure?</phrase>
+</localization>
+<localization>
+<phrase>Clear the image and start over?</phrase>
+</localization>
+<localization>
+<phrase>Yes, clear the image</phrase>
+</localization>
+<localization>
+<phrase>No, keep my image</phrase>
+</localization>
+<localization>
+<phrase>Accessing the camera and photo library does not work on this platform.</phrase>
+</localization>
+<localization>
+<phrase>Camera not supported</phrase>
+</localization>
+<localization>
+<phrase>Could not store picture</phrase>
+</localization>
+<localization>
+<phrase>Error inserting picture</phrase>
+</localization>
+<localization>
+<phrase>This widget needs internet access to store pictures.  Please connect and try again.</phrase>
+</localization>
+<localization>
+<phrase>Image upload error</phrase>
+</localization>
+<localization>
+<phrase>Error using picture</phrase>
+</localization>
+<localization>
+<phrase>Authentication error.</phrase>
+</localization>
+<localization>
+<phrase>Cancel</phrase>
+</localization>
+<localization>
+<phrase>Could not connect to server, check your internet connection.</phrase>
+</localization>
+<localization>
+<phrase>Email</phrase>
+</localization>
+<localization>
+<phrase>Forgot password?</phrase>
+</localization>
+<localization>
+<phrase>Not logged in</phrase>
+</localization>
+<localization>
+<phrase>OK</phrase>
+</localization>
+<localization>
+<phrase>Offline</phrase>
+</localization>
+<localization>
+<phrase>Online</phrase>
+</localization>
+<localization>
+<phrase>Password</phrase>
+</localization>
+<localization>
+<phrase>Please sign in</phrase>
+</localization>
+<localization>
+<phrase>Received error trying to sign in</phrase>
+</localization>
+<localization>
+<phrase>School code</phrase>
+</localization>
+<localization>
+<phrase>Server error when signing in.</phrase>
+</localization>
+<localization>
+<phrase>Sign in</phrase>
+</localization>
+<localization>
+<phrase>Sign in failed</phrase>
+</localization>
+<localization>
+<phrase>Sign in to save your answers online</phrase>
+</localization>
+<localization>
+<phrase>Sign in using</phrase>
+</localization>
+<localization>
+<phrase>Sign in using email and password</phrase>
+</localization>
+<localization>
+<phrase>Sign in using school account</phrase>
+</localization>
+<localization>
+<phrase>Sign out</phrase>
+</localization>
+<localization>
+<phrase>Sign up here</phrase>
+</localization>
+<localization>
+<phrase>Username</phrase>
+</localization>
+<localization>
+<phrase>Waiting</phrase>
+</localization>
+<localization>
+<phrase>Waiting for account sign in to complete...</phrase>
+</localization>
+<localization>
+<phrase>Widget configuration error: school doesn't exist</phrase>
+</localization>
+<localization>
+<phrase>Wrong username or password, please try again.</phrase>
+</localization>
+<localization>
+<phrase>You need to be signed in to use this widget.</phrase>
+</localization>
+<localization>
+<phrase>You're currently offline and logged in as user:</phrase>
+</localization>
+<localization>
+<phrase>You're currently online and logged in as user:</phrase>
+</localization>
+<localization>
+<phrase>You're offline</phrase>
+</localization>
+<localization>
+<phrase>Your progress on this activity will be shared with your teacher.</phrase>
+</localization>
+<localization>
+<phrase>More info</phrase>
+</localization>
+<localization>
+<phrase>Class ID</phrase>
+</localization>
+<localization>
+<phrase>Send</phrase>
+</localization>
+<localization>
+<phrase>Send Answer</phrase>
+</localization>
+<localization>
+<phrase>Send Failed</phrase>
+</localization>
+<localization>
+<phrase>Sending, please wait...</phrase>
+</localization>
+<localization>
+<phrase>Student Email</phrase>
+</localization>
+<localization>
+<phrase>Student ID</phrase>
+</localization>
+<localization>
+<phrase>Student Name</phrase>
+</localization>
+<localization>
+<phrase>Teacher Email</phrase>
+</localization>
+<localization>
+<phrase>This field is required:</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading audio</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>You can't specify multiple addresses for field:</phrase>
+</localization>
+<localization>
+<phrase>Submit is disabled because you're not logged in with a student account. e.g. you may be using a parent account.</phrase>
+</localization>
+<localization>
+<phrase>Sent successfully</phrase>
+</localization>
+<localization>
+<phrase>The email address you provided has not been activated.</phrase>
+</localization>
+<localization>
+<phrase>Invalid user name</phrase>
+</localization>
+<localization>
+<phrase>To prevent abuse, results can only be sent to registered email addresses.</phrase>
+</localization>
+<localization>
+<phrase>Activate by clicking on the link in the email which was sent to the address provided.</phrase>
+</localization>
+<localization>
+<phrase>You can also register at www.bookwidgets.com.</phrase>
+</localization>
+<localization>
+<phrase>Unknown error</phrase>
+</localization>
+<localization>
+<phrase>Optional Message</phrase>
+</localization>
+<localization>
+<phrase>Send</phrase>
+</localization>
+<localization>
+<phrase>Send Failed</phrase>
+</localization>
+<localization>
+<phrase>Sending, please wait...</phrase>
+</localization>
+<localization>
+<phrase>Share</phrase>
+</localization>
+<localization>
+<phrase>This field is required:</phrase>
+</localization>
+<localization>
+<phrase>To Email</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>You can't specify multiple addresses for field:</phrase>
+</localization>
+<localization>
+<phrase>Your Email</phrase>
+</localization>
+<localization>
+<phrase>Your Name</phrase>
+</localization>
+<localization>
+<phrase>Click here to download your PDF</phrase>
+</localization>
+<localization>
+<phrase>Could not generate PDF.  Please try again later.</phrase>
+</localization>
+<localization>
+<phrase>Download Failed</phrase>
+</localization>
+<localization>
+<phrase>Download as PDF</phrase>
+</localization>
+<localization>
+<phrase>Generate</phrase>
+</localization>
+<localization>
+<phrase>Generate PDF failed</phrase>
+</localization>
+<localization>
+<phrase>Generating PDF, please wait...</phrase>
+</localization>
+<localization>
+<phrase>PDF generated</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>Your Name</phrase>
+</localization>
+<localization>
+<phrase>Enter your name and click 'Generate' to generate the PDF.</phrase>
+</localization>
+<localization>
+<phrase>Download</phrase>
+</localization>
+</LocalizationMap>
+<DesignConstants widget_color="#3498DB" widget_font="Verdana" widget_backgroundimage=",auto" template="Light Background"/>
+<cover width="576" autosize="true" height="768">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/f3/f3c39843-3ffa-4e1a-8e03-b0e5e668d4c6.png?filename=Default.png</cover>
+<widget_orientation value="Vertical">Vertical</widget_orientation>
+</QuizPlugin>

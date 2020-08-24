@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Favorit';
+    src: url("/fonts/Favorit/Favorit_Regular.otf") format("opentype");
+}
+  
+@font-face {
+    font-family: 'FavoritMedium';
+    src: url("/fonts/Favorit/Favorit_Medium.otf") format("opentype");
+}
+  
+@font-face {
+    font-family: 'Favorit Lining';
+    src: url("/fonts/Favorit\ Lining/Favorit-Medium_Lining.otf") format("opentype");
+}
