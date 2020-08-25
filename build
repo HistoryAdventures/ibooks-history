@@ -36,7 +36,6 @@ cp -rf documents/_shared/* document-arun.wdgt
 cp -rf documents/RiseFallOttomans sequence-ioannina.wdgt
 cp -rf documents/_shared/* sequence-ioannina.wdgt
 
-
 cp -rf quiz/ioannina quiz-ioannina.wdgt
 cp -rf quiz/_shared/* quiz-ioannina.wdgt
 cp -rf quiz/luis quiz-luis.wdgt

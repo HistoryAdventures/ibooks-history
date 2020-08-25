@@ -83,7 +83,11 @@ module.exports = {
     contentBase: ['./', path.join(__dirname, 'shared'), path.join(__dirname, 'documents/_shared')],
     disableHostCheck: true,
     historyApiFallback: {
-      index: 'documents/_shared/index.html'
-    }
+      index: 'documents/_shared/index.html',
+      rewrites: [
+        { from: /fonts.css/, to: '/fonts.css' },
+        { from: /fonts-favorit.css/, to: '/fonts-favorit.css' },
+      ]
+    },
   }
 };
