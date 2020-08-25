@@ -37,6 +37,20 @@ cp -rf documents/RiseFallOttomans sequence-ioannina.wdgt
 cp -rf documents/_shared/* sequence-ioannina.wdgt
 
 
+cp -rf quiz/ioannina quiz-ioannina.wdgt
+cp -rf quiz/_shared/* quiz-ioannina.wdgt
+cp -rf quiz/luis quiz-luis.wdgt
+cp -rf quiz/_shared/* quiz-luis.wdgt
+cp -rf quiz/ishi quiz-ishi.wdgt
+cp -rf quiz/_shared/* quiz-ishi.wdgt
+cp -rf quiz/william quiz-william.wdgt
+cp -rf quiz/_shared/* quiz-william.wdgt
+cp -rf quiz/jonas quiz-jonas.wdgt
+cp -rf quiz/_shared/* quiz-jonas.wdgt
+cp -rf quiz/arun quiz-arun.wdgt
+cp -rf quiz/_shared/* quiz-arun.wdgt
+
+
 zip -r scene-opium.zip scene-opium.wdgt
 zip -r scene-ioannina.zip scene-ioannina.wdgt
 zip -r scene-luis.zip scene-luis.wdgt
@@ -55,6 +69,14 @@ zip -r document-jonas.zip document-jonas.wdgt
 zip -r document-arun.zip document-arun.wdgt
 zip -r sequence-ioannina.zip sequence-ioannina.wdgt
 
+
+zip -r quiz-ioannina.zip quiz-ioannina.wdgt
+zip -r quiz-luis.zip quiz-luis.wdgt
+zip -r quiz-ishi.zip quiz-ishi.wdgt
+zip -r quiz-william.zip quiz-william.wdgt
+zip -r quiz-jonas.zip quiz-jonas.wdgt
+zip -r quiz-arun.zip quiz-arun.wdgt
+
 mv scene-opium.zip ./builds
 mv scene-ioannina.zip ./builds
 mv scene-luis.zip ./builds
@@ -72,6 +94,14 @@ mv document-jonas.zip ./builds
 mv document-arun.zip ./builds
 mv sequence-ioannina.zip ./builds
 
+
+mv quiz-ioannina.zip ./builds
+mv quiz-luis.zip ./builds
+mv quiz-ishi.zip ./builds
+mv quiz-william.zip ./builds
+mv quiz-jonas.zip ./builds
+mv quiz-arun.zip ./builds
+
 rm -rf scene-opium.wdgt
 rm -rf scene-ioannina.wdgt
 rm -rf scene-luis.wdgt
@@ -88,3 +118,11 @@ rm -rf document-william.wdgt
 rm -rf document-jonas.wdgt
 rm -rf document-arun.wdgt
 rm -rf sequence-ioannina.wdgt
+
+
+rm -rf quiz-ioannina.wdgt
+rm -rf quiz-luis.wdgt
+rm -rf quiz-ishi.wdgt
+rm -rf quiz-william.wdgt
+rm -rf quiz-jonas.wdgt
+rm -rf quiz-arun.wdgt
