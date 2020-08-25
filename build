@@ -38,17 +38,22 @@ cp -rf documents/_shared/* sequence-ioannina.wdgt
 
 cp -rf quiz/ioannina quiz-ioannina.wdgt
 cp -rf quiz/_shared/* quiz-ioannina.wdgt
+cp -rf shared/* quiz-ioannina.wdgt
 cp -rf quiz/luis quiz-luis.wdgt
 cp -rf quiz/_shared/* quiz-luis.wdgt
+cp -rf shared/* quiz-luis.wdgt
 cp -rf quiz/ishi quiz-ishi.wdgt
 cp -rf quiz/_shared/* quiz-ishi.wdgt
+cp -rf shared/* quiz-ishi.wdgt
 cp -rf quiz/william quiz-william.wdgt
 cp -rf quiz/_shared/* quiz-william.wdgt
+cp -rf shared/* quiz-william.wdgt
 cp -rf quiz/jonas quiz-jonas.wdgt
 cp -rf quiz/_shared/* quiz-jonas.wdgt
+cp -rf shared/* quiz-jonas.wdgt
 cp -rf quiz/arun quiz-arun.wdgt
 cp -rf quiz/_shared/* quiz-arun.wdgt
-
+cp -rf shared/* quiz-arun.wdgt
 
 zip -r scene-opium.zip scene-opium.wdgt
 zip -r scene-ioannina.zip scene-ioannina.wdgt
