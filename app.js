@@ -6,10 +6,9 @@ const app = express();
 app.use(serveStatic(path.join(__dirname, './')))
 app.use(serveStatic(path.join(__dirname, 'shared')))
 app.use(serveStatic(path.join(__dirname, 'documents/_shared')))
-app.use(serveStatic(path.join(__dirname, 'quiz/_shared')))
 
 app.get('/documents/*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'documents/_shared', 'quiz/_shared', 'index.html'));
+    res.sendFile(path.resolve(__dirname, 'documents/_shared', 'index.html'));
 });
 
 const port = process.env.PORT || 5000;
