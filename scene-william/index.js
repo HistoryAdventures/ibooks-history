@@ -26,19 +26,19 @@ var features = {
 };
 
 window.cameraTargets = {
-    "hotspot-paper1": {
+    "hotspot-1": {
         x: -1.3, y: 1.3, z: -3.8
     },
-    "hotspot-paper2": {
+    "hotspot-2": {
         x: -0.8, y: 1.3, z: -3.8
     },
-    "hotspot-emperor": {
+    "hotspot-3": {
         x: 0.3, y: 1.7, z: -3.3
     },
-    "hotspot-opium1": {
+    "hotspot-4": {
         x: 3, y: 2.2, z: -2.4
     },
-    "hotspot-mirror-back": {
+    "hotspot-5": {
         x: 1.8, y: 1, z: -3.6
     }
 };
@@ -86,19 +86,14 @@ function init() {
         // scene.add(modelTable);
     });
 
-    loadingManager.onProgress = function (url, loaded, total) {
-        if (total === loaded) {
-            setTimeout(function () {
-                var uiLoader = document.getElementById('loader');
-                if (uiLoader && features.loader) {
-                    uiLoader.classList.add('off');
-                }
-                if (features.navigation) {
-                    addControls();
-                }
-            }, 1000);
-        }
-    };
+    var uiLoader = document.getElementById('loader');
+    if (uiLoader && features.loader) {
+        uiLoader.classList.add('off');
+    }
+
+    if (features.navigation) {
+        addControls();
+    }
 
     // models
     // var textureLoader = new THREE.TextureLoader();
@@ -114,11 +109,6 @@ function init() {
     mesh = new THREE.Mesh( geometry, material );
 
     scene.add( mesh );
-
-    var uiLoader = document.getElementById('loader');
-    if (uiLoader && features.loader) {
-        uiLoader.classList.add('off');
-    }
 
     var sprite1 = createButton();
     sprite1.name = 'hotspot-1';

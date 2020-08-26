@@ -25,19 +25,22 @@ var features = {
 };
 
 window.cameraTargets = {
-    "hotspot-paper1": {
+    "hotspot-1": {
         x: -1.3, y: 1.3, z: -3.8
     },
-    "hotspot-paper2": {
+    "hotspot-2": {
         x: -0.8, y: 1.3, z: -3.8
     },
-    "hotspot-emperor": {
+    "hotspot-3": {
         x: 0.3, y: 1.7, z: -3.3
     },
-    "hotspot-opium1": {
+    "hotspot-4": {
         x: 3, y: 2.2, z: -2.4
     },
-    "hotspot-mirror-back": {
+    "hotspot-5": {
+        x: 1.8, y: 1, z: -3.6
+    },
+    "hotspot-6": {
         x: 1.8, y: 1, z: -3.6
     }
 };
@@ -50,11 +53,12 @@ window.audioLib = {
     unmuteButton: document.getElementById('unmute-button'),
     mute: false,
     hotspots: {
-        "hotspot-paper1": null,
-        "hotspot-paper2": null,
-        "hotspot-emperor": null,
-        "hotspot-opium1": null,
-        "hotspot-mirror-back": null,
+        "hotspot-1": null,
+        "hotspot-2": null,
+        "hotspot-3": null,
+        "hotspot-4": null,
+        "hotspot-5": null,
+        "hotspot-6": null,
     }
 };
 
@@ -85,19 +89,14 @@ function init() {
         // scene.add(modelTable);
     });
 
-    loadingManager.onProgress = function (url, loaded, total) {
-        if (total === loaded) {
-            setTimeout(function () {
-                var uiLoader = document.getElementById('loader');
-                if (uiLoader && features.loader) {
-                    uiLoader.classList.add('off');
-                }
-                if (features.navigation) {
-                    addControls();
-                }
-            }, 1000);
-        }
-    };
+    var uiLoader = document.getElementById('loader');
+    if (uiLoader && features.loader) {
+        uiLoader.classList.add('off');
+    }
+
+    if (features.navigation) {
+        addControls();
+    }
 
     // models
     // var textureLoader = new THREE.TextureLoader();
@@ -114,11 +113,6 @@ function init() {
 
     scene.add( mesh );
 
-    var uiLoader = document.getElementById('loader');
-    if (uiLoader && features.loader) {
-        uiLoader.classList.add('off');
-    }
-
     var sprite1 = createButton();
     sprite1.name = 'hotspot-1';
     sprite1.position.set(200, 7, 172);
@@ -127,7 +121,7 @@ function init() {
 
     var sprite2 = createButton();
     sprite2.name = 'hotspot-2';
-    sprite2.position.set(-40, 55, -88);
+    sprite2.position.set(-92, 116, -187);
     sprite2.lookAt(0 ,0 ,0);
     scene.add( sprite2 );
 
@@ -151,7 +145,7 @@ function init() {
 
     var sprite6 = createButton();
     sprite6.name = 'hotspot-6';
-    sprite6.position.set(-58, 3, 85);
+    sprite6.position.set(-135, 3, 200);
     sprite6.lookAt(0 ,0 ,0);
     scene.add( sprite6 );
 

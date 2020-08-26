@@ -87,19 +87,14 @@ function init() {
         // scene.add(modelTable);
     });
 
-    loadingManager.onProgress = function (url, loaded, total) {
-        if (total === loaded) {
-            setTimeout(function () {
-                var uiLoader = document.getElementById('loader');
-                if (uiLoader && features.loader) {
-                    uiLoader.classList.add('off');
-                }
-                if (features.navigation) {
-                    addControls();
-                }
-            }, 1000);
-        }
-    };
+    var uiLoader = document.getElementById('loader');
+    if (uiLoader && features.loader) {
+        uiLoader.classList.add('off');
+    }
+
+    if (features.navigation) {
+        addControls();
+    }
 
     // models
     // var textureLoader = new THREE.TextureLoader();
@@ -115,11 +110,6 @@ function init() {
     mesh = new THREE.Mesh( geometry, material );
 
     scene.add( mesh );
-
-    var uiLoader = document.getElementById('loader');
-    if (uiLoader && features.loader) {
-        uiLoader.classList.add('off');
-    }
 
     var sprite1 = createButton();
     sprite1.name = 'hotspot-wall';
