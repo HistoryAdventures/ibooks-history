@@ -80,15 +80,6 @@ function init() {
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0x000000);
 
-    // loading manager
-    var loadingManager = new THREE.LoadingManager(function () {
-        // scene.add(model);
-        // scene.add(modelScales);
-        // scene.add(modelBalls);
-        // scene.add(modelMirror);
-        // scene.add(modelTable);
-    });
-
     var uiLoader = document.getElementById('loader');
     if (uiLoader && features.loader) {
         uiLoader.classList.add('off');
