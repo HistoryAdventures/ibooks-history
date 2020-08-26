@@ -7,9 +7,7 @@ module.exports = {
     'scene-video': './scene-video/index.js',
     'scene-ioannina': './scene-ioannina/index.js',
     'scene-luis': './scene-luis/index.js',
-    'scene-luis2': './scene-luis2/index.js',
     'scene-ishi': './scene-ishi/index.js',
-    'scene-ishi2': './scene-ishi2/index.js',
     'scene-william': './scene-william/index.js',
     'scene-jonas': './scene-jonas/index.js',
     'scene-arun': './scene-arun/index.js',
@@ -87,6 +85,9 @@ module.exports = {
       rewrites: [
         { from: /fonts.css/, to: '/fonts.css' },
         { from: /fonts-favorit.css/, to: '/fonts-favorit.css' },
+        { from: /fonts\/Favorit\/Favorit_Regular.otf/, to: '/fonts/Favorit/Favorit_Regular.otf' },
+        { from: /fonts\/Lyno%20Family\/LynoStan.otf/, to: '/fonts/Lyno%20Family/LynoStan.otf' },
+        { from: /fonts\/Lyno%20Family\/LynoUlys.otf/, to: '/fonts/Lyno%20Family/LynoUlys.otf' },
       ]
     },
   }
