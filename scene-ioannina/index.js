@@ -27,21 +27,21 @@ var features = {
 var videoClicked = false;
 
 window.cameraTargets = {
-    // "hotspot-1": {
-    //     x: -1.3, y: 1.3, z: -3.8
-    // },
-    // "hotspot-2": {
-    //     x: -0.8, y: 1.3, z: -3.8
-    // },
-    // "hotspot-3": {
-    //     x: 0.3, y: 1.7, z: -3.3
-    // },
-    // "hotspot-4": {
-    //     x: 3, y: 2.2, z: -2.4
-    // },
-    // "hotspot-5": {
-    //     x: 1.8, y: 1, z: -3.6
-    // }
+    "hotspot-1": {
+        x: -1.3, y: 1.3, z: -3.8
+    },
+    "hotspot-2": {
+        x: -0.8, y: 1.3, z: -3.8
+    },
+    "hotspot-3": {
+        x: 0.3, y: 1.7, z: -3.3
+    },
+    "hotspot-4": {
+        x: 3, y: 2.2, z: -2.4
+    },
+    "hotspot-5": {
+        x: 1.8, y: 1, z: -3.6
+    }
 };
 window.hotspots = [];
 window.selectedTooltip = null;
