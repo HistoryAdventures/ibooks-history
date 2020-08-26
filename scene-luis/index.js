@@ -182,10 +182,10 @@ function init() {
     // controls 
     controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
-    controls.dampingFactor = 0.05;
+    controls.dampingFactor = 0.1;
     controls.enablePan = false;
     controls.enableZoom = true;
-    controls.rotateSpeed = -0.4; // mouse invert
+    controls.rotateSpeed = -0.3; // mouse invert
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
     controls.maxDistance = 4;
