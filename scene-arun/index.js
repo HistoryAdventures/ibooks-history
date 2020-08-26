@@ -26,21 +26,21 @@ var features = {
 };
 
 window.cameraTargets = {
-    "hotspot-paper1": {
-        x: -1.3, y: 1.3, z: -3.8
-    },
-    "hotspot-paper2": {
-        x: -0.8, y: 1.3, z: -3.8
-    },
-    "hotspot-emperor": {
-        x: 0.3, y: 1.7, z: -3.3
-    },
-    "hotspot-opium1": {
-        x: 3, y: 2.2, z: -2.4
-    },
-    "hotspot-mirror-back": {
-        x: 1.8, y: 1, z: -3.6
-    }
+    // "hotspot-1": {
+    //     x: -1.3, y: 1.3, z: -3.8
+    // },
+    // "hotspot-2": {
+    //     x: -0.8, y: 1.3, z: -3.8
+    // },
+    // "hotspot-3": {
+    //     x: 0.3, y: 1.7, z: -3.3
+    // },
+    // "hotspot-4": {
+    //     x: 3, y: 2.2, z: -2.4
+    // },
+    // "hotspot-5": {
+    //     x: 1.8, y: 1, z: -3.6
+    // }
 };
 window.hotspots = [];
 window.selectedTooltip = null;
@@ -51,11 +51,11 @@ window.audioLib = {
     unmuteButton: document.getElementById('unmute-button'),
     mute: false,
     hotspots: {
-        "hotspot-paper1": null,
-        "hotspot-paper2": null,
-        "hotspot-emperor": null,
-        "hotspot-opium1": null,
-        "hotspot-mirror-back": null,
+        "hotspot-1": null,
+        "hotspot-2": null,
+        "hotspot-3": null,
+        "hotspot-4": null,
+        "hotspot-5": null,
     }
 };
 
@@ -76,15 +76,6 @@ function init() {
     camera.position.set(-6, 1, -2);
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0x000000);
-
-    // loading manager
-    var loadingManager = new THREE.LoadingManager(function () {
-        // scene.add(model);
-        // scene.add(modelScales);
-        // scene.add(modelBalls);
-        // scene.add(modelMirror);
-        // scene.add(modelTable);
-    });
 
     var uiLoader = document.getElementById('loader');
     if (uiLoader && features.loader) {
