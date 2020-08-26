@@ -1,12 +1,12 @@
 <!DOCTYPE widget>
 <HotspotImage>
-<background_picture autosize="false" alttext="" width="1024" rid="5ZFCWIY09BARY01LHZQ2" caption="" height="1435" orientation="1">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/05_Jonas/7188bc4b-e9fa-52d6-a43a-8f2b5aef8230.jpeg</background_picture>
+<background_picture alttext="" width="1024" caption="" orientation="1" autosize="false" rid="5ZFCWIY09BARY01LHZQ2" height="1435">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/05_Jonas/7188bc4b-e9fa-52d6-a43a-8f2b5aef8230.jpeg</background_picture>
 <resize-policy value="Image draggable and resizeable">Image draggable and resizeable</resize-policy>
 <position>
-<Width>1048</Width>
-<Height>1343</Height>
-<X>-12</X>
-<Y>111</Y>
+<Width>1058</Width>
+<Height>1476</Height>
+<X>-19</X>
+<Y>-18</Y>
 </position>
 <hotspots>
 <TextPopup>
@@ -32,7 +32,7 @@ p, li { white-space: pre-wrap; }
 <y>244</y>
 </point>
 <marker-label searchable="true">1</marker-label>
-<marker-image autosize="true" alttext="" width="0" rid="" caption="" height="0" orientation="1">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" width="0" caption="" orientation="1" autosize="true" rid="" height="0">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -58,7 +58,7 @@ p, li { white-space: pre-wrap; }
 <y>587</y>
 </point>
 <marker-label searchable="true">2</marker-label>
-<marker-image autosize="true" alttext="" width="0" rid="" caption="" height="0" orientation="1">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" width="0" caption="" orientation="1" autosize="true" rid="" height="0">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -85,7 +85,7 @@ p, li { white-space: pre-wrap; }
 <y>1188</y>
 </point>
 <marker-label searchable="true">3</marker-label>
-<marker-image autosize="true" alttext="" width="0" rid="" caption="" height="0" orientation="1">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" width="0" caption="" orientation="1" autosize="true" rid="" height="0">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -111,7 +111,7 @@ p, li { white-space: pre-wrap; }
 <y>1197</y>
 </point>
 <marker-label searchable="true">4</marker-label>
-<marker-image autosize="true" alttext="" width="0" rid="" caption="" height="0" orientation="1">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" width="0" caption="" orientation="1" autosize="true" rid="" height="0">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="left">Left of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -137,7 +137,7 @@ p, li { white-space: pre-wrap; }
 <y>945</y>
 </point>
 <marker-label searchable="true">5</marker-label>
-<marker-image autosize="true" alttext="" width="0" rid="" caption="" height="0" orientation="1">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" width="0" caption="" orientation="1" autosize="true" rid="" height="0">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="left">Left of hotspot</popup-location-preference>
 </TextPopup>
 </hotspots>
@@ -161,7 +161,7 @@ p, li { white-space: pre-wrap; }
 <modified>false</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants widget_backgroundimage="" widget_color="#3498DB" template="Dark Background" widget_font="Verdana">
+<DesignConstants widget_font="Verdana" widget_color="#3498DB" widget_backgroundimage="" template="Dark Background">
 <constant>
 <name>hiddenborderleft</name>
 <kind>BorderLeft</kind>
@@ -318,8 +318,8 @@ p, li { white-space: pre-wrap; }
 <value>#ffffff</value>
 </constant>
 </DesignConstants>
-<cover autosize="true" alttext="" width="0" rid="" caption="" height="0" orientation="1"></cover>
-<widget_orientation value="Horizontal">Horizontal</widget_orientation>
+<cover alttext="" width="548" caption="" orientation="1" autosize="true" rid="5ZFCWIY09BARY01LHZQ2" height="768">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/05_Jonas/Default.png</cover>
+<widget_orientation value="Vertical">Vertical</widget_orientation>
 <BookWidgetsVersion>6.0.5</BookWidgetsVersion>
 <shortcode></shortcode>
 <label searchable="true"></label>

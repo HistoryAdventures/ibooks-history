@@ -1,19 +1,19 @@
-<manifest xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" version="1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="com.kidimedia.ibook-widgets.hotspotimage-document-jonas" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2">
+<manifest xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="com.kidimedia.ibook-widgets.hotspotimage-document-jonas 2" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1">
 <metadata>
 <schema>ADL SCORM</schema>
 <schemaversion>1.2</schemaversion>
 </metadata>
-<organizations default="hotspotimage-document-jonas">
-<organization identifier="hotspotimage-document-jonas">
-<title>document-jonas</title>
-<item identifierref="resource_1" identifier="item_1">
-<title>hotspotimage-document-jonas</title>
+<organizations default="hotspotimage-document-jonas 2">
+<organization identifier="hotspotimage-document-jonas 2">
+<title>document-jonas 2</title>
+<item identifier="item_1" identifierref="resource_1">
+<title>hotspotimage-document-jonas 2</title>
 </item>
 </organization>
 </organizations>
 <resources>
-<resource type="webcontent" identifier="resource_1" adlcp:scormtype="sco" href="index.html">
-<file href="7188bc4b-e9fa-52d6-a43a-8f2b5aef8230_S_1024_1435.jpeg"/>
+<resource type="webcontent" href="index.html" identifier="resource_1" adlcp:scormtype="sco">
+<file href="910bac4603d3cb00.png"/>
 <file href="config.css"/>
 <file href="config.js"/>
 <file href="config.xml"/>
@@ -41,6 +41,7 @@
 <file href="/css/smoothness/images/ui-icons_cd0a0a_256x240.png"/>
 <file href="/css/smoothness/jquery-ui-1.8.23.css"/>
 <file href="Default.png"/>
+<file href="f0827b3b055c0ca9_S_1024_1435.jpeg"/>
 <file href="/img/backbutton@2x.png"/>
 <file href="/img/ibw-ribbon.png"/>
 <file href="index.html"/>
@@ -58,7 +59,6 @@
 <file href="/js/jquery.hammer.min.js"/>
 <file href="/js/jquery.tipsy.js"/>
 <file href="/js/jquery.ui.touch-punch.min.js"/>
-<file href="markericon.png"/>
 <file href="resourcemap.json"/>
 </resource>
 </resources>
