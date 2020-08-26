@@ -51,11 +51,11 @@ window.audioLib = {
     unmuteButton: document.getElementById('unmute-button'),
     mute: false,
     hotspots: {
-        "hotspot-paper1": null,
-        "hotspot-paper2": null,
-        "hotspot-emperor": null,
-        "hotspot-opium1": null,
-        "hotspot-mirror-back": null,
+        "hotspot-1": null,
+        "hotspot-2": null,
+        "hotspot-3": null,
+        "hotspot-4": null,
+        "hotspot-5": null,
     }
 };
 
@@ -76,15 +76,6 @@ function init() {
     camera.position.set(-6, 2, -14);
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0x000000);
-
-    // loading manager
-    var loadingManager = new THREE.LoadingManager(function () {
-        // scene.add(model);
-        // scene.add(modelScales);
-        // scene.add(modelBalls);
-        // scene.add(modelMirror);
-        // scene.add(modelTable);
-    });
 
     var uiLoader = document.getElementById('loader');
     if (uiLoader && features.loader) {
