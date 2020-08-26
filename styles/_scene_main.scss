@@ -56,7 +56,7 @@ h3 {
 		rgba(0, 0, 0, 0.75) 100%
 	);
 	background: linear-gradient(0deg, $tooltip-gradient-rgb 0%, rgba(0, 0, 0, 0.75) 25%, rgba(0, 0, 0, 0.75) 100%);
-	padding: 20px 110px 120px 50px;
+	padding: 20px 65px 120px 65px;
 	max-width: calc(100% - 140px);
 	max-height: 828px;
 	opacity: 1;
@@ -128,11 +128,11 @@ h3 {
 .tooltip-close {
 	position: absolute;
 	top: 30px;
-	right: 30px;
+	right: 20px;
 	background: none;
 	border: 0;
-	width: 56px;
-	height: 56px;
+	width: 30px;
+	height: 30px;
 	font-size: 0;
 	color: $theme-color;
 	font-family: "Favorit";
@@ -147,6 +147,15 @@ h3 {
 	top: 0;
 	left: 0;
 	background-image: url("data:image/svg+xml;utf8,%3Csvg%20id%3D%22Layer_2%22%20data-name%3D%22Layer%202%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2255.39%22%20height%3D%2255.39%22%20viewBox%3D%220%200%2055.39%2055.39%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3Anone%3Bstroke%3A%23" + $tooltip-gradient + "%3Bstroke-miterlimit%3A10%3Bstroke-width%3A1.5px%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctitle%3Eex%3C%2Ftitle%3E%3Cline%20class%3D%22cls-1%22%20x1%3D%220.53%22%20y1%3D%220.53%22%20x2%3D%2254.86%22%20y2%3D%2254.86%22%2F%3E%3Cline%20class%3D%22cls-1%22%20x1%3D%2254.86%22%20y1%3D%220.53%22%20x2%3D%220.53%22%20y2%3D%2254.86%22%2F%3E%3C%2Fsvg%3E");
+	background-size: 100%;
+}
+
+.controls {
+	display: none;
+}
+
+.tooltip-open ~ .controls {
+	display: block;
 }
 
 .controls-top {

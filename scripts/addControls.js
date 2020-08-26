@@ -15,7 +15,7 @@ function setupTween(target) {
 export const addControls = () => {
     var tooltips = document.querySelectorAll('.tooltip');
     var tooltipsCount = tooltips.length;
-    document.getElementById('controls').style.display = 'block';
+    document.getElementById('controls').style.display = '';
 
     document.getElementById('next').addEventListener('click', function (e) {
         e.preventDefault();
