@@ -47,6 +47,18 @@ h3 {
 	color: var(--secondary-text-color);
 }
 
+figure {
+	margin: 0;
+}
+
+figcaption {
+	font-size: 14px;
+	text-align: center;
+	margin-top: -20px;
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
 .tooltip {
 	color: $tooltip-text;
 	background: -webkit-linear-gradient(

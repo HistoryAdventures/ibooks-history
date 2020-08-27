@@ -197,6 +197,9 @@ function init() {
             gui.add(item.position, 'y', -200, 200).name(`button ${index} y`).step(1).listen();
             gui.add(item.position, 'z', -200, 200).name(`button ${index} z`).step(1).listen();    
         });
+        gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
+        gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
+        gui.add(camera.position, 'y', -50, 50).step(0.1).listen();
     }
 }
 
