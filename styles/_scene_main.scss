@@ -70,7 +70,7 @@ figcaption {
 	background: linear-gradient(0deg, $tooltip-gradient-rgb 0%, rgba(0, 0, 0, 0.75) 25%, rgba(0, 0, 0, 0.75) 100%);
 	padding: 20px 65px 120px 65px;
 	max-width: calc(100% - 140px);
-	max-height: 828px;
+	height: 828px;
 	opacity: 1;
 	position: fixed;
 	transition: all 300ms;
