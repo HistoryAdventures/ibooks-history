@@ -27,19 +27,19 @@ var features = {
 
 window.cameraTargets = {
     "hotspot-1": {
-        x: -1.3, y: 1.3, z: -3.8
+        x: -1.2, y: 1.1, z: 3.8
     },
     "hotspot-2": {
-        x: -0.8, y: 1.3, z: -3.8
+        x: 3.5, y: 1.1, z: -1.9
     },
     "hotspot-3": {
-        x: 0.3, y: 1.7, z: -3.3
+        x: -1.8, y: 0.8, z: -3.6
     },
     "hotspot-4": {
-        x: 3, y: 2.2, z: -2.4
+        x: 3.9, y: 0.9, z: -0.8
     },
     "hotspot-5": {
-        x: 1.8, y: 1, z: -3.6
+        x: -3.6, y: 0, z: -1.3
     }
 };
 window.hotspots = [];
@@ -204,9 +204,9 @@ function init() {
             gui.add(item.position, 'y', -200, 200).name(`button ${index} y`).step(1).listen();
             gui.add(item.position, 'z', -200, 200).name(`button ${index} z`).step(1).listen();    
         });
-        gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
         gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
         gui.add(camera.position, 'y', -50, 50).step(0.1).listen();
+        gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
     }
 }
 
