@@ -5,11 +5,11 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
-    <string>RiseFallOttomans.wdgt</string>
+    <string>RiseFallOttomans</string>
     <key>CFBundleIdentifier</key>
-    <string>com.kidimedia.ibook-widgets.image_sequence-RiseFallOttomans.wdgt</string>
+    <string>com.kidimedia.ibook-widgets.image_sequence-RiseFallOttomans</string>
     <key>CFBundleName</key>
-    <string>RiseFallOttomans.wdgt</string>
+    <string>RiseFallOttomans</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundleVersion</key>

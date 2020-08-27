@@ -4,7 +4,6 @@ import * as THREE from '@scripts/build/three.module.js';
 import Stats from '@scripts/jsm/libs/stats.module.js';
 import { GUI } from '@scripts/jsm/libs/dat.gui.module.js';
 import { OrbitControls } from '@scripts/jsm/controls/OrbitControls.js';
-import { ColladaLoader } from '@scripts/jsm/loaders/ColladaLoader.js';
 
 import { addEvents } from '@scripts/onDocumentClick';
 import { addControls } from '@scripts/addControls';
@@ -27,19 +26,19 @@ var features = {
 
 window.cameraTargets = {
     "hotspot-1": {
-        x: -1.3, y: 1.3, z: -3.8
+        x: -3.8, y: 0.4, z: -1
     },
     "hotspot-2": {
-        x: -0.8, y: 1.3, z: -3.8
+        x: 1.7, y: 0.3, z: -3.6
     },
     "hotspot-3": {
-        x: 0.3, y: 1.7, z: -3.3
+        x: -0.5, y: 0.7, z: 4
     },
     "hotspot-4": {
-        x: 3, y: 2.2, z: -2.4
+        x: 3.6, y: 2.3, z: 1.3
     },
     "hotspot-5": {
-        x: 1.8, y: 1, z: -3.6
+        x: -3.7, y: 1.3, z: -1.4
     }
 };
 window.hotspots = [];
@@ -127,7 +126,7 @@ function init() {
 
     var sprite5 = createButton();
     sprite5.name = 'hotspot-5';
-    sprite5.position.set(120, -19, 38);
+    sprite5.position.set(200, -19, 80);
     sprite5.lookAt(0 ,0 ,0);
     scene.add( sprite5 );
 
