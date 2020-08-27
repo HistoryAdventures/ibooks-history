@@ -26,20 +26,17 @@ var features = {
 
 window.cameraTargets = {
     "hotspot-1": {
-        x: -1.3, y: 1.3, z: -3.8
+        x: -0.9, y: 1.2, z: -3.9
     },
     "hotspot-2": {
-        x: -0.8, y: 1.3, z: -3.8
+        x: 3.7, y: 1.9, z: -1.1
     },
     "hotspot-3": {
-        x: 0.3, y: 1.7, z: -3.3
+        x: -3.5, y: 2.9, z: 0.8
     },
     "hotspot-4": {
-        x: 3, y: 2.2, z: -2.4
+        x: -1.9, y: 2.9, z: -3
     },
-    "hotspot-5": {
-        x: 1.8, y: 1, z: -3.6
-    }
 };
 window.hotspots = [];
 window.selectedTooltip = null;
@@ -54,7 +51,6 @@ window.audioLib = {
         "hotspot-2": null,
         "hotspot-3": null,
         "hotspot-4": null,
-        "hotspot-5": null,
     }
 };
 
@@ -197,9 +193,9 @@ function init() {
             gui.add(item.position, 'y', -200, 200).name(`button ${index} y`).step(1).listen();
             gui.add(item.position, 'z', -200, 200).name(`button ${index} z`).step(1).listen();    
         });
-        gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
         gui.add(camera.position, 'x', -50, 50).step(0.1).listen();
         gui.add(camera.position, 'y', -50, 50).step(0.1).listen();
+        gui.add(camera.position, 'z', -50, 50).step(0.1).listen();
     }
 }
 
