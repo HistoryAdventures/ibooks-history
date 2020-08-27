@@ -119,7 +119,7 @@ export const addEvents = () => {
         });
 
         window.addEventListener('touchend', (ev) => {
-            if (touchStartFresh) {
+            if (touchStartFresh && !ev.target.closest('.controls')) {
                 onDocumentClick(ev);
             }
         });
@@ -135,7 +135,9 @@ export const addEvents = () => {
 
     if (window.location.hash === '#debug') {
         window.addEventListener('click', (ev) => {
-            onDocumentClick(ev);
+            if (!ev.target.closest('.controls')) {
+                onDocumentClick(ev);
+            }
         });
     }
 }
