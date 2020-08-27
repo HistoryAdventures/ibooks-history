@@ -1,4 +1,4 @@
-<manifest identifier="com.kidimedia.ibook-widgets.image_sequence-RiseFallOttomans" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" version="1" identifier="com.kidimedia.ibook-widgets.image_sequence-RiseFallOttomans" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <metadata>
 <schema>ADL SCORM</schema>
 <schemaversion>1.2</schemaversion>
@@ -12,7 +12,7 @@
 </organization>
 </organizations>
 <resources>
-<resource identifier="resource_1" href="index.html" adlcp:scormtype="sco" type="webcontent">
+<resource href="index.html" identifier="resource_1" type="webcontent" adlcp:scormtype="sco">
 <file href="0e49ebc01b685bc0_S_821_600.png"/>
 <file href="1413f75e8f14a717_S_821_600.png"/>
 <file href="3ae03bf519c4348d_S_821_600.png"/>
