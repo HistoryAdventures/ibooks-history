@@ -119,7 +119,7 @@ export const addEvents = () => {
         });
 
         window.addEventListener('touchend', (ev) => {
-            if (touchStartFresh && !ev.target.closest('.controls')) {
+            if (touchStartFresh) {
                 onDocumentClick(ev);
             }
         });
