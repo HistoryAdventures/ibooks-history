@@ -1,190 +1,163 @@
-<!DOCTYPE widget>
 <FrameSequencePlugin>
+<shortcode>68VT6F</shortcode>
+<label>RiseFallOttomans</label>
 <slides>
 <slide>
-<img alttext="" width="821" caption="" rid="Y09BARY01LHZQ2PBJ3E7" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map01.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="Y09BARY01LHZQ2PBJ3E7" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/ba157ccc18b9ee31_S_821_600.55637ac19be97e3afdcd8c3c39444233.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap01.png</img>
 <description searchable="true">Sultan: Osman I</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="PSIHZC6T0JTB1VTUBA33" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map02.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="PSIHZC6T0JTB1VTUBA33" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/41b00de863fe4f41_S_821_600.51685cfeb7d7a8facaba97db906d1f20.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap02.png</img>
 <description searchable="true">Sultan: Orhan Ghazi</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="U5GNR3Q22OMI4588JIRB" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map03.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="U5GNR3Q22OMI4588JIRB" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/73aa2f0b1e2d1251_S_821_600.759f488e19934e93069202088a34fba9.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap03.png</img>
 <description searchable="true">Sultan: Murad II</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="JAYZWZHZ7WXAF3P8JN3X" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map04.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="JAYZWZHZ7WXAF3P8JN3X" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/d4a8d0b3fd9423b1_S_821_600.0006368446f4ca78e9964d22ed5a86f0.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap04.png</img>
 <description searchable="true">Sultan: Mehmed II</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="7I1GM9F8Y0Q7CAVJL630" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map05.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="7I1GM9F8Y0Q7CAVJL630" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/74074d23fc87a91e_S_821_600.806cf04d014e618cd385f1e4f0683b95.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap05.png</img>
 <description searchable="true">Sultan: Selim I</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="BJ4MFLFPDO8HIIABG2HA" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map06.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="BJ4MFLFPDO8HIIABG2HA" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/4333d8f92a2fe563_S_821_600.7de41d4c94fe8484d4c67fa16a3f67ab.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap06.png</img>
 <description searchable="true">Sultan: Suleiman the Magnificent</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="F8KG8ZW2TJ1QP30PO72C" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map07.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="F8KG8ZW2TJ1QP30PO72C" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/4bc24f222fdeddeb_S_821_600.f23947c695707633a4204882ebafaac9.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap07.png</img>
 <description searchable="true">Sultan: Murad IV</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="6598IKPD4LZ6BG1C30SK" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map08.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="6598IKPD4LZ6BG1C30SK" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/4e5b0588583179b2_S_821_600.0aa144802812baca06f67feaffcdee45.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap08.png</img>
 <description searchable="true">Sultan: Mehmed IV</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="YU880GHS2801HPNBI1LJ" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map09.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="YU880GHS2801HPNBI1LJ" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/f6fb6ee43049e44e_S_821_600.169821167360ed40e72aa9510a5f16e3.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap09.png</img>
 <description searchable="true">Sultan: Mehmed IV</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="2N5Q6UTD7C8XPMMH0UY1" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map10.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="2N5Q6UTD7C8XPMMH0UY1" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/880f6bc7368fa071_S_821_600.19039de22095ec2885b622b7ff8f1385.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap10.png</img>
 <description searchable="true">Sultan: Mustafa II</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="HFFBV5R00DAZZJ5UXADT" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map11.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="HFFBV5R00DAZZJ5UXADT" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/812a2dc846367d7b_S_821_600.cebfd61c07cda7e84bdf9171c13a9129.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap11.png</img>
 <description searchable="true">Sultan: Ahmed III</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="W1MZEIOE97T1BR6TD41K" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map12.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="W1MZEIOE97T1BR6TD41K" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/7b534f77693dd08c_S_821_600.e67e5362a42c4c9b9bf6c5c961aa31ac.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap12.png</img>
 <description searchable="true">Sultan: Mahmud I</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="6EJPYOYF1J1XDKX53MZ5" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map13.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="6EJPYOYF1J1XDKX53MZ5" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/6079cfc6e6542c44_S_821_600.79b091b2838e784c1df3cfb12dd47edc.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap13.png</img>
 <description searchable="true">Sultan: Abdul Hamid I</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="K27VVVI667MY0GQIW76F" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map14.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="K27VVVI667MY0GQIW76F" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/9f49f8460c97efae_S_821_600.87683ea4bc97133b6cfe2f85f489cc9f.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap14.png</img>
 <description searchable="true">Sultan: Abdul Hamid I</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="EJO9VNV5X13C7ARE80YM" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map15.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="EJO9VNV5X13C7ARE80YM" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/cfed99bd3ad3d09e_S_821_600.04f4fbb6012042bacab1223d5dbbf041.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap15.png</img>
 <description searchable="true">Sultan: Selim III</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="CJQCP736C4FTOSPJ39EK" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map16.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="CJQCP736C4FTOSPJ39EK" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/7f971d5131dc1c29_S_821_600.ca3db1c73d18bdc508f78cdd157440bd.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap16.png</img>
 <description searchable="true">Sultan: Selim III</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="NF167VJ2SMKI5DUW14HC" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map17.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="NF167VJ2SMKI5DUW14HC" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/59647c14719fc958_S_821_600.17303978cb2430880711949e60b99a90.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap17.png</img>
 <description searchable="true">Sultan: Selim III</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="YWTJ3CRUS8VJJ5XGZTHD" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map18.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="YWTJ3CRUS8VJJ5XGZTHD" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/1413f75e8f14a717_S_821_600.a7cba4b89b8a404827f50e918d9c8536.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap18.png</img>
 <description searchable="true">Sultan: Mahmud II</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="DFP1J1ABCHSC6YJ57Q4P" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map19.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="DFP1J1ABCHSC6YJ57Q4P" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/a9a09ddfbd12730a_S_821_600.c38ce1bee6415292f7f6e11a91d3b91d.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap19.png</img>
 <description searchable="true">Sultan: Mahmud II</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="Q56QVCXUKW65I8BKR9ST" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map20.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="Q56QVCXUKW65I8BKR9ST" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/3ae03bf519c4348d_S_821_600.c3145dbd159f29483cc5819b00463291.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap20.png</img>
 <description searchable="true">Sultan: Mahmud II</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="T8Y5OHVO4LGZIAM0MPYI" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map21.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="T8Y5OHVO4LGZIAM0MPYI" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/70d9d4cbf343b0d8_S_821_600.05156f9bb446a54d57c8c6a2cbeb1df4.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap21.png</img>
 <description searchable="true">Sultan: Mahmud II</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="0PIXDVRMW0FV636DE3E4" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map22.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="0PIXDVRMW0FV636DE3E4" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/eb25179d5117921d_S_821_600.f2bb8dc9ed0272716e4c9763dff7b707.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap22.png</img>
 <description searchable="true">Sultan: Abdulaziz</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="Y1NH4GORJFUOX69VO691" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map23.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="Y1NH4GORJFUOX69VO691" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/9d632e90d8803433_S_821_600.cb599a0ed303b88d89380e3e7dde8d34.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap23.png</img>
 <description searchable="true">Sultan: Abdul Hamid II</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="LP0R37UOPW3RIHXWBBNR" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map24.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="LP0R37UOPW3RIHXWBBNR" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/b612ffa26674b12b_S_821_600.2cba2d38ac5a8df13a90b324695cdb58.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap24.png</img>
 <description searchable="true">Sultan: Abdul Hamid II</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="8IEUG2MYQ9YTO716X5ED" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map25.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="8IEUG2MYQ9YTO716X5ED" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/bd2436f43899c411_S_821_600.fcc428c5f4d9d855c085a39f9904f871.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap25.png</img>
 <description searchable="true">Sultan: Abdul Hamid II</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="F7MEOJXKHLWNHH99KIO5" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map26.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="F7MEOJXKHLWNHH99KIO5" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/79ece627d8b59418_S_821_600.6de183529ddcc91919d54a413bf6add9.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap26.png</img>
 <description searchable="true">Sultan: Mehmed V</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="AFZNHYY279WEFVNAPB3D" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map27.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="AFZNHYY279WEFVNAPB3D" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/58b8c7764b58160d_S_821_600.cb00a455a8b5bfe6f0939bc05ea38c73.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap27.png</img>
 <description searchable="true">Sultan: Abdul Hamid II</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img alttext="" width="821" caption="" rid="MIF2XJUWMWPU2D4CP6KW" orientation="1" height="600" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/01_Ioannina/riseFallWdgt/Map28.png</img>
-<caption searchable="true"></caption>
+<img height="600" rid="MIF2XJUWMWPU2D4CP6KW" width="821" alttext="" caption="" autosize="true">https://widget-assets-eu.bookwidgets.com/200702/0e49ebc01b685bc0_S_821_600.c4c462a0f3695cb5cbfe68fe9ccc52f8.png?filename=%2FUsers%2Fjulius%2FDocuments%2FDocuments%20-%20Julius%20MacBook%20Pro%2F01_work%2F01_freelance%2F01_Upwork%2FSpencer%20Striker%2F02_work%2F02_Empires%2Fimages%2FInfoGFX%2F01_Ioannina%2FriseFallWdgt%2FMap28.png</img>
 <description searchable="true">Sultan: Mehmed VI</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 </slides>
 <title searchable="true">The Rise and Fall of the Ottoman Empire</title>
-<widget_language></widget_language>
+<undefined>Thu Jul 2 19:11:24 2020</undefined>
 <LocalizationMap>
 <localization>
 <phrase>Page views</phrase>
-<translation></translation>
+<translation/>
 <modified>false</modified>
 </localization>
 <localization>
 <phrase>Pages viewed</phrase>
-<translation></translation>
+<translation/>
 <modified>false</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants template="Dark Background" widget_font="Verdana" widget_color="#3498DB" widget_backgroundimage="">
+<DesignConstants widget_font="Verdana" widget_backgroundimage=",auto" widget_color="#3498DB" template="Dark Background">
 <constant>
 <name>borderbackground</name>
 <kind>BackgroundGradient</kind>
@@ -198,7 +171,7 @@
 <constant>
 <name>backgroundimage</name>
 <kind>BackgroundImage</kind>
-<value></value>
+<value>,auto</value>
 </constant>
 <constant>
 <name>backgroundoutline</name>
@@ -386,10 +359,6 @@
 <value>0px, 0px, 0px, 0px, #888, 255</value>
 </constant>
 </DesignConstants>
-<cover alttext="" width="0" caption="" rid="" orientation="1" height="0" autosize="true"></cover>
+<cover height="0" rid="" orientation="1" width="0" alttext="" caption="" autosize="true"/>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
-<BookWidgetsVersion>6.0.5</BookWidgetsVersion>
-<shortcode>68VT6F</shortcode>
-<label searchable="true">RiseFallOttomans</label>
-<lastupload>Thu Jul 2 19:14:05 2020</lastupload>
 </FrameSequencePlugin>
