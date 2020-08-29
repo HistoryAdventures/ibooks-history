@@ -18,6 +18,7 @@ module.exports = {
     'documents/jonas': './documents/jonas/index.js',
     'documents/arun': './documents/arun/index.js',
     'documents/RiseFallOttomans': './documents/RiseFallOttomans/index.js',
+    'documents/5routes': './documents/5routes/index.js',
     'quiz/luis': './quiz/luis/index.js',
     'quiz/arun': './quiz/arun/index.js',
     'quiz/ioannina': './quiz/ioannina/index.js',

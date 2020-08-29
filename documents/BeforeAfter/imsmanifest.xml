@@ -1,0 +1,56 @@
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="com.kidimedia.ibook-widgets.beforeafter-BeforeAfter.wdgt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>1.2</schemaversion>
+</metadata>
+<organizations default="beforeafter-BeforeAfter.wdgt">
+<organization identifier="beforeafter-BeforeAfter.wdgt">
+<title>BeforeAfter.wdgt</title>
+<item identifier="item_1" identifierref="resource_1">
+<title>beforeafter-BeforeAfter.wdgt</title>
+</item>
+</organization>
+</organizations>
+<resources>
+<resource adlcp:scormtype="sco" identifier="resource_1" href="index.html" type="webcontent">
+<file href="b62cd4a8bce294ce_S_1024_502.jpg"/>
+<file href="config.css"/>
+<file href="config.js"/>
+<file href="config.xml"/>
+<file href="/css/beforeafter.css"/>
+<file href="/css/bookwidgets.css"/>
+<file href="/css/jquery.dialogsheet.css"/>
+<file href="/css/jquery.tipsy.css"/>
+<file href="/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png"/>
+<file href="/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png"/>
+<file href="/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png"/>
+<file href="/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png"/>
+<file href="/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png"/>
+<file href="/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png"/>
+<file href="/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png"/>
+<file href="/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png"/>
+<file href="/css/smoothness/images/ui-icons_222222_256x240.png"/>
+<file href="/css/smoothness/images/ui-icons_2e83ff_256x240.png"/>
+<file href="/css/smoothness/images/ui-icons_454545_256x240.png"/>
+<file href="/css/smoothness/images/ui-icons_888888_256x240.png"/>
+<file href="/css/smoothness/images/ui-icons_cd0a0a_256x240.png"/>
+<file href="/css/smoothness/jquery-ui-1.8.23.css"/>
+<file href="Default.png"/>
+<file href="f0c85f00f1c2673a_S_1024_651.png"/>
+<file href="/img/backbutton@2x.png"/>
+<file href="/img/BeforeAfterSliderHorizontal.png"/>
+<file href="/img/BeforeAfterSliderVertical.png"/>
+<file href="/img/ibw-ribbon.png"/>
+<file href="index.html"/>
+<file href="Info.plist"/>
+<file href="/js/BeforeAfter-all.js"/>
+<file href="/js/BeforeAfter-vendor.js"/>
+<file href="/js/jquery-1.8.min.js"/>
+<file href="/js/jquery-ui-1.8.23.min.js"/>
+<file href="/js/jquery.dialogsheet.js"/>
+<file href="/js/jquery.tipsy.js"/>
+<file href="/js/jquery.ui.touch-punch.min.js"/>
+<file href="resourcemap.json"/>
+</resource>
+</resources>
+</manifest>

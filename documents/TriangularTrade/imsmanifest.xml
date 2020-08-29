@@ -1,0 +1,52 @@
+<manifest xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="com.kidimedia.ibook-widgets.image_sequence-TriangularTrade" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>1.2</schemaversion>
+</metadata>
+<organizations default="image_sequence-TriangularTrade">
+<organization identifier="image_sequence-TriangularTrade">
+<title>TriangularTrade</title>
+<item identifierref="resource_1" identifier="item_1">
+<title>image_sequence-TriangularTrade</title>
+</item>
+</organization>
+</organizations>
+<resources>
+<resource adlcp:scormtype="sco" href="index.html" identifier="resource_1" type="webcontent">
+<file href="26725cb0565e0c48_S_1998_1155.jpg"/>
+<file href="3fede793ae6f5599_S_705_512.png"/>
+<file href="5695c7a65725e7e9_S_1958_2300.jpg"/>
+<file href="7dafd7d8f6837c48_S_865_865.jpg"/>
+<file href="8b768434dabde987_S_3000_875.jpg"/>
+<file href="config.css"/>
+<file href="config.js"/>
+<file href="config.xml"/>
+<file href="/css/bookwidgets.css"/>
+<file href="/css/bwicons.css"/>
+<file href="/css/fonts/icomoon.eot"/>
+<file href="/css/fonts/icomoon.svg"/>
+<file href="/css/fonts/icomoon.ttf"/>
+<file href="/css/fonts/icomoon.woff"/>
+<file href="/css/jquery.dialogsheet.css"/>
+<file href="/css/jquery.tipsy.css"/>
+<file href="/css/sequence.css"/>
+<file href="Default.png"/>
+<file href="/images/phone_landscape.png"/>
+<file href="/img/backbutton@2x.png"/>
+<file href="/img/ibw-ribbon.png"/>
+<file href="index.html"/>
+<file href="Info.plist"/>
+<file href="/js/FrameSequence-all.js"/>
+<file href="/js/FrameSequence-vendor.js"/>
+<file href="/js/hammer-2.0.4.min.js"/>
+<file href="/js/hammer.fakemultitouch.js"/>
+<file href="/js/hammer.min.js"/>
+<file href="/js/jquery-1.8.min.js"/>
+<file href="/js/jquery.dialogsheet.js"/>
+<file href="/js/jquery.hammer-2.0.0.js"/>
+<file href="/js/jquery.hammer.min.js"/>
+<file href="/js/jquery.tipsy.js"/>
+<file href="resourcemap.json"/>
+</resource>
+</resources>
+</manifest>

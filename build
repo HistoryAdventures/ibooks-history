@@ -1,132 +1,58 @@
 #!/bin/bash
 echo 'Building...'
 
+# clean up build folder
 rm -rf builds
 mkdir builds
 
-cp -rf scene-opium scene-opium.wdgt
-cp -rf shared/* scene-opium.wdgt
-cp -rf scene-ioannina scene-ioannina.wdgt
-cp -rf shared/* scene-ioannina.wdgt
-cp -rf scene-luis scene-luis.wdgt
-cp -rf shared/* scene-luis.wdgt
-cp -rf scene-ishi scene-ishi.wdgt
-cp -rf shared/* scene-ishi.wdgt
-cp -rf scene-william scene-william.wdgt
-cp -rf shared/* scene-william.wdgt
-cp -rf scene-jonas scene-jonas.wdgt
-cp -rf shared/* scene-jonas.wdgt
-cp -rf scene-arun scene-arun.wdgt
-cp -rf shared/* scene-arun.wdgt
+function zipMoveCleanUp {
+    # compress asset for web download
+    zip -r $1.zip $1.wdgt
 
-cp -rf documents/opium document-opium.wdgt
-cp -rf documents/_shared/* document-opium.wdgt
-cp -rf documents/ioannina document-ioannina.wdgt
-cp -rf documents/_shared/* document-ioannina.wdgt
-cp -rf documents/luis document-luis.wdgt
-cp -rf documents/_shared/* document-luis.wdgt
-cp -rf documents/ishi document-ishi.wdgt
-cp -rf documents/_shared/* document-ishi.wdgt
-cp -rf documents/william document-william.wdgt
-cp -rf documents/_shared/* document-william.wdgt
-cp -rf documents/jonas document-jonas.wdgt
-cp -rf documents/_shared/* document-jonas.wdgt
-cp -rf documents/arun document-arun.wdgt
-cp -rf documents/_shared/* document-arun.wdgt
-cp -rf documents/RiseFallOttomans sequence-ioannina.wdgt
-cp -rf documents/_shared/* sequence-ioannina.wdgt
+    # move into builds directory
+    mv $1.zip ./builds
 
-cp -rf quiz/ioannina quiz-ioannina.wdgt
-cp -rf quiz/_shared/* quiz-ioannina.wdgt
-cp -rf shared/* quiz-ioannina.wdgt
-cp -rf quiz/luis quiz-luis.wdgt
-cp -rf quiz/_shared/* quiz-luis.wdgt
-cp -rf shared/* quiz-luis.wdgt
-cp -rf quiz/ishi quiz-ishi.wdgt
-cp -rf quiz/_shared/* quiz-ishi.wdgt
-cp -rf shared/* quiz-ishi.wdgt
-cp -rf quiz/william quiz-william.wdgt
-cp -rf quiz/_shared/* quiz-william.wdgt
-cp -rf shared/* quiz-william.wdgt
-cp -rf quiz/jonas quiz-jonas.wdgt
-cp -rf quiz/_shared/* quiz-jonas.wdgt
-cp -rf shared/* quiz-jonas.wdgt
-cp -rf quiz/arun quiz-arun.wdgt
-cp -rf quiz/_shared/* quiz-arun.wdgt
-cp -rf shared/* quiz-arun.wdgt
+    # clean up directories used for build
+    rm -rf $1.wdgt
+}
 
-zip -r scene-opium.zip scene-opium.wdgt
-zip -r scene-ioannina.zip scene-ioannina.wdgt
-zip -r scene-luis.zip scene-luis.wdgt
-zip -r scene-ishi.zip scene-ishi.wdgt
-zip -r scene-william.zip scene-william.wdgt
-zip -r scene-jonas.zip scene-jonas.wdgt
-zip -r scene-arun.zip scene-arun.wdgt
+# creates all scenes
+allScenes=("scene-opium" "scene-ioannina" "scene-luis" "scene-ishi" "scene-william" "scene-jonas" "scene-arun")
+for name in ${allScenes[@]}; do
+    # copy scene source and shared files in one wdgt folder
+    cp -rf ${name} ${name}.wdgt
+    cp -rf shared/* ${name}.wdgt
 
+    zipMoveCleanUp ${name}
+done
 
-zip -r document-opium.zip document-opium.wdgt
-zip -r document-ioannina.zip document-ioannina.wdgt
-zip -r document-luis.zip document-luis.wdgt
-zip -r document-ishi.zip document-ishi.wdgt
-zip -r document-william.zip document-william.wdgt
-zip -r document-jonas.zip document-jonas.wdgt
-zip -r document-arun.zip document-arun.wdgt
-zip -r sequence-ioannina.zip sequence-ioannina.wdgt
+# creates all documents
+allDocuments=("opium" "ioannina" "luis" "ishi" "william" "jonas" "arun")
+for name in ${allDocuments[@]}; do
+    # copy documents source and shared files in one wdgt folder
+    cp -rf documents/${name} document-${name}.wdgt
+    cp -rf documents/_shared/* document-${name}.wdgt
 
+    zipMoveCleanUp document-${name}
+done
 
-zip -r quiz-ioannina.zip quiz-ioannina.wdgt
-zip -r quiz-luis.zip quiz-luis.wdgt
-zip -r quiz-ishi.zip quiz-ishi.wdgt
-zip -r quiz-william.zip quiz-william.wdgt
-zip -r quiz-jonas.zip quiz-jonas.wdgt
-zip -r quiz-arun.zip quiz-arun.wdgt
+# creates all sequences
+allSequences=("RiseFallOttomans" "5routes")
+for name in ${allSequences[@]}; do
+    # copy sequence source and shared files in one wdgt folder
+    cp -rf documents/${name} sequence-${name}.wdgt
+    cp -rf documents/_shared/* sequence-${name}.wdgt
 
-mv scene-opium.zip ./builds
-mv scene-ioannina.zip ./builds
-mv scene-luis.zip ./builds
-mv scene-ishi.zip ./builds
-mv scene-william.zip ./builds
-mv scene-jonas.zip ./builds
-mv scene-arun.zip ./builds
+    zipMoveCleanUp sequence-${name}
+done
 
-mv document-opium.zip ./builds
-mv document-ioannina.zip ./builds
-mv document-luis.zip ./builds
-mv document-ishi.zip ./builds
-mv document-william.zip ./builds
-mv document-jonas.zip ./builds
-mv document-arun.zip ./builds
-mv sequence-ioannina.zip ./builds
+# creates all quizes
+allQuizes=("ioannina" "luis" "ishi" "william" "jonas" "arun")
+for name in ${allQuizes[@]}; do
+    # copy quiz source and shared files in one wdgt folder
+    cp -rf quiz/${name} quiz-${name}.wdgt
+    cp -rf quiz/_shared/* quiz-${name}.wdgt
+    cp -rf shared/* quiz-${name}.wdgt
 
-
-mv quiz-ioannina.zip ./builds
-mv quiz-luis.zip ./builds
-mv quiz-ishi.zip ./builds
-mv quiz-william.zip ./builds
-mv quiz-jonas.zip ./builds
-mv quiz-arun.zip ./builds
-
-rm -rf scene-opium.wdgt
-rm -rf scene-ioannina.wdgt
-rm -rf scene-luis.wdgt
-rm -rf scene-ishi.wdgt
-rm -rf scene-william.wdgt
-rm -rf scene-jonas.wdgt
-rm -rf scene-arun.wdgt
-
-rm -rf document-opium.wdgt
-rm -rf document-ioannina.wdgt
-rm -rf document-luis.wdgt
-rm -rf document-ishi.wdgt
-rm -rf document-william.wdgt
-rm -rf document-jonas.wdgt
-rm -rf document-arun.wdgt
-rm -rf sequence-ioannina.wdgt
-
-
-rm -rf quiz-ioannina.wdgt
-rm -rf quiz-luis.wdgt
-rm -rf quiz-ishi.wdgt
-rm -rf quiz-william.wdgt
-rm -rf quiz-jonas.wdgt
-rm -rf quiz-arun.wdgt
+    zipMoveCleanUp quiz-${name}
+done
