@@ -1,0 +1,22 @@
+$theme-color: #090A0D;
+$theme-color-light: #3C3C3C;
+$theme-color-light-nohex: 3C3C3C;
+$theme-color-bright: #9C9C9D;
+$theme-color-bright-nohex: 9C9C9D;
+$theme-background: #090A0D;
+
+$max-popup-width: 600px;
+
+@import "_sequence-config.scss";
+
+.titlebar-layout {
+    background-color: $theme-background;
+}
+
+#draghandle polygon {
+    fill: white;
+}
+
+#draghandle line {
+    stroke: white;
+}

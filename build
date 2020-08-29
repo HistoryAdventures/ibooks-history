@@ -37,7 +37,7 @@ for name in ${allDocuments[@]}; do
 done
 
 # creates all sequences
-allSequences=("RiseFallOttomans" "5routes")
+allSequences=("RiseFallOttomans" "5routes" "MughalEmpire" "TriangularTrade" "beforeAfter")
 for name in ${allSequences[@]}; do
     # copy sequence source and shared files in one wdgt folder
     cp -rf documents/${name} sequence-${name}.wdgt
