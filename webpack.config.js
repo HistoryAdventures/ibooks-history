@@ -21,7 +21,7 @@ module.exports = {
     'documents/5routes': './documents/5routes/index.js',
     'documents/MughalEmpire': './documents/MughalEmpire/index.js',
     'documents/TriangularTrade': './documents/TriangularTrade/index.js',
-    'documents/beforeAfter': './documents/beforeAfter/index.js',
+    'documents/BeforeAfter': './documents/BeforeAfter/index.js',
     'quiz/luis': './quiz/luis/index.js',
     'quiz/arun': './quiz/arun/index.js',
     'quiz/ioannina': './quiz/ioannina/index.js',
