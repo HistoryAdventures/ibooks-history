@@ -41,7 +41,6 @@ allSequences=("RiseFallOttomans" "5routes" "MughalEmpire" "TriangularTrade" "bef
 for name in ${allSequences[@]}; do
     # copy sequence source and shared files in one wdgt folder
     cp -rf documents/${name} sequence-${name}.wdgt
-    cp -rf documents/_shared/* sequence-${name}.wdgt
 
     zipMoveCleanUp sequence-${name}
 done
