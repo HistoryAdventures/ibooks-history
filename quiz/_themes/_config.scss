@@ -55,7 +55,7 @@ body {
   font-style: normal;
   font-variant: normal;
   font-size: 21px;
-  color: #ffffff;
+  color: $color-text;
   margin-top: 5em;
   margin-bottom: 3em;
   position: relative;
@@ -67,7 +67,7 @@ body {
   font-style: normal;
   font-variant: normal;
   font-size: 18px;
-  color: #010539; }
+  color: $color-text; }
 
 .quizwidget .color-correct-answers .tmc-cover .tmc-answer[checked=checked] .bw-button-label, .quizwidget .color-correct-answers .tmc-cover .tmc-answer[checked=checked] .bw-button-label g, .quizwidget .check-mode .tmc-cover .tmc-answer .bw-button-label, .quizwidget .check-mode .tmc-cover .tmc-answer[checked=checked] .bw-button-label, .quizwidget .check-mode .tmc-cover .tmc-answer .bw-button-label g, .quizwidget .check-mode .tmc-cover .tmc-answer[checked=checked] .bw-button-label g, .quizwidget .color-correct-answers .cs-correct, .quizwidget .check-mode .cs-correct, .quizwidget .color-correct-answers .dwis-correct, .quizwidget .check-mode .dwis-correct {
   background: rgba(0, 0, 0, 0);
@@ -335,7 +335,7 @@ body {
   fill: white; }
 
 .quizwidget .entry-mode .match path, .quizwidget .readonly-mode .match path, .quizwidget .readonly-mode.check-mode .wm-missing-answer path {
-  stroke: blue; }
+  stroke: $color-text; }
 
 .quizwidget .readonly-mode.check-mode .wm-wrong-answer path {
   stroke: #c00000; }
@@ -534,7 +534,7 @@ body {
   font-style: normal;
   font-variant: normal;
   font-size: 20px;
-  color: #010539;
+  color: $color-text;
   background: rgba(0, 0, 0, 0);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0)));
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
@@ -882,7 +882,7 @@ body {
   font-style: normal;
   font-variant: normal;
   font-size: 21px;
-  color: #ffffff;
+  color: $color-text;
   margin-top: 5em;
   margin-bottom: 3em;
   position: relative;
@@ -894,7 +894,7 @@ body {
   font-style: normal;
   font-variant: normal;
   font-size: 18px;
-  color: #010539; }
+  color: $color-text; }
 
 .quizwidget .color-correct-answers .tmc-cover .tmc-answer[checked=checked] .bw-button-label, .quizwidget .color-correct-answers .tmc-cover .tmc-answer[checked=checked] .bw-button-label g, .quizwidget .check-mode .tmc-cover .tmc-answer .bw-button-label, .quizwidget .check-mode .tmc-cover .tmc-answer[checked=checked] .bw-button-label, .quizwidget .check-mode .tmc-cover .tmc-answer .bw-button-label g, .quizwidget .check-mode .tmc-cover .tmc-answer[checked=checked] .bw-button-label g, .quizwidget .color-correct-answers .cs-correct, .quizwidget .check-mode .cs-correct, .quizwidget .color-correct-answers .dwis-correct, .quizwidget .check-mode .dwis-correct {
   color: #008000;
@@ -1162,7 +1162,7 @@ body {
   fill: white; }
 
 .quizwidget .entry-mode .match path, .quizwidget .readonly-mode .match path, .quizwidget .readonly-mode.check-mode .wm-missing-answer path {
-  stroke: blue; }
+  stroke: $color-text; }
 
 .quizwidget .readonly-mode.check-mode .wm-wrong-answer path {
   stroke: #c00000; }
@@ -1361,7 +1361,7 @@ body {
   font-style: normal;
   font-variant: normal;
   font-size: 20px;
-  color: #010539;
+  color: $color-text;
   background: rgba(0, 0, 0, 0);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0)));
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
@@ -1659,6 +1659,7 @@ body {
 
 .dwis-text {
   padding: 40px 20px;
+  color: $theme-color;
   background: #ffffff;
 }
 
@@ -1792,7 +1793,7 @@ body {
 
 .questionnumber::after {
   /* TOTAL QUESTIONS */ 
-  content: "/10";
+  content: "/5";
 }
 
 .quizwidget .tmc-cover, .quizwidget .tmc-cover g, .quizwidget {
@@ -1811,7 +1812,7 @@ body {
 }
 
 .check-mode .tmc-answer .bw-button-label {
-  color: white;
+  color: $color-text;
   font-family: 'Favorit Lining', Verdana, Geneva, sans-serif;
 }
 
@@ -2131,4 +2132,8 @@ body {
 
 .pmc-quiz {
   background: white;
+}
+
+#mobile-navcontainer {
+  display: none;
 }

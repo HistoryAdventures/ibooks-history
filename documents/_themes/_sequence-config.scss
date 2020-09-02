@@ -11,7 +11,7 @@ html {
     font-weight: normal;
     font-size: 40px;
     line-height: 55px;
-    color: white;
+    color: $color-text;
     margin-top: 80px;
 }
   
@@ -21,7 +21,7 @@ html {
     font-style: normal;
     font-variant: normal;
     font-size: 28px;
-    color: white; }
+    color: $color-text; }
   
   .content {
     font-family: Verdana, Geneva, sans-serif;
@@ -29,7 +29,7 @@ html {
     font-style: normal;
     font-variant: normal;
     font-size: 16px;
-    color: white; }
+    color: $color-text; }
   
   .view .display {
         padding: 0 60px;
