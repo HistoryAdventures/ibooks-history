@@ -5,13 +5,12 @@ var mouse = new THREE.Vector2();
 var raycaster = new THREE.Raycaster();
 
 function onDocumentClick(event) {
-    if (event.target.matches('.tooltip') || event.target.parentElement.matches('.tooltip')) {
+    if (event.target.matches('.tooltip') || event.target.closest('.tooltip')) {
         return;
     }
 
     if (event.target.matches('.controls') ||
-        event.target.parentElement.matches('.controls') ||
-        event.target.parentElement.parentElement.matches('.controls')
+        event.target.closest('.controls')
     ) {
         return;
     }

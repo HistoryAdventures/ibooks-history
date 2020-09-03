@@ -112,31 +112,31 @@ function init() {
     scene.add( mesh );
 
     var sprite1 = createButton();
-    sprite1.name = 'hotspot-wall';
+    sprite1.name = 'hotspot-1';
     sprite1.position.set(-200, 38, 137);
     sprite1.lookAt(0 ,0 ,0);
     scene.add( sprite1 );
 
     var sprite2 = createButton();
-    sprite2.name = 'hotspot-defenders';
+    sprite2.name = 'hotspot-2';
     sprite2.position.set(-58, 51, 200);
     sprite2.lookAt(0 ,0 ,0);
     scene.add( sprite2 );
 
     var sprite3 = createButton();
-    sprite3.name = 'hotspot-siege';
+    sprite3.name = 'hotspot-3';
     sprite3.position.set(-200, 38, -88);
     sprite3.lookAt(0 ,0 ,0);
     scene.add( sprite3 );
 
     const sprite4 = createButton();
-    sprite4.name = 'hotspot-army';
+    sprite4.name = 'hotspot-4';
     sprite4.position.set(16, -14, -200);
     sprite4.lookAt(0 ,0 ,0);
     scene.add( sprite4 );
 
     var sprite5 = createButton();
-    sprite5.name = 'hotspot-christ';
+    sprite5.name = 'hotspot-5';
     sprite5.position.set(77, 16, 200);
     sprite5.lookAt(0 ,0 ,0);
     scene.add( sprite5 );
