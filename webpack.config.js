@@ -22,6 +22,7 @@ module.exports = {
     'documents/MughalEmpire': './documents/MughalEmpire/index.js',
     'documents/TriangularTrade': './documents/TriangularTrade/index.js',
     'documents/BeforeAfter': './documents/BeforeAfter/index.js',
+    'documents/BlackbeardsBeauty': './documents/BlackbeardsBeauty/index.js',
     'quiz/luis': './quiz/luis/index.js',
     'quiz/arun': './quiz/arun/index.js',
     'quiz/ioannina': './quiz/ioannina/index.js',

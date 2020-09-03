@@ -1,0 +1,273 @@
+<!DOCTYPE widget>
+<FrameSequencePlugin>
+<slides>
+<slide>
+<img height="600" autosize="true" rid="IABG2HAF8KG8ZW2TJ1QP" width="428" alttext="" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/Queen_Anne's_Revenge (1).jpeg</img>
+<caption searchable="true">Blackbeard’s Iconic Ship</caption>
+<description searchable="true">1736 Print of the Queen Anne’s Revenge
+
+Queen Anne’s Revenge was the storied vessel of Edward Teach, who himself 
+was better known as the famed pirate Blackbeard. Queen Anne’s Revenge was the flagship vessel of Blackbeard’s fleet and totaled 200 tons. Her name was most likely inspired from Blackbeard’s earlier service in the Royal Navy in the War of Spanish Succession (1701-1714), also known as Queen Anne’s War.</description>
+<resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
+</slide>
+<slide>
+<img height="600" autosize="true" rid="30PO72C6598IKPD4LZ6B" width="867" alttext="" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/glos-bristol-17th-century-antique-print-1845-71605-p.jpg</img>
+<caption searchable="true">Ship Origins</caption>
+<description searchable="true">“Bristol in the 17th Century,” 1845
+
+Originally built in Bristol, England, around 1710, Queen Anne’s Revenge most 
+likely first functioned as a merchant ship, The Concord, before its capture by French forces. She was eventually redubbed her La Concorde and into service as a slave ship until she was sold in a South American port in 1713. Blackbeard was able to capture the ship in 1717 as it sailed near the West Indies, at which point he offloaded its cargo (slaves, destined for Martinique), and re-equipped the vessel to be prepared for piracy. </description>
+<resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
+</slide>
+<slide>
+<img height="600" autosize="true" rid="G1C30SKYU880GHS2801H" width="924" alttext="" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/cannonsizes_hrwm.jpg</img>
+<caption searchable="true">Cannons</caption>
+<description searchable="true">Image of several cannons retrieved from the wreck of Queen Anne’s Revenge by North Carolina’s Queen Anne’s Revenge Project. 
+
+The most essential weapon for pirate ships was the mounted cannon, which 
+could provide long-distance impact on the high seas with relatively good aim. Most pirate ships had at least a handful of mounted cannons, but Blackbeard’s Queen Anne’s Revenge was purported to have nearly 40 such mounted cannons on board.</description>
+<resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
+</slide>
+<slide>
+<img height="571" autosize="true" rid="PNBI1LJ2N5Q6UTD7C8XP" width="980" alttext="" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/side-view-section-lg.jpg</img>
+<caption searchable="true">Streamlined Design</caption>
+<description searchable="true">Longitudinal section of Queen Anne’s Revenge
+
+In addition to being stocked with cannons, however, Blackbeard’s beloved ship 
+also needed to be streamlined and efficient to guarantee speed on the sea (as outrunning the Navy and other vessels was a common occurrence). He was in luck: the Queen Anne’s Revenge was a frigate, which was known as one of the fastest ships on the sea at the time. </description>
+<resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
+</slide>
+<slide>
+<img height="498" autosize="true" rid="MMH0UY1HFFBV5R00DAZZ" width="980" alttext="" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/Y96GmsV.jpg</img>
+<caption searchable="true">Running Aground and Legacy</caption>
+<description searchable="true">Queen Anne’s Wreckage Map
+
+Between 1717 and 1718, Blackbeard terrorized the eastern seaboard of the 
+United States, but the reign of Queen Anne’s Revenge came to an end in early 
+June 1718, when Blackbeard ran her aground off the coast of North Carolina. Though that was not the end of Blackbeard’s career as a pirate - he surrendered but then immediately returned to piracy - Queen Anne’s Revenge remained undiscovered beneath the waves until the 1990s, when archaeologists first found clues underwater that they had found remains of the ship off the coast of Wilmington, North Carolina. Research is ongoing, but many artifacts have been uncovered to tell more of the story of this ship and its captain.</description>
+<resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
+</slide>
+</slides>
+<title searchable="true">Blackbeard’s Beauty</title>
+<widget_language></widget_language>
+<LocalizationMap>
+<localization>
+<phrase>Page views</phrase>
+<translation></translation>
+<modified>false</modified>
+</localization>
+<localization>
+<phrase>Pages viewed</phrase>
+<translation></translation>
+<modified>false</modified>
+</localization>
+</LocalizationMap>
+<DesignConstants widget_font="Verdana" widget_backgroundimage="" template="Dark Background" widget_color="#3498DB">
+<constant>
+<name>borderbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#88badb, #88badb, 255, 255</value>
+</constant>
+<constant>
+<name>backgroundbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#3498DB, #3498DB, 255, 255</value>
+</constant>
+<constant>
+<name>backgroundimage</name>
+<kind>BackgroundImage</kind>
+<value></value>
+</constant>
+<constant>
+<name>backgroundoutline</name>
+<kind>Outline</kind>
+<value>2px, dotted, #ffffff, 127</value>
+</constant>
+<constant>
+<name>titlefont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 20</value>
+</constant>
+<constant>
+<name>titlecolor</name>
+<kind>TextColor</kind>
+<value>#ffffff</value>
+</constant>
+<constant>
+<name>titlebackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>titleborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #dddddd, 255</value>
+</constant>
+<constant>
+<name>titleborderradius</name>
+<kind>BorderRadius</kind>
+<value>0px, 0px, 0px, 0px</value>
+</constant>
+<constant>
+<name>titleshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>captionfontfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 28</value>
+</constant>
+<constant>
+<name>captionfontcolor</name>
+<kind>TextColor</kind>
+<value>#ffffff</value>
+</constant>
+<constant>
+<name>descriptionfontfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 16</value>
+</constant>
+<constant>
+<name>descriptionfontcolor</name>
+<kind>TextColor</kind>
+<value>#ffffff</value>
+</constant>
+<constant>
+<name>imageborderleft</name>
+<kind>BorderLeft</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>imageborderright</name>
+<kind>BorderRight</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>imagebordertop</name>
+<kind>BorderTop</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>imageborderbottom</name>
+<kind>BorderBottom</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>imageborderradius</name>
+<kind>BorderRadius</kind>
+<value>5px, 5px, 5px, 5px</value>
+</constant>
+<constant>
+<name>imagebackgroundcolor</name>
+<kind>BackgroundColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>imageshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 2px, 4px, 1px, #010539, 48</value>
+</constant>
+<constant>
+<name>picbuttonfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 16</value>
+</constant>
+<constant>
+<name>picbuttoncolor</name>
+<kind>TextColor</kind>
+<value>#ffffff</value>
+</constant>
+<constant>
+<name>picbuttonbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#3498DB, #3498DB, 255, 255</value>
+</constant>
+<constant>
+<name>picbuttonborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>picbuttonborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>picbuttonbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>picbuttonborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>picbuttonborderradius</name>
+<kind>BorderRadius</kind>
+<value>24px, 24px, 24px, 24px</value>
+</constant>
+<constant>
+<name>picbuttonpadding</name>
+<kind>Padding</kind>
+<value>10px, 10px, 10px, 10px</value>
+</constant>
+<constant>
+<name>picbuttonselectedcolor</name>
+<kind>TextColor</kind>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>picbuttonselectedbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>navigationcolor</name>
+<kind>TextColor</kind>
+<value>#ffffff</value>
+</constant>
+<constant>
+<name>navigationbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>navigationborderleft</name>
+<kind>BorderLeft</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>navigationborderright</name>
+<kind>BorderRight</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>navigationbordertop</name>
+<kind>BorderTop</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>navigationborderbottom</name>
+<kind>BorderBottom</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>navigationborderradius</name>
+<kind>BorderRadius</kind>
+<value>0px, 0px, 0px, 0px</value>
+</constant>
+<constant>
+<name>navigationshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+</DesignConstants>
+<cover height="768" autosize="true" rid="AVJL630BJ4MFLFPDO8HI" width="576" alttext="" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/CYOA endings/Default.png</cover>
+<widget_orientation value="Vertical">Vertical</widget_orientation>
+<BookWidgetsVersion>6.0.5</BookWidgetsVersion>
+<shortcode></shortcode>
+<label searchable="true"></label>
+<lastupload></lastupload>
+</FrameSequencePlugin>
