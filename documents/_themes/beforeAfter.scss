@@ -3,7 +3,7 @@ $theme-color-light: #44840D;
 $theme-color-light-nohex: 44840D;
 $theme-color-bright: #D2E3C4;
 $theme-color-bright-nohex: D2E3C4;
-$theme-background: linear-gradient(146.05deg, $theme-color-light 2.47%, #1D390C 121.69%);
+$theme-background: #376C0D;
 
 $max-popup-width: 600px;
 $color-text: #fff;
@@ -24,4 +24,18 @@ $color-text: #fff;
 
 .image {
     background-color: transparent !important;
+}
+
+body {
+    background: transparent;
+}
+
+.background {
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: $theme-background;
 }

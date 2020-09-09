@@ -9,3 +9,17 @@ $max-popup-width: 600px;
 $color-text: #fff;
 
 @import "_sequence-config.scss";
+
+body {
+    background: transparent;
+}
+
+.background {
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: $theme-background;
+}
