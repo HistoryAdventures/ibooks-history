@@ -108,14 +108,33 @@ $hotspots:
 
 #tools .zoom-in circle,
 #tools .zoom-out circle {
-    stroke: $theme-color-bright;
+    stroke: $theme-color-bright !important;
     fill: transparent !important;
     stroke-width: 2px !important;
 }
 
 #tools .zoom-in path,
 #tools .zoom-out path {
-    fill: $theme-color-bright;
+    fill: white !important;
+}
+
+#tools .zoom-in .inner-circle,
+#tools .zoom-out .inner-circle {
+    fill: $theme-color-light !important;
+}
+
+#tools .zoom-in .inner-outer,
+#tools .zoom-out .inner-outer {
+    stroke: $theme-color-bright !important;
+}
+
+#tools .zoom-in .inner-fill,
+#tools .zoom-out .inner-fill {
+    stroke: darken($theme-color-light, 10) !important;
+}
+
+#tools svg:active .inner-circle {
+    fill: white !important;
 }
 
 #tools svg:active circle {
