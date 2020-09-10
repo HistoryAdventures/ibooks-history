@@ -4,7 +4,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
   entry: {
     'scene-opium': './scene-opium/index.js',
-    'scene-video': './scene-video/index.js',
     'scene-ioannina': './scene-ioannina/index.js',
     'scene-luis': './scene-luis/index.js',
     'scene-ishi': './scene-ishi/index.js',

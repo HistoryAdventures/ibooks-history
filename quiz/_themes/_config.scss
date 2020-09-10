@@ -1695,15 +1695,15 @@ body {
 }
 
 .cr-correct::before {
-  content: 'O';
+  content: 'V';
   font-size: 18px;
-  color: #ffffff;
+  color: #28f70d;
 }
 
 .cr-wrong::before {
   content: 'X';
   font-size: 18px;
-  color: #ffffff; 
+  color: #ff0000; 
 }
 
 .submitpage .pre-submit {
@@ -1813,7 +1813,7 @@ body {
 
 .check-mode .tmc-answer .bw-button-label {
   color: $color-text;
-  font-family: 'Favorit Lining', Verdana, Geneva, sans-serif;
+  // font-family: 'Favorit Lining', Verdana, Geneva, sans-serif;
 }
 
 #top-container .progress-container {
