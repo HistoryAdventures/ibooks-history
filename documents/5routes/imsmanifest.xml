@@ -1,22 +1,22 @@
-<manifest identifier="com.kidimedia.ibook-widgets.image_sequence-5routes.wdgt" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" version="1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2">
+<manifest xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" version="1" identifier="com.kidimedia.ibook-widgets.image_sequence-5routes" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <metadata>
 <schema>ADL SCORM</schema>
 <schemaversion>1.2</schemaversion>
 </metadata>
-<organizations default="image_sequence-5routes.wdgt">
-<organization identifier="image_sequence-5routes.wdgt">
-<title>5routes.wdgt</title>
+<organizations default="image_sequence-5routes">
+<organization identifier="image_sequence-5routes">
+<title>5routes</title>
 <item identifier="item_1" identifierref="resource_1">
-<title>image_sequence-5routes.wdgt</title>
+<title>image_sequence-5routes</title>
 </item>
 </organization>
 </organizations>
 <resources>
-<resource identifier="resource_1" type="webcontent" href="index.html" adlcp:scormtype="sco">
-<file href="0068b2df1701c653_S_732_483.png"/>
-<file href="0dbcfdafba8ffdfb_S_732_483.png"/>
-<file href="65ad4fbe05335151_S_732_483.png"/>
-<file href="74f32b39faf4cb3f_S_732_483.png"/>
+<resource type="webcontent" identifier="resource_1" href="index.html" adlcp:scormtype="sco">
+<file href="1af190de1066c59b_S_977_600.png"/>
+<file href="527b1395d43f7a47_S_977_600.png"/>
+<file href="9bde6c55f5b0aaac_S_977_600.png"/>
+<file href="c1288ee0de590f81_S_977_600.png"/>
 <file href="config.css"/>
 <file href="config.js"/>
 <file href="config.xml"/>
@@ -30,7 +30,7 @@
 <file href="/css/jquery.tipsy.css"/>
 <file href="/css/sequence.css"/>
 <file href="Default.png"/>
-<file href="f5afe0db142504bf_S_732_483.png"/>
+<file href="ea75a7d79d195dc5_S_977_600.png"/>
 <file href="/images/phone_landscape.png"/>
 <file href="/img/backbutton@2x.png"/>
 <file href="/img/ibw-ribbon.png"/>
