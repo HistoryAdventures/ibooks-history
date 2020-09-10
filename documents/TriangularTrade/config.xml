@@ -2,7 +2,7 @@
 <FrameSequencePlugin>
 <slides>
 <slide>
-<img width="705" alttext="" height="512" caption="" orientation="1" autosize="false" rid="1QP30PO72C6598IKPD4L">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/Queen_square_Bristol.png</img>
+<img height="512" caption="" rid="1QP30PO72C6598IKPD4L" orientation="1" width="705" autosize="false" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/Queen_square_Bristol.png</img>
 <caption searchable="true">Bristol, UK</caption>
 <description searchable="true">Thomas Leeson Rowbotham, Queen Square, looking south-east, (1872).
 
@@ -10,7 +10,7 @@ A large port city in south-west England that was heavily involved in the Atlanti
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img width="3000" alttext="" height="875" caption="" orientation="1" autosize="false" rid="YZWZHZ7WXAF3P8JN3X7I">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/Ghana_Senegal.jpg</img>
+<img height="875" caption="" rid="YZWZHZ7WXAF3P8JN3X7I" orientation="1" width="3000" autosize="false" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/Ghana_Senegal.jpg</img>
 <caption searchable="true">Ghana (left) and Senegal (right), West Coast of Africa</caption>
 <description searchable="true">Ghana: William Smith, The North Prospect of the English and Dutch Forts at Accra, (1727)
 Senegal: Renè Claude Geoffrey de Villeneuve, Mandingo Slave Traders and Coffle, Senegal, (1780s)
@@ -20,7 +20,7 @@ These trading posts would also be the destination for those who brought people f
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img width="1958" alttext="" height="2300" caption="" orientation="1" autosize="false" rid="V5X13C7ARE80YMCJQCP7">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/slaves_onWildfire.jpg</img>
+<img height="2300" caption="" rid="V5X13C7ARE80YMCJQCP7" orientation="1" width="1958" autosize="false" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/slaves_onWildfire.jpg</img>
 <caption searchable="true">The Middle Passage, Atlantic Ocean</caption>
 <description searchable="true">‘The Africans of the Slave Bark “Wildfire”, Harper’s Weekly, (June 2nd, 1860)
 
@@ -29,15 +29,15 @@ Africans were crowded into the ships with no regard for well-being and safety; t
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img width="1998" alttext="" height="1155" caption="" orientation="1" autosize="false" rid="36C4FTOSPJ39EKNF167V">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/Kentucy_Auction.jpg</img>
+<img height="1155" caption="" rid="36C4FTOSPJ39EKNF167V" orientation="1" width="1998" autosize="false" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/Kentucy_Auction.jpg</img>
 <caption searchable="true">Kentucky, United States</caption>
 <description searchable="true">Henry Bibb, Slave Auction, US South, (ca. 1840s)
 
 Upon their arrival in the Americas – whether in the North, the South, or in the Caribbean – the slaves who had survived the degradation of the Middle Passage found themselves herded to slave markets and auctions. Here, they would be sold to the highest bidder, subject to inspection and dehumanisation. As this evocative illustration shows, this process could often divide families; here a young mother appears to be being separated from her baby who is casually held aloft.</description>
-<resize-policy value="Cover entire area with entire picture">Cover entire area with entire picture</resize-policy>
+<resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img width="865" alttext="" height="865" caption="" orientation="1" autosize="false" rid="J2SMKI5DUW14HCYWTJ3C">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/London_smokers.jpg</img>
+<img height="865" caption="" rid="J2SMKI5DUW14HCYWTJ3C" orientation="1" width="865" autosize="false" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/London_smokers.jpg</img>
 <caption searchable="true">London, UK</caption>
 <description searchable="true">Customs &amp; manners of ye Englyshe people. How ye younge menne doe smoke, (1850s)
 
@@ -60,7 +60,7 @@ The slave traders, now devoid of cargo, would refill their ships with the produc
 <modified>false</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants widget_backgroundimage="" widget_color="#3498DB" template="Dark Background" widget_font="Verdana">
+<DesignConstants template="Dark Background" widget_font="Verdana" widget_backgroundimage="" widget_color="#3498DB">
 <constant>
 <name>borderbackground</name>
 <kind>BackgroundGradient</kind>
@@ -262,7 +262,7 @@ The slave traders, now devoid of cargo, would refill their ships with the produc
 <value>0px, 0px, 0px, 0px, #888, 255</value>
 </constant>
 </DesignConstants>
-<cover width="576" alttext="" height="768" caption="" orientation="1" autosize="true" rid="BKR9STT8Y5OHVO4LGZIA">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/GIT_workshop/ibooks-history/shared/Default.png</cover>
+<cover height="768" caption="" rid="BKR9STT8Y5OHVO4LGZIA" orientation="1" width="576" autosize="true" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/GIT_workshop/ibooks-history/shared/Default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
 <BookWidgetsVersion>6.0.5</BookWidgetsVersion>
 <shortcode>4BCV643</shortcode>
