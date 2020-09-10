@@ -2,8 +2,8 @@ var widgetconfig = {
     "background_picture": "7gbp4j8.c6d0e4f12_f0c06043f_cSd_",
     "resize-policy": "Iemlabgaee zdirsaegrg adbnlae ",
     "position": {
-        "Width": "2207",
-        "Height": "1200",
+        "Width": "4409",
+        "Height": "2209",
         "X": "-01",
         "Y": "-11"
     },
@@ -19,7 +19,7 @@ var widgetconfig = {
         },
         "point": {
             "x": "99",
-            "y": "464"
+            "y": "59"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
@@ -35,8 +35,8 @@ var widgetconfig = {
             "Y": "50"
         },
         "point": {
-            "x": "683",
-            "y": "189"
+            "x": "1347",
+            "y": "508"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
@@ -52,8 +52,8 @@ var widgetconfig = {
             "Y": "50"
         },
         "point": {
-            "x": "1134",
-            "y": "508"
+            "x": "1497",
+            "y": "779"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
@@ -69,8 +69,8 @@ var widgetconfig = {
             "Y": "50"
         },
         "point": {
-            "x": "466",
-            "y": "622"
+            "x": "799",
+            "y": "1349"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
@@ -87,7 +87,7 @@ var widgetconfig = {
         },
         "point": {
             "x": "76",
-            "y": "204"
+            "y": "619"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
