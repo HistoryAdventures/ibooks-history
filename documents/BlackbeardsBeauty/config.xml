@@ -2,16 +2,16 @@
 <FrameSequencePlugin>
 <slides>
 <slide>
-<img height="600" autosize="true" rid="IABG2HAF8KG8ZW2TJ1QP" width="428" alttext="" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/Queen_Anne's_Revenge (1).jpeg</img>
+<img autosize="true" caption="" width="800" rid="5ZFCWIY09BARY01LHZQ2" orientation="1" alttext="" height="600">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/Queen_Annes_Revenge_model_NCMH_2.jpg</img>
 <caption searchable="true">Blackbeard’s Iconic Ship</caption>
-<description searchable="true">1736 Print of the Queen Anne’s Revenge
+<description searchable="true">Model of the pirate ship Queen Anne's Revenge in the NC Museum of History.
 
 Queen Anne’s Revenge was the storied vessel of Edward Teach, who himself 
 was better known as the famed pirate Blackbeard. Queen Anne’s Revenge was the flagship vessel of Blackbeard’s fleet and totaled 200 tons. Her name was most likely inspired from Blackbeard’s earlier service in the Royal Navy in the War of Spanish Succession (1701-1714), also known as Queen Anne’s War.</description>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img height="600" autosize="true" rid="30PO72C6598IKPD4LZ6B" width="867" alttext="" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/glos-bristol-17th-century-antique-print-1845-71605-p.jpg</img>
+<img autosize="true" caption="" width="867" rid="30PO72C6598IKPD4LZ6B" orientation="1" alttext="" height="600">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/glos-bristol-17th-century-antique-print-1845-71605-p.jpg</img>
 <caption searchable="true">Ship Origins</caption>
 <description searchable="true">“Bristol in the 17th Century,” 1845
 
@@ -20,7 +20,7 @@ likely first functioned as a merchant ship, The Concord, before its capture by F
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img height="600" autosize="true" rid="G1C30SKYU880GHS2801H" width="924" alttext="" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/cannonsizes_hrwm.jpg</img>
+<img autosize="true" caption="" width="924" rid="G1C30SKYU880GHS2801H" orientation="1" alttext="" height="600">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/cannonsizes_hrwm.jpg</img>
 <caption searchable="true">Cannons</caption>
 <description searchable="true">Image of several cannons retrieved from the wreck of Queen Anne’s Revenge by North Carolina’s Queen Anne’s Revenge Project. 
 
@@ -29,7 +29,7 @@ could provide long-distance impact on the high seas with relatively good aim. Mo
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img height="571" autosize="true" rid="PNBI1LJ2N5Q6UTD7C8XP" width="980" alttext="" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/side-view-section-lg.jpg</img>
+<img autosize="true" caption="" width="980" rid="PNBI1LJ2N5Q6UTD7C8XP" orientation="1" alttext="" height="571">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/side-view-section-lg.jpg</img>
 <caption searchable="true">Streamlined Design</caption>
 <description searchable="true">Longitudinal section of Queen Anne’s Revenge
 
@@ -38,7 +38,7 @@ also needed to be streamlined and efficient to guarantee speed on the sea (as ou
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img height="498" autosize="true" rid="MMH0UY1HFFBV5R00DAZZ" width="980" alttext="" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/Y96GmsV.jpg</img>
+<img autosize="true" caption="" width="980" rid="MMH0UY1HFFBV5R00DAZZ" orientation="1" alttext="" height="498">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/Y96GmsV.jpg</img>
 <caption searchable="true">Running Aground and Legacy</caption>
 <description searchable="true">Queen Anne’s Wreckage Map
 
@@ -62,7 +62,7 @@ June 1718, when Blackbeard ran her aground off the coast of North Carolina. Thou
 <modified>false</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants widget_font="Verdana" widget_backgroundimage="" template="Dark Background" widget_color="#3498DB">
+<DesignConstants widget_color="#3498DB" widget_font="Verdana" template="Dark Background" widget_backgroundimage="">
 <constant>
 <name>borderbackground</name>
 <kind>BackgroundGradient</kind>
@@ -264,7 +264,7 @@ June 1718, when Blackbeard ran her aground off the coast of North Carolina. Thou
 <value>0px, 0px, 0px, 0px, #888, 255</value>
 </constant>
 </DesignConstants>
-<cover height="768" autosize="true" rid="AVJL630BJ4MFLFPDO8HI" width="576" alttext="" orientation="1" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/CYOA endings/Default.png</cover>
+<cover autosize="true" caption="" width="576" rid="AVJL630BJ4MFLFPDO8HI" orientation="1" alttext="" height="768">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/CYOA endings/Default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
 <BookWidgetsVersion>6.0.5</BookWidgetsVersion>
 <shortcode></shortcode>
