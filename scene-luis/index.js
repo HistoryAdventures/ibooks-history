@@ -96,26 +96,22 @@ function init() {
 
     scene.add( mesh );
 
-    var sprite1 = createButton();
-    sprite1.name = 'hotspot-1';
+    var sprite1 = createButton('hotspot-1');
     sprite1.position.set(38, -6, 137);
     sprite1.lookAt(0 ,0 ,0);
     scene.add( sprite1 );
 
-    var sprite2 = createButton();
-    sprite2.name = 'hotspot-2';
+    var sprite2 = createButton('hotspot-2');
     sprite2.position.set(-200, 16, 51);
     sprite2.lookAt(0 ,0 ,0);
     scene.add( sprite2 );
 
-    var sprite3 = createButton();
-    sprite3.name = 'hotspot-3';
+    var sprite3 = createButton('hotspot-3');
     sprite3.position.set(200, -45, -58);
     sprite3.lookAt(0 ,0 ,0);
     scene.add( sprite3 );
 
-    var sprite4 = createButton();
-    sprite4.name = 'hotspot-4';
+    var sprite4 = createButton('hotspot-4');
     sprite4.position.set(181, -153, 200);
     sprite4.lookAt(0 ,0 ,0);
     scene.add( sprite4 );
@@ -186,6 +182,36 @@ function init() {
     outlinePass = processing.outlinePass;
 
     // outlinePass.selectedObjects = hotspots;
+    if (features.sfx) {
+        audioLib.hotspots["hotspot-1"] = new Audio('./audio/Luis_SFX_ColumbianExchanges.m4a');
+        audioLib.hotspots["hotspot-2"] = new Audio('./audio/Luis_SFX_Conquistadors.m4a');
+        audioLib.hotspots["hotspot-3"] = new Audio('./audio/Luis_SFX_Exploration.m4a');
+        audioLib.hotspots["hotspot-4"] = new Audio('./audio/Luis_NativesWeak.m4a');
+
+        audioLib.ambient = new Audio('./audio/Luis_Ambience.m4a');
+        audioLib.ambient.loop = true;
+        try {
+            audioLib.ambient.play();
+        } catch (e) {
+            // for autoplay https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide
+        }
+
+        audioLib.muteButton.addEventListener('click', () => {
+            audioLib.ambient.pause();
+            audioLib.muteButton.style.display = 'none';
+            audioLib.unmuteButton.style.display = 'block';
+            audioLib.mute = true;
+        });
+
+        audioLib.unmuteButton.addEventListener('click', () => {
+            audioLib.ambient.play();
+            audioLib.unmuteButton.style.display = 'none';
+            audioLib.muteButton.style.display = 'block';
+            audioLib.mute = false;
+        });
+    } else {
+        audioLib.muteButton.style.display = 'none';
+    }
 
     if (window.location.hash === '#debug') {
         hotspots.forEach((item, index) => {

@@ -4,7 +4,6 @@ import * as THREE from '@scripts/build/three.module.js';
 import Stats from '@scripts/jsm/libs/stats.module.js';
 import { GUI } from '@scripts/jsm/libs/dat.gui.module.js';
 import { OrbitControls } from '@scripts/jsm/controls/OrbitControls.js';
-import { ColladaLoader } from '@scripts/jsm/loaders/ColladaLoader.js';
 
 import { addEvents } from '@scripts/onDocumentClick';
 import { addControls } from '@scripts/addControls';
@@ -111,32 +110,27 @@ function init() {
 
     scene.add( mesh );
 
-    var sprite1 = createButton();
-    sprite1.name = 'hotspot-1';
+    var sprite1 = createButton('hotspot-1');
     sprite1.position.set(-200, 38, 137);
     sprite1.lookAt(0 ,0 ,0);
     scene.add( sprite1 );
 
-    var sprite2 = createButton();
-    sprite2.name = 'hotspot-2';
+    var sprite2 = createButton('hotspot-2');
     sprite2.position.set(-58, 51, 200);
     sprite2.lookAt(0 ,0 ,0);
     scene.add( sprite2 );
 
-    var sprite3 = createButton();
-    sprite3.name = 'hotspot-3';
+    var sprite3 = createButton('hotspot-3');
     sprite3.position.set(-200, 38, -88);
     sprite3.lookAt(0 ,0 ,0);
     scene.add( sprite3 );
 
-    const sprite4 = createButton();
-    sprite4.name = 'hotspot-4';
+    const sprite4 = createButton('hotspot-4');
     sprite4.position.set(16, -14, -200);
     sprite4.lookAt(0 ,0 ,0);
     scene.add( sprite4 );
 
-    var sprite5 = createButton();
-    sprite5.name = 'hotspot-5';
+    var sprite5 = createButton('hotspot-5');
     sprite5.position.set(77, 16, 200);
     sprite5.lookAt(0 ,0 ,0);
     scene.add( sprite5 );
@@ -207,6 +201,38 @@ function init() {
     outlinePass = processing.outlinePass;
 
     // outlinePass.selectedObjects = hotspots;
+
+    if (features.sfx) {
+        audioLib.hotspots["hotspot-1"] = new Audio('./audio/Ioaninna_SFX_RomanWalls.m4a');
+        audioLib.hotspots["hotspot-2"] = new Audio('./audio/Ioaninna_SFX_ByzantinesDefender.m4a');
+        audioLib.hotspots["hotspot-3"] = new Audio('./audio/Ioaninna_SFX_TheSiege.m4a');
+        audioLib.hotspots["hotspot-4"] = new Audio('./audio/Ioaninna_SFX_OtomanArmy.m4a');
+        audioLib.hotspots["hotspot-5"] = new Audio('./audio/Ioaninna_SFX_ChristianCity.m4a');
+
+        audioLib.ambient = new Audio('./audio/Ioaninna_Ambience.m4a');
+        audioLib.ambient.loop = true;
+        try {
+            audioLib.ambient.play();
+        } catch (e) {
+            // for autoplay https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide
+        }
+
+        audioLib.muteButton.addEventListener('click', () => {
+            audioLib.ambient.pause();
+            audioLib.muteButton.style.display = 'none';
+            audioLib.unmuteButton.style.display = 'block';
+            audioLib.mute = true;
+        });
+
+        audioLib.unmuteButton.addEventListener('click', () => {
+            audioLib.ambient.play();
+            audioLib.unmuteButton.style.display = 'none';
+            audioLib.muteButton.style.display = 'block';
+            audioLib.mute = false;
+        });
+    } else {
+        audioLib.muteButton.style.display = 'none';
+    }
 
     if (window.location.hash === '#debug') {
         hotspots.forEach((item, index) => {
