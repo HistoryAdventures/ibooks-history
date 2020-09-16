@@ -21,7 +21,7 @@ var mesh;
 var features = {
     loader: true,
     navigation: true,
-    sfx: true,
+    sfx: false,
 };
 
 window.cameraTargets = {
@@ -44,19 +44,20 @@ window.cameraTargets = {
 window.hotspots = [];
 window.selectedTooltip = null;
 window.controlsSelectedTooltip = null;
-window.audioLib = {
-    ambient: null,
-    muteButton: document.getElementById('mute-button'),
-    unmuteButton: document.getElementById('unmute-button'),
-    mute: false,
-    hotspots: {
-        "hotspot-1": null,
-        "hotspot-2": null,
-        "hotspot-3": null,
-        "hotspot-4": null,
-        "hotspot-5": null,
-    }
-};
+window.audioLib = false;
+// window.audioLib = {
+//     ambient: null,
+//     muteButton: document.getElementById('mute-button'),
+//     unmuteButton: document.getElementById('unmute-button'),
+//     mute: false,
+//     hotspots: {
+//         "hotspot-1": null,
+//         "hotspot-2": null,
+//         "hotspot-3": null,
+//         "hotspot-4": null,
+//         "hotspot-5": null,
+//     }
+// };
 
 init();
 animate();
@@ -100,32 +101,27 @@ function init() {
 
     scene.add( mesh );
 
-    var sprite1 = createButton();
-    sprite1.name = 'hotspot-1';
+    var sprite1 = createButton('hotspot-1');
     sprite1.position.set(-200, 29, 59);
     sprite1.lookAt(0 ,0 ,0);
     scene.add( sprite1 );
 
-    var sprite2 = createButton();
-    sprite2.name = 'hotspot-2';
+    var sprite2 = createButton('hotspot-2');
     sprite2.position.set(-88, 38, 200);
     sprite2.lookAt(0 ,0 ,0);
     scene.add( sprite2 );
 
-    var sprite3 = createButton();
-    sprite3.name = 'hotspot-3';
+    var sprite3 = createButton('hotspot-3');
     sprite3.position.set(16, 7, -200);
     sprite3.lookAt(0 ,0 ,0);
     scene.add( sprite3 );
 
-    var sprite4 = createButton();
-    sprite4.name = 'hotspot-4';
+    var sprite4 = createButton('hotspot-4');
     sprite4.position.set(-200, -92, -62);
     sprite4.lookAt(0 ,0 ,0);
     scene.add( sprite4 );
 
-    var sprite5 = createButton();
-    sprite5.name = 'hotspot-5';
+    var sprite5 = createButton('hotspot-5');
     sprite5.position.set(200, -19, 80);
     sprite5.lookAt(0 ,0 ,0);
     scene.add( sprite5 );
