@@ -27,13 +27,10 @@ function onDocumentClick(event) {
 
 function getIntersects(event) {
     if (('ontouchstart' in window) || window.TouchEvent || window.DocumentTouch && document instanceof DocumentTouch) {
-        if (window.location.hash === '#debug') {
-            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-            mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
-        } else {
-            mouse.x = (event.changedTouches[0].clientX / window.innerWidth) * 2 - 1;
-            mouse.y = - (event.changedTouches[0].clientY / window.innerHeight) * 2 + 1;
-        }
+        const clientX = event.changedTouches ? event.changedTouches[0].clientX : event.clientX;
+        const clientY = event.changedTouches ? event.changedTouches[0].clientY : event.clientY;
+        mouse.x = (clientX / window.innerWidth) * 2 - 1;
+        mouse.y = - (clientY / window.innerHeight) * 2 + 1;
     } else {
         if (event.srcEvent) {
             mouse.x = (event.srcEvent.clientX / window.innerWidth) * 2 - 1;
@@ -132,11 +129,9 @@ export const addEvents = () => {
         });
     }
 
-    if (window.location.hash === '#debug') {
-        window.addEventListener('click', (ev) => {
-            if (!ev.target.closest('.controls')) {
-                onDocumentClick(ev);
-            }
-        });
-    }
+    window.addEventListener('click', (ev) => {
+        if (!ev.target.closest('.controls')) {
+            onDocumentClick(ev);
+        }
+    });
 }
