@@ -10,6 +10,10 @@ module.exports = {
     'scene-william': './scene-william/index.js',
     'scene-jonas': './scene-jonas/index.js',
     'scene-arun': './scene-arun/index.js',
+    'scene-agent-v1': './scene-agent-v1/index.js',
+    'scene-chicago-v1': './scene-chicago-v1/index.js',
+    'scene-jemba-v1': './scene-jemba-v1/index.js',
+    'scene-khari-v1': './scene-khari-v1/index.js',
     'documents/ioannina': './documents/ioannina/index.js',
     'documents/luis': './documents/luis/index.js',
     'documents/ishi': './documents/ishi/index.js',
@@ -37,7 +41,9 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env'],
+            presets: [
+              ['@babel/preset-env']
+            ],
             plugins: ['@babel/plugin-transform-template-literals']
           }
         }

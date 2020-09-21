@@ -26,9 +26,11 @@ function onDocumentClick(event) {
 }
 
 function getIntersects(event) {
+    let clientX;
+    let clientY;
     if (('ontouchstart' in window) || window.TouchEvent || window.DocumentTouch && document instanceof DocumentTouch) {
-        const clientX = event.changedTouches ? event.changedTouches[0].clientX : event.clientX;
-        const clientY = event.changedTouches ? event.changedTouches[0].clientY : event.clientY;
+        clientX = event.changedTouches ? event.changedTouches[0].clientX : event.clientX;
+        clientY = event.changedTouches ? event.changedTouches[0].clientY : event.clientY;
         mouse.x = (clientX / window.innerWidth) * 2 - 1;
         mouse.y = - (clientY / window.innerHeight) * 2 + 1;
     } else {
