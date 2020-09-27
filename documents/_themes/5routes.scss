@@ -24,7 +24,10 @@ body {
     background-color: $theme-background;
 }
 
-.cover {
-    border: 2px solid #ffd7e2;
-    border-radius: 30px;
-  }
+#display-wrapper {
+    margin: 0;
+}
+
+.description {
+    margin-bottom: 30px;
+}
