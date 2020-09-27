@@ -1,6 +1,6 @@
 <!DOCTYPE widget>
 <HotspotImage>
-<background_picture height="768" caption="" width="519" orientation="1" autosize="true" rid="FCWIY09BARY01LHZQ2PB" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/content images/Source analysis/01_Ioannina/Le_siège_de_Constantinople_(1453)_by_Jean_Le_Tavernier_after_1455.jpg</background_picture>
+<background_picture alttext="" orientation="1" caption="" rid="FCWIY09BARY01LHZQ2PB" width="519" height="768" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/content images/Source analysis/01_Ioannina/Le_siège_de_Constantinople_(1453)_by_Jean_Le_Tavernier_after_1455.jpg</background_picture>
 <resize-policy value="Image draggable and resizeable">Image draggable and resizeable</resize-policy>
 <position>
 <Width>1534</Width>
@@ -14,7 +14,7 @@
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">Here, one can see the Ottoman forces undertaking the colossal effort of transporting their ships over land to see them safely put out in the Golden Horn. This was ordered by Mehmed II because the Byzantine defenders had erected a colossal chain barrier across the water way to block ships from entering. Mehmed’s road of greased logs was not only a triumph of logistical organisation, but it dealt a severe blow to the defenders. With Ottoman ships prowling the waters, the movement of supplies by the Genoese in Pera, who were theoretically neutral, became more difficult still.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
@@ -26,11 +26,11 @@ p, li { white-space: pre-wrap; }
 <Y></Y>
 </position>
 <point>
-<x>57</x>
-<y>310</y>
+<x>56</x>
+<y>309</y>
 </point>
 <marker-label searchable="true">1</marker-label>
-<marker-image height="0" caption="" width="0" orientation="1" autosize="true" rid="" alttext="">https://www.bookwidgets.com/create/embedded-resources/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">https://www.bookwidgets.com/create/embedded-resources/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -38,8 +38,9 @@ p, li { white-space: pre-wrap; }
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">Broquière’s work is notoriously scant on architectural details of the city of Constantinople. Although he is keen to provide detailed information on the many churches in the city, his is a work less interested in the architectural fabric of the city. Rather, he is altogether more interested in the ecclesiastical mysteries contained with the churches, and of the people he encounters on his travels around the city.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Favorit'; font-size:12pt;">&lt;br />&lt;/p>
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Favorit'; font-size:12pt;">However, some details are contained and evidently influenced this depiction, particularly the description of the city as, “having the form of a triangle, with one side bounded by the straits of St George”. Broquière also describes Constantinople’s landward defences. He estimates the length of the walls as being 6 miles from one side to the other, and he also records the deep ditch, the ‘en glacis’, that was a part of the defences.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
@@ -51,11 +52,11 @@ p, li { white-space: pre-wrap; }
 <Y></Y>
 </position>
 <point>
-<x>308</x>
-<y>362</y>
+<x>307</x>
+<y>361</y>
 </point>
 <marker-label searchable="true">2</marker-label>
-<marker-image height="0" caption="" width="0" orientation="1" autosize="true" rid="" alttext="">https://www.bookwidgets.com/create/embedded-resources/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">https://www.bookwidgets.com/create/embedded-resources/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="top">Above hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -63,10 +64,12 @@ p, li { white-space: pre-wrap; }
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Despite a rather frustrating lack of interest in the urban fabric of Constantinople, Broquière nevertheless dedicates a significant section of his description of the city to the church of Hagia Sophia. According to Broquière, this is not just one of the many “handsome” churches in the city, but it is the most remarkable. This is confirmed by the illustration, which uses the towering figure of Hagia Sophia as something of an iconic representation of the city. The artist however, is clearly not familiar with the shape and style of Orthodox churches. Whereas Broquière offers a clear description of the rounded shape of Hagia Sophia, the artist here has depicted the church in a much more recognizably European, almost Gothic style, notably in the great central rose window on the façade.&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Broquière’s description of the church appears to have been motivated by his own faith and curiosity; as a Catholic, Broquière confesses to being curious to attend an Orthodox service: “I was curious to witness the manner of the Greeks performing divine service”. He attended a service led by the Patriarch of Constantinople, the highest spiritual authority in Orthodoxy, and saw the imperial family attending the service at the same time. These included the Emperor John Paleologus VII, the predecessor of Constantine XI, the final Byzantine emperor.&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">There could be few clearer indications as to the close relationship between secular power and religion in the Byzantine empire.&lt;/p>&lt;/body>&lt;/html></text>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Despite a rather frustrating lack of interest in the urban fabric of Constantinople, Broquière nevertheless dedicates a significant section of his description of the city to the church of Hagia Sophia. According to Broquière, this is not just one of the many “handsome” churches in the city, but it is the most remarkable. This is confirmed by the illustration, which uses the towering figure of Hagia Sophia as something of an iconic representation of the city. The artist however, is clearly not familiar with the shape and style of Orthodox churches. Whereas Broquière offers a clear description of the rounded shape of Hagia Sophia, the artist here has depicted the church in a much more recognisably European, almost Gothic style, notably in the great central rose window on the façade.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Broquière’s description of the church appears to have been motivated by his own faith and curiosity; as a Catholic, Broquière confesses to being curious to attend an Orthodox service: “I was curious to witness the manner of the Greeks performing divine service”. He attended a service led by the Patriarch of Constantinople, the highest spiritual authority in Orthodoxy, and saw the imperial family attending the service at the same time. These included the Emperor John Paleologus VII, the predecessor of Constantine XI, the final Byzantine emperor.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">There could be few clearer indications as to the close relationship between secular power and religion in the Byzantine empire.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
@@ -77,11 +80,11 @@ p, li { white-space: pre-wrap; }
 <Y>261</Y>
 </position>
 <point>
-<x>381</x>
-<y>251</y>
+<x>380</x>
+<y>250</y>
 </point>
 <marker-label searchable="true">3</marker-label>
-<marker-image height="0" caption="" width="0" orientation="1" autosize="true" rid="" alttext="">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="bottom">Below hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -89,9 +92,10 @@ p, li { white-space: pre-wrap; }
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Although Broquière was not witness to the siege, the depiction of Constantinople contained within this illustrated version of his work was clearly influenced by other contemporary sources. Here one can see clearly the impressive array of enormous cannon that the Sultan Mehmed II has arrayed against the Byzantine defenders. The illustration, through lacking in some details, nevertheless makes clear not only the vast size of these early cannons, but also the logistical considerations involved in directing their fire. They can be seen to necessitate being securely dug into the ground for instance. One is left to wonder whether one of Le Tavernier’s illustrations here is inspired by a report of Orban’s mighty Basilica cannon.&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">It is also interesting to note in this depiction that the focus remains on the Ottoman army massing in the foreground, rather than the Christian defenders of Constantinople. Resplendent en-masse in golden armour, they stand in marked contrast to the distant and dwindling numbers of Byzantine defenders. &lt;/p>&lt;/body>&lt;/html></text>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Although Broquière was not witness to the siege, the depiction of Constantinople contained within this illustrated version of his work was clearly influenced by other contemporary sources. Here one can see clearly the impressive array of enormous cannon that the Sultan Mehmed II has arrayed against the Byzantine defenders. The illustration, through lacking in some details, nevertheless makes clear not only the vast size of these early cannons, but also the logistical considerations involved in directing their fire. They can be seen to necessitate being securely dug into the ground for instance. One is left to wonder whether one of Le Tavernier’s illustrations here is inspired by a report of Orban’s mighty Basilica cannon.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">It is also interesting to note in this depiction that the focus remains on the Ottoman army massing in the foreground, rather than the Christian defenders of Constantinople. Resplendent en-masse in golden armour, they stand in marked contrast to the distant and dwindling numbers of Byzantine defenders. &lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
@@ -102,11 +106,11 @@ p, li { white-space: pre-wrap; }
 <Y>457</Y>
 </position>
 <point>
-<x>416</x>
-<y>455</y>
+<x>415</x>
+<y>454</y>
 </point>
 <marker-label searchable="true">4</marker-label>
-<marker-image height="0" caption="" width="0" orientation="1" autosize="true" rid="" alttext="">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="left">Left of hotspot</popup-location-preference>
 </TextPopup>
 </hotspots>
@@ -130,7 +134,7 @@ p, li { white-space: pre-wrap; }
 <modified>false</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants template="Dark Background" widget_color="#3498DB" widget_font="Verdana" widget_backgroundimage=",auto">
+<DesignConstants widget_backgroundimage=",auto" widget_color="#3498DB" template="Dark Background" widget_font="Verdana">
 <constant>
 <name>hiddenborderleft</name>
 <kind>BorderLeft</kind>
@@ -287,9 +291,9 @@ p, li { white-space: pre-wrap; }
 <value>#ff6633</value>
 </constant>
 </DesignConstants>
-<cover height="768" caption="" width="519" orientation="1" autosize="true" rid="J3E7PSIHZC6T0JTB1VTU" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/content images/Source analysis/01_Ioannina/Default.png</cover>
+<cover alttext="" orientation="1" caption="" rid="J3E7PSIHZC6T0JTB1VTU" width="519" height="768" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/content images/Source analysis/01_Ioannina/Default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
-<BookWidgetsVersion>6.0.5</BookWidgetsVersion>
+<BookWidgetsVersion>6.1.0</BookWidgetsVersion>
 <shortcode>HKSUNB</shortcode>
 <label searchable="true">HotspotImageV02_6</label>
 <lastupload></lastupload>

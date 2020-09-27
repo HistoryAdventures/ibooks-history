@@ -1,6 +1,6 @@
 <!DOCTYPE widget>
 <HotspotImage>
-<background_picture width="1024" caption="" rid="PBJ3E7PSIHZC6T0JTB1V" orientation="1" autosize="true" height="716" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/03_Ishi/Painting.jpg</background_picture>
+<background_picture alttext="" orientation="1" caption="" rid="PBJ3E7PSIHZC6T0JTB1V" width="1024" height="716" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/03_Ishi/Painting.jpg</background_picture>
 <resize-policy value="Image draggable and resizeable">Image draggable and resizeable</resize-policy>
 <position>
 <Width>1059</Width>
@@ -14,9 +14,10 @@
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Central Edo&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Here Hokusai presents a view of the heart of Edo and its expanse: pulling the eye a far distance, he is able to treat the viewer to the bustling waterway filled with townspeople on their boats. Lining the water are the tiered-roofed dwellings and well-kept storehouses of the people of Edo.&lt;/p>&lt;/body>&lt;/html></text>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Central Edo&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Here, Hokusai presents a view of the heart of Edo and its expanse: pulling the eye a far distance, he is able to treat the viewer to the bustling waterway filled with townspeople on their boats. Lining the water are the tiered-roofed dwellings and well-kept storehouses of the people of Edo.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
@@ -31,7 +32,7 @@ p, li { white-space: pre-wrap; }
 <y>82</y>
 </point>
 <marker-label searchable="true">1</marker-label>
-<marker-image width="0" caption="" rid="" orientation="1" autosize="true" height="0" alttext="">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="bottom">Below hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -39,9 +40,10 @@ p, li { white-space: pre-wrap; }
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Nihonbashi&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Translating to “Bridge of Japan,” the arched bridge known as the Nihonbashi can be seen in the distance. This was a central architectural landmark for the city of Edo as it was the first station of the Tokaidō trade route and thus symbolized the fast network of trade that roped across the island of Honshu. It too is packed with tradespeople and merchants as a further indication of its valuable role. &lt;/p>&lt;/body>&lt;/html></text>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Nihonbashi&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Translating to “Bridge of Japan,” the arched bridge known as the Nihonbashi can be seen in the distance. This was a central architectural landmark for the city of Edo as it was the first station of the Tokaidō trade route and thus symbolized the fast network of trade that roped across the island of Honshu. It too is packed with tradespeople and merchants as a further indication of its valuable role. &lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
@@ -56,7 +58,7 @@ p, li { white-space: pre-wrap; }
 <y>445</y>
 </point>
 <marker-label searchable="true">2</marker-label>
-<marker-image width="0" caption="" rid="" orientation="1" autosize="true" height="0" alttext="">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -64,9 +66,10 @@ p, li { white-space: pre-wrap; }
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Edo Castle&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Situated quite effectively between the Nihonbashi and Mount Fuji and positioned to appear as if it is floating among the clouds, Hokusai was sure to include the profile of Edo Castle as a reminder of the political and economic influence of the Shogunate. &lt;/p>&lt;/body>&lt;/html></text>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Edo Castle&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Situated quite effectively between the Nihonbashi and Mount Fuji and positioned to appear as if it is floating among the clouds, Hokusai was sure to include the profile of Edo Castle as a reminder of the political and economic influence of the Shogunate. &lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
@@ -78,10 +81,10 @@ p, li { white-space: pre-wrap; }
 </position>
 <point>
 <x>280</x>
-<y>329</y>
+<y>327</y>
 </point>
 <marker-label searchable="true">3</marker-label>
-<marker-image width="0" caption="" rid="" orientation="1" autosize="true" height="0" alttext="">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -89,9 +92,10 @@ p, li { white-space: pre-wrap; }
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Mount Fuji&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Seen in the upper left in the distance, Mount Fuji is a quintessential element within the Japanese landscape and was a favorite feature for artists like Hokusai to incorporate. It was an ever-present reminder of the majesty of nature, and in this image Hokusai created an interesting tension between the stoic and isolated mountain peak and the bustling canal in central Edo.&lt;/p>&lt;/body>&lt;/html></text>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Mount Fuji&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Seen in the upper left in the distance, Mount Fuji is a quintessential element within the Japanese landscape and was a favorite feature for artists like Hokusai to incorporate. It was an ever-present reminder of the majesty of nature, and in this image, Hokusai created an interesting tension between the stoic and isolated mountain peak and the bustling canal in central Edo.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
@@ -106,7 +110,7 @@ p, li { white-space: pre-wrap; }
 <y>279</y>
 </point>
 <marker-label searchable="true">4</marker-label>
-<marker-image width="0" caption="" rid="" orientation="1" autosize="true" height="0" alttext="">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -114,9 +118,10 @@ p, li { white-space: pre-wrap; }
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Trade Barge&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Hokusai is careful to fill the immediate foreground with a barge overflowing with materials, as if tumbling into the viewer’s plane, perhaps a subtle suggestion as to the economic vitality and the thriving trade networks from which Edo and surrounding cities prospered.&lt;/p>&lt;/body>&lt;/html></text>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Trade Barge&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Hokusai is careful to fill the immediate foreground with a barge overflowing with materials, as if tumbling into the viewer’s plane, perhaps a subtle suggestion as to the economic vitality and the thriving trade networks from which Edo and surrounding cities prospered.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
@@ -131,7 +136,7 @@ p, li { white-space: pre-wrap; }
 <y>646</y>
 </point>
 <marker-label searchable="true">5</marker-label>
-<marker-image width="0" caption="" rid="" orientation="1" autosize="true" height="0" alttext="">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="left">Left of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -139,9 +144,10 @@ p, li { white-space: pre-wrap; }
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Western Influence&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Hokusai overall here uses a raking perspective to provide such a sweeping view, a technique that he most likely absorbed from his study of the Western artistic tradition.&lt;/p>&lt;/body>&lt;/html></text>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Western Influence&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Hokusai overall here uses a raking perspective to provide such a sweeping view, a technique that he most likely absorbed from his study of the Western artistic tradition.&lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
@@ -152,11 +158,11 @@ p, li { white-space: pre-wrap; }
 <Y>330</Y>
 </position>
 <point>
-<x>860</x>
+<x>861</x>
 <y>392</y>
 </point>
 <marker-label searchable="true">6</marker-label>
-<marker-image width="0" caption="" rid="" orientation="1" autosize="true" height="0" alttext="">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="left">Left of hotspot</popup-location-preference>
 </TextPopup>
 </hotspots>
@@ -180,7 +186,7 @@ p, li { white-space: pre-wrap; }
 <modified>false</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants template="Dark Background" widget_backgroundimage="" widget_color="#3498DB" widget_font="Verdana">
+<DesignConstants widget_backgroundimage="" widget_color="#3498DB" template="Dark Background" widget_font="Verdana">
 <constant>
 <name>hiddenborderleft</name>
 <kind>BorderLeft</kind>
@@ -337,9 +343,9 @@ p, li { white-space: pre-wrap; }
 <value>#ffffff</value>
 </constant>
 </DesignConstants>
-<cover width="1024" caption="" rid="5ZFCWIY09BARY01LHZQ2" orientation="1" autosize="true" height="717" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/03_Ishi/Default.png</cover>
+<cover alttext="" orientation="1" caption="" rid="5ZFCWIY09BARY01LHZQ2" width="1024" height="717" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/03_Ishi/Default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
-<BookWidgetsVersion>6.0.5</BookWidgetsVersion>
+<BookWidgetsVersion>6.1.0</BookWidgetsVersion>
 <shortcode></shortcode>
 <label searchable="true"></label>
 <lastupload></lastupload>

@@ -1,6 +1,6 @@
 <!DOCTYPE widget>
 <HotspotImage>
-<background_picture alttext="" width="1024" caption="" orientation="1" autosize="false" rid="5ZFCWIY09BARY01LHZQ2" height="1435">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/05_Jonas/7188bc4b-e9fa-52d6-a43a-8f2b5aef8230.jpeg</background_picture>
+<background_picture alttext="" orientation="1" caption="" rid="R33VDXRLZ3XO1I05LWNN" width="1024" height="480" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/05_Jonas/Cantino_planisphere_rs.jpg</background_picture>
 <resize-policy value="Image draggable and resizeable">Image draggable and resizeable</resize-policy>
 <position>
 <Width>1058</Width>
@@ -14,10 +14,10 @@
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Blackbeard’s Iconic Ship&lt;/p>
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Queen Anne’s Revenge was the storied vessel of Edward Teach, who himself Queen Anne’s Revenge was the storied vessel of Edward Teach, who himself was better known as the famed pirate Blackbeard. Queen Anne’s Revenge was the flagship vessel of Blackbeard’s fleet and totaled 200 tons. Her name was most likely inspired from Blackbeard’s earlier service in the Royal Navy in the War of Spanish Succession (1701-1714), also known as Queen Anne’s War.&lt;/p>&lt;/body>&lt;/html></text>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">A 16th Century View of the World&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">This planisphere from the early 16th century showcases a fantastic snapshot of how the world was viewed in the period. It specifically conveys a sense of just how far European populations had spread around the globe: some coastlines, like those of northern Africa and eastern South America, reflect a certain level of precision; others, like those of the eastern coast of North America or the vast coastline of China, remain relatively non-descript. &lt;/span>&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
@@ -32,7 +32,7 @@ p, li { white-space: pre-wrap; }
 <y>244</y>
 </point>
 <marker-label searchable="true">1</marker-label>
-<marker-image alttext="" width="0" caption="" orientation="1" autosize="true" rid="" height="0">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -40,10 +40,11 @@ p, li { white-space: pre-wrap; }
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Ship Origins&lt;/p>
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Originally built in Bristol, England, around 1710, Queen Anne’s Revenge most likely first functioned as a merchant ship, The Concord, before its capture by French forces. She was eventually redubbed her La Concorde and into service as a slave ship until she was sold in a South American port in 1713. Blackbeard was able to capture the ship in 1717 as it sailed near the West Indies, at which point he offloaded its cargo (slaves, destined for Martinique), and re-equipped the vessel to be prepared for piracy. &lt;/p>&lt;/body>&lt;/html></text>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">From Risky Origins&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Though this treasured map now is safely preserved in the collection of the Biblioteca Estense in Modena, the Cantino planisphere was rumored to originally have been smuggled from Portugal to Italy at the behest of the Duke of Ferrara, Ercole d’Este I. Why smuggle a map? Because the Portuguese were ahead of their European competitors when it came to charting new areas of the globe, and this map showcased some of the most extensively documented global geography of its day. The Duke purportedly paid handsomely for it too in the sum of twelve gold ducats.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
@@ -58,7 +59,7 @@ p, li { white-space: pre-wrap; }
 <y>587</y>
 </point>
 <marker-label searchable="true">2</marker-label>
-<marker-image alttext="" width="0" caption="" orientation="1" autosize="true" rid="" height="0">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -66,11 +67,11 @@ p, li { white-space: pre-wrap; }
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Cannons&lt;/p>
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The most essential weapon for pirate ships was the mounted cannon, which could provide long-distance impact on the high seas with relatively good aim. Most pirate ships had at least a handful of mounted cannons, but Blackbeard’s Queen Anne’s Revenge was purported to have nearly 40 such mounted cannons on board. &lt;/p>
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Learning by Latitude&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">This type of map is known as a latitude chart, which means it was designed to reflect the globe as defined by the latitudes. These lines had originated with the use of astronomical navigation, which had only come into popularity a century prior. This is perhaps part of the reasons why the coasts of northern Africa, for example, are so precise (as they were created using lines of latitude). Also evident here is a rhumb line system, which is shown through the two circles superimposed on the map that met near the center of the African continent.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
@@ -85,7 +86,7 @@ p, li { white-space: pre-wrap; }
 <y>1188</y>
 </point>
 <marker-label searchable="true">3</marker-label>
-<marker-image alttext="" width="0" caption="" orientation="1" autosize="true" rid="" height="0">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="right">Right of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -93,10 +94,11 @@ p, li { white-space: pre-wrap; }
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Streamlined Design&lt;/p>
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">In addition to being stocked with cannons, however, Blackbeard’s beloved ship also needed to be streamlined and efficient to guarantee speed on the sea (as outrunning the Navy and other vessels was a common occurrence). He was in luck: the Queen Anne’s Revenge was a frigate, which was known as one of the fastest ships on the sea at the time.&lt;/p>&lt;/body>&lt;/html></text>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">The Presence of Brazil&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Perhaps most significant about this map is the fact that it reveals the contours of Brazil, as defined along eastern coast of South America. The Portuguese had proved essential in this mapping, thanks to the research of Pedro Alvarez Cabral, who headed to South American shores at the beginning of the 16th century. &lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
@@ -111,7 +113,7 @@ p, li { white-space: pre-wrap; }
 <y>1197</y>
 </point>
 <marker-label searchable="true">4</marker-label>
-<marker-image alttext="" width="0" caption="" orientation="1" autosize="true" rid="" height="0">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="left">Left of hotspot</popup-location-preference>
 </TextPopup>
 <TextPopup>
@@ -119,10 +121,11 @@ p, li { white-space: pre-wrap; }
 <text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Running Aground and Legacy &lt;/p>
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Between 1717 and 1718, Blackbeard terrorized the eastern seaboard of the United States, but the reign of Queen Anne’s Revenge came to an end in early June 1718, when Blackbeard ran her aground off the coast of North Carolina. Though that was not the end of Blackbeard’s career as a pirate - he surrendered but then immediately returned to piracy - Queen Anne’s Revenge remained undiscovered beneath the waves until the 1990s, when archaeologists first found clues underwater that they had found remains of the ship. Research is ongoing, but many artifacts have been uncovered to tell more of the story of this ship and its captain. &lt;/p>&lt;/body>&lt;/html></text>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">Florida? Or Mexico?&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'.SF NS Text';">While this map would have been revelatory for Italian nobility in the 16th century, it does leave some curious gaps that still have scholars questioning what landmass was to be depicted. A prime example of this can be seen in the upper left corner. North America seems wholly absent from the map, save for a small slab of green terrain that juts out near the representation of Cuba. Scholars still debate whether this is intended to signify the Yucatan Peninsula in Mexico or the tip of Florida.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text';">&lt;br />&lt;/p>&lt;/body>&lt;/html></text>
 <images/>
 </text>
 <marker-type value="label">Label</marker-type>
@@ -137,7 +140,7 @@ p, li { white-space: pre-wrap; }
 <y>945</y>
 </point>
 <marker-label searchable="true">5</marker-label>
-<marker-image alttext="" width="0" caption="" orientation="1" autosize="true" rid="" height="0">:/HotspotImage/images/markericon.png</marker-image>
+<marker-image alttext="" orientation="1" caption="" rid="" width="0" height="0" autosize="true">:/HotspotImage/images/markericon.png</marker-image>
 <popup-location-preference value="left">Left of hotspot</popup-location-preference>
 </TextPopup>
 </hotspots>
@@ -161,7 +164,7 @@ p, li { white-space: pre-wrap; }
 <modified>false</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants widget_font="Verdana" widget_color="#3498DB" widget_backgroundimage="" template="Dark Background">
+<DesignConstants widget_backgroundimage="" widget_color="#3498DB" template="Dark Background" widget_font="Verdana">
 <constant>
 <name>hiddenborderleft</name>
 <kind>BorderLeft</kind>
@@ -318,9 +321,9 @@ p, li { white-space: pre-wrap; }
 <value>#ffffff</value>
 </constant>
 </DesignConstants>
-<cover alttext="" width="548" caption="" orientation="1" autosize="true" rid="5ZFCWIY09BARY01LHZQ2" height="768">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/05_Jonas/Default.png</cover>
+<cover alttext="" orientation="1" caption="" rid="5ZFCWIY09BARY01LHZQ2" width="548" height="768" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/Source analysis/05_Jonas/Default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
-<BookWidgetsVersion>6.0.5</BookWidgetsVersion>
+<BookWidgetsVersion>6.1.0</BookWidgetsVersion>
 <shortcode></shortcode>
 <label searchable="true"></label>
 <lastupload></lastupload>

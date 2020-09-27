@@ -1,15 +1,15 @@
 var widgetconfig = {
-    "background_picture": "7gbp4j8.c6d0e4f12_f0c06043f_cSd_",
+    "background_picture": "7gbp4j8.c0d8e4f_24f2c0614_fSc_d",
     "resize-policy": "Iemlabgaee zdirsaegrg adbnlae ",
     "position": {
-        "Width": "4409",
-        "Height": "2209",
-        "X": "-01",
-        "Y": "-11"
+        "Width": "5000",
+        "Height": "2348",
+        "X": "-91",
+        "Y": "-81"
     },
     "hotspots": [{
         "Type": "TpeuxptoP",
-        "text": "<>spp/a<n  .sttpyilrec=s\u0022e dm-anrogni ny-lteovpi:t0aplxe;r  mnairagmienr- b,oatntiohmC: 0fpox ;e nmialrtgsiano-cl etfsta:v0 pexh;t  mraor gaicni-rreimgAh th:t0rpoxN;  f-oq tt-sbaloocc kn-rientdseanet :e0h;t  tfeox te-sionhdte netk:i0lp x,;s\u0022r>eAh tSoi x;tneoeinstihc eCrepn tfuor yl eVvieelw  noifa ttrheec  Wao rtlcde<l/fsepra n,>a c<ipr esmtAy lhet=u\u0022o-Sq tr-eptasraaeg rdanpah -atcyipref:Ae mnprteyh;t rmoanr gfion -etsooph:t0 pexk;i lm a,rsgeinni-lbtostatoocm :e0mpoxs;  :meabroglign -elhetf td:n0upoxr;a  mdaaregripns- rdiaghh ts:n0opixt;a l-uqpto-pb lnoacekp-oirnudEe nrta:f0 ;w othe xtts-uijn dfeon te:s0npexs; \u0022a> <sbyre v/n>o<c/ py>l l<apc isftiycleep=s\u0022  tmIa r.gdioni-rteopp :e0hptx ;n im adregwieni-vb ostatwo md:l0rpoxw;  emhatr gwionh- lfeof tt:o0hpsxp;a nmsa rcgiitns-artingahft :a0 psxe;s a-cqwto-hbsl oycrku-tinnedce nhtt:n0e;e ttxeixst -yilnrdaeen te:h0tp xm;o\u0022r>fT heirse hpplsain",
+        "text": "<>pp /s<t>ynlaep=s\u0022/ <m a.rtgpiinr-ctsoepd:-0npoxn;  ymlaervgiitna-lbeort tnoima:m0eprx ;, amnairhgCi nf-ol eefnti:l0tpsxa;o cm atrsgaivn -erhitg hrto: 0apcxi;r e-mqAt -hbtlroocNk -fion dtesnato:c0 ;n rteetxsta-ei nedhetn tf:o0 pexs;o\u0022h>t< sepkainl  s,tsyrleeh=t\u0022o  f;onnoti-sfiacmeirlpy :f'o. SlFe vNeSl  Tneixatt'r;e\u0022c> Aa  1t6ctehl fCeern t,uarcyi rVeimeAw  hotfu otSh en rWeotrslade< /dsnpaa na>c<i/rpf>A  <npr eshttyrloen= \u0022f-oq te-spoahrta gerkaiplh -,tsyepnei:letmspatoyc;  emmaorsg i:ne-btoolpg: 0ephxt;  dmnaurogrian -dbaoetrtposm :d0aphx ;s nmoairtgailnu-ploepf tn:a0eppxo;r umEa rrgaifn -wroihg htts:u0jp xf;o  -eqstn-ebsl oac ks-yienvdneonct :y0l;l atceixfti-cienpdse nttI: 0.pdxo;i rfeopn te-hfta mniil yd:e'w.eSiFv  NsSa wT edxltr'o;w\u0022 >e<hbtr  w/o>h< /fpo>  t<oph ssptaynlse =c\u0022i tmsaartgnianf- tao ps:e0spaxc;w omhasr gyirnu-tbnoetct ohmt:601p xy;l rmaaer geihnt- lmeofrtf: 0eprxe;h pmsairngailnp- rsiighhTt>:\u00220;p'xt;x e-Tq tS-Nb lFoSc.k'-:iynldiemnatf:-0t;n otfe x\u0022t=-eilnydtesn tn:a0ppsx<;>\u0022",
         "marker-type": "llaeb",
         "position": {
             "Width": "100",
@@ -18,15 +18,15 @@ var widgetconfig = {
             "Y": "50"
         },
         "point": {
-            "x": "99",
-            "y": "59"
+            "x": "368",
+            "y": "244"
         },
-        "marker-label": "",
+        "marker-label": "1",
         "marker-image": "9g1n0pb.a0c04b6c033d",
         "popup-location-preference": "rtihg"
     }, {
         "Type": "TpeuxptoP",
-        "text": "<>spp/a<n> /s trybl<e>=\u0022\u0022; xmpa0r:gtinne-dtnoip-:t0xpext;  ;m0a:rtgniend-nbio-tktcooml:b0-ptxq;-  m;axrpg0i:nt-hlgeifrt-:n0ipgxr;a mm a;rxgpi0n:-trfieglh-tn:i0gprxa;m  -;qxtp-0b:lmooctkt-oibn-dneingtr:a0m;  ;txepx0t:-piontd-ennitg:r0apmx ;;\u0022y>tFprmoem: eRpiystk-yh pOarriggairnasp<-/tsqp-a\u0022n=>e l<ypt ss tpy<l e>=p\u0022/-<q t.-sptaarcaugdr adplho-gt yepvel:eewmtp tfyo;  mmuasr geihnt- tnoip :o0optx ;t im arrogfi ny-lbeomtotsodmn:a0hp xd;i ampa ryglidne-tlreofptr:u0pp xe;k umDa reghiTn -.ryiagdh ts:t0ip xf;o  -yqhtp-abrlgoocekg- ilnadbeonltg: 0d;e ttneexmtu-ciondd eynlte:v0ipsxn;e\u0022t>x<eb rt s/o>m< /eph>t  <fpo  setmyolse =d\u0022e smaacrwgoihns- tpoapm: 0spixh;t  mdanrag i,ne-bbooltgt oemh:t0 pfxo;  smaaerrgai nw-elne fgtn:i0tprxa;h cm aortg ienm-arci gthit :n0ephxw;  s-rqott-ibtleopcmko-ci nndaeenpto:r0u;E  treixeth-ti nfdoe ndta:e0hpax ;e\u0022r>eTwh oeusgehu gtuhtirso Pt reehats uerseuda cmeaBp  ?npoawm  ias  eslagfgeulmys  pyrheWs e.rIv eedt siEn\u2019 dt heel occorlEl e,catriaornr eoFf  ftoh ee kBuiDb leihott efcoa  tEssetheenbs ee hitn  tMao dyelnaat,I  tohte  lCaagnuttirnooP  pmloarnfi sdpehlegrgeu mwsa sn ereubm oerveadh  tyol loarniig",
+        "text": "<>pp /s<t>y/l er=b\u0022< >m\u0022a;r'gtixne-Tt oSpN: 0FpSx.;' :myalrigmianf--btontotfo m;:x0pp0x:;t nmeadrngii-nt-xleetf t;:00:ptxn;e dmnair-gkicno-lrbi-gthqt-: 0;pxxp;0 :-tqhtg-ibrl-oncikg-rianmd e;nxtp:00:;t fteelx-tn-iignrdaemn t;:x0pp0x:;m\u0022o>t<tsopba-nn isgtryalme =;\u0022x pf0o:npto-tf-anmiiglrya:m' .;SyFt pNmSe :Teepxytt'-;h\u0022p>aFrrgoamr aRpi-stkqy- \u0022O=reilgyitnss <p/<s p>apn/><<>/npa>p s</p< .ssttyalceu=d\u0022 -dqlto-gp aervalgerwatp hf-ot ympues: eemhptt yn;i  moaortg itni- troopf: 0yplxe;m omsadrngaihn -dbioatpt oyml:d0eptxr;o pmraurpg ienk-ulDe feth:T0 p.xy;a dm asrtgii nf-or iyghhpta:r0gpoxe;g  -lqatb-obllgo cdke-tinnedmeuncto:d0 ;y lteevxits-nientdxeen tt:s0opmx ;e hfto nfto- feammoisl yd:e's.aScFw oNhSs  Tpeaxmt 's;i\u0022h>t< bdrn a/ >,<e/bpo>l g< pe hstt yfloe =s\u0022a emraar gwienn- tgonpi:t0rpaxh;c  moatr geimna-cb ottit onme:h0wp xs;r omtairtgeipnm-olce fnta:e0ppoxr;u Em arrigeihnt- rfiog hdta:e0hpax ;e r-eqwt -ebsleoucgku-tirnodPe neth:t0 ;e stueaxcte-Bi n?dpeanmt :a0 pexl;g\u0022g>u<mssp aynh Ws t.yIl ee=t\u0022s Ef\u2019odn te-lfoacmriEl y,:a'r.aSrFr eNFS  fToe xetk'u;D\u0022 >eThhto ufgoh  ttsheihse bt reehats utrae dy lmaatpI  nootw  liasg ustarfoePl ym oprrfe sdeerlvgegdu misn  nteheeb  ceovlalhe cytliloann iogfi rtoh eo tB idbelrioomtuerc as aEws teerneshep siinn aMlopd eonnai,t ntahCe ",
         "marker-type": "llaeb",
         "position": {
             "Width": "100",
@@ -35,15 +35,15 @@ var widgetconfig = {
             "Y": "50"
         },
         "point": {
-            "x": "1347",
-            "y": "508"
+            "x": "326",
+            "y": "578"
         },
-        "marker-label": "",
+        "marker-label": "2",
         "marker-image": "9g1n0pb.a0c04b6c033d",
         "popup-location-preference": "rtihg"
     }, {
         "Type": "TpeuxptoP",
-        "text": "<>spp/a<n> /s trybl<e>=\u0022\u0022; xmpa0r:gtinne-dtnoip-:t0xpext;  ;m0a:rtgniend-nbio-tktcooml:b0-ptxq;-  m;axrpg0i:nt-hlgeifrt-:n0ipgxr;a mm a;rxgpi0n:-trfieglh-tn:i0gprxa;m  -;qxtp-0b:lmooctkt-oibn-dneingtr:a0m;  ;txepx0t:-piontd-ennitg:r0apmx ;;\u0022y>tLpemaer:neipnygt -bhyp aLragtairtaupd-et<q/-s\u0022p=aenl>y t<sp  ps<t y>lpe/=<\u0022 -.qttn-epnairtangorca pnha-ctiyrpfeA: eemhptt yf;o  mraertgnienc- teohpt: 0rpaxe;n  mtaermg itna-hbto tptaomm :e0hptx ;n om adregsionp-mlierfetp:u0sp xs;e lmcarrigci no-wrti gehhtt: 0hpgxu;o r-hqtt -nbwloohcsk -siin dhecnith:w0 ;, mteetxsty-si nedneinlt :b0mpuxh;r\u0022 >a< bsri  /e>r<e/hp >t n<epd isvtey loes=l\u0022A  m.a)regdiunt-ittoapl: 0fpox ;s emnairlg ignn-ibsout tdoemt:a0eprxc;  emraerwg iyne-hlte fsta:(0 pexs;i cmearrpg ions- reirgah t,:e0lppxm;a x-eq tr-obfl o,cakc-iirnfdAe nntr:e0h;t rtoenx tf-oi nsdtesnato:c0 pexh;t\u0022 >yThhwi ss ntoyspaee ro fe hmta pf oi st rkanpo wsnp aahsr eap  lsait istiuhdTe  .crhoairrtp,  ywrhuitcnhe cm eaa nyst iirta lwuapso pd eostingin eedm otco  yrlenfol edcath  thhcei hgwl o,bneo iatsa gdievfainn elda cbiym otnhoer tlsaat iftou deessu.  eThhte shet ilwi ndeest ahnaidg ior",
+        "text": "<>pp /s<t>y/l er=b\u0022< >m\u0022a;r'gtixne-Tt oSpN: 0FpSx.;' :myalrigmianf--btontotfo m;:x0pp0x:;t nmeadrngii-nt-xleetf t;:00:ptxn;e dmnair-gkicno-lrbi-gthqt-: 0;pxxp;0 :-tqhtg-ibrl-oncikg-rianmd e;nxtp:00:;t fteelx-tn-iignrdaemn t;:x0pp0x:;m\u0022o>t<tsopba-nn isgtryalme =;\u0022x pf0o:npto-tf-anmiiglrya:m' .;SyFt pNmSe :Teepxytt'-;h\u0022p>aLregaarrnaipn-gt qb-y\u0022 =Lealtyittsu dpe<< />spp/a<n>>n<a/pps>/ <<.pt nsetnyilten=o\u0022c- qnta-cpiarrfaAg reahpth -ftoy pree:tenmepct ye;h tm arrageinn -tteomp :t0aphxt;  pmaamr geihnt- bnoot tdoems:o0ppmxi;r empaursg isne-llcerfitc: 0opwxt;  emhatr ghignu-orrihgth tn:w0ophxs;  s-iq th-cbilhowc k,-mientdseynst :e0n;i lt ebxmtu-hirn dae nsti: 0eprxe;h  ftonnetd-ifvaem iolsyl:A' ..S)Fe dNuSt iTteaxlt 'f;o\u0022 >s<ebnri l/ >g<n/ips>u  <dpe tsateyrlce =e\u0022r emwa rygeihnt- tsoap(: 0epsxi;c emrapr goisn -ebroat t,oeml:p0mpaxx;e  mraorfg i,na-clierfftA: 0nprxe;h tmraorng ifno- rsitgshato:c0 pexh;t  -yqhtw- bslnoocska-eirn deehntt :f0o;  ttreaxpt -sipnadhernetp: 0spix ;s\u0022i>h<Ts p.arno isrtpy lyer=u\u0022t nfeocn ta- fyatmiirlayl:u'p.oSpF  oNtSn iT eexmto'c; \u0022y>lTnhoi sd athy phec iohfw  m,anpo iitsa gkinvoawnn  laasc iam olnaotrittsuad ef oc heasrut ,e hwth ihcthi wm edaentsa niitg iwraos  ddaehs isgenneidl  teos erheTf l.escetd utthiet agll oebhet  aysb  ddeefni",
         "marker-type": "llaeb",
         "position": {
             "Width": "100",
@@ -52,15 +52,15 @@ var widgetconfig = {
             "Y": "50"
         },
         "point": {
-            "x": "1497",
-            "y": "779"
+            "x": "226",
+            "y": "1818"
         },
-        "marker-label": "",
+        "marker-label": "3",
         "marker-image": "9g1n0pb.a0c04b6c033d",
         "popup-location-preference": "rtihg"
     }, {
         "Type": "TpeuxptoP",
-        "text": "<>spp/a<n> /s trybl<e>=\u0022\u0022; xmpa0r:gtinne-dtnoip-:t0xpext;  ;m0a:rtgniend-nbio-tktcooml:b0-ptxq;-  m;axrpg0i:nt-hlgeifrt-:n0ipgxr;a mm a;rxgpi0n:-trfieglh-tn:i0gprxa;m  -;qxtp-0b:lmooctkt-oibn-dneingtr:a0m;  ;txepx0t:-piontd-ennitg:r0apmx ;;\u0022y>tTphmee :Perpeyste-nhcpea rogfa rBarpa-ztiql-<\u0022/=seplaynt>s  <pp<  s>tpy/l<e =.\u0022y-rqutt-npeacr ahgtrnaepeht-xtiysp ee:hetm pftoy ;g nmianrngiigne-bt oeph:t0 ptxa;  smearroghisn -nbaoctitroemm:A0 phxt;u omSa rogti nd-eldeafeth: 0ophxw;  lmaarrbgaiCn -zreirgahvtl:A0 poxr;d e-Pq tf-ob lhoccrka-eisnedre neth:t0 ;o tt esxktn-aihntd e,ngtn:i0pppxa;m\u0022 >s<ibhrt  /n>i< /lpa>i t<npe ssstey ldee=v\u0022o rmpa rdgaihn -etsoepu:g0uptxr;o Pm aerhgTi n.-abcoitrteommA: 0hptxu;o Sm afrog itns-aloecf tn:r0eptxs;a em agrngoilna- rdiegnhitf:e0dp xs;a  -,qlti-zbalroBc kf-oi nsdreunott:n0o;c  teehxtt -silnadeevnetr: 0tpix ;t\u0022a>hPte rthcaapfs  emhots ts is ipganmi fsiichatn tt uaob",
+        "text": "<>pp /s<t>y/l er=b\u0022< >m\u0022a;r'gtixne-Tt oSpN: 0FpSx.;' :myalrigmianf--btontotfo m;:x0pp0x:;t nmeadrngii-nt-xleetf t;:00:ptxn;e dmnair-gkicno-lrbi-gthqt-: 0;pxxp;0 :-tqhtg-ibrl-oncikg-rianmd e;nxtp:00:;t fteelx-tn-iignrdaemn t;:x0pp0x:;m\u0022o>t<tsopba-nn isgtryalme =;\u0022x pf0o:npto-tf-anmiiglrya:m' .;SyFt pNmSe :Teepxytt'-;h\u0022p>aTrhgea rParpe-steqn-c\u0022e= eolfy tBsr apz<i l><p//s<p>anna>p<s//p<>  .<ypr usttnyelce =h\u0022t-6q1t -ephatr afgor agpnhi-ntnyipgee:be mephtty ;t am asregrionh-st onpa:c0iprxe;m Am ahrtguionS- boott tdoemd:a0ephx ;o hmwa r,glianr-blaeCf tz:e0rpaxv;l Am aorrgdienP- rfiog hhtc:r0apexs;e r- qeth-tb lootc ks-kinnadhetn t,:g0n;i ptpeaxmt -siinhdte nnti: 0lpaxi;t nfeosnste- fdaemviolryp: 'd.aShF  eNsSe uTgeuxttr'o;P\u0022 >e<hbTr  ./a>c<i/rpe>m A< ph tsutoySl ef=o\u0022  tmsaarogci nn-rteotps:a0ep xg;n omlaar gdienn-ibfoetdt osma: 0,plxi;z amraBr gfion -slreufott:n0opcx ;e hmta rsgliane-vreirg htti: 0tpaxh;t  -tqcta-fb leohctk -siin dpeanmt :s0i;h tt etxuto-bian dtennatc:i0fpixn;g\u0022i>s< stpsaonm  sstpyalher=e\u0022P >f\u0022o;n'tt-xfeaTm iSlNy :F'S.",
         "marker-type": "llaeb",
         "position": {
             "Width": "100",
@@ -69,15 +69,15 @@ var widgetconfig = {
             "Y": "50"
         },
         "point": {
-            "x": "799",
-            "y": "1349"
+            "x": "716",
+            "y": "1719"
         },
-        "marker-label": "",
+        "marker-label": "4",
         "marker-image": "9g1n0pb.a0c04b6c033d",
-        "popup-location-preference": "rtihg"
+        "popup-location-preference": "ltef"
     }, {
         "Type": "TpeuxptoP",
-        "text": "<>spp/a<n> /s trybl<e>=\u0022\u0022; xmpa0r:gtinne-dtnoip-:t0xpext;  ;m0a:rtgniend-nbio-tktcooml:b0-ptxq;-  m;axrpg0i:nt-hlgeifrt-:n0ipgxr;a mm a;rxgpi0n:-trfieglh-tn:i0gprxa;m  -;qxtp-0b:lmooctkt-oibn-dneingtr:a0m;  ;txepx0t:-piontd-ennitg:r0apmx ;;\u0022y>tFplmoer:iedpay?t -Ohrp aMregxaircaop?- t<q/-s\u0022p=aenl>y t<sp  ps<t y>lpe/=<\u0022 -.qatd-ipraorlaFg rfaop hp-itty peeh:te mrpot yo;c imxaerMg inni- taolpu:s0npixn;e Pm anragtianc-ubYo tethotm :y0fpixn;g imsa rogti nd-eldenfett:n0ip xs;i  msairhgti nr-erhitgehhtw: 0eptxa;b e-dq tl-lbiltosc ks-rianldoehnctS: 0.;a btueCx tf-oi nndoeintta:t0npexs;e\u0022r>p<ebrr  e/h>t< /rpa>e n< pt usot yslteu=j\u0022  tmaahrtg inni-atrorpe:t0 pnxe;e rmga rfgoi nb-ablost tlolma:m0sp xa;  rmoafr geivna-sl e,fpta:m0 pexh;t  mmaorrgfi nt-nreisgbhat :y0lplxo;h w- qstm-ebelso cakc-iirnedmeAn th:t0r;o Nt e.xrte-nirnodce nttf:e0lp xr;e\u0022p>pWuh ielhet  tnhii sn emeasp  ewbo unladc  hsaivhet  bfeoe ne lrpemvaexlea teomriyr pf oAr  .Idteatlciiapne dn oebbi loitt ys aiwn  stshaem dsniaxlt eteanhtwh  gcneinntouirtys,e uiqt  sdroaelso hlcesa veev asho mlel ictusr itoauhst  gsap",
+        "text": "<>pp /s<t>y/l er=b\u0022< >m\u0022a;r'gtixne-Tt oSpN: 0FpSx.;' :myalrigmianf--btontotfo m;:x0pp0x:;t nmeadrngii-nt-xleetf t;:00:ptxn;e dmnair-gkicno-lrbi-gthqt-: 0;pxxp;0 :-tqhtg-ibrl-oncikg-rianmd e;nxtp:00:;t fteelx-tn-iignrdaemn t;:x0pp0x:;m\u0022o>t<tsopba-nn isgtryalme =;\u0022x pf0o:npto-tf-anmiiglrya:m' .;SyFt pNmSe :Teepxytt'-;h\u0022p>aFrlgoarriadpa-?t qO-r\u0022 =Meelxyitcso ?p<</ s>ppa/n<>><n/app>s /<<p. asdtiyrloel=F\u0022 -fqot -ppiatr aeghrta prho- toycpiex:eeMm pntiy ;a lmuasrngiinne-Pt onpa:t0apcxu;Y  meahrtg iynf-ibnogtitso mo:t0 pdxe;d nmeatrngii ns-il esfith:t0 prxe;h tmeahrwg ient-arbiegdh tl:l0iptxs;  s-rqatl-obhlcoSc k.-aibnudCe nfto: 0n;o itteaxttn-eisnedrepnetr: 0ephxt;  rfaoennt -tfuaom isltyu:j' .tSaFh tN Sn iTaerxrte't; \u0022n>e<ebrrg  /f>o< /bpa>l s< pl lsatmysl ea= \u0022r omfa regvians- t,oppa:m0 pexh;t  mmaorrgfi nt-nbeostbtao my:l0lpoxh;w  msamregeisn -alceifrte:m0Ap xh;t rmoaNr g.irne-nrriogch tt:f0eplx ;r e-pqptu- belhotc kn-ii nndeeenst :e0b;  ntaecx ts-iihntd efnot :e0lppxm;a\u0022x>e< sepmainr ps tAy l.ed=e\u0022t cfiopnetd- feabm iolty :s'a.wS Fs sNaSm dTneaxlt 't;a\u0022h>wW hginlien otihtisse umqa ps rwaoluolhdc sh aevvea hb elelni trse vtealhatt osrpya gf osru oIitraulci aenm onso beivlaietly  sieno dt htei  1,6ytrhu tcne",
         "marker-type": "llaeb",
         "position": {
             "Width": "100",
@@ -86,12 +86,12 @@ var widgetconfig = {
             "Y": "50"
         },
         "point": {
-            "x": "76",
-            "y": "619"
+            "x": "897",
+            "y": "954"
         },
-        "marker-label": "",
+        "marker-label": "5",
         "marker-image": "9g1n0pb.a0c04b6c033d",
-        "popup-location-preference": "rtihg"
+        "popup-location-preference": "ltef"
     }],
     "support_student_account": "no",
     "student_account_school": {
