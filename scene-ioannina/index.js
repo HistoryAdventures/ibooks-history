@@ -209,7 +209,7 @@ function init() {
         audioLib.hotspots["hotspot-4"] = new Audio('./audio/Ioaninna_SFX_OtomanArmy.m4a');
         audioLib.hotspots["hotspot-5"] = new Audio('./audio/Ioaninna_SFX_ChristianCity.m4a');
 
-        audioLib.ambient = new Audio('./audio/Ioaninna_Ambience.m4a');
+        audioLib.ambient = new Audio('./audio/Ioannina_Ambience.m4a');
         audioLib.ambient.loop = true;
         try {
             audioLib.ambient.play();
