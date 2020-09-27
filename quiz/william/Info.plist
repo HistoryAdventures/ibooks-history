@@ -5,11 +5,11 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
-    <string>William Assessment.wdgt</string>
+    <string>quiz-william</string>
     <key>CFBundleIdentifier</key>
-    <string>com.kidimedia.ibook-widgets.quiz-William Assessment.wdgt</string>
+    <string>com.kidimedia.ibook-widgets.quiz-quiz-william</string>
     <key>CFBundleName</key>
-    <string>William Assessment.wdgt</string>
+    <string>quiz-william</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundleVersion</key>

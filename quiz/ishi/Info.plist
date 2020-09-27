@@ -5,11 +5,11 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
-    <string>Ishi Assessment.wdgt</string>
+    <string>quiz-ishi</string>
     <key>CFBundleIdentifier</key>
-    <string>com.kidimedia.ibook-widgets.quiz-Ishi Assessment.wdgt</string>
+    <string>com.kidimedia.ibook-widgets.quiz-quiz-ishi</string>
     <key>CFBundleName</key>
-    <string>Ishi Assessment.wdgt</string>
+    <string>quiz-ishi</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundleVersion</key>

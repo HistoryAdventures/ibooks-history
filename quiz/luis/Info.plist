@@ -5,11 +5,11 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
-    <string>Luis Assessment.wdgt</string>
+    <string>quiz-luis</string>
     <key>CFBundleIdentifier</key>
-    <string>com.kidimedia.ibook-widgets.quiz-Luis Assessment.wdgt</string>
+    <string>com.kidimedia.ibook-widgets.quiz-quiz-luis</string>
     <key>CFBundleName</key>
-    <string>Luis Assessment.wdgt</string>
+    <string>quiz-luis</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundleVersion</key>

@@ -5,11 +5,11 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
-    <string>Jonas Assessment.wdgt</string>
+    <string>quiz-jonas</string>
     <key>CFBundleIdentifier</key>
-    <string>com.kidimedia.ibook-widgets.quiz-Jonas Assessment.wdgt</string>
+    <string>com.kidimedia.ibook-widgets.quiz-quiz-jonas</string>
     <key>CFBundleName</key>
-    <string>Jonas Assessment.wdgt</string>
+    <string>quiz-jonas</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundleVersion</key>
