@@ -5,11 +5,11 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
-    <string>TriangularTrade</string>
+    <string>sequence-TriangularTrade_02</string>
     <key>CFBundleIdentifier</key>
-    <string>com.kidimedia.ibook-widgets.image_sequence-TriangularTrade</string>
+    <string>com.kidimedia.ibook-widgets.image_sequence-sequence-TriangularTrade_02</string>
     <key>CFBundleName</key>
-    <string>TriangularTrade</string>
+    <string>sequence-TriangularTrade_02</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundleVersion</key>
