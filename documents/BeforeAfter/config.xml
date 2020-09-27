@@ -1,71 +1,74 @@
+<!DOCTYPE widget>
 <BeforeAfter>
-<shortcode>UBALKUH</shortcode>
-<label>BeforeAfter</label>
-<title searchable="true">World Views - Before and After</title>
-<before height="502" autosize="true" rid="DPVTJQ57RFKRM70ZOO9C" width="1024" alttext="" caption="">https://widget-assets-eu.bookwidgets.com/200709/12237025_copy_S_1024_502.ff9950e181f580f6a0c4996789bb8d78.jpg?filename=%2FUsers%2Fjulius%2FDownloads%2FComposite_%20Unprojected.%20Martin%20Behaim's%20Erdapfel%2C%201492.%20(Facsimile%20of%20Behaim's%20Globe).3167531421582395569%2F12237025%20copy.jpg</before>
-<after height="651" autosize="true" rid="UZLQLQT1DPU6VU4PTLRY" width="1024" alttext="" caption="">https://widget-assets-eu.bookwidgets.com/200709/Mercator_1569_S_1024_651.9d772e4626c9fb7b7a4b4a817ea8c981.png?filename=%2FUsers%2Fjulius%2FDownloads%2FMercator_1569.png</after>
+<title searchable="true">World VIews - BeFore and AFter</title>
+<before width="1024" caption="" orientation="1" rid="DPVTJQ57RFKRM70ZOO9C" height="502" alttext="" autosize="true">https://widget-assets-eu.bookwidgets.com/200709/12237025_copy_S_1024_502.ff9950e181f580f6a0c4996789bb8d78.jpg?filename=%2FUsers%2Fjulius%2FDownloads%2FComposite_%20Unprojected.%20Martin%20Behaim's%20Erdapfel%2C%201492.%20(Facsimile%20of%20Behaim's%20Globe).3167531421582395569%2F12237025%20copy.jpg</before>
+<after width="1024" caption="" orientation="1" rid="UZLQLQT1DPU6VU4PTLRY" height="651" alttext="" autosize="true">https://widget-assets-eu.bookwidgets.com/200709/Mercator_1569_S_1024_651.9d772e4626c9fb7b7a4b4a817ea8c981.png?filename=%2FUsers%2Fjulius%2FDownloads%2FMercator_1569.png</after>
 <start_position searchable="true">0</start_position>
 <handle_orientation value="horizontal">Horizontal</handle_orientation>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
-<DesignConstants template="Dark Background" widget_backgroundimage=",auto" widget_font="Verdana" widget_color="#3498DB">
+<DesignConstants widget_font="Verdana" template="Dark Background" widget_color="#3498DB" widget_backgroundimage=",auto">
 <constant>
-<kind>BackgroundGradient</kind>
 <name>backgroundbackground</name>
+<kind>BackgroundGradient</kind>
 <value>#000000, #000000, 255, 255</value>
 </constant>
 <constant>
-<kind>BackgroundImage</kind>
 <name>backgroundimage</name>
+<kind>BackgroundImage</kind>
 <value>,auto</value>
 </constant>
 <constant>
-<kind>Outline</kind>
 <name>backgroundoutline</name>
+<kind>Outline</kind>
 <value>2px, dotted, #ffffff, 127</value>
 </constant>
 <constant>
-<kind>StrokeColor</kind>
 <name>handlestrokecolor</name>
+<kind>StrokeColor</kind>
 <value>#ffffff</value>
 </constant>
 <constant>
-<kind>FillColor</kind>
 <name>handlefillcolor</name>
+<kind>FillColor</kind>
 <value>#3498DB</value>
 </constant>
 <constant>
-<kind>TextFont</kind>
 <name>titlefont</name>
+<kind>TextFont</kind>
 <value>Verdana, font-stack, 20</value>
 </constant>
 <constant>
-<kind>TextColor</kind>
 <name>titlecolor</name>
+<kind>TextColor</kind>
 <value>#ffffff</value>
 </constant>
 <constant>
-<kind>BackgroundGradient</kind>
 <name>titlebackground</name>
+<kind>BackgroundGradient</kind>
 <value>#3498DB, #3498DB, 255, 255</value>
 </constant>
 <constant>
-<kind>BorderBottom</kind>
 <name>titleborderbottom</name>
+<kind>BorderBottom</kind>
 <value>1px, solid, #dddddd, 255</value>
 </constant>
 <constant>
-<kind>BorderRadius</kind>
 <name>titleborderradius</name>
+<kind>BorderRadius</kind>
 <value>0px, 0px, 0px, 0px</value>
 </constant>
 <constant>
-<kind>BoxShadow</kind>
 <name>titleshadow</name>
+<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
 </constant>
 </DesignConstants>
-<cover height="0" autosize="true" rid="" width="0" alttext="" orientation="1" caption=""/>
+<cover width="576" caption="" orientation="1" rid="5ZFCWIY09BARY01LHZQ2" height="768" alttext="" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/CYOA endings/Default.png</cover>
 <handle_type value="default">Built-in</handle_type>
-<handle_image height="0" autosize="true" rid="" width="0" alttext="" orientation="1" caption=""/>
-<widget_orientation value="Horizontal">Horizontal</widget_orientation>
+<handle_image width="248" caption="" orientation="1" rid="PBJ3E7PSIHZC6T0JTB1V" height="298" alttext="" autosize="true">/Users/julius/Downloads/button.png</handle_image>
+<widget_orientation value="Vertical">Vertical</widget_orientation>
+<BookWidgetsVersion>6.1.0</BookWidgetsVersion>
+<shortcode>UBALKUH</shortcode>
+<label searchable="true">BeforeAfter</label>
+<lastupload></lastupload>
 </BeforeAfter>

@@ -1,19 +1,20 @@
-<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="com.kidimedia.ibook-widgets.beforeafter-BeforeAfter.wdgt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<manifest xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="com.kidimedia.ibook-widgets.beforeafter-sequence-beforeAfter_02" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" version="1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <metadata>
 <schema>ADL SCORM</schema>
 <schemaversion>1.2</schemaversion>
 </metadata>
-<organizations default="beforeafter-BeforeAfter.wdgt">
-<organization identifier="beforeafter-BeforeAfter.wdgt">
-<title>BeforeAfter.wdgt</title>
+<organizations default="beforeafter-sequence-beforeAfter_02">
+<organization identifier="beforeafter-sequence-beforeAfter_02">
+<title>sequence-beforeAfter_02</title>
 <item identifier="item_1" identifierref="resource_1">
-<title>beforeafter-BeforeAfter.wdgt</title>
+<title>beforeafter-sequence-beforeAfter_02</title>
 </item>
 </organization>
 </organizations>
 <resources>
-<resource adlcp:scormtype="sco" identifier="resource_1" href="index.html" type="webcontent">
+<resource identifier="resource_1" adlcp:scormtype="sco" href="index.html" type="webcontent">
 <file href="b62cd4a8bce294ce_S_1024_502.jpg"/>
+<file href="ce50a09343724eb8_S_248_298.png"/>
 <file href="config.css"/>
 <file href="config.js"/>
 <file href="config.xml"/>
