@@ -1,18 +1,43 @@
-<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" version="1" identifier="com.kidimedia.ibook-widgets.image_sequence-sequence-ioannina_new" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" version="1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" identifier="com.kidimedia.ibook-widgets.image_sequence-sequence-RiseFallOttomans_03">
 <metadata>
 <schema>ADL SCORM</schema>
 <schemaversion>1.2</schemaversion>
 </metadata>
-<organizations default="image_sequence-sequence-ioannina_new">
-<organization identifier="image_sequence-sequence-ioannina_new">
-<title>sequence-ioannina_new</title>
-<item identifier="item_1" identifierref="resource_1">
-<title>image_sequence-sequence-ioannina_new</title>
+<organizations default="image_sequence-sequence-RiseFallOttomans_03">
+<organization identifier="image_sequence-sequence-RiseFallOttomans_03">
+<title>sequence-RiseFallOttomans_03</title>
+<item identifierref="resource_1" identifier="item_1">
+<title>image_sequence-sequence-RiseFallOttomans_03</title>
 </item>
 </organization>
 </organizations>
 <resources>
-<resource href="index.html" identifier="resource_1" type="webcontent" adlcp:scormtype="sco">
+<resource type="webcontent" adlcp:scormtype="sco" href="index.html" identifier="resource_1">
+<file href="0e49ebc01b685bc0_S_821_600.png"/>
+<file href="1413f75e8f14a717_S_821_600.png"/>
+<file href="3ae03bf519c4348d_S_821_600.png"/>
+<file href="41b00de863fe4f41_S_821_600.png"/>
+<file href="4333d8f92a2fe563_S_821_600.png"/>
+<file href="4bc24f222fdeddeb_S_821_600.png"/>
+<file href="4e5b0588583179b2_S_821_600.png"/>
+<file href="58b8c7764b58160d_S_821_600.png"/>
+<file href="59647c14719fc958_S_821_600.png"/>
+<file href="6079cfc6e6542c44_S_821_600.png"/>
+<file href="70d9d4cbf343b0d8_S_821_600.png"/>
+<file href="73aa2f0b1e2d1251_S_821_600.png"/>
+<file href="74074d23fc87a91e_S_821_600.png"/>
+<file href="79ece627d8b59418_S_821_600.png"/>
+<file href="7b534f77693dd08c_S_821_600.png"/>
+<file href="7f971d5131dc1c29_S_821_600.png"/>
+<file href="812a2dc846367d7b_S_821_600.png"/>
+<file href="880f6bc7368fa071_S_821_600.png"/>
+<file href="9d632e90d8803433_S_821_600.png"/>
+<file href="9f49f8460c97efae_S_821_600.png"/>
+<file href="a9a09ddfbd12730a_S_821_600.png"/>
+<file href="b612ffa26674b12b_S_821_600.png"/>
+<file href="ba157ccc18b9ee31_S_821_600.png"/>
+<file href="bd2436f43899c411_S_821_600.png"/>
+<file href="cfed99bd3ad3d09e_S_821_600.png"/>
 <file href="config.css"/>
 <file href="config.js"/>
 <file href="config.xml"/>
@@ -25,7 +50,10 @@
 <file href="/css/jquery.dialogsheet.css"/>
 <file href="/css/jquery.tipsy.css"/>
 <file href="/css/sequence.css"/>
+<file href="d4a8d0b3fd9423b1_S_821_600.png"/>
 <file href="Default.png"/>
+<file href="eb25179d5117921d_S_821_600.png"/>
+<file href="f6fb6ee43049e44e_S_821_600.png"/>
 <file href="/images/phone_landscape.png"/>
 <file href="/img/backbutton@2x.png"/>
 <file href="/img/ibw-ribbon.png"/>
@@ -41,34 +69,6 @@
 <file href="/js/jquery.hammer-2.0.0.js"/>
 <file href="/js/jquery.hammer.min.js"/>
 <file href="/js/jquery.tipsy.js"/>
-<file href="Map01_S_821_600.png"/>
-<file href="Map02_S_821_600.png"/>
-<file href="Map03_S_821_600.png"/>
-<file href="Map04_S_821_600.png"/>
-<file href="Map05_S_821_600.png"/>
-<file href="Map06_S_821_600.png"/>
-<file href="Map07_S_821_600.png"/>
-<file href="Map08_S_821_600.png"/>
-<file href="Map09_S_821_600.png"/>
-<file href="Map10_S_821_600.png"/>
-<file href="Map11_S_821_600.png"/>
-<file href="Map12_S_821_600.png"/>
-<file href="Map13_S_821_600.png"/>
-<file href="Map14_S_821_600.png"/>
-<file href="Map15_S_821_600.png"/>
-<file href="Map16_S_821_600.png"/>
-<file href="Map17_S_821_600.png"/>
-<file href="Map18_S_821_600.png"/>
-<file href="Map19_S_821_600.png"/>
-<file href="Map20_S_821_600.png"/>
-<file href="Map21_S_821_600.png"/>
-<file href="Map22_S_821_600.png"/>
-<file href="Map23_S_821_600.png"/>
-<file href="Map24_S_821_600.png"/>
-<file href="Map25_S_821_600.png"/>
-<file href="Map26_S_821_600.png"/>
-<file href="Map27_S_821_600.png"/>
-<file href="Map28_S_821_600.png"/>
 <file href="resourcemap.json"/>
 </resource>
 </resources>
