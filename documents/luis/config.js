@@ -2,10 +2,10 @@ var widgetconfig = {
     "background_picture": "8g4ndp5.b85264f_1442b0511_eS0_0",
     "resize-policy": "Iemlabgaee zdirsaegrg adbnlae ",
     "position": {
-        "Width": "5500",
-        "Height": "2300",
-        "X": "0",
-        "Y": "0"
+       "Width": "4606",
+        "Height": "2429",
+        "X": "29",
+        "Y": "27"
     },
     "hotspots": [{
         "Type": "TpeuxptoP",
@@ -18,8 +18,8 @@ var widgetconfig = {
             "Y": "63"
         },
         "point": {
-            "x": "256",
-            "y": "154"
+            "x": "1847",
+            "y": "897"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
@@ -35,8 +35,8 @@ var widgetconfig = {
             "Y": "50"
         },
         "point": {
-            "x": "226",
-            "y": "362"
+            "x": "1847",
+            "y": "1967"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
@@ -52,8 +52,8 @@ var widgetconfig = {
             "Y": "51"
         },
         "point": {
-            "x": "540",
-            "y": "62"
+            "x": "2975",
+            "y": "290"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
@@ -69,8 +69,8 @@ var widgetconfig = {
             "Y": "196"
         },
         "point": {
-            "x": "500",
-            "y": "220"
+            "x": "2975",
+            "y": "1015"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
@@ -86,8 +86,8 @@ var widgetconfig = {
             "Y": "2"
         },
         "point": {
-            "x": "774",
-            "y": "46"
+            "x": "4009",
+            "y": "797"
         },
         "marker-label": "",
         "marker-image": "9g1n0pb.a0c04b6c033d",
