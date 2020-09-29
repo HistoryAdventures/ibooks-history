@@ -2137,3 +2137,10 @@ body {
 #mobile-navcontainer {
   display: none;
 }
+
+.bw-checkbox-checkbox, .bw-simple-checkbox,
+.bw-checkbox-checkbox:before,
+[checked=checked] .bw-icon-accept:after,
+[checked=checked] .bw-icon-accept:before {
+  border-radius: 4px;
+}
