@@ -2144,3 +2144,12 @@ body {
 [checked=checked] .bw-icon-accept:before {
   border-radius: 4px;
 }
+
+.check-mode .tmc-answer .cr-correct {
+  display: inline-block;
+}
+
+.check-mode .pmc-answer .cr-correct,
+.check-mode .pmc-answer .cr-marker {
+  display: inline-block;
+}
