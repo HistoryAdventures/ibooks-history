@@ -78,6 +78,19 @@
   pointer-events: auto;
 }
 
+html.processing-in-progress #sendbutton,
+html.processing-in-progress #editbutton,
+html.processing-in-progress #checkbutton,
+html.processing-in-progress #clearbutton,
+html.processing-in-progress #sharebutton,
+html.processing-in-progress #downloadbutton,
+html.processing-in-progress #big-submit-button
+{ 
+  opacity: 30%;
+  pointer-events: none;
+  cursor: default;
+}
+
 .quizwidget .question-content-wrapper { 
   position: relative;
   overflow: hidden;
@@ -352,6 +365,7 @@ body.right-to-left .question-points {
   -ms-flex-item-align: flex-end;
   align-self: flex-end;  
 }
+
 
 @media print { 
   body.bw-use-border-when-wide,

@@ -1,4 +1,4 @@
-<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" identifier="com.kidimedia.ibook-widgets.quiz-quiz-luis" version="1" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2">
+<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="com.kidimedia.ibook-widgets.quiz-quiz-luis" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" version="1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
 <metadata>
 <schema>ADL SCORM</schema>
 <schemaversion>1.2</schemaversion>
@@ -6,13 +6,13 @@
 <organizations default="quiz-quiz-luis">
 <organization identifier="quiz-quiz-luis">
 <title>quiz-luis</title>
-<item identifierref="resource_1" identifier="item_1">
+<item identifier="item_1" identifierref="resource_1">
 <title>quiz-quiz-luis</title>
 </item>
 </organization>
 </organizations>
 <resources>
-<resource href="index.html" adlcp:scormtype="sco" type="webcontent" identifier="resource_1">
+<resource type="webcontent" identifier="resource_1" adlcp:scormtype="sco" href="index.html">
 <file href="2d7fb1b23e7ae3c6.jpeg"/>
 <file href="32e8419a7ecb8f91.jpeg"/>
 <file href="56c61edc3f845cc9.jpg"/>

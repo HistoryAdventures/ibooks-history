@@ -15,11 +15,11 @@ To discover previously unknown animals
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img alttext="" orientation="1" caption="" rid="5ZFCWIY09BARY01LHZQ2" width="0" height="0" autosize="true"></rationale_img>
+<rationale_img autosize="true" height="0" rid="5ZFCWIY09BARY01LHZQ2" alttext="" orientation="1" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="PBJ3E7PSIHZC6T0JTB1V"></audio>
-<img alttext="" orientation="1" caption="" rid="TUBA33U5GNR3Q22OMI45" width="0" height="0" autosize="true"></img>
+<img autosize="true" height="0" rid="TUBA33U5GNR3Q22OMI45" alttext="" orientation="1" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -30,18 +30,18 @@ To discover previously unknown animals
 <PictureMultiSelect>
 <Question searchable="true">Which images show the region described in the narrative?</Question>
 <Answers>
-<node alttext="" orientation="1" caption="" rid="88JIRBJAYZWZHZ7WXAF3" width="0" height="0" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/68/683d577e-fdf3-4ad5-8903-0c2ef2e5957d.jpeg?filename=samarkand.jpeg</node>
-<node alttext="" orientation="1" caption="" rid="P8JN3X7I1GM9F8Y0Q7CA" width="0" height="0" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/2d/2d60fe22-c326-46b3-b987-512e5c305805.jpeg?filename=perullama.jpeg</node>
-<node alttext="" orientation="1" caption="" rid="VJL630BJ4MFLFPDO8HII" width="0" height="0" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/95/9584d2ec-26c7-4861-a1a8-ca3ae544ae0e.jpeg?filename=peru.jpeg</node>
+<node autosize="true" height="0" rid="88JIRBJAYZWZHZ7WXAF3" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/68/683d577e-fdf3-4ad5-8903-0c2ef2e5957d.jpeg?filename=samarkand.jpeg</node>
+<node autosize="true" height="0" rid="P8JN3X7I1GM9F8Y0Q7CA" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/2d/2d60fe22-c326-46b3-b987-512e5c305805.jpeg?filename=perullama.jpeg</node>
+<node autosize="true" height="0" rid="VJL630BJ4MFLFPDO8HII" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/95/9584d2ec-26c7-4861-a1a8-ca3ae544ae0e.jpeg?filename=peru.jpeg</node>
 </Answers>
 <Valid searchable="true">2,3</Valid>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img alttext="" orientation="1" caption="" rid="ABG2HAF8KG8ZW2TJ1QP3" width="0" height="0" autosize="true"></rationale_img>
+<rationale_img autosize="true" height="0" rid="ABG2HAF8KG8ZW2TJ1QP3" alttext="" orientation="1" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="0PO72C6598IKPD4LZ6BG"></audio>
-<img alttext="" orientation="1" caption="" rid="1C30SKYU880GHS2801HP" width="0" height="0" autosize="true"></img>
+<img autosize="true" height="0" rid="1C30SKYU880GHS2801HP" alttext="" orientation="1" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -63,11 +63,11 @@ The location of many civilizations near rivers
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img alttext="" orientation="1" caption="" rid="NBI1LJ2N5Q6UTD7C8XPM" width="0" height="0" autosize="true"></rationale_img>
+<rationale_img autosize="true" height="0" rid="NBI1LJ2N5Q6UTD7C8XPM" alttext="" orientation="1" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="MH0UY1HFFBV5R00DAZZJ"></audio>
-<img alttext="" orientation="1" caption="" rid="5UXADTW1MZEIOE97T1BR" width="0" height="0" autosize="true"></img>
+<img autosize="true" height="0" rid="5UXADTW1MZEIOE97T1BR" alttext="" orientation="1" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -78,18 +78,18 @@ The location of many civilizations near rivers
 <PictureMultpleChoice>
 <Question searchable="true">Which map shows the extent of the Spanish Empire controlled by Luis and the other Conquistadors?</Question>
 <Answers>
-<node alttext="" orientation="1" caption="" rid="6TD41K6EJPYOYF1J1XDK" width="0" height="0" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/3f/3f57b57f-0359-4b36-b5b7-49a5c3409b5a.jpeg?filename=french).jpeg</node>
-<node alttext="" orientation="1" caption="" rid="X53MZ5K27VVVI667MY0G" width="0" height="0" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/4d/4d723470-8c80-4f3c-bb72-be55440a7e1e.png?filename=britempire.png</node>
-<node alttext="" orientation="1" caption="" rid="QIW76FEJO9VNV5X13C7A" width="0" height="0" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/b9/b9cb5121-b789-4549-a421-e6064264743b.jpg?filename=map-of-spanish-empire.jpg</node>
+<node autosize="true" height="0" rid="6TD41K6EJPYOYF1J1XDK" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/3f/3f57b57f-0359-4b36-b5b7-49a5c3409b5a.jpeg?filename=french).jpeg</node>
+<node autosize="true" height="0" rid="X53MZ5K27VVVI667MY0G" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/4d/4d723470-8c80-4f3c-bb72-be55440a7e1e.png?filename=britempire.png</node>
+<node autosize="true" height="0" rid="QIW76FEJO9VNV5X13C7A" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/b9/b9cb5121-b789-4549-a421-e6064264743b.jpg?filename=map-of-spanish-empire.jpg</node>
 </Answers>
 <Valid value="3">3</Valid>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img alttext="" orientation="1" caption="" rid="RE80YMCJQCP736C4FTOS" width="0" height="0" autosize="true"></rationale_img>
+<rationale_img autosize="true" height="0" rid="RE80YMCJQCP736C4FTOS" alttext="" orientation="1" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="PJ39EKNF167VJ2SMKI5D"></audio>
-<img alttext="" orientation="1" caption="" rid="UW14HCYWTJ3CRUS8VJJ5" width="0" height="0" autosize="true"></img>
+<img autosize="true" height="0" rid="UW14HCYWTJ3CRUS8VJJ5" alttext="" orientation="1" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -109,11 +109,11 @@ An amazing and beautiful exchange of ideas and goods
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img alttext="" orientation="1" caption="" rid="XGZTHDDFP1J1ABCHSC6Y" width="0" height="0" autosize="true"></rationale_img>
+<rationale_img autosize="true" height="0" rid="XGZTHDDFP1J1ABCHSC6Y" alttext="" orientation="1" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="J57Q4PQ56QVCXUKW65I8"></audio>
-<img alttext="" orientation="1" caption="" rid="BKR9STT8Y5OHVO4LGZIA" width="0" height="0" autosize="true"></img>
+<img autosize="true" height="0" rid="BKR9STT8Y5OHVO4LGZIA" alttext="" orientation="1" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -127,11 +127,11 @@ An amazing and beautiful exchange of ideas and goods
 <submit_answers>no</submit_answers>
 <submit_only_once>no</submit_only_once>
 <submitformfields>
-<formfield isVisible="yes" defaultValue="" isEditable="yes">student_name</formfield>
-<formfield isVisible="yes" defaultValue="" isEditable="yes">student_email</formfield>
-<formfield isVisible="no" defaultValue="" isEditable="yes">student_id</formfield>
-<formfield isVisible="no" defaultValue="" isEditable="yes">student_class_id</formfield>
-<formfield isVisible="no" defaultValue="" isEditable="no">teacher_email</formfield>
+<formfield isEditable="yes" isVisible="yes" defaultValue="">student_name</formfield>
+<formfield isEditable="yes" isVisible="yes" defaultValue="">student_email</formfield>
+<formfield isEditable="yes" isVisible="no" defaultValue="">student_id</formfield>
+<formfield isEditable="yes" isVisible="no" defaultValue="">student_class_id</formfield>
+<formfield isEditable="no" isVisible="no" defaultValue="">teacher_email</formfield>
 </submitformfields>
 <email_should_have_grading>yes</email_should_have_grading>
 <company_name searchable="true"></company_name>
@@ -155,7 +155,7 @@ An amazing and beautiful exchange of ideas and goods
 <show_answers>yes</show_answers>
 <show_password searchable="true"></show_password>
 <color_correct_answers>no</color_correct_answers>
-<show_score value="No">No</show_score>
+<show_score value="Score only">Score only</show_score>
 <allow_edit_after_check_or_send>no</allow_edit_after_check_or_send>
 <feedback/>
 <show_question_points>no</show_question_points>
@@ -721,7 +721,7 @@ An amazing and beautiful exchange of ideas and goods
 <modified>true</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants widget_backgroundimage=",auto" widget_color="#3498DB" template="Light Background" widget_font="Verdana">
+<DesignConstants widget_color="#3498DB" template="Light Background" widget_font="Verdana" widget_backgroundimage=",auto">
 <constant>
 <name>borderbackground</name>
 <kind>BackgroundGradient</kind>
@@ -2143,7 +2143,7 @@ An amazing and beautiful exchange of ideas and goods
 <value>#226592</value>
 </constant>
 </DesignConstants>
-<cover alttext="" orientation="1" caption="" rid="M0MPYI0PIXDVRMW0FV63" width="576" height="768" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/ba/ba7dcf28-ce94-493d-a5a5-dea2801832f0.png?filename=Default.png</cover>
+<cover autosize="true" height="768" rid="M0MPYI0PIXDVRMW0FV63" alttext="" orientation="1" width="576" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/ba/ba7dcf28-ce94-493d-a5a5-dea2801832f0.png?filename=Default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
 <BookWidgetsVersion>6.1.0</BookWidgetsVersion>
 <shortcode>WBBKQW8</shortcode>

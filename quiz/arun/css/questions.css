@@ -164,14 +164,17 @@ div.cr-marker.picture-marker .cr-wrong {
 }  
 
 
-/* text multi select */
-
-.quizwidget .check-mode [question-type=TextMultiSelect] .tmc-cover .bw-checkbox.tmc-answer:not([checked=checked]) .cr-wrong, 
-.quizwidget .check-mode [question-type=TextMultiSelect] .tmc-cover .bw-checkbox[checked=checked]:not(.tmc-answer) .cr-wrong {
-  display: inline-block;
+.quizwidget .check-mode .tmc-cover .tmc-answer {
+  padding-top: 1px;
+  margin-top: 7px;
+  padding-bottom: 1px;
+  margin-bottom: 7px;
 }
 
-.quizwidget .check-mode [question-type=TextMultiSelect] .tmc-cover .bw-checkbox:not(.tmc-answer):not([checked=checked]) .cr-correct {
+
+/* text multi select */
+
+.quizwidget .check-mode [question-type=TextMultiSelect] .tmc-cover .bw-checkbox[checked=checked]:not(.tmc-answer) .cr-wrong {
   display: inline-block;
 }
 
@@ -190,6 +193,7 @@ div.cr-marker.picture-marker .cr-wrong {
   border: 3px solid #666666;
   text-outline: none;
   box-sizing: border-box;
+  outline-offset: 4px;
 }
 
 .pmc-quiz [role=image] { 
@@ -243,18 +247,14 @@ div.cr-marker.picture-marker .cr-wrong {
 .quizwidget .color-correct-answers .pmc-cover .pmc-answer.selected .cr-correct, 
 .quizwidget .check-mode .pmc-cover .pmc-answer.selected .cr-correct,
 .quizwidget .color-correct-answers .pmc-cover .pmc-answer.selected .cr-marker, 
-.quizwidget .check-mode .pmc-cover .pmc-answer.selected .cr-marker,
-.quizwidget .check-mode [question-type=PictureMultiSelect] .pmc-cover .pmc-quiz:not(.pmc-answer):not(.selected) .cr-correct,
-.quizwidget .check-mode [question-type=PictureMultiSelect] .pmc-cover .pmc-quiz:not(.pmc-answer):not(.selected) .cr-marker { 
+.quizwidget .check-mode .pmc-cover .pmc-answer.selected .cr-marker
+{ 
   display: inline-block;
 }
 
 .quizwidget .check-mode .pmc-cover .pmc-quiz:not(.pmc-answer).selected .cr-wrong,
-.quizwidget .check-mode .pmc-cover .pmc-quiz:not(.pmc-answer).selected .cr-marker, 
-.quizwidget .check-mode .pmc-cover .pmc-quiz.pmc-answer:not(.selected) .cr-wrong,
-.quizwidget .check-mode .pmc-cover .pmc-quiz.pmc-answer:not(.selected) .cr-marker, 
-.quizwidget .check-mode [question-type=PictureMultiSelect] .pmc-cover .pmc-quiz.pmc-answer:not(.selected) .cr-wrong,
-.quizwidget .check-mode [question-type=PictureMultiSelect] .pmc-cover .pmc-quiz.pmc-answer:not(.selected) .cr-marker { 
+.quizwidget .check-mode .pmc-cover .pmc-quiz:not(.pmc-answer).selected .cr-marker
+{ 
   display: inline-block;
 }  
 
@@ -919,7 +919,8 @@ div.cr-marker.picture-marker .cr-wrong {
 
 .qt-cover td, .qt-cover th {
   text-align: center;
-  padding: 10px;
+  padding: 7px;
+  outline-offset: -3px;
 }
 
 .qt-cover th.nocenter {
@@ -936,6 +937,7 @@ body.right-to-left .qt-cover th.nocenter {
 
 .qt-cover td .bw-simple-radiobutton { 
   display: inline-block;
+  padding: 3px;
 }
 
 .check-mode .qt-cover td.qt-answer { 
@@ -951,13 +953,99 @@ body.right-to-left .qt-cover th.nocenter {
   border-radius: 5px;
 }
 
-
 .check-mode .qt-cover .qt-correct .cr-correct,
 .quizwidget .color-correct-answers  .qt-cover .qt-correct .cr-correct { 
   display: inline-block;
 }
 
 .check-mode .qt-cover .qt-wrong .cr-wrong { 
+  display: inline-block;
+}
+
+/* MultiSelect Question Table */
+
+.quizwidget .question-content.readonly-mode .content[question-type=QuestionTable] {
+  pointer-events: initial;
+}
+
+.quizwidget .question-content.readonly-mode .content[question-type=QuestionTable] input[type="radio"] {
+  pointer-events: none;
+}
+
+.mqt-cover { 
+  margin: 20px;
+  overflow-x: auto;
+}
+
+.mqt-cover td, .mqt-cover th {
+  text-align: center;
+  padding: 7px;
+  outline-offset: -3px;
+}
+
+.mqt-cover th.nocenter {
+  text-align: left;
+}
+
+body.right-to-left .mqt-cover th.nocenter {
+  text-align: right;
+}
+
+.mqt-cover td { 
+  text-align: center;
+}
+
+.mqt-cover td .bw-simple-radiobutton { 
+  display: inline-block;
+  padding: 3px;
+}
+
+.check-mode .mqt-cover td.mqt-answer { 
+  border-radius: 5px;
+}
+
+.check-mode .mqt-cover td.mqt-checked { 
+  border-radius: 5px;
+}
+
+.check-mode .mqt-cover td.mqt-answer.mqt-checked, 
+.quizwidget .color-correct-answers  .mqt-cover td.mqt-answer.mqt-checked { 
+  border-radius: 5px;
+}
+
+.mqt-cover .cr-marker { 
+  position: relative;
+  top: -5px;
+  display: none;
+}
+
+.mqt-cover .bw-simple-checkbox { 
+  margin-right: 0px;
+}
+
+.mqt-wrapper {
+    padding: 3px;
+}
+
+.check-mode .mqt-cover .mqt-checked.mqt-correct .cr-marker,
+.quizwidget .color-correct-answers  .mqt-cover .mqt-checked.mqt-correct .cr-marker,
+.check-mode .mqt-cover .mqt-checked.mqt-wrong .cr-marker { 
+  display: initial;
+}
+
+.check-mode .mqt-cover .mqt-checked.mqt-correct .bw-simple-checkbox,
+.quizwidget .color-correct-answers  .mqt-cover .mqt-checked.mqt-correct .bw-simple-checkbox,
+.check-mode .mqt-cover .mqt-checked.mqt-wrong .bw-simple-checkbox { 
+  margin-right: 5px;
+}
+
+
+.check-mode .mqt-cover .mqt-checked.mqt-correct .cr-correct,
+.quizwidget .color-correct-answers  .mqt-cover .mqt-checked.mqt-correct .cr-correct { 
+  display: inline-block;
+}
+
+.check-mode .mqt-cover .mqt-checked.mqt-wrong .cr-wrong { 
   display: inline-block;
 }
 
@@ -2114,7 +2202,6 @@ audio, .mejs-audio {
   html:not(.ibw-platform-osx-ibooks) .match_source .connectpicture {
     text-align: right;
     padding-right: 20px;
-    font-size:14px;
     word-wrap:break-word;
   }
 
@@ -2122,7 +2209,6 @@ audio, .mejs-audio {
   html:not(.ibw-platform-osx-ibooks) .match_target .connectpicture {
     text-align: left;
     padding-left: 20px;
-    font-size:14px;
     word-wrap:break-word;
   }
 

@@ -10,15 +10,15 @@ Whether he should join resistance fighters in the spice islands or live a life o
 
 </Answers>
 <Valid>1</Valid>
-<random-answer-order>yes</random-answer-order>
+<random-answer-order>no</random-answer-order>
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img alttext="" orientation="1" caption="" rid="NPKU0AQF9MLC5CI8JUJ9" width="0" height="0" autosize="true"></rationale_img>
+<rationale_img autosize="true" height="0" rid="PBJ3E7PSIHZC6T0JTB1V" alttext="" orientation="1" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
-<audio rid="OW652UUXZE4UNFLPIW1F"></audio>
-<img alttext="" orientation="1" caption="" rid="WF7V63M09WBETPYPVI3X" width="0" height="0" autosize="true"></img>
+<audio rid="TUBA33U5GNR3Q22OMI45"></audio>
+<img autosize="true" height="0" rid="88JIRBJAYZWZHZ7WXAF3" alttext="" orientation="1" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -27,18 +27,18 @@ Whether he should join resistance fighters in the spice islands or live a life o
 <PictureMultpleChoice>
 <Question searchable="true">Which of the maps is most useful to analyze the historical time period in this narrative?</Question>
 <Answers>
-<node alttext="" orientation="1" caption="" rid="YH038PH30JOFM0HVLJZ6" width="0" height="0" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/21/219c63cd-6e90-4d90-89a5-ebb6f72025f4.png?filename=Partition_of_India-en.svg.png</node>
-<node alttext="" orientation="1" caption="" rid="DFS8WJBC62CM2RBHZ1PY" width="0" height="0" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/f9/f9da12e0-7fef-419c-ad03-daf3a0129399.jpeg?filename=dutch%20map.jpeg</node>
-<node alttext="" orientation="1" caption="" rid="LNK34OGG1LO6ZP23HWQU" width="0" height="0" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/98/98407e6d-deb9-481e-8935-02912337f092?filename=east%20india%20map</node>
+<node autosize="true" height="0" rid="P8JN3X7I1GM9F8Y0Q7CA" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/21/219c63cd-6e90-4d90-89a5-ebb6f72025f4.png?filename=Partition_of_India-en.svg.png</node>
+<node autosize="true" height="0" rid="VJL630BJ4MFLFPDO8HII" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/f9/f9da12e0-7fef-419c-ad03-daf3a0129399.jpeg?filename=dutch%20map.jpeg</node>
+<node autosize="true" height="0" rid="ABG2HAF8KG8ZW2TJ1QP3" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/98/98407e6d-deb9-481e-8935-02912337f092?filename=east%20india%20map</node>
 </Answers>
 <Valid value="3">3</Valid>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img alttext="" orientation="1" caption="" rid="T844GSWHETXTFFAOZQXU" width="0" height="0" autosize="true"></rationale_img>
+<rationale_img autosize="true" height="0" rid="0PO72C6598IKPD4LZ6BG" alttext="" orientation="1" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
-<audio rid="A2T9F9KAEDU1HR1NXG9D"></audio>
-<img alttext="" orientation="1" caption="" rid="GORKTDY27B2PR758KLXB" width="0" height="0" autosize="true"></img>
+<audio rid="1C30SKYU880GHS2801HP"></audio>
+<img autosize="true" height="0" rid="NBI1LJ2N5Q6UTD7C8XPM" alttext="" orientation="1" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -54,15 +54,15 @@ Arun rarely traveled out of his village
 
 </Answers>
 <Valid>1 2</Valid>
-<random-answer-order>yes</random-answer-order>
+<random-answer-order>no</random-answer-order>
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img alttext="" orientation="1" caption="" rid="Y0H6Q3OZTV85412F1G94" width="0" height="0" autosize="true"></rationale_img>
+<rationale_img autosize="true" height="0" rid="MH0UY1HFFBV5R00DAZZJ" alttext="" orientation="1" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
-<audio rid="KTPRIVYZ7YLFK62S45O0"></audio>
-<img alttext="" orientation="1" caption="" rid="3K632IL7KDLACX0TDHIX" width="0" height="0" autosize="true"></img>
+<audio rid="5UXADTW1MZEIOE97T1BR"></audio>
+<img autosize="true" height="0" rid="6TD41K6EJPYOYF1J1XDK" alttext="" orientation="1" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -89,23 +89,19 @@ Arun rarely traveled out of his village
 <source searchable="true">Peasants</source>
 <target searchable="true">Had to pay taxes to the local leaders and British</target>
 </WordPair>
-<WordPair>
-<source searchable="true"></source>
-<target searchable="true"></target>
-</WordPair>
 </pairs>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img alttext="" orientation="1" caption="" rid="QTAJXWDQLO8XYSEBSSCR" width="0" height="0" autosize="true"></rationale_img>
+<rationale_img autosize="true" height="0" rid="X53MZ5K27VVVI667MY0G" alttext="" orientation="1" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
-<audio rid="X0X8PMERSMMFZ51M6EWY"></audio>
-<img alttext="" orientation="1" caption="" rid="MW9L5LW2O1EKWONF0UW1" width="0" height="0" autosize="true"></img>
+<audio rid="QIW76FEJO9VNV5X13C7A"></audio>
+<img autosize="true" height="0" rid="RE80YMCJQCP736C4FTOS" alttext="" orientation="1" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
-<scoring-weight searchable="true">1</scoring-weight>
-<version>1</version>
+<scoring-weight searchable="true">0,25</scoring-weight>
+<version></version>
 </WordMatch>
 <TextMultpleChoice>
 <Question searchable="true">What was the most important factor to explain why the peasants in the narrative paid taxes to Arun?</Question>
@@ -117,15 +113,15 @@ They believed the government was a great help to the peasants
 
 </Answers>
 <Valid>1</Valid>
-<random-answer-order>yes</random-answer-order>
+<random-answer-order>no</random-answer-order>
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img alttext="" orientation="1" caption="" rid="WONRDPAUAY2W11LHUW23" width="0" height="0" autosize="true"></rationale_img>
+<rationale_img autosize="true" height="0" rid="PJ39EKNF167VJ2SMKI5D" alttext="" orientation="1" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
-<audio rid="EWRPXDI4KZICJT9GIRJP"></audio>
-<img alttext="" orientation="1" caption="" rid="FXXG6AFVZ9VIN0WCIMSM" width="0" height="0" autosize="true"></img>
+<audio rid="UW14HCYWTJ3CRUS8VJJ5"></audio>
+<img autosize="true" height="0" rid="XGZTHDDFP1J1ABCHSC6Y" alttext="" orientation="1" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -137,11 +133,11 @@ They believed the government was a great help to the peasants
 <submit_answers>no</submit_answers>
 <submit_only_once>no</submit_only_once>
 <submitformfields>
-<formfield isVisible="yes" defaultValue="" isEditable="yes">student_name</formfield>
-<formfield isVisible="yes" defaultValue="" isEditable="yes">student_email</formfield>
-<formfield isVisible="no" defaultValue="" isEditable="yes">student_id</formfield>
-<formfield isVisible="no" defaultValue="" isEditable="yes">student_class_id</formfield>
-<formfield isVisible="no" defaultValue="" isEditable="no">teacher_email</formfield>
+<formfield isEditable="yes" isVisible="yes" defaultValue="">student_name</formfield>
+<formfield isEditable="yes" isVisible="yes" defaultValue="">student_email</formfield>
+<formfield isEditable="yes" isVisible="no" defaultValue="">student_id</formfield>
+<formfield isEditable="yes" isVisible="no" defaultValue="">student_class_id</formfield>
+<formfield isEditable="no" isVisible="no" defaultValue="">teacher_email</formfield>
 </submitformfields>
 <email_should_have_grading>yes</email_should_have_grading>
 <company_name searchable="true"></company_name>
@@ -165,7 +161,7 @@ They believed the government was a great help to the peasants
 <show_answers>yes</show_answers>
 <show_password searchable="true"></show_password>
 <color_correct_answers>no</color_correct_answers>
-<show_score value="No">No</show_score>
+<show_score value="Score only">Score only</show_score>
 <allow_edit_after_check_or_send>no</allow_edit_after_check_or_send>
 <feedback/>
 <show_question_points>no</show_question_points>
@@ -176,7 +172,7 @@ They believed the government was a great help to the peasants
 <download_includes_correction value="no">Never include correction when downloading.</download_includes_correction>
 <save_answers>yes</save_answers>
 <uuid2>{9b7add00-cf82-11ea-8495-61b8647ffe4a}</uuid2>
-<origbase_version>1</origbase_version>
+<origbase_version></origbase_version>
 <startup_password searchable="true"></startup_password>
 <require_password value="Once">Once</require_password>
 <answer_keys_password searchable="true"></answer_keys_password>
@@ -188,12 +184,12 @@ They believed the government was a great help to the peasants
 <allow_text_selection>no</allow_text_selection>
 <auto_play_audio>no</auto_play_audio>
 <direction value="left-to-right">left-to-right</direction>
-<widget_language>en</widget_language>
+<widget_language></widget_language>
 <LocalizationMap>
 <localization>
 <phrase>Accessing the camera and photo library does not work on this platform.</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Activate by clicking on the link in the email which was sent to the address provided.</phrase>
@@ -203,7 +199,7 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>All done !</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Answer keys</phrase>
@@ -213,12 +209,12 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Are you done and do you want to show the answers?</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Are you done and do you want to show your score?</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Are you sure?</phrase>
@@ -228,17 +224,17 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>CLEAR</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Camera not supported</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Check answers</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Class ID</phrase>
@@ -248,7 +244,7 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Clear and restart</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Clear answers and start over</phrase>
@@ -273,57 +269,57 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Click here to download your PDF</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Click the button to see the correct answers or go back to review your answers.</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Click the button to see your score or go back to review your answers.</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Click the button to submit or go back to review your answers.</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Correct answers</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Correct answers:</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Could not generate PDF.  Please try again later.</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Could not store picture</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Download</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Download Failed</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Download as PDF</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Email address and student name can't be empty.</phrase>
@@ -333,57 +329,57 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Enter your name and click 'Generate' to generate the PDF.</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Error inserting picture</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Error using picture</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Feedback</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Generate</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Generate PDF failed</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Generating PDF, please wait...</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Image upload error</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Invalid user name</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Next question</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>No</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>No camera on this device</phrase>
@@ -403,22 +399,22 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>No, this equation is not balanced</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Ok</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Optional Message</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>PDF generated</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Password</phrase>
@@ -433,22 +429,22 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Previous question</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Products</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>QUESTION</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Quiz</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Quiz results not accepted.</phrase>
@@ -458,7 +454,7 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Reactants</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Score</phrase>
@@ -483,7 +479,7 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Sending, please wait...</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Sent successfully</phrase>
@@ -493,12 +489,12 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Share</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Share the quiz by email.</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Show answers</phrase>
@@ -513,12 +509,12 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Show question list</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Show score</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Student Email</phrase>
@@ -543,17 +539,17 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Submit is disabled because you're not logged in with a student account. e.g. you may be using a parent account.</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Sum of charges:</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Switch to edit mode</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Tap to select picture</phrase>
@@ -588,7 +584,7 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>The quiz was sent successfully!</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>The time allowed for this test has expired.  You can no longer change your answers.</phrase>
@@ -598,22 +594,22 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>This field is required:</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>This widget needs internet access to store pictures.  Please connect and try again.</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>This word is correct.</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>To Email</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>To prevent abuse, results can only be sent to registered email addresses.</phrase>
@@ -628,12 +624,12 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Unable to send quiz. Make sure you're connected to the internet.</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Unanswered</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Unknown error</phrase>
@@ -643,12 +639,12 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Uploading audio</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Uploading image</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Uploading your answers...</phrase>
@@ -658,7 +654,7 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Wrong answers</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Wrong password...</phrase>
@@ -668,7 +664,7 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Yes</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Yes, clear</phrase>
@@ -683,7 +679,7 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Yes, this equation is balanced</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>You can also register at www.bookwidgets.com.</phrase>
@@ -693,7 +689,7 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>You can't specify multiple addresses for field:</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>You need to log in to the course before you can send your results! Use the Sign In widget at the start of this book to do so.</phrase>
@@ -703,12 +699,12 @@ They believed the government was a great help to the peasants
 <localization>
 <phrase>Your Email</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Your Name</phrase>
 <translation></translation>
-<modified>true</modified>
+<modified>false</modified>
 </localization>
 <localization>
 <phrase>Your answer:</phrase>
@@ -731,16 +727,16 @@ They believed the government was a great help to the peasants
 <modified>true</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants widget_backgroundimage=",auto" widget_color="#3498DB" template="Light Background" widget_font="Verdana">
+<DesignConstants>
 <constant>
 <name>borderbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#88badb, #88badb, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>backgroundbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 255, 255</value>
+<value>#f0f0f0, #f2f2f2, 0, 0</value>
 </constant>
 <constant>
 <name>backgroundimage</name>
@@ -750,62 +746,62 @@ They believed the government was a great help to the peasants
 <constant>
 <name>backgroundoutline</name>
 <kind>Outline</kind>
-<value>2px, dotted, #3498DB, 127</value>
+<value></value>
 </constant>
 <constant>
 <name>titlefont</name>
 <kind>TextFont</kind>
-<value>Verdana, font-stack, 20</value>
+<value></value>
 </constant>
 <constant>
 <name>titlecolor</name>
 <kind>TextColor</kind>
-<value>#3498DB</value>
+<value></value>
 </constant>
 <constant>
 <name>titlebackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 0, 0</value>
+<value></value>
 </constant>
 <constant>
 <name>titleborderbottom</name>
 <kind>BorderBottom</kind>
-<value>1px, solid, #bbbbbb, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>titleborderradius</name>
 <kind>BorderRadius</kind>
-<value>0px, 0px, 0px, 0px</value>
+<value></value>
 </constant>
 <constant>
 <name>titleshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 0px, 0px, 0px, #888, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>sspopuptoolbarbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>sspopuptoolbarcolor</name>
 <kind>TextColor</kind>
-<value>#010539</value>
+<value></value>
 </constant>
 <constant>
 <name>sspopuptoolbarshadow</name>
 <kind>BoxShadow</kind>
-<value>-1px, 1px, 1px, 0px, #010539, 32</value>
+<value></value>
 </constant>
 <constant>
 <name>questionnumberfont</name>
 <kind>TextFont</kind>
-<value>Verdana, font-stack, 14</value>
+<value></value>
 </constant>
 <constant>
 <name>questionnumbercolor</name>
 <kind>TextColor</kind>
-<value>#010539</value>
+<value></value>
 </constant>
 <constant>
 <name>questionfont</name>
@@ -830,27 +826,27 @@ They believed the government was a great help to the peasants
 <constant>
 <name>answercorrectcolor</name>
 <kind>TextColor</kind>
-<value>#008000</value>
+<value></value>
 </constant>
 <constant>
 <name>answercorrectbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 0, 0</value>
+<value></value>
 </constant>
 <constant>
 <name>answercorrectoutline</name>
 <kind>Outline</kind>
-<value>3px, dashed, #010539, 96</value>
+<value></value>
 </constant>
 <constant>
 <name>answerwrongcolor</name>
 <kind>TextColor</kind>
-<value>#c00000</value>
+<value></value>
 </constant>
 <constant>
 <name>answerwrongbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 0, 0</value>
+<value></value>
 </constant>
 <constant>
 <name>textdescriptiontitlefont</name>
@@ -860,7 +856,7 @@ They believed the government was a great help to the peasants
 <constant>
 <name>textdescriptiontitlecolor</name>
 <kind>TextColor</kind>
-<value>#010539</value>
+<value></value>
 </constant>
 <constant>
 <name>textdescriptionfont</name>
@@ -875,17 +871,17 @@ They believed the government was a great help to the peasants
 <constant>
 <name>selectedanswercolor</name>
 <kind>TextColor</kind>
-<value>#226592</value>
+<value></value>
 </constant>
 <constant>
 <name>dragdropboxfont</name>
 <kind>TextFont</kind>
-<value>Verdana, font-stack, 24</value>
+<value></value>
 </constant>
 <constant>
 <name>dragdropboxcolor</name>
 <kind>TextColor</kind>
-<value>#010539</value>
+<value></value>
 </constant>
 <constant>
 <name>dragdropboxbackground</name>
@@ -925,52 +921,52 @@ They believed the government was a great help to the peasants
 <constant>
 <name>dragdroptoolbuttoncolor</name>
 <kind>TextColor</kind>
-<value>#010539</value>
+<value></value>
 </constant>
 <constant>
 <name>dragdropwordfont</name>
 <kind>TextFont</kind>
-<value>Verdana, font-stack, 20</value>
+<value></value>
 </constant>
 <constant>
 <name>dragdropwordcolor</name>
 <kind>TextColor</kind>
-<value>#010539</value>
+<value></value>
 </constant>
 <constant>
 <name>dragdropwordbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 0, 0</value>
+<value></value>
 </constant>
 <constant>
 <name>dragdropwordborderleft</name>
 <kind>BorderLeft</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>dragdropwordborderright</name>
 <kind>BorderRight</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>dragdropwordbordertop</name>
 <kind>BorderTop</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>dragdropwordborderbottom</name>
 <kind>BorderBottom</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>dragdropwordborderradius</name>
 <kind>BorderRadius</kind>
-<value>0px, 0px, 0px, 0px</value>
+<value></value>
 </constant>
 <constant>
 <name>dragdropwordshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 0px, 0px, 0px, #888, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>dragdropcorrectcolor</name>
@@ -1025,12 +1021,12 @@ They believed the government was a great help to the peasants
 <constant>
 <name>editfont</name>
 <kind>TextFont</kind>
-<value>Verdana, font-stack, 18</value>
+<value></value>
 </constant>
 <constant>
 <name>editcolor</name>
 <kind>TextColor</kind>
-<value>#010539</value>
+<value></value>
 </constant>
 <constant>
 <name>editbackground</name>
@@ -1040,257 +1036,257 @@ They believed the government was a great help to the peasants
 <constant>
 <name>editborderleft</name>
 <kind>BorderLeft</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>editborderright</name>
 <kind>BorderRight</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>editbordertop</name>
 <kind>BorderTop</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>editborderbottom</name>
 <kind>BorderBottom</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>editborderradius</name>
 <kind>BorderRadius</kind>
-<value>24px, 24px, 24px, 24px</value>
+<value></value>
 </constant>
 <constant>
 <name>editshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 0px, 0px, 0px, #888, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>editpadding</name>
 <kind>Padding</kind>
-<value>20px, 20px, 20px, 20px</value>
+<value></value>
 </constant>
 <constant>
 <name>editcorrectcolor</name>
 <kind>TextColor</kind>
-<value>#008000</value>
+<value></value>
 </constant>
 <constant>
 <name>editcorrectbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>editwrongcolor</name>
 <kind>TextColor</kind>
-<value>#c00000</value>
+<value></value>
 </constant>
 <constant>
 <name>editwrongbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>editopencolor</name>
 <kind>TextColor</kind>
-<value>blue</value>
+<value></value>
 </constant>
 <constant>
 <name>editopenbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxfont</name>
 <kind>TextFont</kind>
-<value>Verdana, font-stack, 18</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxcolor</name>
 <kind>TextColor</kind>
-<value>#3498DB</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 0, 0</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxbordertop</name>
 <kind>BorderTop</kind>
-<value>1px, dashed, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxborderbottom</name>
 <kind>BorderBottom</kind>
-<value>1px, dashed, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxborderleft</name>
 <kind>BorderLeft</kind>
-<value>1px, dashed, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxborderright</name>
 <kind>BorderRight</kind>
-<value>1px, dashed, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxborderradius</name>
 <kind>BorderRadius</kind>
-<value>0px, 0px, 0px, 0px</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 0px, 0px, 0px, #888, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxpadding</name>
 <kind>Padding</kind>
-<value>5px, 5px, 5px, 5px</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxopencolor</name>
 <kind>TextColor</kind>
-<value>#0000c0</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxopenbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 0, 0</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxopenborderleft</name>
 <kind>BorderLeft</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxopenborderright</name>
 <kind>BorderRight</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxopenbordertop</name>
 <kind>BorderTop</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxopenborderbottom</name>
 <kind>BorderBottom</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxcorrectcolor</name>
 <kind>TextColor</kind>
-<value>#008000</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxcorrectbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 0, 0</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxcorrectborderleft</name>
 <kind>BorderLeft</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxcorrectborderright</name>
 <kind>BorderRight</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxcorrectbordertop</name>
 <kind>BorderTop</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxcorrectborderbottom</name>
 <kind>BorderBottom</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxwrongcolor</name>
 <kind>TextColor</kind>
-<value>#c00000</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxwrongbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 0, 0</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxwrongborderleft</name>
 <kind>BorderLeft</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxwrongborderright</name>
 <kind>BorderRight</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxwrongbordertop</name>
 <kind>BorderTop</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>numericinputboxwrongborderbottom</name>
 <kind>BorderBottom</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>minimalinputboxfont</name>
 <kind>TextFont</kind>
-<value>Verdana, font-stack, 20</value>
+<value></value>
 </constant>
 <constant>
 <name>minimalinputboxcolor</name>
 <kind>TextColor</kind>
-<value>#010539</value>
+<value></value>
 </constant>
 <constant>
 <name>minimalinputboxbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 0, 0</value>
+<value></value>
 </constant>
 <constant>
 <name>minimalinputboxbordertop</name>
 <kind>BorderTop</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>minimalinputboxborderbottom</name>
 <kind>BorderBottom</kind>
-<value>1px, solid, #010539, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>minimalinputboxborderleft</name>
 <kind>BorderLeft</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>minimalinputboxborderright</name>
 <kind>BorderRight</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>minimalinputboxborderradius</name>
 <kind>BorderRadius</kind>
-<value>0px, 0px, 0px, 0px</value>
+<value></value>
 </constant>
 <constant>
 <name>minimalinputboxshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 0px, 0px, 0px, #888, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>minimalinputboxpadding</name>
 <kind>Padding</kind>
-<value>4px, 0px, 4px, 0px</value>
+<value></value>
 </constant>
 <constant>
 <name>picmultchoicecorrectbackgroundcolor</name>
@@ -1300,7 +1296,7 @@ They believed the government was a great help to the peasants
 <constant>
 <name>picmultchoicecorrectoutline</name>
 <kind>Outline</kind>
-<value>3px, dashed, #010539, 96</value>
+<value></value>
 </constant>
 <constant>
 <name>picmultchoicewrongbackgroundcolor</name>
@@ -1325,17 +1321,17 @@ They believed the government was a great help to the peasants
 <constant>
 <name>hintcolor</name>
 <kind>TextColor</kind>
-<value>#010539</value>
+<value></value>
 </constant>
 <constant>
 <name>strokecolor</name>
 <kind>StrokeColor</kind>
-<value>#3498DB</value>
+<value></value>
 </constant>
 <constant>
 <name>fillcolor</name>
 <kind>FillColor</kind>
-<value>#ffffff</value>
+<value>#8080A0</value>
 </constant>
 <constant>
 <name>matchconnectionstrokecolor</name>
@@ -1355,47 +1351,47 @@ They believed the government was a great help to the peasants
 <constant>
 <name>matchpicturebackground</name>
 <kind>BackgroundGradient</kind>
-<value>#88badb, #88badb, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>matchpictureborderleft</name>
 <kind>BorderLeft</kind>
-<value>5px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>matchpictureborderright</name>
 <kind>BorderRight</kind>
-<value>5px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>matchpicturebordertop</name>
 <kind>BorderTop</kind>
-<value>5px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>matchpictureborderbottom</name>
 <kind>BorderBottom</kind>
-<value>5px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>matchpictureborderradius</name>
 <kind>BorderRadius</kind>
-<value>5px, 5px, 5px, 5px</value>
+<value></value>
 </constant>
 <constant>
 <name>matchpictureshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 2px, 4px, 1px, #010539, 48</value>
+<value></value>
 </constant>
 <constant>
 <name>questiontablequestionfont</name>
 <kind>TextFont</kind>
-<value>Verdana, font-stack, 16</value>
+<value></value>
 </constant>
 <constant>
 <name>questiontablequestioncolor</name>
 <kind>TextColor</kind>
-<value>#010539</value>
+<value></value>
 </constant>
 <constant>
 <name>questiontablecorrectbackgroundcolor</name>
@@ -1405,7 +1401,7 @@ They believed the government was a great help to the peasants
 <constant>
 <name>questiontablecorrectoutline</name>
 <kind>Outline</kind>
-<value>3px, dashed, #010539, 96</value>
+<value></value>
 </constant>
 <constant>
 <name>questiontablewrongbackgroundcolor</name>
@@ -1440,42 +1436,42 @@ They believed the government was a great help to the peasants
 <constant>
 <name>pictureshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 2px, 4px, 1px, #010539, 48</value>
+<value>0px, 0px, 2px, 2px, #c9c9cc, 255</value>
 </constant>
 <constant>
 <name>boxborderleft</name>
 <kind>BorderLeft</kind>
-<value>5px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>boxborderright</name>
 <kind>BorderRight</kind>
-<value>5px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>boxbordertop</name>
 <kind>BorderTop</kind>
-<value>5px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>boxborderbottom</name>
 <kind>BorderBottom</kind>
-<value>5px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>boxborderradius</name>
 <kind>BorderRadius</kind>
-<value>5px, 5px, 5px, 5px</value>
+<value></value>
 </constant>
 <constant>
 <name>boxshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 2px, 4px, 1px, #010539, 48</value>
+<value></value>
 </constant>
 <constant>
 <name>boxbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#88badb, #88badb, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>rationalefont</name>
@@ -1490,47 +1486,47 @@ They believed the government was a great help to the peasants
 <constant>
 <name>rationaleborderleft</name>
 <kind>BorderLeft</kind>
-<value>1px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>rationaleborderright</name>
 <kind>BorderRight</kind>
-<value>1px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>rationalebordertop</name>
 <kind>BorderTop</kind>
-<value>1px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>rationaleborderbottom</name>
 <kind>BorderBottom</kind>
-<value>1px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>rationaleborderradius</name>
 <kind>BorderRadius</kind>
-<value>0px, 0px, 0px, 0px</value>
+<value></value>
 </constant>
 <constant>
 <name>rationaleshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 2px, 4px, 1px, #010539, 48</value>
+<value></value>
 </constant>
 <constant>
 <name>rationalebackground</name>
 <kind>BackgroundGradient</kind>
-<value>#f0f0da, #f0f0da, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>rationaleanswerfont</name>
 <kind>TextFont</kind>
-<value>Verdana, font-stack, italic, 20</value>
+<value></value>
 </constant>
 <constant>
 <name>rationaleanswercolor</name>
 <kind>TextColor</kind>
-<value>#1d5480</value>
+<value></value>
 </constant>
 <constant>
 <name>tabledefaultfontcolor</name>
@@ -1540,7 +1536,7 @@ They believed the government was a great help to the peasants
 <constant>
 <name>tabledefaultfontbackgroundcolor</name>
 <kind>BackgroundColor</kind>
-<value>#ffffff</value>
+<value>#FFFFFF</value>
 </constant>
 <constant>
 <name>timerfont</name>
@@ -1560,57 +1556,57 @@ They believed the government was a great help to the peasants
 <constant>
 <name>orderwordfont</name>
 <kind>TextFont</kind>
-<value>Verdana, font-stack, 16</value>
+<value></value>
 </constant>
 <constant>
 <name>orderwordcolor</name>
 <kind>TextColor</kind>
-<value>#010539</value>
+<value></value>
 </constant>
 <constant>
 <name>orderwordbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#88badb, #88badb, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>orderwordborderleft</name>
 <kind>BorderLeft</kind>
-<value>1px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>orderwordborderright</name>
 <kind>BorderRight</kind>
-<value>1px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>orderwordbordertop</name>
 <kind>BorderTop</kind>
-<value>1px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>orderwordborderbottom</name>
 <kind>BorderBottom</kind>
-<value>1px, solid, #ffffff, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>orderwordborderradius</name>
 <kind>BorderRadius</kind>
-<value>0px, 0px, 0px, 0px</value>
+<value></value>
 </constant>
 <constant>
 <name>orderwordshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 2px, 4px, 1px, #010539, 48</value>
+<value></value>
 </constant>
 <constant>
 <name>orderwordcorrectcolor</name>
 <kind>TextColor</kind>
-<value>#010539</value>
+<value></value>
 </constant>
 <constant>
 <name>orderwordcorrectbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#88badb, #88badb, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>orderwordcorrectborderleft</name>
@@ -1635,12 +1631,12 @@ They believed the government was a great help to the peasants
 <constant>
 <name>orderwordwrongcolor</name>
 <kind>TextColor</kind>
-<value>#010539</value>
+<value></value>
 </constant>
 <constant>
 <name>orderwordwrongbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#88badb, #88badb, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>orderwordwrongborderleft</name>
@@ -1665,42 +1661,42 @@ They believed the government was a great help to the peasants
 <constant>
 <name>marksentenceselectioncolor</name>
 <kind>TextColor</kind>
-<value>#226592</value>
+<value></value>
 </constant>
 <constant>
 <name>marksentenceselectionbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#010539, #010539, 32, 32</value>
+<value></value>
 </constant>
 <constant>
 <name>marksentenceboxborderleft</name>
 <kind>BorderLeft</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>marksentenceboxborderright</name>
 <kind>BorderRight</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>marksentenceboxbordertop</name>
 <kind>BorderTop</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>marksentenceboxborderbottom</name>
 <kind>BorderBottom</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>marksentenceboxborderradius</name>
 <kind>BorderRadius</kind>
-<value>10px, 10px, 10px, 10px</value>
+<value></value>
 </constant>
 <constant>
 <name>marksentenceboxshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 0px, 0px, 0px, #888, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>wordboxfont</name>
@@ -1710,7 +1706,7 @@ They believed the government was a great help to the peasants
 <constant>
 <name>wordboxcolor</name>
 <kind>TextColor</kind>
-<value>#010539</value>
+<value>#3d3b3b</value>
 </constant>
 <constant>
 <name>wordboxbackground</name>
@@ -1750,57 +1746,57 @@ They believed the government was a great help to the peasants
 <constant>
 <name>wordboxpadding</name>
 <kind>Padding</kind>
-<value>$PaddingNone</value>
+<value></value>
 </constant>
 <constant>
 <name>questionpointsbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#010539, #010539, 15, 15</value>
+<value></value>
 </constant>
 <constant>
 <name>questionpointsfont</name>
 <kind>TextFont</kind>
-<value>Verdana, font-stack, 18</value>
+<value></value>
 </constant>
 <constant>
 <name>questionpointscolor</name>
 <kind>TextColor</kind>
-<value>#888888</value>
+<value></value>
 </constant>
 <constant>
 <name>questionpointsborderleft</name>
 <kind>BorderLeft</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionpointsborderright</name>
 <kind>BorderRight</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionpointsbordertop</name>
 <kind>BorderTop</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionpointsborderbottom</name>
 <kind>BorderBottom</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionpointsborderradius</name>
 <kind>BorderRadius</kind>
-<value>10px, 10px, 10px, 10px</value>
+<value></value>
 </constant>
 <constant>
 <name>questionpointsshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 0px, 0px, 0px, #888, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionpointspadding</name>
 <kind>Padding</kind>
-<value>8px, 8px, 8px, 8px</value>
+<value></value>
 </constant>
 <constant>
 <name>dialogborderradius</name>
@@ -1940,167 +1936,167 @@ They believed the government was a great help to the peasants
 <constant>
 <name>dialogbuttonpadding</name>
 <kind>Padding</kind>
-<value>8px, 12px, 8px, 12px</value>
+<value></value>
 </constant>
 <constant>
 <name>dialogbuttonoutline</name>
 <kind>Outline</kind>
-<value>2px, dotted, #ffffff, 127</value>
+<value></value>
 </constant>
 <constant>
 <name>questionsbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#88badb, #88badb, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonfont</name>
 <kind>TextFont</kind>
-<value>Verdana, font-stack, 24</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttoncolor</name>
 <kind>TextColor</kind>
-<value>#3498DB</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonborderleft</name>
 <kind>BorderLeft</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonborderright</name>
 <kind>BorderRight</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonbordertop</name>
 <kind>BorderTop</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonborderbottom</name>
 <kind>BorderBottom</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonborderradius</name>
 <kind>BorderRadius</kind>
-<value>32px, 32px, 32px, 32px</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 0px, 0px, 0px, #888, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonoutline</name>
 <kind>Outline</kind>
-<value>2px, dotted, #ffffff, 127</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonansweredfont</name>
 <kind>TextFont</kind>
-<value>Verdana, font-stack, 24</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonansweredcolor</name>
 <kind>TextColor</kind>
-<value>#ffffff</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonansweredbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#3498DB, #3498DB, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonansweredborderleft</name>
 <kind>BorderLeft</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonansweredborderright</name>
 <kind>BorderRight</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonansweredbordertop</name>
 <kind>BorderTop</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonansweredborderbottom</name>
 <kind>BorderBottom</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonansweredborderradius</name>
 <kind>BorderRadius</kind>
-<value>32px, 32px, 32px, 32px</value>
+<value></value>
 </constant>
 <constant>
 <name>questionbuttonansweredshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 0px, 0px, 0px, #888, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>textbuttonfont</name>
 <kind>TextFont</kind>
-<value>Verdana, font-stack, 16</value>
+<value></value>
 </constant>
 <constant>
 <name>textbuttoncolor</name>
 <kind>TextColor</kind>
-<value>#3498DB</value>
+<value></value>
 </constant>
 <constant>
 <name>textbuttonbackground</name>
 <kind>BackgroundGradient</kind>
-<value>#ffffff, #ffffff, 255, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>textbuttonborderleft</name>
 <kind>BorderLeft</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>textbuttonborderright</name>
 <kind>BorderRight</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>textbuttonbordertop</name>
 <kind>BorderTop</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>textbuttonborderbottom</name>
 <kind>BorderBottom</kind>
-<value>1px, solid, #3498DB, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>textbuttonborderradius</name>
 <kind>BorderRadius</kind>
-<value>24px, 24px, 24px, 24px</value>
+<value></value>
 </constant>
 <constant>
 <name>textbuttonshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 0px, 0px, 0px, #888, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>textbuttonpadding</name>
 <kind>Padding</kind>
-<value>8px, 12px, 8px, 12px</value>
+<value></value>
 </constant>
 <constant>
 <name>navigationcolor</name>
 <kind>TextColor</kind>
-<value>#3498DB</value>
+<value></value>
 </constant>
 <constant>
 <name>navigationbackground</name>
@@ -2110,50 +2106,50 @@ They believed the government was a great help to the peasants
 <constant>
 <name>navigationborderleft</name>
 <kind>BorderLeft</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>navigationborderright</name>
 <kind>BorderRight</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>navigationbordertop</name>
 <kind>BorderTop</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>navigationborderbottom</name>
 <kind>BorderBottom</kind>
-<value>0px, solid, #000000, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>navigationborderradius</name>
 <kind>BorderRadius</kind>
-<value>0px, 0px, 0px, 0px</value>
+<value></value>
 </constant>
 <constant>
 <name>navigationshadow</name>
 <kind>BoxShadow</kind>
-<value>0px, 0px, 0px, 0px, #888, 255</value>
+<value></value>
 </constant>
 <constant>
 <name>progresscolor</name>
 <kind>TextColor</kind>
-<value>#3498DB</value>
+<value></value>
 </constant>
 <constant>
 <name>progressstrokecolor</name>
 <kind>StrokeColor</kind>
-<value>#3498DB</value>
+<value></value>
 </constant>
 <constant>
 <name>progressfillcolor</name>
 <kind>FillColor</kind>
-<value>#226592</value>
+<value></value>
 </constant>
 </DesignConstants>
-<cover alttext="" orientation="1" caption="" rid="QCWO9KCLI6CRPL192VK0" width="576" height="768" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/a4/a48d98cd-05fa-4610-81e3-ba572e486608.png?filename=Default.png</cover>
+<cover autosize="true" height="768" rid="J57Q4PQ56QVCXUKW65I8" alttext="" orientation="1" width="576" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/a4/a48d98cd-05fa-4610-81e3-ba572e486608.png?filename=Default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
 <BookWidgetsVersion>6.1.0</BookWidgetsVersion>
 <shortcode>GBA6FGT</shortcode>
