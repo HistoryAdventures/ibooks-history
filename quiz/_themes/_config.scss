@@ -1684,6 +1684,10 @@ body {
   background: transparent;
 }
 
+.check-mode .dwis-box.ui-droppable.bw-tagged {
+  background-color: $theme-color;
+}
+
 .dwis-cover {
   display: flex;
   flex-direction: column-reverse;
