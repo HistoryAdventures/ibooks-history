@@ -1,18 +1,18 @@
-<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="com.kidimedia.ibook-widgets.quiz-quiz-ioannina" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" version="1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<manifest xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="com.kidimedia.ibook-widgets.quiz-Ioannina Assessment.wdgt" version="1">
 <metadata>
 <schema>ADL SCORM</schema>
 <schemaversion>1.2</schemaversion>
 </metadata>
-<organizations default="quiz-quiz-ioannina">
-<organization identifier="quiz-quiz-ioannina">
-<title>quiz-ioannina</title>
-<item identifier="item_1" identifierref="resource_1">
-<title>quiz-quiz-ioannina</title>
+<organizations default="quiz-Ioannina Assessment.wdgt">
+<organization identifier="quiz-Ioannina Assessment.wdgt">
+<title>Ioannina Assessment.wdgt</title>
+<item identifierref="resource_1" identifier="item_1">
+<title>quiz-Ioannina Assessment.wdgt</title>
 </item>
 </organization>
 </organizations>
 <resources>
-<resource type="webcontent" identifier="resource_1" adlcp:scormtype="sco" href="index.html">
+<resource type="webcontent" identifier="resource_1" href="index.html" adlcp:scormtype="sco">
 <file href="4e8d9c89c960d26f.png"/>
 <file href="a04c33c3097400d5.jpeg"/>
 <file href="bfed6ad1dfa22c09.jpg"/>

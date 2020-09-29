@@ -1,2148 +1,2253 @@
-<!DOCTYPE widget>
 <QuizPlugin>
+<shortcode>6BBJF62</shortcode>
+<label>Ioannina Assessment</label>
+<widget_language>en</widget_language>
 <questions>
 <PictureMultpleChoice>
 <Question searchable="true">Which map is most useful to analyze the political situation during Ioannina's narrative?</Question>
 <Answers>
-<node autosize="true" height="0" rid="5ZFCWIY09BARY01LHZQ2" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/f3/f331782f-8e66-4875-8a02-951737bb6767.png?filename=1389_Mediterranean_Sea.png</node>
-<node autosize="true" height="0" rid="PBJ3E7PSIHZC6T0JTB1V" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/47/47652cd6-8507-40b5-b3b5-55f2db7fe910.jpg?filename=Turkey_Political.jpg</node>
-<node autosize="true" height="0" rid="TUBA33U5GNR3Q22OMI45" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/5c/5ce54a47-b7a3-461c-b199-b72e8fea43c2.jpeg?filename=western%20roman%20empire%20(6).jpeg</node>
+<node width="0" alttext="" autosize="true" caption="" height="0" rid="5ZFCWIY09BARY01LHZQ2">https://widget-assets-eu.bookwidgets.com/200926/4e8d9c89c960d26f.38471f468fdcd6482c6a27ef1e27eaf6.png?filename=1389_Mediterranean_Sea.png</node>
+<node width="0" alttext="" autosize="true" caption="" height="0" rid="PBJ3E7PSIHZC6T0JTB1V">https://widget-assets-eu.bookwidgets.com/200926/bfed6ad1dfa22c09.e5e5e88727738058e2d4be5db0ab01fa.jpg?filename=Turkey_Political.jpg</node>
+<node width="0" alttext="" autosize="true" caption="" height="0" rid="TUBA33U5GNR3Q22OMI45">https://widget-assets-eu.bookwidgets.com/200926/a04c33c3097400d5.96b310d7c80d45407015899f9f439827.jpeg?filename=western%20roman%20empire%20(6).jpeg</node>
 </Answers>
 <Valid value="1">1</Valid>
-<Rationale searchable="true"></Rationale>
-<rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" height="0" rid="88JIRBJAYZWZHZ7WXAF3" alttext="" orientation="1" width="0" caption=""></rationale_img>
+<Rationale searchable="true"/>
+<rationale_img width="0" orientation="1" alttext="" autosize="true" caption="" height="0" rid="88JIRBJAYZWZHZ7WXAF3"/>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
-<hint searchable="true"></hint>
-<audio rid="P8JN3X7I1GM9F8Y0Q7CA"></audio>
-<img autosize="true" height="0" rid="VJL630BJ4MFLFPDO8HII" alttext="" orientation="1" width="0" caption=""></img>
+<hint searchable="true"/>
+<audio/>
+<img width="0" orientation="1" alttext="" autosize="true" caption="" height="0" rid="VJL630BJ4MFLFPDO8HII"/>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
-<number searchable="true"></number>
 <scoring-weight searchable="true">1</scoring-weight>
 </PictureMultpleChoice>
 <TextMultpleChoice>
 <Question searchable="true">Based on Ioannina's narrative, which description best explains the siege tactics present in the story?</Question>
-<Answers searchable="true" version="2">Surrounding a city to cut off supplies in an effort to weaken the opponent or force surrender
-An all out assault on a single enemy using ground and naval forces
-A religious war fought with the mission to convert the opponent
-To use military force as only a bluff, and to rely on peaceful negotiation to bring a victory
-
+<Answers searchable="true" version="2">Surrounding a city to cut off supplies in an effort to weaken the opponent or force surrender&#xd;
+An all out assault on a single enemy using ground and naval forces&#xd;
+A religious war fought with the mission to convert the opponent&#xd;
+To use military force as only a bluff, and to rely on peaceful negotiation to bring a victory&#xd;
+&#xd;
 </Answers>
-<Valid>1</Valid>
-<random-answer-order>yes</random-answer-order>
-<multi-column>no</multi-column>
-<Rationale searchable="true"></Rationale>
-<rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" height="0" rid="ABG2HAF8KG8ZW2TJ1QP3" alttext="" orientation="1" width="0" caption=""></rationale_img>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img width="0" orientation="1" alttext="" autosize="true" caption="" height="0" rid="ABG2HAF8KG8ZW2TJ1QP3"/>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
-<hint searchable="true"></hint>
-<audio rid="0PO72C6598IKPD4LZ6BG"></audio>
-<img autosize="true" height="0" rid="1C30SKYU880GHS2801HP" alttext="" orientation="1" width="0" caption=""></img>
+<hint searchable="true"/>
+<audio/>
+<img width="0" orientation="1" alttext="" autosize="true" caption="" height="0" rid="1C30SKYU880GHS2801HP"/>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
-<number searchable="true"></number>
 <scoring-weight searchable="true">1</scoring-weight>
 </TextMultpleChoice>
 <TextMultiSelect>
 <Question searchable="true">Which of the following historical patterns are exemplified by the events in the narrative?  Select all that apply.</Question>
-<Answers searchable="true" version="2">Conflict between Christian and Islamic culture and empires in the regions where Europe and Asia meet
-The irruption of Turkish dominance over large amounts of territory
-The expansion of the Latin language across the Roman Empire
-The large role played by women in warfare in this era of history
-The long, peaceful rule of the most prominent Byzantine leaders
-
+<Answers searchable="true" version="2">Conflict between Christian and Islamic culture and empires in the regions where Europe and Asia meet&#xd;
+The irruption of Turkish dominance over large amounts of territory&#xd;
+The expansion of the Latin language across the Roman Empire&#xd;
+The large role played by women in warfare in this era of history&#xd;
+The long, peaceful rule of the most prominent Byzantine leaders&#xd;
+&#xd;
 </Answers>
 <Valid>1 2</Valid>
-<random-answer-order>yes</random-answer-order>
-<multi-column>no</multi-column>
-<Rationale searchable="true"></Rationale>
-<rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" height="0" rid="NBI1LJ2N5Q6UTD7C8XPM" alttext="" orientation="1" width="0" caption=""></rationale_img>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img width="0" orientation="1" alttext="" autosize="true" caption="" height="0" rid="NBI1LJ2N5Q6UTD7C8XPM"/>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
-<hint searchable="true"></hint>
-<audio rid="MH0UY1HFFBV5R00DAZZJ"></audio>
-<img autosize="true" height="0" rid="5UXADTW1MZEIOE97T1BR" alttext="" orientation="1" width="0" caption=""></img>
+<hint searchable="true"/>
+<audio/>
+<img width="0" orientation="1" alttext="" autosize="true" caption="" height="0" rid="5UXADTW1MZEIOE97T1BR"/>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
-<number searchable="true"></number>
 <policy value="all">Score points when all answers are correct.</policy>
 <scoring-weight searchable="true">1</scoring-weight>
-<scoring-wrong-answer-weight searchable="true"></scoring-wrong-answer-weight>
+<scoring-wrong-answer-weight searchable="true"/>
 </TextMultiSelect>
 <TextMultiSelect>
 <Question searchable="true">Why were Ioannina and the other residents of Constantinople shocked at the invasion of their city?  Select all that apply.</Question>
-<Answers searchable="true" version="2">The city had strong defenses to stop land and sea attacks
-The Byzantine Empire had a powerful army to defend the Empire
-The Turks did not have gunpowder for their weapons
-The Byzantines looked down on the Turks and never copied their ideas or styles
-
+<Answers searchable="true" version="2">The city had strong defenses to stop land and sea attacks&#xd;
+The Byzantine Empire had a powerful army to defend the Empire&#xd;
+The Turks did not have gunpowder for their weapons&#xd;
+The Byzantines looked down on the Turks and never copied their ideas or styles&#xd;
+&#xd;
 </Answers>
 <Valid>1 2</Valid>
-<random-answer-order>yes</random-answer-order>
-<multi-column>no</multi-column>
-<Rationale searchable="true"></Rationale>
-<rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" height="0" rid="6TD41K6EJPYOYF1J1XDK" alttext="" orientation="1" width="0" caption=""></rationale_img>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img width="0" orientation="1" alttext="" autosize="true" caption="" height="0" rid="6TD41K6EJPYOYF1J1XDK"/>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
-<hint searchable="true"></hint>
-<audio rid="X53MZ5K27VVVI667MY0G"></audio>
-<img autosize="true" height="0" rid="QIW76FEJO9VNV5X13C7A" alttext="" orientation="1" width="0" caption=""></img>
+<hint searchable="true"/>
+<audio/>
+<img width="0" orientation="1" alttext="" autosize="true" caption="" height="0" rid="QIW76FEJO9VNV5X13C7A"/>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
-<number searchable="true"></number>
 <policy value="all">Score points when all answers are correct.</policy>
 <scoring-weight searchable="true">1</scoring-weight>
-<scoring-wrong-answer-weight searchable="true"></scoring-wrong-answer-weight>
+<scoring-wrong-answer-weight searchable="true"/>
 </TextMultiSelect>
 <DragWordsInSentence>
 <Question searchable="true">Drag the correct words into the sentence below.</Question>
 <Sentence searchable="true">&lt;&lt;Constantinople>> was the capitol of the Eastern Roman Empire.  This narrative describes the &lt;&lt;Fall of Constantinople>> in 1453.  The &lt;&lt;Ottoman>> Empire, under command of Mehmed the Conqueror, laid siege and destroyed the city.  The Ottomans developed a large land empire across Asia and eventually into Europe.  This led to a period of prominence for the &lt;&lt;Turkish>> ethnic group in the Islamic World.</Sentence>
-<distractors searchable="true" version="2">Seljuk
-Rome
-Glory of Constantinople
-Founding of Constantinople
-Persian
+<distractors searchable="true" version="2">Seljuk&#xd;
+Rome&#xd;
+Glory of Constantinople&#xd;
+Founding of Constantinople&#xd;
+Persian&#xd;
 Arab</distractors>
-<Rationale searchable="true"></Rationale>
-<rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" height="0" rid="RE80YMCJQCP736C4FTOS" alttext="" orientation="1" width="0" caption=""></rationale_img>
+<Rationale searchable="true"/>
+<rationale_img width="0" orientation="1" alttext="" autosize="true" caption="" height="0" rid="RE80YMCJQCP736C4FTOS"/>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
-<hint searchable="true"></hint>
-<audio rid="PJ39EKNF167VJ2SMKI5D"></audio>
-<img autosize="true" height="0" rid="UW14HCYWTJ3CRUS8VJJ5" alttext="" orientation="1" width="0" caption=""></img>
+<hint searchable="true"/>
+<audio/>
+<img width="0" orientation="1" alttext="" autosize="true" caption="" height="0" rid="UW14HCYWTJ3CRUS8VJJ5"/>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <keyboard value="Alphabetic">Alphabetic</keyboard>
-<number searchable="true"></number>
 <scoring-weight searchable="true">0,25</scoring-weight>
 </DragWordsInSentence>
 </questions>
 <id searchable="true">Ioannina Assessment</id>
-<book_title searchable="true"></book_title>
-<submit_answers>no</submit_answers>
-<submit_only_once>no</submit_only_once>
+<submit_answers>false</submit_answers>
+<submit_only_once>false</submit_only_once>
 <submitformfields>
-<formfield isEditable="yes" isVisible="yes" defaultValue="">student_name</formfield>
-<formfield isEditable="yes" isVisible="yes" defaultValue="">student_email</formfield>
-<formfield isEditable="yes" isVisible="no" defaultValue="">student_id</formfield>
-<formfield isEditable="yes" isVisible="no" defaultValue="">student_class_id</formfield>
-<formfield isEditable="no" isVisible="no" defaultValue="">teacher_email</formfield>
+<formfield isVisible="true" defaultValue="" isEditable="true">student_name</formfield>
+<formfield isVisible="true" defaultValue="" isEditable="true">student_email</formfield>
+<formfield isVisible="false" defaultValue="" isEditable="true">student_id</formfield>
+<formfield isVisible="false" defaultValue="" isEditable="true">student_class_id</formfield>
+<formfield isVisible="false" defaultValue="" isEditable="false">teacher_email</formfield>
 </submitformfields>
-<email_should_have_grading>yes</email_should_have_grading>
-<company_name searchable="true"></company_name>
-<company_address searchable="true"></company_address>
-<company_phone searchable="true"></company_phone>
-<company_website searchable="true"></company_website>
+<email_should_have_grading>true</email_should_have_grading>
 <action searchable="true">https://api.bookwidgets.com/api/v1/quiz/post</action>
 <servertype value="BookWidgets">BookWidgets</servertype>
-<course_id searchable="true"></course_id>
-<widget_sequence_number searchable="true"></widget_sequence_number>
-<examination_mode>no</examination_mode>
+<examination_mode>false</examination_mode>
 <countdown_time searchable="true">30</countdown_time>
-<exam_mode_submit_dialog_clear>yes</exam_mode_submit_dialog_clear>
+<exam_mode_submit_dialog_clear>true</exam_mode_submit_dialog_clear>
 <support_student_account value="no">No student accounts</support_student_account>
 <student_account_authproviders/>
 <student_account_school>
-<code></code>
+<code/>
 <name>Anyone</name>
 </student_account_school>
-<student_account_authrestrict>yes</student_account_authrestrict>
-<show_answers>yes</show_answers>
-<show_password searchable="true"></show_password>
-<color_correct_answers>no</color_correct_answers>
+<student_account_authrestrict>true</student_account_authrestrict>
+<show_answers>true</show_answers>
+<color_correct_answers>false</color_correct_answers>
 <show_score value="Score only">Score only</show_score>
-<allow_edit_after_check_or_send>no</allow_edit_after_check_or_send>
+<allow_edit_after_check_or_send>false</allow_edit_after_check_or_send>
 <feedback/>
-<show_question_points>no</show_question_points>
-<allow_sharing>no</allow_sharing>
+<show_question_points>false</show_question_points>
+<allow_sharing>false</allow_sharing>
 <share_action searchable="true">https://api.bookwidgets.com/api/v1/quiz/share</share_action>
-<allow_download>no</allow_download>
+<allow_download>false</allow_download>
 <download_action searchable="true">https://api.bookwidgets.com/api/v1/quiz/download</download_action>
 <download_includes_correction value="no">Never include correction when downloading.</download_includes_correction>
-<save_answers>yes</save_answers>
+<save_answers>true</save_answers>
 <uuid2>{1fd89790-cea7-11ea-aaa6-cf8a85d17c8f}</uuid2>
 <origbase_version>1</origbase_version>
-<startup_password searchable="true"></startup_password>
 <require_password value="Once">Once</require_password>
-<answer_keys_password searchable="true"></answer_keys_password>
-<spellcheck>yes</spellcheck>
-<random_order>no</random_order>
-<auto_numbering>yes</auto_numbering>
-<info_numbering>no</info_numbering>
+<spellcheck>true</spellcheck>
+<random_order>false</random_order>
+<auto_numbering>true</auto_numbering>
+<info_numbering>false</info_numbering>
 <provide_calculator value="None">None</provide_calculator>
-<allow_text_selection>no</allow_text_selection>
-<auto_play_audio>no</auto_play_audio>
+<allow_text_selection>false</allow_text_selection>
+<auto_play_audio>false</auto_play_audio>
 <direction value="left-to-right">left-to-right</direction>
-<widget_language>en</widget_language>
 <LocalizationMap>
 <localization>
 <phrase>Accessing the camera and photo library does not work on this platform.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Activate by clicking on the link in the email which was sent to the address provided.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>All done !</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Answer keys</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Are you done and do you want to show the answers?</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Are you done and do you want to show your score?</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Are you sure?</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>CLEAR</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Camera not supported</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Check answers</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Class ID</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Clear and restart</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Clear answers and start over</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Clear the answers and start over?</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Clear the image and start over?</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Clear the text and start over?</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Click here to download your PDF</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Click the button to see the correct answers or go back to review your answers.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Click the button to see your score or go back to review your answers.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Click the button to submit or go back to review your answers.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Correct answers</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Correct answers:</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Could not generate PDF.  Please try again later.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Could not store picture</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Download</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Download Failed</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Download as PDF</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Email address and student name can't be empty.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Enter your name and click 'Generate' to generate the PDF.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Error inserting picture</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Error using picture</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Feedback</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Generate</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Generate PDF failed</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Generating PDF, please wait...</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Image upload error</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Invalid user name</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Next question</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>No</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>No camera on this device</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>No, keep</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>No, keep my image</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>No, this equation is not balanced</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Ok</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Optional Message</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>PDF generated</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Password</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Please enter password</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Previous question</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Products</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>QUESTION</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Quiz</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Quiz results not accepted.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Reactants</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Score</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Send</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Send Answer</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Send Failed</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Sending, please wait...</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Sent successfully</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Share</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Share the quiz by email.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Show answers</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Show hint</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Show question list</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Show score</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Student Email</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Student ID</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Student Name</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Submit</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Submit is disabled because you're not logged in with a student account. e.g. you may be using a parent account.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Sum of charges:</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Switch to edit mode</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Tap to select picture</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Teacher Email</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>The answer:</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>The answers will be permanently deleted and cannot be recovered. Are you sure?</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>The answers:</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>The email address you provided has not been activated.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>The quiz was sent successfully!</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>The time allowed for this test has expired.  You can no longer change your answers.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>This field is required:</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>This widget needs internet access to store pictures.  Please connect and try again.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>This word is correct.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>To Email</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>To prevent abuse, results can only be sent to registered email addresses.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Unable to send quiz results. Make sure you're connected to the internet.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Unable to send quiz. Make sure you're connected to the internet.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Unanswered</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Unknown error</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Uploading audio</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Uploading image</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Uploading your answers...</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Wrong answers</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Wrong password...</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Yes</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Yes, clear</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Yes, clear the image</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Yes, this equation is balanced</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>You can also register at www.bookwidgets.com.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>You can't specify multiple addresses for field:</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>You need to log in to the course before you can send your results! Use the Sign In widget at the start of this book to do so.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Your Email</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Your Name</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Your answer:</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Your results were sent successfully!</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Your results were sent successfully!  You can now review your answers.</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
 <localization>
 <phrase>Your score is</phrase>
-<translation></translation>
+<translation/>
 <modified>true</modified>
 </localization>
+<localization>
+<phrase>Authentication error.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Cancel</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Could not connect to server, check your internet connection.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Email</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Forgot password?</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Not logged in</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>OK</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Offline</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Online</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Please sign in</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Received error trying to sign in</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>School code</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Server error when signing in.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in failed</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in to save your answers online</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in using</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in using email and password</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in using school account</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign out</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign up here</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Username</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Waiting</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Waiting for account sign in to complete...</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Widget configuration error: school doesn't exist</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Wrong username or password, please try again.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>You need to be signed in to use this widget.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>You're currently offline and logged in as user:</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>You're currently online and logged in as user:</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>You're offline</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Your progress on this activity will be shared with your teacher.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>More info</phrase>
+<translation/>
+</localization>
 </LocalizationMap>
-<DesignConstants widget_color="#3498DB" template="Light Background" widget_font="Verdana" widget_backgroundimage=",auto">
+<DesignConstants widget_backgroundimage=",auto" widget_font="Verdana" widget_color="#3498DB" template="Light Background">
 <constant>
 <name>borderbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#88badb, #88badb, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>backgroundbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>backgroundimage</name>
-<kind>BackgroundImage</kind>
 <value>,auto</value>
+<kind>BackgroundImage</kind>
 </constant>
 <constant>
 <name>backgroundoutline</name>
-<kind>Outline</kind>
 <value>2px, dotted, #3498DB, 127</value>
+<kind>Outline</kind>
 </constant>
 <constant>
 <name>titlefont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 20</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>titlecolor</name>
-<kind>TextColor</kind>
 <value>#3498DB</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>titlebackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>titleborderbottom</name>
-<kind>BorderBottom</kind>
 <value>1px, solid, #bbbbbb, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>titleborderradius</name>
-<kind>BorderRadius</kind>
 <value>0px, 0px, 0px, 0px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>titleshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>sspopuptoolbarbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>sspopuptoolbarcolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>sspopuptoolbarshadow</name>
-<kind>BoxShadow</kind>
 <value>-1px, 1px, 1px, 0px, #010539, 32</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>questionnumberfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 14</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>questionnumbercolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>questionfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 24</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>questioncolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>answerfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 16</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>answercolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>answercorrectcolor</name>
-<kind>TextColor</kind>
 <value>#008000</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>answercorrectbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>answercorrectoutline</name>
-<kind>Outline</kind>
 <value>3px, dashed, #010539, 96</value>
+<kind>Outline</kind>
 </constant>
 <constant>
 <name>answerwrongcolor</name>
-<kind>TextColor</kind>
 <value>#c00000</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>answerwrongbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>textdescriptiontitlefont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 24</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>textdescriptiontitlecolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>textdescriptionfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 16</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>textdescriptioncolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>selectedanswercolor</name>
-<kind>TextColor</kind>
 <value>#226592</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>dragdropboxfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 24</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>dragdropboxcolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>dragdropboxbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>dragdropboxborderleft</name>
-<kind>BorderLeft</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>dragdropboxborderright</name>
-<kind>BorderRight</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>dragdropboxbordertop</name>
-<kind>BorderTop</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>dragdropboxborderbottom</name>
-<kind>BorderBottom</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>dragdropboxborderradius</name>
-<kind>BorderRadius</kind>
 <value>10px, 10px, 10px, 10px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>dragdropboxshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>dragdroptoolbuttoncolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>dragdropwordfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 20</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>dragdropwordcolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>dragdropwordbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>dragdropwordborderleft</name>
-<kind>BorderLeft</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>dragdropwordborderright</name>
-<kind>BorderRight</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>dragdropwordbordertop</name>
-<kind>BorderTop</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>dragdropwordborderbottom</name>
-<kind>BorderBottom</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>dragdropwordborderradius</name>
-<kind>BorderRadius</kind>
 <value>0px, 0px, 0px, 0px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>dragdropwordshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>dragdropcorrectcolor</name>
-<kind>TextColor</kind>
 <value>#008000</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>dragdropcorrectborderleft</name>
-<kind>BorderLeft</kind>
 <value>3px, solid, #008000, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>dragdropcorrectborderright</name>
-<kind>BorderRight</kind>
 <value>3px, solid, #008000, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>dragdropcorrectbordertop</name>
-<kind>BorderTop</kind>
 <value>3px, solid, #008000, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>dragdropcorrectborderbottom</name>
-<kind>BorderBottom</kind>
 <value>3px, solid, #008000, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>dragdropwrongcolor</name>
-<kind>TextColor</kind>
 <value>#c00000</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>dragdropwrongborderleft</name>
-<kind>BorderLeft</kind>
 <value>3px, solid, #c00000, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>dragdropwrongborderright</name>
-<kind>BorderRight</kind>
 <value>3px, solid, #c00000, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>dragdropwrongbordertop</name>
-<kind>BorderTop</kind>
 <value>3px, solid, #c00000, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>dragdropwrongborderbottom</name>
-<kind>BorderBottom</kind>
 <value>3px, solid, #c00000, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>editfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 18</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>editcolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>editbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>editborderleft</name>
-<kind>BorderLeft</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>editborderright</name>
-<kind>BorderRight</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>editbordertop</name>
-<kind>BorderTop</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>editborderbottom</name>
-<kind>BorderBottom</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>editborderradius</name>
-<kind>BorderRadius</kind>
 <value>24px, 24px, 24px, 24px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>editshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>editpadding</name>
-<kind>Padding</kind>
 <value>20px, 20px, 20px, 20px</value>
+<kind>Padding</kind>
 </constant>
 <constant>
 <name>editcorrectcolor</name>
-<kind>TextColor</kind>
 <value>#008000</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>editcorrectbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>editwrongcolor</name>
-<kind>TextColor</kind>
 <value>#c00000</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>editwrongbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>editopencolor</name>
-<kind>TextColor</kind>
 <value>blue</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>editopenbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>numericinputboxfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 18</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>numericinputboxcolor</name>
-<kind>TextColor</kind>
 <value>#3498DB</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>numericinputboxbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>numericinputboxbordertop</name>
-<kind>BorderTop</kind>
 <value>1px, dashed, #3498DB, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>numericinputboxborderbottom</name>
-<kind>BorderBottom</kind>
 <value>1px, dashed, #3498DB, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>numericinputboxborderleft</name>
-<kind>BorderLeft</kind>
 <value>1px, dashed, #3498DB, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>numericinputboxborderright</name>
-<kind>BorderRight</kind>
 <value>1px, dashed, #3498DB, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>numericinputboxborderradius</name>
-<kind>BorderRadius</kind>
 <value>0px, 0px, 0px, 0px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>numericinputboxshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>numericinputboxpadding</name>
-<kind>Padding</kind>
 <value>5px, 5px, 5px, 5px</value>
+<kind>Padding</kind>
 </constant>
 <constant>
 <name>numericinputboxopencolor</name>
-<kind>TextColor</kind>
 <value>#0000c0</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>numericinputboxopenbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>numericinputboxopenborderleft</name>
-<kind>BorderLeft</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>numericinputboxopenborderright</name>
-<kind>BorderRight</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>numericinputboxopenbordertop</name>
-<kind>BorderTop</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>numericinputboxopenborderbottom</name>
-<kind>BorderBottom</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>numericinputboxcorrectcolor</name>
-<kind>TextColor</kind>
 <value>#008000</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>numericinputboxcorrectbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>numericinputboxcorrectborderleft</name>
-<kind>BorderLeft</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>numericinputboxcorrectborderright</name>
-<kind>BorderRight</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>numericinputboxcorrectbordertop</name>
-<kind>BorderTop</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>numericinputboxcorrectborderbottom</name>
-<kind>BorderBottom</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>numericinputboxwrongcolor</name>
-<kind>TextColor</kind>
 <value>#c00000</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>numericinputboxwrongbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>numericinputboxwrongborderleft</name>
-<kind>BorderLeft</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>numericinputboxwrongborderright</name>
-<kind>BorderRight</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>numericinputboxwrongbordertop</name>
-<kind>BorderTop</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>numericinputboxwrongborderbottom</name>
-<kind>BorderBottom</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>minimalinputboxfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 20</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>minimalinputboxcolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>minimalinputboxbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>minimalinputboxbordertop</name>
-<kind>BorderTop</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>minimalinputboxborderbottom</name>
-<kind>BorderBottom</kind>
 <value>1px, solid, #010539, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>minimalinputboxborderleft</name>
-<kind>BorderLeft</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>minimalinputboxborderright</name>
-<kind>BorderRight</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>minimalinputboxborderradius</name>
-<kind>BorderRadius</kind>
 <value>0px, 0px, 0px, 0px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>minimalinputboxshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>minimalinputboxpadding</name>
-<kind>Padding</kind>
 <value>4px, 0px, 4px, 0px</value>
+<kind>Padding</kind>
 </constant>
 <constant>
 <name>picmultchoicecorrectbackgroundcolor</name>
-<kind>BackgroundColor</kind>
 <value>#008000</value>
+<kind>BackgroundColor</kind>
 </constant>
 <constant>
 <name>picmultchoicecorrectoutline</name>
-<kind>Outline</kind>
 <value>3px, dashed, #010539, 96</value>
+<kind>Outline</kind>
 </constant>
 <constant>
 <name>picmultchoicewrongbackgroundcolor</name>
-<kind>BackgroundColor</kind>
 <value>#c00000</value>
+<kind>BackgroundColor</kind>
 </constant>
 <constant>
 <name>showhintbuttonfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 14</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>showhintbuttoncolor</name>
-<kind>TextColor</kind>
 <value>#888888</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>hintfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 16</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>hintcolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>strokecolor</name>
-<kind>StrokeColor</kind>
 <value>#3498DB</value>
+<kind>StrokeColor</kind>
 </constant>
 <constant>
 <name>fillcolor</name>
-<kind>FillColor</kind>
 <value>#ffffff</value>
+<kind>FillColor</kind>
 </constant>
 <constant>
 <name>matchconnectionstrokecolor</name>
-<kind>StrokeColor</kind>
 <value>#0000ff</value>
+<kind>StrokeColor</kind>
 </constant>
 <constant>
 <name>matchconnectionwrongstrokecolor</name>
-<kind>StrokeColor</kind>
 <value>#c00000</value>
+<kind>StrokeColor</kind>
 </constant>
 <constant>
 <name>matchconnectioncorrectstrokecolor</name>
-<kind>StrokeColor</kind>
 <value>#008000</value>
+<kind>StrokeColor</kind>
 </constant>
 <constant>
 <name>matchpicturebackground</name>
-<kind>BackgroundGradient</kind>
 <value>#88badb, #88badb, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>matchpictureborderleft</name>
-<kind>BorderLeft</kind>
 <value>5px, solid, #ffffff, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>matchpictureborderright</name>
-<kind>BorderRight</kind>
 <value>5px, solid, #ffffff, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>matchpicturebordertop</name>
-<kind>BorderTop</kind>
 <value>5px, solid, #ffffff, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>matchpictureborderbottom</name>
-<kind>BorderBottom</kind>
 <value>5px, solid, #ffffff, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>matchpictureborderradius</name>
-<kind>BorderRadius</kind>
 <value>5px, 5px, 5px, 5px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>matchpictureshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 2px, 4px, 1px, #010539, 48</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>questiontablequestionfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 16</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>questiontablequestioncolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>questiontablecorrectbackgroundcolor</name>
-<kind>BackgroundColor</kind>
 <value>#008000</value>
+<kind>BackgroundColor</kind>
 </constant>
 <constant>
 <name>questiontablecorrectoutline</name>
-<kind>Outline</kind>
 <value>3px, dashed, #010539, 96</value>
+<kind>Outline</kind>
 </constant>
 <constant>
 <name>questiontablewrongbackgroundcolor</name>
-<kind>BackgroundColor</kind>
 <value>#c00000</value>
+<kind>BackgroundColor</kind>
 </constant>
 <constant>
 <name>pictureborderleft</name>
-<kind>BorderLeft</kind>
 <value>5px, solid, #ffffff, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>pictureborderright</name>
-<kind>BorderRight</kind>
 <value>5px, solid, #ffffff, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>picturebordertop</name>
-<kind>BorderTop</kind>
 <value>5px, solid, #ffffff, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>pictureborderbottom</name>
-<kind>BorderBottom</kind>
 <value>5px, solid, #ffffff, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>pictureborderradius</name>
-<kind>BorderRadius</kind>
 <value>5px, 5px, 5px, 5px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>pictureshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 2px, 4px, 1px, #010539, 48</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>boxborderleft</name>
-<kind>BorderLeft</kind>
 <value>5px, solid, #ffffff, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>boxborderright</name>
-<kind>BorderRight</kind>
 <value>5px, solid, #ffffff, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>boxbordertop</name>
-<kind>BorderTop</kind>
 <value>5px, solid, #ffffff, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>boxborderbottom</name>
-<kind>BorderBottom</kind>
 <value>5px, solid, #ffffff, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>boxborderradius</name>
-<kind>BorderRadius</kind>
 <value>5px, 5px, 5px, 5px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>boxshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 2px, 4px, 1px, #010539, 48</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>boxbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#88badb, #88badb, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>rationalefont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 20</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>rationalecolor</name>
-<kind>TextColor</kind>
 <value>#1d5480</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>rationaleborderleft</name>
-<kind>BorderLeft</kind>
 <value>1px, solid, #ffffff, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>rationaleborderright</name>
-<kind>BorderRight</kind>
 <value>1px, solid, #ffffff, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>rationalebordertop</name>
-<kind>BorderTop</kind>
 <value>1px, solid, #ffffff, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>rationaleborderbottom</name>
-<kind>BorderBottom</kind>
 <value>1px, solid, #ffffff, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>rationaleborderradius</name>
-<kind>BorderRadius</kind>
 <value>0px, 0px, 0px, 0px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>rationaleshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 2px, 4px, 1px, #010539, 48</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>rationalebackground</name>
-<kind>BackgroundGradient</kind>
 <value>#f0f0da, #f0f0da, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>rationaleanswerfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, italic, 20</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>rationaleanswercolor</name>
-<kind>TextColor</kind>
 <value>#1d5480</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>tabledefaultfontcolor</name>
-<kind>TextColor</kind>
 <value>#000000</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>tabledefaultfontbackgroundcolor</name>
-<kind>BackgroundColor</kind>
 <value>#ffffff</value>
+<kind>BackgroundColor</kind>
 </constant>
 <constant>
 <name>timerfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 28</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>timercolor</name>
-<kind>TextColor</kind>
 <value>#3498DB</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>whiteboardtoolbarbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>orderwordfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 16</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>orderwordcolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>orderwordbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#88badb, #88badb, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>orderwordborderleft</name>
-<kind>BorderLeft</kind>
 <value>1px, solid, #ffffff, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>orderwordborderright</name>
-<kind>BorderRight</kind>
 <value>1px, solid, #ffffff, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>orderwordbordertop</name>
-<kind>BorderTop</kind>
 <value>1px, solid, #ffffff, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>orderwordborderbottom</name>
-<kind>BorderBottom</kind>
 <value>1px, solid, #ffffff, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>orderwordborderradius</name>
-<kind>BorderRadius</kind>
 <value>0px, 0px, 0px, 0px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>orderwordshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 2px, 4px, 1px, #010539, 48</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>orderwordcorrectcolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>orderwordcorrectbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#88badb, #88badb, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>orderwordcorrectborderleft</name>
-<kind>BorderLeft</kind>
 <value>3px, solid, #008000, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>orderwordcorrectborderright</name>
-<kind>BorderRight</kind>
 <value>3px, solid, #008000, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>orderwordcorrectbordertop</name>
-<kind>BorderTop</kind>
 <value>3px, solid, #008000, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>orderwordcorrectborderbottom</name>
-<kind>BorderBottom</kind>
 <value>3px, solid, #008000, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>orderwordwrongcolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>orderwordwrongbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#88badb, #88badb, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>orderwordwrongborderleft</name>
-<kind>BorderLeft</kind>
 <value>3px, solid, #c00000, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>orderwordwrongborderright</name>
-<kind>BorderRight</kind>
 <value>3px, solid, #c00000, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>orderwordwrongbordertop</name>
-<kind>BorderTop</kind>
 <value>3px, solid, #c00000, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>orderwordwrongborderbottom</name>
-<kind>BorderBottom</kind>
 <value>3px, solid, #c00000, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>marksentenceselectioncolor</name>
-<kind>TextColor</kind>
 <value>#226592</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>marksentenceselectionbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#010539, #010539, 32, 32</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>marksentenceboxborderleft</name>
-<kind>BorderLeft</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>marksentenceboxborderright</name>
-<kind>BorderRight</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>marksentenceboxbordertop</name>
-<kind>BorderTop</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>marksentenceboxborderbottom</name>
-<kind>BorderBottom</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>marksentenceboxborderradius</name>
-<kind>BorderRadius</kind>
 <value>10px, 10px, 10px, 10px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>marksentenceboxshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>wordboxfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 20</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>wordboxcolor</name>
-<kind>TextColor</kind>
 <value>#010539</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>wordboxbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>wordboxborderleft</name>
-<kind>BorderLeft</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>wordboxborderright</name>
-<kind>BorderRight</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>wordboxbordertop</name>
-<kind>BorderTop</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>wordboxborderbottom</name>
-<kind>BorderBottom</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>wordboxborderradius</name>
-<kind>BorderRadius</kind>
 <value>0px, 0px, 0px, 0px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>wordboxshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>wordboxpadding</name>
-<kind>Padding</kind>
 <value>$PaddingNone</value>
+<kind>Padding</kind>
 </constant>
 <constant>
 <name>questionpointsbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#010539, #010539, 15, 15</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>questionpointsfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 18</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>questionpointscolor</name>
-<kind>TextColor</kind>
 <value>#888888</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>questionpointsborderleft</name>
-<kind>BorderLeft</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>questionpointsborderright</name>
-<kind>BorderRight</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>questionpointsbordertop</name>
-<kind>BorderTop</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>questionpointsborderbottom</name>
-<kind>BorderBottom</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>questionpointsborderradius</name>
-<kind>BorderRadius</kind>
 <value>10px, 10px, 10px, 10px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>questionpointsshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>questionpointspadding</name>
-<kind>Padding</kind>
 <value>8px, 8px, 8px, 8px</value>
+<kind>Padding</kind>
 </constant>
 <constant>
 <name>dialogborderradius</name>
-<kind>BorderRadius</kind>
 <value>24px, 24px, 24px, 24px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>dialogshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 2px, 4px, 1px, #010539, 48</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>dialogbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#3498DB, #3498DB, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>dialogborderleft</name>
-<kind>BorderLeft</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>dialogborderright</name>
-<kind>BorderRight</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>dialogbordertop</name>
-<kind>BorderTop</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>dialogborderbottom</name>
-<kind>BorderBottom</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>dialogcontentfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 14</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>dialogcontentcolor</name>
-<kind>TextColor</kind>
 <value>#ffffff</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>dialogtitlefont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, bold, 18</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>dialogtitleborderradius</name>
-<kind>BorderRadius</kind>
 <value>0px, 0px, 0px, 0px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>dialogtitleshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>dialogtitlecolor</name>
-<kind>TextColor</kind>
 <value>#ffffff</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>dialogtitlebackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>dialogtitleborderleft</name>
-<kind>BorderLeft</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>dialogtitleborderright</name>
-<kind>BorderRight</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>dialogtitlebordertop</name>
-<kind>BorderTop</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>dialogtitleborderbottom</name>
-<kind>BorderBottom</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>dialogbuttonfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 16</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>dialogbuttonborderradius</name>
-<kind>BorderRadius</kind>
 <value>24px, 24px, 24px, 24px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>dialogbuttonshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>dialogbuttoncolor</name>
-<kind>TextColor</kind>
 <value>#ffffff</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>dialogbuttonbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>dialogbuttonborderleft</name>
-<kind>BorderLeft</kind>
 <value>1px, solid, #ffffff, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>dialogbuttonborderright</name>
-<kind>BorderRight</kind>
 <value>1px, solid, #ffffff, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>dialogbuttonbordertop</name>
-<kind>BorderTop</kind>
 <value>1px, solid, #ffffff, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>dialogbuttonborderbottom</name>
-<kind>BorderBottom</kind>
 <value>1px, solid, #ffffff, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>dialogbuttonpadding</name>
-<kind>Padding</kind>
 <value>8px, 12px, 8px, 12px</value>
+<kind>Padding</kind>
 </constant>
 <constant>
 <name>dialogbuttonoutline</name>
-<kind>Outline</kind>
 <value>2px, dotted, #ffffff, 127</value>
+<kind>Outline</kind>
 </constant>
 <constant>
 <name>questionsbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#88badb, #88badb, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>questionbuttonfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 24</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>questionbuttoncolor</name>
-<kind>TextColor</kind>
 <value>#3498DB</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>questionbuttonbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>questionbuttonborderleft</name>
-<kind>BorderLeft</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>questionbuttonborderright</name>
-<kind>BorderRight</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>questionbuttonbordertop</name>
-<kind>BorderTop</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>questionbuttonborderbottom</name>
-<kind>BorderBottom</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>questionbuttonborderradius</name>
-<kind>BorderRadius</kind>
 <value>32px, 32px, 32px, 32px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>questionbuttonshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>questionbuttonoutline</name>
-<kind>Outline</kind>
 <value>2px, dotted, #ffffff, 127</value>
+<kind>Outline</kind>
 </constant>
 <constant>
 <name>questionbuttonansweredfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 24</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>questionbuttonansweredcolor</name>
-<kind>TextColor</kind>
 <value>#ffffff</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>questionbuttonansweredbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#3498DB, #3498DB, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>questionbuttonansweredborderleft</name>
-<kind>BorderLeft</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>questionbuttonansweredborderright</name>
-<kind>BorderRight</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>questionbuttonansweredbordertop</name>
-<kind>BorderTop</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>questionbuttonansweredborderbottom</name>
-<kind>BorderBottom</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>questionbuttonansweredborderradius</name>
-<kind>BorderRadius</kind>
 <value>32px, 32px, 32px, 32px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>questionbuttonansweredshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>textbuttonfont</name>
-<kind>TextFont</kind>
 <value>Verdana, font-stack, 16</value>
+<kind>TextFont</kind>
 </constant>
 <constant>
 <name>textbuttoncolor</name>
-<kind>TextColor</kind>
 <value>#3498DB</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>textbuttonbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 255, 255</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>textbuttonborderleft</name>
-<kind>BorderLeft</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>textbuttonborderright</name>
-<kind>BorderRight</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>textbuttonbordertop</name>
-<kind>BorderTop</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>textbuttonborderbottom</name>
-<kind>BorderBottom</kind>
 <value>1px, solid, #3498DB, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>textbuttonborderradius</name>
-<kind>BorderRadius</kind>
 <value>24px, 24px, 24px, 24px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>textbuttonshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>textbuttonpadding</name>
-<kind>Padding</kind>
 <value>8px, 12px, 8px, 12px</value>
+<kind>Padding</kind>
 </constant>
 <constant>
 <name>navigationcolor</name>
-<kind>TextColor</kind>
 <value>#3498DB</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>navigationbackground</name>
-<kind>BackgroundGradient</kind>
 <value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
 </constant>
 <constant>
 <name>navigationborderleft</name>
-<kind>BorderLeft</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderLeft</kind>
 </constant>
 <constant>
 <name>navigationborderright</name>
-<kind>BorderRight</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderRight</kind>
 </constant>
 <constant>
 <name>navigationbordertop</name>
-<kind>BorderTop</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderTop</kind>
 </constant>
 <constant>
 <name>navigationborderbottom</name>
-<kind>BorderBottom</kind>
 <value>0px, solid, #000000, 255</value>
+<kind>BorderBottom</kind>
 </constant>
 <constant>
 <name>navigationborderradius</name>
-<kind>BorderRadius</kind>
 <value>0px, 0px, 0px, 0px</value>
+<kind>BorderRadius</kind>
 </constant>
 <constant>
 <name>navigationshadow</name>
-<kind>BoxShadow</kind>
 <value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
 </constant>
 <constant>
 <name>progresscolor</name>
-<kind>TextColor</kind>
 <value>#3498DB</value>
+<kind>TextColor</kind>
 </constant>
 <constant>
 <name>progressstrokecolor</name>
-<kind>StrokeColor</kind>
 <value>#3498DB</value>
+<kind>StrokeColor</kind>
 </constant>
 <constant>
 <name>progressfillcolor</name>
-<kind>FillColor</kind>
 <value>#226592</value>
+<kind>FillColor</kind>
 </constant>
 </DesignConstants>
-<cover autosize="true" height="768" rid="XGZTHDDFP1J1ABCHSC6Y" alttext="" orientation="1" width="576" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/aa/aa2a3796-26b5-426e-9d5b-1d8f59480e14.png?filename=Default.png</cover>
+<cover width="576" alttext="" autosize="true" caption="" height="768" rid="XGZTHDDFP1J1ABCHSC6Y">https://widget-assets-eu.bookwidgets.com/200729/Default.9b2a389a35baa522a9b827fb89212017.png?filename=Default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
-<BookWidgetsVersion>6.1.0</BookWidgetsVersion>
-<shortcode>6BBJF62</shortcode>
-<label searchable="true">Ioannina Assessment</label>
-<lastupload></lastupload>
 </QuizPlugin>
