@@ -1981,7 +1981,7 @@ body {
 
 /* questions.scss */
 .quizwidget .pmc-cover .pmc-quiz.selected { 
-  border-color: #000000;
+  border-color: $selected-image;
   border-width: 10px;
   border-radius: 0;
 }
