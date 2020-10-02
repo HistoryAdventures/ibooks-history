@@ -5,20 +5,20 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
-    <string>sequence-RiseFallOttomans_03</string>
+    <string>sequence-RiseFallOttomans_04 copy</string>
     <key>CFBundleIdentifier</key>
-    <string>com.kidimedia.ibook-widgets.image_sequence-sequence-RiseFallOttomans_03</string>
+    <string>com.kidimedia.ibook-widgets.image_sequence-sequence-RiseFallOttomans_04 copy</string>
     <key>CFBundleName</key>
-    <string>sequence-RiseFallOttomans_03</string>
+    <string>sequence-RiseFallOttomans_04 copy</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundleVersion</key>
     <string>1.0</string>
     <key>Height</key>
-    <integer>768</integer>
+    <integer>1024</integer>
     <key>MainHTML</key>
     <string>index.html</string>
     <key>Width</key>
-    <integer>1024</integer>
+    <integer>768</integer>
 </dict>
 </plist>
