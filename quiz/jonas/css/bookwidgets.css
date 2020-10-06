@@ -131,17 +131,6 @@ body {
   margin: 0px;
 }
 
-html.ibw-platform-osx-ibooks {
-  width: 1024px;
-  height: 768px;
-}
-
-html.ibw-platform-ipad-ibooks.vertical,
-html.ibw-platform-osx-ibooks.vertical {
-  height: 1024px;
-  width: 768px;
-}
-
 .bw.no-user-select {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -1114,16 +1103,6 @@ html.ibw-platform-ipad-bookwidgets .widget-backlink {
   left: 0px;
   top: 0px;
   background: black;
-}
-
-.ibw-platform-osx-ibooks .bw-popup-zoomable-image {
-  width: 1024px;
-  height: 768px;
-}
-
-.ibw-platform-osx-ibooks.vertical .bw-popup-zoomable-image{
-  height: 1024px;
-  width: 768px;
 }
 
 .bw-zoomable-image { 

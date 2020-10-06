@@ -1783,7 +1783,7 @@ body {
   width: 640px !important;
 }
 
-.questions_shown .question-button {
+.question-button {
   font-family: 'Favorit Lining', Verdana, Geneva, sans-serif;
   display: inline-block;
   width: 71px;
@@ -1805,12 +1805,12 @@ body {
   padding-right: 5px;
 }
 
-.questions_shown .question-button.wrong {
+.question-button.wrong {
   background: transparent;
   color: black;
 }
 
-.questions_shown .question-button.correct {
+.question-button.correct {
   background: white;
   color: $theme-color;
 }
@@ -2140,6 +2140,11 @@ body {
 
 #mobile-navcontainer {
   display: none;
+}
+
+.bw-checkbox-checkbox, .bw-simple-checkbox {
+  width: 26px;
+  height: 26px;
 }
 
 .bw-checkbox-checkbox, .bw-simple-checkbox,

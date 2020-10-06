@@ -4,18 +4,18 @@
 <PictureMultpleChoice>
 <Question searchable="true">Which image shows the setting of this narrative?</Question>
 <Answers>
-<node autosize="true" height="0" rid="JTP6FW3N3C2MCT1JOO5G" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/46/46e60198-6260-4d9f-b39b-418c5b2a391c.jpeg?filename=machudownload%20(6).jpeg</node>
-<node autosize="true" height="0" rid="J36A9ITIKEY82GSR9VDF" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/8e/8e201791-da5a-4437-8a97-5344fb12edd8.jpeg?filename=alpsdownload%20(6).jpeg</node>
-<node autosize="true" height="0" rid="J370MVNZ3I1J9OYJK815" alttext="" orientation="1" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/a0/a0fa6cfb-6590-4b00-abb6-b712a4ecdac6.jpeg?filename=fujidownload%20(6).jpeg</node>
+<node autosize="true" rid="JTP6FW3N3C2MCT1JOO5G" alttext="" orientation="1" height="0" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/46/46e60198-6260-4d9f-b39b-418c5b2a391c.jpeg?filename=machudownload%20(6).jpeg</node>
+<node autosize="true" rid="J36A9ITIKEY82GSR9VDF" alttext="" orientation="1" height="0" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/8e/8e201791-da5a-4437-8a97-5344fb12edd8.jpeg?filename=alpsdownload%20(6).jpeg</node>
+<node autosize="true" rid="J370MVNZ3I1J9OYJK815" alttext="" orientation="1" height="0" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/a0/a0fa6cfb-6590-4b00-abb6-b712a4ecdac6.jpeg?filename=fujidownload%20(6).jpeg</node>
 </Answers>
 <Valid value="3">3</Valid>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" height="0" rid="74XD60PS6EQKIESMJ129" alttext="" orientation="1" width="0" caption=""></rationale_img>
+<rationale_img autosize="true" rid="74XD60PS6EQKIESMJ129" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="VW2DUXZ1BJ1PUM5O82B4"></audio>
-<img autosize="true" height="0" rid="4W2AZLY6Y1SHTJAFMM24" alttext="" orientation="1" width="0" caption=""></img>
+<img autosize="true" rid="4W2AZLY6Y1SHTJAFMM24" alttext="" orientation="1" height="0" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -34,11 +34,11 @@ Religious leaders established to prevent Christianity from entering Japan
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" height="0" rid="ZP84Z0FKZ8ODPPRKPB50" alttext="" orientation="1" width="0" caption=""></rationale_img>
+<rationale_img autosize="true" rid="ZP84Z0FKZ8ODPPRKPB50" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="LD507DKUZN0UG5UXAXO2"></audio>
-<img autosize="true" height="0" rid="8HFS5OJ70MCAG1AXOHQP" alttext="" orientation="1" width="0" caption=""></img>
+<img autosize="true" rid="8HFS5OJ70MCAG1AXOHQP" alttext="" orientation="1" height="0" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -58,11 +58,11 @@ The Japanese nation fractured into smaller warring states
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" height="0" rid="YYA2O8T2LW9XAL0QRUM1" alttext="" orientation="1" width="0" caption=""></rationale_img>
+<rationale_img autosize="true" rid="YYA2O8T2LW9XAL0QRUM1" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="DLL6F5FXEEA4TKUN1KL2"></audio>
-<img autosize="true" height="0" rid="1R8XKR5B39QW1HUQKCDJ" alttext="" orientation="1" width="0" caption=""></img>
+<img autosize="true" rid="1R8XKR5B39QW1HUQKCDJ" alttext="" orientation="1" height="0" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -85,11 +85,11 @@ She felt they did not belong in Japan
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" height="0" rid="BG0TQXEB1KVVAG6DSQSK" alttext="" orientation="1" width="0" caption=""></rationale_img>
+<rationale_img autosize="true" rid="BG0TQXEB1KVVAG6DSQSK" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="YXJ96ATNVCBI4L2AI2XJ"></audio>
-<img autosize="true" height="0" rid="29K21QOYEAI0UJ7TH5GX" alttext="" orientation="1" width="0" caption=""></img>
+<img autosize="true" rid="29K21QOYEAI0UJ7TH5GX" alttext="" orientation="1" height="0" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -119,11 +119,11 @@ She felt they did not belong in Japan
 </pairs>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" height="0" rid="FSYSAJ82PA3978ALZ1SP" alttext="" orientation="1" width="0" caption=""></rationale_img>
+<rationale_img autosize="true" rid="FSYSAJ82PA3978ALZ1SP" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="X0N8KGUIM7HA0F3SJG8M"></audio>
-<img autosize="true" height="0" rid="R2GJ46HCXZ7QCMDBT2R6" alttext="" orientation="1" width="0" caption=""></img>
+<img autosize="true" rid="R2GJ46HCXZ7QCMDBT2R6" alttext="" orientation="1" height="0" width="0" caption=""></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -136,11 +136,11 @@ She felt they did not belong in Japan
 <submit_answers>no</submit_answers>
 <submit_only_once>no</submit_only_once>
 <submitformfields>
-<formfield isEditable="yes" isVisible="yes" defaultValue="">student_name</formfield>
-<formfield isEditable="yes" isVisible="yes" defaultValue="">student_email</formfield>
-<formfield isEditable="yes" isVisible="no" defaultValue="">student_id</formfield>
-<formfield isEditable="yes" isVisible="no" defaultValue="">student_class_id</formfield>
-<formfield isEditable="no" isVisible="no" defaultValue="">teacher_email</formfield>
+<formfield isEditable="yes" defaultValue="" isVisible="yes">student_name</formfield>
+<formfield isEditable="yes" defaultValue="" isVisible="yes">student_email</formfield>
+<formfield isEditable="yes" defaultValue="" isVisible="no">student_id</formfield>
+<formfield isEditable="yes" defaultValue="" isVisible="no">student_class_id</formfield>
+<formfield isEditable="no" defaultValue="" isVisible="no">teacher_email</formfield>
 </submitformfields>
 <email_should_have_grading>yes</email_should_have_grading>
 <company_name searchable="true"></company_name>
@@ -148,9 +148,6 @@ She felt they did not belong in Japan
 <company_phone searchable="true"></company_phone>
 <company_website searchable="true"></company_website>
 <action searchable="true">https://api.bookwidgets.com/api/v1/quiz/post</action>
-<servertype value="BookWidgets">BookWidgets</servertype>
-<course_id searchable="true"></course_id>
-<widget_sequence_number searchable="true"></widget_sequence_number>
 <examination_mode>no</examination_mode>
 <countdown_time searchable="true">30</countdown_time>
 <exam_mode_submit_dialog_clear>yes</exam_mode_submit_dialog_clear>
@@ -730,7 +727,7 @@ She felt they did not belong in Japan
 <modified>true</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants widget_color="#3498DB" template="Light Background" widget_font="Verdana" widget_backgroundimage=",auto">
+<DesignConstants widget_backgroundimage=",auto" widget_font="Verdana" template="Light Background" widget_color="#3498DB">
 <constant>
 <name>borderbackground</name>
 <kind>BackgroundGradient</kind>
@@ -2152,9 +2149,9 @@ She felt they did not belong in Japan
 <value>#226592</value>
 </constant>
 </DesignConstants>
-<cover autosize="true" height="768" rid="MK2YH41M9XARTF87IJ27" alttext="" orientation="1" width="576" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/06/069da741-3376-4319-a7d7-07fd063d7f1f.png?filename=Default.png</cover>
+<cover autosize="true" rid="MK2YH41M9XARTF87IJ27" alttext="" orientation="1" height="768" width="576" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/06/069da741-3376-4319-a7d7-07fd063d7f1f.png?filename=Default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
-<BookWidgetsVersion>6.1.0</BookWidgetsVersion>
+<BookWidgetsVersion>6.1.1</BookWidgetsVersion>
 <shortcode>4BBJH44</shortcode>
 <label searchable="true">Ishi Assessment</label>
 <lastupload>Sat Sep 26 16:14:35 2020</lastupload>

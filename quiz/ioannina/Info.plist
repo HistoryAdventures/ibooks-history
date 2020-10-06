@@ -5,11 +5,11 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
-    <string>Ioannina Assessment.wdgt</string>
+    <string>quiz-ioannina</string>
     <key>CFBundleIdentifier</key>
-    <string>com.kidimedia.ibook-widgets.quiz-Ioannina Assessment.wdgt</string>
+    <string>com.kidimedia.ibook-widgets.quiz-quiz-ioannina</string>
     <key>CFBundleName</key>
-    <string>Ioannina Assessment.wdgt</string>
+    <string>quiz-ioannina</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundleVersion</key>
