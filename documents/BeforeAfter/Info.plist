@@ -5,11 +5,11 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
-    <string>sequence-beforeAfter_02</string>
+    <string>sequence-beforeAfter</string>
     <key>CFBundleIdentifier</key>
-    <string>com.kidimedia.ibook-widgets.beforeafter-sequence-beforeAfter_02</string>
+    <string>com.kidimedia.ibook-widgets.beforeafter-sequence-beforeAfter</string>
     <key>CFBundleName</key>
-    <string>sequence-beforeAfter_02</string>
+    <string>sequence-beforeAfter</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundleVersion</key>

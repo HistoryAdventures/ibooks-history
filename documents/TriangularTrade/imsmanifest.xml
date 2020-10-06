@@ -1,18 +1,18 @@
-<manifest identifier="com.kidimedia.ibook-widgets.image_sequence-sequence-TriangularTrade_02" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" version="1">
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" identifier="com.kidimedia.ibook-widgets.image_sequence-sequence-TriangularTrade" version="1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <metadata>
 <schema>ADL SCORM</schema>
 <schemaversion>1.2</schemaversion>
 </metadata>
-<organizations default="image_sequence-sequence-TriangularTrade_02">
-<organization identifier="image_sequence-sequence-TriangularTrade_02">
-<title>sequence-TriangularTrade_02</title>
-<item identifier="item_1" identifierref="resource_1">
-<title>image_sequence-sequence-TriangularTrade_02</title>
+<organizations default="image_sequence-sequence-TriangularTrade">
+<organization identifier="image_sequence-sequence-TriangularTrade">
+<title>sequence-TriangularTrade</title>
+<item identifierref="resource_1" identifier="item_1">
+<title>image_sequence-sequence-TriangularTrade</title>
 </item>
 </organization>
 </organizations>
 <resources>
-<resource identifier="resource_1" href="index.html" adlcp:scormtype="sco" type="webcontent">
+<resource adlcp:scormtype="sco" type="webcontent" identifier="resource_1" href="index.html">
 <file href="26725cb0565e0c48_S_1998_1155.jpg"/>
 <file href="3fede793ae6f5599_S_705_512.png"/>
 <file href="5695c7a65725e7e9_S_1958_2300.jpg"/>

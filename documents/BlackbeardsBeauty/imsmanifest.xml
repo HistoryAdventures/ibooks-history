@@ -1,18 +1,18 @@
-<manifest identifier="com.kidimedia.ibook-widgets.image_sequence-sequence-BlackbeardsBeauty_02" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" version="1">
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" identifier="com.kidimedia.ibook-widgets.image_sequence-sequence-BlackbeardsBeauty" version="1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd&#xa;http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd&#xa;http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <metadata>
 <schema>ADL SCORM</schema>
 <schemaversion>1.2</schemaversion>
 </metadata>
-<organizations default="image_sequence-sequence-BlackbeardsBeauty_02">
-<organization identifier="image_sequence-sequence-BlackbeardsBeauty_02">
-<title>sequence-BlackbeardsBeauty_02</title>
-<item identifier="item_1" identifierref="resource_1">
-<title>image_sequence-sequence-BlackbeardsBeauty_02</title>
+<organizations default="image_sequence-sequence-BlackbeardsBeauty">
+<organization identifier="image_sequence-sequence-BlackbeardsBeauty">
+<title>sequence-BlackbeardsBeauty</title>
+<item identifierref="resource_1" identifier="item_1">
+<title>image_sequence-sequence-BlackbeardsBeauty</title>
 </item>
 </organization>
 </organizations>
 <resources>
-<resource identifier="resource_1" href="index.html" adlcp:scormtype="sco" type="webcontent">
+<resource adlcp:scormtype="sco" type="webcontent" identifier="resource_1" href="index.html">
 <file href="0d77d0494b4c9214_S_867_600.jpg"/>
 <file href="4545eaa4986835a6_S_800_600.jpg"/>
 <file href="55afcc9b5c3efa42_S_980_571.jpg"/>

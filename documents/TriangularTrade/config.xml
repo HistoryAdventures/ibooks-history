@@ -2,7 +2,7 @@
 <FrameSequencePlugin>
 <slides>
 <slide>
-<img width="705" orientation="1" autosize="false" rid="1QP30PO72C6598IKPD4L" caption="" height="512" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/Queen_square_Bristol.png</img>
+<img autosize="false" rid="1QP30PO72C6598IKPD4L" alttext="" orientation="1" height="512" width="705" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/Queen_square_Bristol.png</img>
 <caption searchable="true">Bristol, UK</caption>
 <description searchable="true">Thomas Leeson Rowbotham, Queen Square, looking south-east, (1872).
 
@@ -10,7 +10,7 @@ A large port city in south-west England that was heavily involved in the Atlanti
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img width="3000" orientation="1" autosize="false" rid="YZWZHZ7WXAF3P8JN3X7I" caption="" height="875" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/Ghana_Senegal.jpg</img>
+<img autosize="false" rid="YZWZHZ7WXAF3P8JN3X7I" alttext="" orientation="1" height="875" width="3000" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/Ghana_Senegal.jpg</img>
 <caption searchable="true">Ghana (left) and Senegal (right), West Coast of Africa</caption>
 <description searchable="true">Ghana: William Smith, The North Prospect of the English and Dutch Forts at Accra, (1727)
 Senegal: Renè Claude Geoffrey de Villeneuve, Mandingo Slave Traders and Coffle, Senegal, (1780s)
@@ -21,7 +21,7 @@ These trading posts would also be the destination for those who brought people f
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img width="1958" orientation="1" autosize="false" rid="V5X13C7ARE80YMCJQCP7" caption="" height="2300" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/slaves_onWildfire.jpg</img>
+<img autosize="false" rid="V5X13C7ARE80YMCJQCP7" alttext="" orientation="1" height="2300" width="1958" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/slaves_onWildfire.jpg</img>
 <caption searchable="true">The Middle Passage, Atlantic Ocean</caption>
 <description searchable="true">‘The Africans of the Slave Bark “Wildfire”, Harper’s Weekly, (June 2nd, 1860)
 
@@ -31,7 +31,7 @@ Africans were crowded into the ships with no regard for well-being and safety; t
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img width="1998" orientation="1" autosize="false" rid="36C4FTOSPJ39EKNF167V" caption="" height="1155" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/Kentucy_Auction.jpg</img>
+<img autosize="false" rid="36C4FTOSPJ39EKNF167V" alttext="" orientation="1" height="1155" width="1998" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/Kentucy_Auction.jpg</img>
 <caption searchable="true">Kentucky, United States</caption>
 <description searchable="true">Henry Bibb, Slave Auction, US South, (ca. 1840s)
 
@@ -39,7 +39,7 @@ Upon their arrival in the Americas – whether in the North, the South, or in th
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img width="865" orientation="1" autosize="false" rid="J2SMKI5DUW14HCYWTJ3C" caption="" height="865" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/London_smokers.jpg</img>
+<img autosize="false" rid="J2SMKI5DUW14HCYWTJ3C" alttext="" orientation="1" height="865" width="865" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/04_William/TriangularTradeWidget/London_smokers.jpg</img>
 <caption searchable="true">London, UK</caption>
 <description searchable="true">Customs &amp; manners of ye Englyshe people. How ye younge menne doe smoke, (1850s)
 
@@ -63,7 +63,7 @@ The slave traders, now devoid of cargo, would refill their ships with the produc
 <modified>false</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants widget_font="Verdana" widget_backgroundimage="" template="Dark Background" widget_color="#3498DB">
+<DesignConstants widget_backgroundimage="" widget_font="Verdana" template="Dark Background" widget_color="#3498DB">
 <constant>
 <name>borderbackground</name>
 <kind>BackgroundGradient</kind>
@@ -265,9 +265,9 @@ The slave traders, now devoid of cargo, would refill their ships with the produc
 <value>0px, 0px, 0px, 0px, #888, 255</value>
 </constant>
 </DesignConstants>
-<cover width="576" orientation="1" autosize="true" rid="BKR9STT8Y5OHVO4LGZIA" caption="" height="768" alttext="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/GIT_workshop/ibooks-history/shared/Default.png</cover>
+<cover autosize="true" rid="BKR9STT8Y5OHVO4LGZIA" alttext="" orientation="1" height="768" width="576" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/GIT_workshop/ibooks-history/shared/Default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
-<BookWidgetsVersion>6.1.0</BookWidgetsVersion>
+<BookWidgetsVersion>6.1.1</BookWidgetsVersion>
 <shortcode>4BCV643</shortcode>
 <label searchable="true">TriangularTrade</label>
 <lastupload>Mon Aug 24 16:48:08 2020</lastupload>

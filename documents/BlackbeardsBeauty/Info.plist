@@ -5,11 +5,11 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
-    <string>sequence-BlackbeardsBeauty_02</string>
+    <string>sequence-BlackbeardsBeauty</string>
     <key>CFBundleIdentifier</key>
-    <string>com.kidimedia.ibook-widgets.image_sequence-sequence-BlackbeardsBeauty_02</string>
+    <string>com.kidimedia.ibook-widgets.image_sequence-sequence-BlackbeardsBeauty</string>
     <key>CFBundleName</key>
-    <string>sequence-BlackbeardsBeauty_02</string>
+    <string>sequence-BlackbeardsBeauty</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundleVersion</key>
