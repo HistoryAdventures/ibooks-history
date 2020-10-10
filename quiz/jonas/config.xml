@@ -15,11 +15,11 @@ They liked a relaxing life at sea
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="8LPP3DNGS56J97OXOMNG" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="8LPP3DNGS56J97OXOMNG" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="FJ2XDOK79JRBX8LOCKCC"></audio>
-<img autosize="true" rid="OL35TFM9MAXVR3PILVHI" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="OL35TFM9MAXVR3PILVHI" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -30,18 +30,18 @@ They liked a relaxing life at sea
 <PictureMultpleChoice>
 <Question searchable="true">Analyze the maps below which show trade routes.  Which map depicts the trade route that Jonas and many other pirates of the time plundered?</Question>
 <Answers>
-<node autosize="true" rid="5APHNEF2YIYSPJQ3EQ0T" alttext="" orientation="1" height="0" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/a2/a23b0e4e-5430-4185-bd36-3a1bab1eafb9.jpg?filename=050512_0946_THESPANISHtrade%20routeG3.jpg</node>
-<node autosize="true" rid="BW6JNAFMVXZGOP4L9OXD" alttext="" orientation="1" height="0" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/11/111b26b6-16c4-4417-9869-d50ab6d2b574.jpg?filename=silk_orig.jpg</node>
-<node autosize="true" rid="VPMA7B54CVMGUDNGMOGF" alttext="" orientation="1" height="0" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/59/592fb22b-41dc-458f-99e7-95f7fe06d48d.jpg?filename=IndianOceanTrade-56a042475f9b58eba4af9165.jpg</node>
+<node width="0" caption="" orientation="1" height="0" rid="5APHNEF2YIYSPJQ3EQ0T" alttext="" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/a2/a23b0e4e-5430-4185-bd36-3a1bab1eafb9.jpg?filename=050512_0946_THESPANISHtrade%20routeG3.jpg</node>
+<node width="0" caption="" orientation="1" height="0" rid="BW6JNAFMVXZGOP4L9OXD" alttext="" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/11/111b26b6-16c4-4417-9869-d50ab6d2b574.jpg?filename=silk_orig.jpg</node>
+<node width="0" caption="" orientation="1" height="0" rid="VPMA7B54CVMGUDNGMOGF" alttext="" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/59/592fb22b-41dc-458f-99e7-95f7fe06d48d.jpg?filename=IndianOceanTrade-56a042475f9b58eba4af9165.jpg</node>
 </Answers>
 <Valid value="1">1</Valid>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="JMY305A31ZMSTQMJMGGX" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="JMY305A31ZMSTQMJMGGX" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="JEMDJU2WD5PPA1YZGWR4"></audio>
-<img autosize="true" rid="MTJVWMMPX933V6G19SUU" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="MTJVWMMPX933V6G19SUU" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -69,11 +69,11 @@ They liked a relaxing life at sea
 </pairs>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="KBXGBRC4JR7XPTJLRFZK" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="KBXGBRC4JR7XPTJLRFZK" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="FIDV3AE3ZQ6X8YUZA4UC"></audio>
-<img autosize="true" rid="OKSOVXX5VZOHBRBYE1CH" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="OKSOVXX5VZOHBRBYE1CH" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -94,11 +94,11 @@ The way pirates are shown in movies has been very accurate
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="GP6M9OBLMM1FYA6TFRHI" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="GP6M9OBLMM1FYA6TFRHI" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="B3Y3D7T27XQE7H3O3AVS"></audio>
-<img autosize="true" rid="O153DSTV1Z7N3UBED7TV" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="O153DSTV1Z7N3UBED7TV" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -109,25 +109,25 @@ The way pirates are shown in movies has been very accurate
 <pairs>
 <WordPicture>
 <source searchable="true">A Viking Langskip from 981.</source>
-<target autosize="true" rid="AKUT2WUQBBUQQAEB491L" alttext="" orientation="1" height="168" width="300" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/00/00fa3270-b8fa-472f-8a9b-9a0ec5f5655d.jpeg?filename=viking%20(1).jpeg</target>
+<target width="300" caption="" orientation="1" height="168" rid="AKUT2WUQBBUQQAEB491L" alttext="" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/00/00fa3270-b8fa-472f-8a9b-9a0ec5f5655d.jpeg?filename=viking%20(1).jpeg</target>
 </WordPicture>
 <WordPicture>
 <source searchable="true">A steam ship from 1910.</source>
-<target autosize="true" rid="P7OC5Y1JH7ZTP462E39X" alttext="" orientation="1" height="217" width="232" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/30/30f3a74f-a118-4eaf-be26-c362bfb0c563?filename=steam%20ship</target>
+<target width="232" caption="" orientation="1" height="217" rid="P7OC5Y1JH7ZTP462E39X" alttext="" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/30/30f3a74f-a118-4eaf-be26-c362bfb0c563?filename=steam%20ship</target>
 </WordPicture>
 <WordPicture>
 <source searchable="true">A ship used by pirates in 1597.</source>
-<target autosize="true" rid="AOVSM7YVV3TDWDXLFVNL" alttext="" orientation="1" height="208" width="242" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/ee/ee732640-114e-4c68-b9b2-685040d13b26?filename=pirate%20ship</target>
+<target width="242" caption="" orientation="1" height="208" rid="AOVSM7YVV3TDWDXLFVNL" alttext="" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/ee/ee732640-114e-4c68-b9b2-685040d13b26?filename=pirate%20ship</target>
 </WordPicture>
 </pairs>
 <img_resize_mode value="Auto">Auto</img_resize_mode>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="403DJ5ZYLCEMMCDLQ3Y7" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="403DJ5ZYLCEMMCDLQ3Y7" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="CO9QJAJADTSYS0SS36TA"></audio>
-<img autosize="true" rid="QGBE76RN66YBZ3KH1WVL" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="QGBE76RN66YBZ3KH1WVL" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -140,11 +140,11 @@ The way pirates are shown in movies has been very accurate
 <submit_answers>no</submit_answers>
 <submit_only_once>no</submit_only_once>
 <submitformfields>
-<formfield isEditable="yes" defaultValue="" isVisible="yes">student_name</formfield>
-<formfield isEditable="yes" defaultValue="" isVisible="yes">student_email</formfield>
-<formfield isEditable="yes" defaultValue="" isVisible="no">student_id</formfield>
-<formfield isEditable="yes" defaultValue="" isVisible="no">student_class_id</formfield>
-<formfield isEditable="no" defaultValue="" isVisible="no">teacher_email</formfield>
+<formfield isEditable="yes" isVisible="yes" defaultValue="">student_name</formfield>
+<formfield isEditable="yes" isVisible="yes" defaultValue="">student_email</formfield>
+<formfield isEditable="yes" isVisible="no" defaultValue="">student_id</formfield>
+<formfield isEditable="yes" isVisible="no" defaultValue="">student_class_id</formfield>
+<formfield isEditable="no" isVisible="no" defaultValue="">teacher_email</formfield>
 </submitformfields>
 <email_should_have_grading>yes</email_should_have_grading>
 <company_name searchable="true"></company_name>
@@ -731,7 +731,7 @@ The way pirates are shown in movies has been very accurate
 <modified>true</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants widget_backgroundimage=",auto" widget_font="Verdana" template="Light Background" widget_color="#3498DB">
+<DesignConstants widget_color="#3498DB" widget_font="Verdana" template="Light Background" widget_backgroundimage=",auto">
 <constant>
 <name>borderbackground</name>
 <kind>BackgroundGradient</kind>
@@ -2153,9 +2153,9 @@ The way pirates are shown in movies has been very accurate
 <value>#226592</value>
 </constant>
 </DesignConstants>
-<cover autosize="true" rid="TDSVQUZJHW0TQXPJBEI1" alttext="" orientation="1" height="768" width="576" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/ae/ae645976-28b2-4d97-8796-fd9f2eeefaa5.png?filename=Default.png</cover>
+<cover width="576" caption="" orientation="1" height="768" rid="TDSVQUZJHW0TQXPJBEI1" alttext="" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/ae/ae645976-28b2-4d97-8796-fd9f2eeefaa5.png?filename=Default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
-<BookWidgetsVersion>6.1.1</BookWidgetsVersion>
+<BookWidgetsVersion>6.1.2</BookWidgetsVersion>
 <shortcode>QBBKEQW</shortcode>
 <label searchable="true">Jonas Assessment</label>
 <lastupload>Sat Sep 26 16:22:01 2020</lastupload>

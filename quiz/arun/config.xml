@@ -14,11 +14,11 @@ Whether he should join resistance fighters in the spice islands or live a life o
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="PBJ3E7PSIHZC6T0JTB1V" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="PBJ3E7PSIHZC6T0JTB1V" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="TUBA33U5GNR3Q22OMI45"></audio>
-<img autosize="true" rid="88JIRBJAYZWZHZ7WXAF3" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="88JIRBJAYZWZHZ7WXAF3" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -27,18 +27,18 @@ Whether he should join resistance fighters in the spice islands or live a life o
 <PictureMultpleChoice>
 <Question searchable="true">Which of the maps is most useful to analyze the historical time period in this narrative?</Question>
 <Answers>
-<node autosize="true" rid="P8JN3X7I1GM9F8Y0Q7CA" alttext="" orientation="1" height="0" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/21/219c63cd-6e90-4d90-89a5-ebb6f72025f4.png?filename=Partition_of_India-en.svg.png</node>
-<node autosize="true" rid="VJL630BJ4MFLFPDO8HII" alttext="" orientation="1" height="0" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/f9/f9da12e0-7fef-419c-ad03-daf3a0129399.jpeg?filename=dutch%20map.jpeg</node>
-<node autosize="true" rid="ABG2HAF8KG8ZW2TJ1QP3" alttext="" orientation="1" height="0" width="0" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/98/98407e6d-deb9-481e-8935-02912337f092?filename=east%20india%20map</node>
+<node width="0" caption="" orientation="1" height="0" rid="P8JN3X7I1GM9F8Y0Q7CA" alttext="" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/21/219c63cd-6e90-4d90-89a5-ebb6f72025f4.png?filename=Partition_of_India-en.svg.png</node>
+<node width="0" caption="" orientation="1" height="0" rid="VJL630BJ4MFLFPDO8HII" alttext="" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/f9/f9da12e0-7fef-419c-ad03-daf3a0129399.jpeg?filename=dutch%20map.jpeg</node>
+<node width="0" caption="" orientation="1" height="0" rid="ABG2HAF8KG8ZW2TJ1QP3" alttext="" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/98/98407e6d-deb9-481e-8935-02912337f092?filename=east%20india%20map</node>
 </Answers>
 <Valid value="3">3</Valid>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="0PO72C6598IKPD4LZ6BG" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="0PO72C6598IKPD4LZ6BG" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="1C30SKYU880GHS2801HP"></audio>
-<img autosize="true" rid="NBI1LJ2N5Q6UTD7C8XPM" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="NBI1LJ2N5Q6UTD7C8XPM" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -58,11 +58,11 @@ Arun rarely traveled out of his village
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="MH0UY1HFFBV5R00DAZZJ" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="MH0UY1HFFBV5R00DAZZJ" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="5UXADTW1MZEIOE97T1BR"></audio>
-<img autosize="true" rid="6TD41K6EJPYOYF1J1XDK" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="6TD41K6EJPYOYF1J1XDK" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -92,11 +92,11 @@ Arun rarely traveled out of his village
 </pairs>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="X53MZ5K27VVVI667MY0G" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="X53MZ5K27VVVI667MY0G" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="QIW76FEJO9VNV5X13C7A"></audio>
-<img autosize="true" rid="RE80YMCJQCP736C4FTOS" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="RE80YMCJQCP736C4FTOS" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -117,11 +117,11 @@ They believed the government was a great help to the peasants
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="PJ39EKNF167VJ2SMKI5D" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="PJ39EKNF167VJ2SMKI5D" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="UW14HCYWTJ3CRUS8VJJ5"></audio>
-<img autosize="true" rid="XGZTHDDFP1J1ABCHSC6Y" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="XGZTHDDFP1J1ABCHSC6Y" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -133,11 +133,11 @@ They believed the government was a great help to the peasants
 <submit_answers>no</submit_answers>
 <submit_only_once>no</submit_only_once>
 <submitformfields>
-<formfield isEditable="yes" defaultValue="" isVisible="yes">student_name</formfield>
-<formfield isEditable="yes" defaultValue="" isVisible="yes">student_email</formfield>
-<formfield isEditable="yes" defaultValue="" isVisible="no">student_id</formfield>
-<formfield isEditable="yes" defaultValue="" isVisible="no">student_class_id</formfield>
-<formfield isEditable="no" defaultValue="" isVisible="no">teacher_email</formfield>
+<formfield isEditable="yes" isVisible="yes" defaultValue="">student_name</formfield>
+<formfield isEditable="yes" isVisible="yes" defaultValue="">student_email</formfield>
+<formfield isEditable="yes" isVisible="no" defaultValue="">student_id</formfield>
+<formfield isEditable="yes" isVisible="no" defaultValue="">student_class_id</formfield>
+<formfield isEditable="no" isVisible="no" defaultValue="">teacher_email</formfield>
 </submitformfields>
 <email_should_have_grading>yes</email_should_have_grading>
 <company_name searchable="true"></company_name>
@@ -2146,9 +2146,9 @@ They believed the government was a great help to the peasants
 <value></value>
 </constant>
 </DesignConstants>
-<cover autosize="true" rid="J57Q4PQ56QVCXUKW65I8" alttext="" orientation="1" height="768" width="576" caption="">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/a4/a48d98cd-05fa-4610-81e3-ba572e486608.png?filename=Default.png</cover>
+<cover width="576" caption="" orientation="1" height="768" rid="J57Q4PQ56QVCXUKW65I8" alttext="" autosize="true">https://storage.googleapis.com/bookwidgets-eu--create/resources/64/6458091810848768/a4/a48d98cd-05fa-4610-81e3-ba572e486608.png?filename=Default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
-<BookWidgetsVersion>6.1.1</BookWidgetsVersion>
+<BookWidgetsVersion>6.1.2</BookWidgetsVersion>
 <shortcode>GBA6FGT</shortcode>
 <label searchable="true">Arun Assessment</label>
 <lastupload>Sat Sep 26 16:25:00 2020</lastupload>

@@ -4,18 +4,18 @@
 <PictureMultpleChoice>
 <Question searchable="true">Which map is most useful to analyze the political situation during Ioannina's narrative?</Question>
 <Answers>
-<node autosize="true" rid="5ZFCWIY09BARY01LHZQ2" alttext="" orientation="1" height="0" width="0" caption="">https://widget-assets-eu.bookwidgets.com/200926/4e8d9c89c960d26f.38471f468fdcd6482c6a27ef1e27eaf6.png?filename=1389_Mediterranean_Sea.png</node>
-<node autosize="true" rid="PBJ3E7PSIHZC6T0JTB1V" alttext="" orientation="1" height="0" width="0" caption="">https://widget-assets-eu.bookwidgets.com/200926/bfed6ad1dfa22c09.e5e5e88727738058e2d4be5db0ab01fa.jpg?filename=Turkey_Political.jpg</node>
-<node autosize="true" rid="TUBA33U5GNR3Q22OMI45" alttext="" orientation="1" height="0" width="0" caption="">https://widget-assets-eu.bookwidgets.com/200926/a04c33c3097400d5.96b310d7c80d45407015899f9f439827.jpeg?filename=western%20roman%20empire%20(6).jpeg</node>
+<node width="0" caption="" orientation="1" height="0" rid="5ZFCWIY09BARY01LHZQ2" alttext="" autosize="true">https://widget-assets-eu.bookwidgets.com/200926/4e8d9c89c960d26f.38471f468fdcd6482c6a27ef1e27eaf6.png?filename=1389_Mediterranean_Sea.png</node>
+<node width="0" caption="" orientation="1" height="0" rid="PBJ3E7PSIHZC6T0JTB1V" alttext="" autosize="true">https://widget-assets-eu.bookwidgets.com/200926/bfed6ad1dfa22c09.e5e5e88727738058e2d4be5db0ab01fa.jpg?filename=Turkey_Political.jpg</node>
+<node width="0" caption="" orientation="1" height="0" rid="TUBA33U5GNR3Q22OMI45" alttext="" autosize="true">https://widget-assets-eu.bookwidgets.com/200926/a04c33c3097400d5.96b310d7c80d45407015899f9f439827.jpeg?filename=western%20roman%20empire%20(6).jpeg</node>
 </Answers>
 <Valid value="1">1</Valid>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="88JIRBJAYZWZHZ7WXAF3" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="88JIRBJAYZWZHZ7WXAF3" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="5ZFCWIY09BARY01LHZQ2"></audio>
-<img autosize="true" rid="VJL630BJ4MFLFPDO8HII" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="VJL630BJ4MFLFPDO8HII" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -34,11 +34,11 @@ To use military force as only a bluff, and to rely on peaceful negotiation to br
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="ABG2HAF8KG8ZW2TJ1QP3" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="ABG2HAF8KG8ZW2TJ1QP3" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="PBJ3E7PSIHZC6T0JTB1V"></audio>
-<img autosize="true" rid="1C30SKYU880GHS2801HP" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="1C30SKYU880GHS2801HP" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -58,11 +58,11 @@ The long, peaceful rule of the most prominent Byzantine leaders
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="NBI1LJ2N5Q6UTD7C8XPM" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="NBI1LJ2N5Q6UTD7C8XPM" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="TUBA33U5GNR3Q22OMI45"></audio>
-<img autosize="true" rid="5UXADTW1MZEIOE97T1BR" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="5UXADTW1MZEIOE97T1BR" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -83,11 +83,11 @@ The Byzantines looked down on the Turks and never copied their ideas or styles
 <multi-column>no</multi-column>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="6TD41K6EJPYOYF1J1XDK" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="6TD41K6EJPYOYF1J1XDK" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="88JIRBJAYZWZHZ7WXAF3"></audio>
-<img autosize="true" rid="QIW76FEJO9VNV5X13C7A" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="QIW76FEJO9VNV5X13C7A" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <number searchable="true"></number>
@@ -106,11 +106,11 @@ Persian
 Arab</distractors>
 <Rationale searchable="true"></Rationale>
 <rationale_alttext searchable="true"></rationale_alttext>
-<rationale_img autosize="true" rid="RE80YMCJQCP736C4FTOS" alttext="" orientation="1" height="0" width="0" caption=""></rationale_img>
+<rationale_img width="0" caption="" orientation="1" height="0" rid="RE80YMCJQCP736C4FTOS" alttext="" autosize="true"></rationale_img>
 <rationale_imgsize value="Big">Big</rationale_imgsize>
 <hint searchable="true"></hint>
 <audio rid="P8JN3X7I1GM9F8Y0Q7CA"></audio>
-<img autosize="true" rid="UW14HCYWTJ3CRUS8VJJ5" alttext="" orientation="1" height="0" width="0" caption=""></img>
+<img width="0" caption="" orientation="1" height="0" rid="UW14HCYWTJ3CRUS8VJJ5" alttext="" autosize="true"></img>
 <imgsize value="Big">Big</imgsize>
 <imgpos value="After question">After question</imgpos>
 <keyboard value="Alphabetic">Alphabetic</keyboard>
@@ -123,11 +123,11 @@ Arab</distractors>
 <submit_answers>no</submit_answers>
 <submit_only_once>no</submit_only_once>
 <submitformfields>
-<formfield isEditable="yes" defaultValue="" isVisible="yes">student_name</formfield>
-<formfield isEditable="yes" defaultValue="" isVisible="yes">student_email</formfield>
-<formfield isEditable="yes" defaultValue="" isVisible="no">student_id</formfield>
-<formfield isEditable="yes" defaultValue="" isVisible="no">student_class_id</formfield>
-<formfield isEditable="no" defaultValue="" isVisible="no">teacher_email</formfield>
+<formfield isEditable="yes" isVisible="yes" defaultValue="">student_name</formfield>
+<formfield isEditable="yes" isVisible="yes" defaultValue="">student_email</formfield>
+<formfield isEditable="yes" isVisible="no" defaultValue="">student_id</formfield>
+<formfield isEditable="yes" isVisible="no" defaultValue="">student_class_id</formfield>
+<formfield isEditable="no" isVisible="no" defaultValue="">teacher_email</formfield>
 </submitformfields>
 <email_should_have_grading>yes</email_should_have_grading>
 <company_name searchable="true"></company_name>
@@ -714,7 +714,7 @@ Arab</distractors>
 <modified>true</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants widget_backgroundimage=",auto" widget_font="Verdana" template="Light Background" widget_color="#3498DB">
+<DesignConstants widget_color="#3498DB" widget_font="Verdana" template="Light Background" widget_backgroundimage=",auto">
 <constant>
 <name>borderbackground</name>
 <kind>BackgroundGradient</kind>
@@ -2136,9 +2136,9 @@ Arab</distractors>
 <value>#226592</value>
 </constant>
 </DesignConstants>
-<cover autosize="true" rid="XGZTHDDFP1J1ABCHSC6Y" alttext="" orientation="1" height="768" width="576" caption="">https://widget-assets-eu.bookwidgets.com/200729/Default.9b2a389a35baa522a9b827fb89212017.png?filename=Default.png</cover>
+<cover width="576" caption="" orientation="1" height="768" rid="XGZTHDDFP1J1ABCHSC6Y" alttext="" autosize="true">https://widget-assets-eu.bookwidgets.com/200729/Default.9b2a389a35baa522a9b827fb89212017.png?filename=Default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
-<BookWidgetsVersion>6.1.1</BookWidgetsVersion>
+<BookWidgetsVersion>6.1.2</BookWidgetsVersion>
 <shortcode>6BBJF62</shortcode>
 <label searchable="true">Ioannina Assessment</label>
 <lastupload></lastupload>
