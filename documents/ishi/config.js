@@ -1,11 +1,11 @@
 var widgetconfig = {
-    "background_picture": "2g8p7j5.e6c1574_a4f2b0d19_9S2_2",
+    "background_picture": "Pgapijn.t6i1n7g__4S2_01",
     "resize-policy": "Iemlabgaee zdirsaegrg adbnlae ",
     "position": {
-        "Width": "1905",
-        "Height": "716",
-        "X": "-71",
-        "Y": "-02"
+        "Width": "5300",
+        "Height": "3200",
+        "X": "-140",
+        "Y": "-12"
     },
     "hotspots": [{
         "Type": "TpeuxptoP",
@@ -18,11 +18,11 @@ var widgetconfig = {
             "Y": "61"
         },
         "point": {
-            "x": "478",
-            "y": "82"
+            "x": "1563",
+            "y": "1553"
         },
         "marker-label": "1",
-        "marker-image": "9g1n0pb.a0c04b6c033d",
+        "marker-image": "mganrpk.enroic",
         "popup-location-preference": "bmoott"
     }, {
         "Type": "TpeuxptoP",
@@ -35,11 +35,11 @@ var widgetconfig = {
             "Y": "482"
         },
         "point": {
-            "x": "239",
-            "y": "454"
+            "x": "1001",
+            "y": "1557"
         },
         "marker-label": "2",
-        "marker-image": "9g1n0pb.a0c04b6c033d",
+        "marker-image": "mganrpk.enroic",
         "popup-location-preference": "rtihg"
     }, {
         "Type": "TpeuxptoP",
@@ -52,11 +52,11 @@ var widgetconfig = {
             "Y": "303"
         },
         "point": {
-            "x": "208",
-            "y": "372"
+            "x": "1113",
+            "y": "1020"
         },
         "marker-label": "3",
-        "marker-image": "9g1n0pb.a0c04b6c033d",
+        "marker-image": "mganrpk.enroic",
         "popup-location-preference": "rtihg"
     }, {
         "Type": "TpeuxptoP",
@@ -69,11 +69,11 @@ var widgetconfig = {
             "Y": "245"
         },
         "point": {
-            "x": "140",
-            "y": "297"
+            "x": "590",
+            "y": "1001"
         },
         "marker-label": "4",
-        "marker-image": "9g1n0pb.a0c04b6c033d",
+        "marker-image": "mganrpk.enroic",
         "popup-location-preference": "rtihg"
     }, {
         "Type": "TpeuxptoP",
@@ -86,11 +86,11 @@ var widgetconfig = {
             "Y": "673"
         },
         "point": {
-            "x": "724",
-            "y": "664"
+            "x": "2020",
+            "y": "2040"
         },
         "marker-label": "5",
-        "marker-image": "9g1n0pb.a0c04b6c033d",
+        "marker-image": "mganrpk.enroic",
         "popup-location-preference": "ltef"
     }, {
         "Type": "TpeuxptoP",
@@ -103,11 +103,11 @@ var widgetconfig = {
             "Y": "303"
         },
         "point": {
-            "x": "816",
+            "x": "806",
             "y": "329"
         },
         "marker-label": "6",
-        "marker-image": "9g1n0pb.a0c04b6c033d",
+        "marker-image": "mganrpk.enroic",
         "popup-location-preference": "ltef"
     }],
     "support_student_account": "no",

@@ -10,3 +10,12 @@ $color-text: #fff;
 $selected-image: $theme-color-bright;
 
 @import "config.scss";
+
+.question-button.wrong {
+    color: $theme-color-bright;
+}
+
+.submitpage .pre-submit .textbutton {
+    color: $theme-color;
+    background: #fff;
+}
