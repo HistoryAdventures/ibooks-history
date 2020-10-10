@@ -131,17 +131,6 @@ body {
   margin: 0px;
 }
 
-html.ibw-platform-osx-ibooks {
-  width: 1024px;
-  height: 768px;
-}
-
-html.ibw-platform-ipad-ibooks.vertical,
-html.ibw-platform-osx-ibooks.vertical {
-  height: 1024px;
-  width: 768px;
-}
-
 .bw.no-user-select {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -1042,6 +1031,8 @@ html.ibw-platform-ipad-bookwidgets .widget-backlink {
 
 .bw-throbber-wrapper {
   position: absolute;
+  animation-name: showpopup;
+  animation-duration: 0.3s;
   background: rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
@@ -1112,16 +1103,6 @@ html.ibw-platform-ipad-bookwidgets .widget-backlink {
   left: 0px;
   top: 0px;
   background: black;
-}
-
-.ibw-platform-osx-ibooks .bw-popup-zoomable-image {
-  width: 1024px;
-  height: 768px;
-}
-
-.ibw-platform-osx-ibooks.vertical .bw-popup-zoomable-image{
-  height: 1024px;
-  width: 768px;
 }
 
 .bw-zoomable-image { 
