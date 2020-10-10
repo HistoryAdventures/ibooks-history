@@ -2,7 +2,7 @@
 <FrameSequencePlugin>
 <slides>
 <slide>
-<img autosize="true" rid="5ZFCWIY09BARY01LHZQ2" alttext="" orientation="1" height="600" width="800" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/Queen_Annes_Revenge_model_NCMH_2.jpg</img>
+<img width="800" caption="" orientation="1" height="600" rid="5ZFCWIY09BARY01LHZQ2" alttext="" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/Queen_Annes_Revenge_model_NCMH_2.jpg</img>
 <caption searchable="true">Blackbeard’s Iconic Ship</caption>
 <description searchable="true">Model of the pirate ship Queen Anne's Revenge in the NC Museum of History.
 
@@ -11,7 +11,7 @@ was better known as the famed pirate Blackbeard. Queen Anne’s Revenge was the 
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img autosize="true" rid="30PO72C6598IKPD4LZ6B" alttext="" orientation="1" height="600" width="867" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/glos-bristol-17th-century-antique-print-1845-71605-p.jpg</img>
+<img width="867" caption="" orientation="1" height="600" rid="30PO72C6598IKPD4LZ6B" alttext="" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/glos-bristol-17th-century-antique-print-1845-71605-p.jpg</img>
 <caption searchable="true">Ship Origins</caption>
 <description searchable="true">“Bristol in the 17th Century,” 1845
 
@@ -20,7 +20,7 @@ likely first functioned as a merchant ship, The Concord, before its capture by F
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img autosize="true" rid="G1C30SKYU880GHS2801H" alttext="" orientation="1" height="600" width="924" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/cannonsizes_hrwm.jpg</img>
+<img width="924" caption="" orientation="1" height="600" rid="G1C30SKYU880GHS2801H" alttext="" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/cannonsizes_hrwm.jpg</img>
 <caption searchable="true">Cannons</caption>
 <description searchable="true">Image of several cannons retrieved from the wreck of Queen Anne’s Revenge by North Carolina’s Queen Anne’s Revenge Project. 
 
@@ -29,7 +29,7 @@ could provide long-distance impact on the high seas with relatively good aim. Mo
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img autosize="true" rid="PNBI1LJ2N5Q6UTD7C8XP" alttext="" orientation="1" height="571" width="980" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/side-view-section-lg.jpg</img>
+<img width="980" caption="" orientation="1" height="571" rid="PNBI1LJ2N5Q6UTD7C8XP" alttext="" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/side-view-section-lg.jpg</img>
 <caption searchable="true">Streamlined Design</caption>
 <description searchable="true">Longitudinal section of Queen Anne’s Revenge
 
@@ -38,7 +38,7 @@ also needed to be streamlined and efficient to guarantee speed on the sea (as ou
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
 </slide>
 <slide>
-<img autosize="true" rid="MMH0UY1HFFBV5R00DAZZ" alttext="" orientation="1" height="498" width="980" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/Y96GmsV.jpg</img>
+<img width="980" caption="" orientation="1" height="498" rid="MMH0UY1HFFBV5R00DAZZ" alttext="" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/InfoGFX/05_Jonas/QAR_FrameSequence/Y96GmsV.jpg</img>
 <caption searchable="true">Running Aground and Legacy</caption>
 <description searchable="true">Queen Anne’s Wreckage Map
 
@@ -62,7 +62,7 @@ June 1718, when Blackbeard ran her aground off the coast of North Carolina. Thou
 <modified>false</modified>
 </localization>
 </LocalizationMap>
-<DesignConstants widget_backgroundimage="" widget_font="Verdana" template="Dark Background" widget_color="#3498DB">
+<DesignConstants widget_color="#3498DB" widget_font="Verdana" template="Dark Background" widget_backgroundimage="">
 <constant>
 <name>borderbackground</name>
 <kind>BackgroundGradient</kind>
@@ -264,9 +264,9 @@ June 1718, when Blackbeard ran her aground off the coast of North Carolina. Thou
 <value>0px, 0px, 0px, 0px, #888, 255</value>
 </constant>
 </DesignConstants>
-<cover autosize="true" rid="AVJL630BJ4MFLFPDO8HI" alttext="" orientation="1" height="768" width="576" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/CYOA endings/Default.png</cover>
+<cover width="576" caption="" orientation="1" height="768" rid="AVJL630BJ4MFLFPDO8HI" alttext="" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/CYOA endings/Default.png</cover>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
-<BookWidgetsVersion>6.1.1</BookWidgetsVersion>
+<BookWidgetsVersion>6.1.2</BookWidgetsVersion>
 <shortcode></shortcode>
 <label searchable="true"></label>
 <lastupload></lastupload>

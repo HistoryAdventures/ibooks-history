@@ -1,12 +1,12 @@
 <!DOCTYPE widget>
 <BeforeAfter>
 <title searchable="true">World VIews - BeFore and AFter</title>
-<before autosize="true" rid="DPVTJQ57RFKRM70ZOO9C" alttext="" orientation="1" height="502" width="1024" caption="">https://widget-assets-eu.bookwidgets.com/200709/12237025_copy_S_1024_502.ff9950e181f580f6a0c4996789bb8d78.jpg?filename=%2FUsers%2Fjulius%2FDownloads%2FComposite_%20Unprojected.%20Martin%20Behaim's%20Erdapfel%2C%201492.%20(Facsimile%20of%20Behaim's%20Globe).3167531421582395569%2F12237025%20copy.jpg</before>
-<after autosize="true" rid="UZLQLQT1DPU6VU4PTLRY" alttext="" orientation="1" height="651" width="1024" caption="">https://widget-assets-eu.bookwidgets.com/200709/Mercator_1569_S_1024_651.9d772e4626c9fb7b7a4b4a817ea8c981.png?filename=%2FUsers%2Fjulius%2FDownloads%2FMercator_1569.png</after>
+<before width="1024" caption="" orientation="1" height="502" rid="DPVTJQ57RFKRM70ZOO9C" alttext="" autosize="true">https://widget-assets-eu.bookwidgets.com/200709/12237025_copy_S_1024_502.ff9950e181f580f6a0c4996789bb8d78.jpg?filename=%2FUsers%2Fjulius%2FDownloads%2FComposite_%20Unprojected.%20Martin%20Behaim's%20Erdapfel%2C%201492.%20(Facsimile%20of%20Behaim's%20Globe).3167531421582395569%2F12237025%20copy.jpg</before>
+<after width="1024" caption="" orientation="1" height="651" rid="UZLQLQT1DPU6VU4PTLRY" alttext="" autosize="true">https://widget-assets-eu.bookwidgets.com/200709/Mercator_1569_S_1024_651.9d772e4626c9fb7b7a4b4a817ea8c981.png?filename=%2FUsers%2Fjulius%2FDownloads%2FMercator_1569.png</after>
 <start_position searchable="true">0</start_position>
 <handle_orientation value="horizontal">Horizontal</handle_orientation>
 <resize-policy value="Contain entire picture, keep aspect ratio">Contain entire picture, keep aspect ratio</resize-policy>
-<DesignConstants widget_backgroundimage=",auto" widget_font="Verdana" template="Dark Background" widget_color="#3498DB">
+<DesignConstants widget_color="#3498DB" widget_font="Verdana" template="Dark Background" widget_backgroundimage=",auto">
 <constant>
 <name>backgroundbackground</name>
 <kind>BackgroundGradient</kind>
@@ -63,11 +63,11 @@
 <value>0px, 0px, 0px, 0px, #888, 255</value>
 </constant>
 </DesignConstants>
-<cover autosize="true" rid="5ZFCWIY09BARY01LHZQ2" alttext="" orientation="1" height="768" width="576" caption="">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/CYOA endings/Default.png</cover>
+<cover width="576" caption="" orientation="1" height="768" rid="5ZFCWIY09BARY01LHZQ2" alttext="" autosize="true">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/02_Empires/images/CYOA endings/Default.png</cover>
 <handle_type value="default">Built-in</handle_type>
-<handle_image autosize="true" rid="PBJ3E7PSIHZC6T0JTB1V" alttext="" orientation="1" height="298" width="248" caption="">/Users/julius/Downloads/button.png</handle_image>
+<handle_image width="248" caption="" orientation="1" height="298" rid="PBJ3E7PSIHZC6T0JTB1V" alttext="" autosize="true">/Users/julius/Downloads/button.png</handle_image>
 <widget_orientation value="Vertical">Vertical</widget_orientation>
-<BookWidgetsVersion>6.1.1</BookWidgetsVersion>
+<BookWidgetsVersion>6.1.2</BookWidgetsVersion>
 <shortcode>UBALKUH</shortcode>
 <label searchable="true">BeforeAfter</label>
 <lastupload></lastupload>
