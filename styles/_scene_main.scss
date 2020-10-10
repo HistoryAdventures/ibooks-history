@@ -283,14 +283,19 @@ figcaption {
 	color: $theme-color;
 	position: absolute;
 	top: 40px;
-	right: 40px;
-	width: 4.5%;
-	height: 4.5%;
+	left: 40px;
+	width: 8%;
+	height: 8%;
 	background-color: transparent;
 	border: 0;
 	pointer-events: all;
 	max-width: 50px;
 	max-height: 50px;
+}
+
+.ibw-platform-osx-ibooks .mute-button {
+	max-width: 100px;
+	max-height: 100px;
 }
 
 .mute-button svg {
