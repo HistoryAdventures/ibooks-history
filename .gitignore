@@ -1,3 +1,4 @@
 /node_modules
 /blender-files
 /_old
+.DS_Store
