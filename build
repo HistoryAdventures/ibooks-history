@@ -62,3 +62,9 @@ cp index-prod.html builds/index.html
 scp -r ./builds root@134.122.29.44:/srv/www/ibooks.web
 # unzip in server
 ssh root@134.122.29.44 '/srv/www/ibooks.web/build'
+
+# notify telegram
+curl -X GET -G \
+'https://api.telegram.org/bot1398011287:AAHZ-K64-wDkKczULH8NjXa-8d_-SrCLrD8/sendMessage' \
+-d chat_id='-462876348' \
+-d text='deply completed' \
