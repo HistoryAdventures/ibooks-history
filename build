@@ -17,7 +17,7 @@ function zipMoveCleanUp {
 }
 
 # creates all scenes
-allScenes=("scene-opium" "scene-ioannina" "scene-luis" "scene-ishi" "scene-william" "scene-jonas" "scene-arun")
+allScenes=("scene-opium" "scene-ioannina" "scene-luis" "scene-ishi" "scene-william" "scene-jonas" "scene-arun" "scene-agent-v1" "scene-chicago-v1" "scene-jemba-v1" "scene-khari-v1")
 for name in ${allScenes[@]}; do
     # copy scene source and shared files in one wdgt folder
     cp -rf ${name} ${name}.wdgt
@@ -55,3 +55,10 @@ for name in ${allQuizes[@]}; do
 
     zipMoveCleanUp quiz-${name}
 done
+
+cp index-prod.html builds/index.html
+
+# uploads to server
+scp -r ./builds root@134.122.29.44:/srv/www/ibooks.web
+# unzip in server
+ssh root@134.122.29.44 '/srv/www/ibooks.web/build'
