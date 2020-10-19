@@ -67,4 +67,4 @@ ssh root@134.122.29.44 '/srv/www/ibooks.web/build'
 curl -X GET -G \
 'https://api.telegram.org/bot1398011287:AAHZ-K64-wDkKczULH8NjXa-8d_-SrCLrD8/sendMessage' \
 -d chat_id='-462876348' \
--d text='deply completed' \
+-d text='deploy completed by `whoami`' \
