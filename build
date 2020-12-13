@@ -27,7 +27,7 @@ for name in ${allScenes[@]}; do
 done
 
 # creates all documents
-allDocuments=("opium" "ioannina" "luis" "ishi" "william" "jonas" "arun")
+allDocuments=("opium" "ioannina" "luis" "ishi" "william" "jonas" "arun" "agent" "chicago" "jemba" "khari")
 for name in ${allDocuments[@]}; do
     # copy documents source and shared files in one wdgt folder
     cp -rf documents/${name} document-${name}.wdgt
