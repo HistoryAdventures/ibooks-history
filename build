@@ -31,8 +31,11 @@ allDocuments=("opium" "ioannina" "luis" "ishi" "william" "jonas" "arun" "agent" 
 for name in ${allDocuments[@]}; do
     # copy documents source and shared files in one wdgt folder
     cp -rf documents/${name} document-${name}.wdgt
-    cp -rf documents/_shared/* document-${name}.wdgt
-
+    
+    if [ name == "ioannina" ] || [ name == "luis" ] || [ name == "ishi" ] || [ name == "william" ] || [ name == "jonas" ] || [ name == "arun" ]
+    then
+        cp -rf documents/_shared/* document-${name}.wdgt
+    fi
     zipMoveCleanUp document-${name}
 done
 
