@@ -1,0 +1,2071 @@
+/* pointer cursor on all radio buttons / checkboxes */
+.quizwidget .entry-mode .tmc-cover input[type="radio"], .quizwidget input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.print-only-inline { 
+  display: none;
+}
+
+/* Final page */
+
+.entry-mode .pre-submit,
+.readonly-mode .post-submit,
+.check-mode .post-submit { 
+  display: block;
+}
+
+.entry-mode .post-submit,
+.readonly-mode .pre-submit,
+.check-mode .pre-submit { 
+  display: none;
+}
+
+/* Correct / Wrong marker - all questions */
+
+span.cr-marker { 
+  margin-left: 5px;
+  margin-right: 5px;
+}
+div.cr-marker { 
+  padding: 10px;
+}
+
+div.cr-marker.picture-marker { 
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 3px;
+  width: 25px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  color: white;
+  font-size: 25px;
+  display: none;
+  z-index: 3;
+}
+
+.cr-correct { 
+  display: none;
+}
+
+.cr-wrong { 
+  display: none;
+}
+
+div.cr-marker.picture-marker .cr-correct { 
+  color: #0B0;
+  position: relative;
+  top: -3px;
+}
+
+div.cr-marker.picture-marker .cr-wrong { 
+  color: red;
+  position: relative;
+  top: -3px;
+}
+
+/* Rationale - all questions */
+
+.quizwidget .rationale { 
+  margin: 30px;
+ }
+
+.quizwidget .the-rationale, .quizwidget .the-rationale g {
+  text-shadow: none;
+  margin: 20px;
+  position: absolute; 
+  top: 0; 
+  left:0; 
+  width:0; 
+  height:0;
+  overflow: hidden;
+}
+
+.quizwidget .rationale { 
+  display: none;
+}
+
+.quizwidget .check-mode .rationale { 
+  display: block;
+}
+
+.quizwidget .check-mode .the-rationale {
+  display: block;
+  position: relative;
+  width: auto;
+  height: auto;
+  overflow: auto;
+}
+
+/* Hint - all questions */
+
+.quizwidget .hint, .quizwidget .hint g, .quizwidget .hintbutton {
+  text-shadow: none;
+  margin: 20px;
+}
+
+.quizwidget .hintbutton {
+  display: inline-block;
+}
+
+/* Text Description */
+
+.textdescription { 
+  margin: 20px;
+}
+
+/* text multiple choice / rated multiple choice*/
+
+.quizwidget .tmc-cover,
+.quizwidget .rmc-cover {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.quizwidget .tmc-cover .tmc-row,
+.quizwidget .rmc-cover .tmc-row {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.quizwidget .tmc-row.tmc-multi-column,
+.quizwidget .rmc-row.tmc-multi-column { 
+  display: inline-block;
+  width: 45%;
+ }
+
+.quizwidget .color-correct-answers .tmc-cover .tmc-answer[checked=checked] .cr-correct, 
+.quizwidget .check-mode .tmc-cover .tmc-answer[checked=checked] .cr-correct {
+  display: inline-block;
+}
+
+.quizwidget .check-mode .tmc-cover :not(.tmc-answer)[checked=checked] .cr-wrong { 
+  display: inline-block;
+}  
+
+
+/* text multi select */
+
+.quizwidget .check-mode [question-type=TextMultiSelect] .tmc-cover .bw-checkbox.tmc-answer:not([checked=checked]) .cr-wrong, 
+.quizwidget .check-mode [question-type=TextMultiSelect] .tmc-cover .bw-checkbox[checked=checked]:not(.tmc-answer) .cr-wrong {
+  display: inline-block;
+}
+
+.quizwidget .check-mode [question-type=TextMultiSelect] .tmc-cover .bw-checkbox:not(.tmc-answer):not([checked=checked]) .cr-correct {
+  display: inline-block;
+}
+
+/* Picture multiple choice */
+
+.quizwidget .pmc-cover {
+  text-align: center;
+}
+
+.quizwidget .pmc-cover .pmc-quiz {
+  display: inline-block;
+  height: 232px;
+  width: 232px;
+  cursor: pointer;
+  margin: 16px 16px 0px 0px;
+  border: 3px solid #666666;
+  text-outline: none;
+  box-sizing: border-box;
+}
+
+.pmc-quiz [role=image] { 
+  width: 100%;
+  height: 100%;
+}
+
+.quizwidget .pmc-cover .selected-picture { 
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  width: 32px;
+  height: 32px;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 50%;
+  border: 2px solid white;
+  font-size: 32px;  
+  margin: 5px;
+  color: white;
+}
+
+.quizwidget .pmc-cover .selected-picture { 
+  display: none;
+}
+
+.quizwidget .pmc-cover .selected .selected-picture{ 
+  display: block;
+
+}
+
+.quizwidget .pmc-cover .selected .selected-picture:before,
+.quizwidget .check-mode .pmc-cover .pmc-answer.selected .selected-picture:before {
+	content: "\e602"; /* .bw-icon-accept */
+}
+
+.quizwidget .question-content.readonly-mode .pmc-cover .pmc-quiz {
+  pointer-events: auto;
+}
+
+.quizwidget .pmc-cover .pmc-quiz[imgsize=Small] {
+  height: 160px;
+  width: 160px;
+}
+
+.quizwidget .pmc-cover .pmc-quiz.selected { 
+  border-color: #000000;
+  border-width: 10px;
+  border-radius: 0;
+}
+
+.quizwidget .color-correct-answers .pmc-cover .pmc-answer.selected .cr-correct, 
+.quizwidget .check-mode .pmc-cover .pmc-answer.selected .cr-correct,
+.quizwidget .color-correct-answers .pmc-cover .pmc-answer.selected .cr-marker, 
+.quizwidget .check-mode .pmc-cover .pmc-answer.selected .cr-marker,
+.quizwidget .check-mode [question-type=PictureMultiSelect] .pmc-cover .pmc-quiz:not(.pmc-answer):not(.selected) .cr-correct,
+.quizwidget .check-mode [question-type=PictureMultiSelect] .pmc-cover .pmc-quiz:not(.pmc-answer):not(.selected) .cr-marker { 
+  display: inline-block;
+}
+
+.quizwidget .check-mode .pmc-cover .pmc-quiz:not(.pmc-answer).selected .cr-wrong,
+.quizwidget .check-mode .pmc-cover .pmc-quiz:not(.pmc-answer).selected .cr-marker, 
+.quizwidget .check-mode .pmc-cover .pmc-quiz.pmc-answer:not(.selected) .cr-wrong,
+.quizwidget .check-mode .pmc-cover .pmc-quiz.pmc-answer:not(.selected) .cr-marker, 
+.quizwidget .check-mode [question-type=PictureMultiSelect] .pmc-cover .pmc-quiz.pmc-answer:not(.selected) .cr-wrong,
+.quizwidget .check-mode [question-type=PictureMultiSelect] .pmc-cover .pmc-quiz.pmc-answer:not(.selected) .cr-marker { 
+  display: inline-block;
+}  
+
+/* Multi line */
+
+.quizwidget .ml-cover {
+  padding: 10px;
+}
+
+.quizwidget .ml-cover textarea, .quizwidget .ml-cover .textareacover {
+  margin: auto;
+  resize: none;
+}
+
+.quizwidget .ml-cover textarea, .quizwidget .ml-cover .textareacover {
+  width: 97%;
+  min-height: 50px;
+}
+
+.quizwidget .ml-cover .textareacover { 
+  background-color: white;
+  position: absolute;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.quizwidget .ml-cover.showcover textarea { 
+  opacity: 0.01;
+}
+
+.quizwidget .ml-cover.hidecover .textareacover { 
+  display: none;
+}
+
+.quizwidget .ml-cover .weblink { 
+  font-style: italic;
+  pointer-events: auto;
+}
+
+/* Single line */
+
+.quizwidget .sl-cover {
+  padding: 10px;
+}
+
+.quizwidget .sl-cover input {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.quizwidget .the-answer, .quizwidget .the-answer g,
+.quizwidget.practicewidget .check-mode .the-answer, .quizwidget.practicewidget .check-mode .the-answer g {
+  color: black;
+  stroke: black;
+  fill: black;
+  text-shadow: none;
+  position: absolute; 
+  top: 0;
+  left:0; 
+  width:0; 
+  height:0; 
+  overflow: hidden;
+}
+
+.quizwidget .check-mode .the-answer {
+  display: block;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.quizwidget.practicewidget .check-mode .the-answer {
+  display: none !important;
+}
+
+.quizwidget .sl-cover input[type=text] { 
+  width: 100%;
+}
+
+.quizwidget .color-correct-answers .sl-cover.sl-answer .cr-correct, 
+.quizwidget .check-mode .sl-cover.sl-answer .cr-correct {
+  display: inline-block;
+}
+
+.quizwidget .check-mode .sl-cover.sl-wrong .cr-wrong { 
+  display: inline-block;
+}  
+
+/* multiline */
+
+.quizwidget .color-correct-answers .ml-cover.ml-answer .cr-correct, 
+.quizwidget .check-mode .ml-cover.ml-answer .cr-correct {
+  display: inline-block;
+}
+
+.quizwidget .check-mode .ml-cover.ml-wrong .cr-wrong { 
+  display: inline-block;
+}  
+
+
+/* Picture ordering */
+
+.quizwidget .po-cover {
+  -webkit-user-select: none;
+  text-align: center;
+}
+
+.quizwidget .po-cover .display {
+  margin: 60px auto 0px auto;
+  z-index: 99;
+}
+
+.quizwidget .po-quiz {
+  background-color: white;
+  z-index: 99;
+}
+
+.quizwidget .po-quiz, 
+.quizwidget .po-cover .target-box {
+  margin: 12px 12px 0px 0px;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  border: 2px solid #666666;
+}
+
+.quizwidget .po-pic {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.quizwidget .po-pic [role=image] {
+  height: 100%;
+  width: 100%;
+}
+
+.quizwidget .po-cover .target
+ {
+  margin: 60px auto 0px auto;
+  z-index: 1;
+  clear: both;
+}
+
+.quizwidget .answer-box { 
+  text-align: center;
+}
+
+.quizwidget .po-cover .target-box .po-pic {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  border: none;
+  z-index: inherit;
+}
+
+.quizwidget .po-cover .answer, 
+.quizwidget .po-cover .answer g {
+  color: black;
+  stroke: black;
+  fill: black;
+  text-shadow: none;
+  margin: 60px auto 0px auto;
+  display: none;
+}
+
+.quizwidget .po-cover .answer .po-quiz {
+  border: 3px solid #008000;
+}
+
+.quizwidget .check-mode .display {
+  display: none;
+}
+
+.quizwidget .check-mode .target .wrong {
+  border: 3px solid #c00000;
+}
+
+.quizwidget .color-correct-answers .all-correct .target .correct, 
+.quizwidget .check-mode .target .correct {
+  border: 3px solid #008000;
+}
+
+.quizwidget .check-mode .target .wrong .cr-wrong, 
+.quizwidget .check-mode .target .wrong .cr-marker {
+  display: inline-block;
+}
+
+.quizwidget .color-correct-answers .all-correct .target .correct .cr-correct, 
+.quizwidget .check-mode .target .correct .cr-correct, 
+.quizwidget .color-correct-answers .all-correct .target .correct .cr-marker, 
+.quizwidget .check-mode .target .correct .cr-marker {
+  display: inline-block;
+}
+
+/* Word ordering */
+
+.quizwidget .ms-cover { 
+  display: block;
+}
+
+.quizwidget .ms-cover .words {
+  text-align: center;
+  display: block;
+  margin: 20px;
+  padding: 20px;
+}
+
+.quizwidget .wordwrapper { 
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  background-color: #D0D0D0;
+  border: 3px solid #444444;
+  box-shadow: 8px 8px 5px #888888;
+  font-size: 125%;
+  cursor: move;
+}
+
+.quizwidget .sentence .wordwrapper { 
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.quizwidget .wordwrapper.ui-draggable-disabled { 
+  opacity: 0.7;
+}
+
+.quizwidget .ms-cover .drag_placeholder { 
+  opacity: 0.25;
+}
+
+.quizwidget .check-mode .ms-cover .cr-wrong {
+  display: inline-block;
+}
+
+.quizwidget .check-mode .ms-cover.ms-answer .cr-wrong {
+  display: none;
+}
+
+.quizwidget .color-correct-answers .ms-cover.ms-answer .cr-correct, 
+.quizwidget .check-mode .ms-cover.ms-answer .cr-correct {
+  display: inline-block;
+}
+
+/* Fill In Table */
+
+.table-cover { 
+  display: block;
+  text-align: left;
+  margin: 20px;
+}
+
+.table-scroll-wrapper { 
+  overflow-x: auto;
+ }
+.quizwidget .table-cover .bw-table td .cell_right_value {
+  display: none;
+}
+
+.quizwidget .check-mode .table-cover .bw-table td.cell_wrong .cell_right_value {
+  display: inline-block;
+}
+
+.quizwidget .check-mode .table-cover .bw-table {
+  pointer-events: auto;  
+}
+
+.quizwidget .question-content.readonly-mode .content[question-type=FillInTable] {
+  pointer-events: initial;
+
+}
+/* Fill In Text */
+
+.fillintext label.ui-input-text  { 
+  vertical-align: top;  
+}
+
+.fit-sentence { 
+  margin-left: 20px;
+}
+
+.fillintext label.ui-input-text { 
+  display: inline-block;  width: 70%;  
+  margin: 0 2% 0 0; 
+}
+
+.fillintext input.ui-input-text, 
+.fillintext textarea.ui-input-text, 
+.fillintext .ui-input-search { 
+  width: 200px; 
+  display: inline-block; 
+}
+
+.fillintext .ui-select { 
+  width: 250px; 
+  display: inline-block; 
+}
+
+.fillintext input, .fillintext select { 
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.fillintext .ui-btn-inner { 
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+}
+
+.fillintext .ui-btn-text { 
+  font-family: 'Helvetica'; 
+  font-size: 19px; 
+  font-weight: normal; 
+}
+
+.fillintext h1.the-question { 
+  line-height: 1.6em;
+}
+
+.fillintext h1.the-question .questionnumber { 
+  line-height: 1em;
+}
+
+.fillintext input, .fillintext select {
+  padding: 6px;
+  text-align: center;
+  max-width: 100%;
+}
+
+.check-mode .fillintext .ui-btn-inner { 
+  color:#c00000; 
+}
+
+.quizwidget .color-correct-answers .fillintext .fit-answer .ui-btn-inner, 
+.quizwidget .check-mode .fillintext .fit-answer .ui-btn-inner { 
+  color: #008000; 
+}
+
+
+.fillintext .cr-marker { 
+  display: none;  
+}
+
+.quizwidget .color-correct-answers .fillintext .fit-answer .cr-marker,
+.quizwidget .check-mode .fillintext .fit-answer .cr-marker,
+.quizwidget .check-mode .fillintext .fit-wrong .cr-marker { 
+  display: inline;
+}
+
+.quizwidget .color-correct-answers .fillintext .fit-answer .cr-correct, 
+.quizwidget .check-mode .fillintext .fit-answer .cr-correct {
+  display: inline-block;
+}
+
+.quizwidget .check-mode .fillintext .fit-wrong .cr-wrong { 
+  display: inline-block;
+}  
+
+
+
+/* Connect questions */
+.connectwindow {  
+  text-align:center;
+  z-index:40;
+  margin: 10px;
+}
+
+.connectword { 
+  padding-top:10px; 
+  padding-bottom:10px; 
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.match_source .connectword, .match_source .connectpicture { 
+  text-align: right;
+  padding-right: 40px;
+}
+
+.match_target .connectword, .match_target .connectpicture { 
+  text-align: left;
+  padding-left: 40px;
+}
+
+.connectpicture .imgwrapper { 
+  display: inline-block;
+  font-size: 0px;
+  vertical-align: middle;
+}
+
+.connectwindow .cr-marker { 
+  width: 20px;
+}
+
+.match_table { 
+  width: 100%;
+}
+
+.match_table .match_source {
+  padding-right: 50px;
+}
+
+.match_table .match_target {
+  padding-left: 50px;
+}
+
+.match_table[resize-mode=None] img { 
+  max-width: 300px;
+}
+
+.drag-locked { 
+  border:1px solid #c00000; 
+}
+
+._jsPlumb_endpoint { 
+  z-index:50; 
+}
+
+.quizwidget .readonly-mode ._jsPlumb_endpoint,
+.quizwidget .readonly-mode ._jsPlumb_endpoint svg { 
+  pointer-events: none;
+}
+
+/* helper is shown, hide original because position is different */
+._jsPlumb_endpoint.ui-draggable-dragging {
+  opacity: 0;
+} 
+
+._jsPlumb_connector { 
+  z-index:1; 
+}
+
+.dropHover { 
+  border:1px dotted #c00000; 
+}
+
+.cmdLink { 
+  font-size:0.80em;
+}
+
+.quizwidget .match circle { 
+  stroke-width: 2; 
+}
+
+.quizwidget .entry-mode .match circle { 
+  cursor: pointer; 
+}
+
+
+.quizwidget .readonly-mode.check-mode .wm-missing-answer path { 
+  stroke-dasharray: 10, 10
+}
+
+.quizwidget .question-content.readonly-mode .connectpicture img {
+  pointer-events: auto;
+}
+
+.quizwidget .check-mode .connectwindow.wm-wrong-answer .cr-wrong { 
+  display: inline-block;
+}
+
+.quizwidget .color-correct-answers .connectwindow.wm-correct-answer .cr-correct, 
+.quizwidget .check-mode .connectwindow.wm-correct-answer .cr-correct {
+  display: inline-block;
+}
+
+.connectaudio { 
+  text-align: right;
+}
+
+.connectaudio .audiobutton { 
+  position: relative;
+  margin-right: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* rich text */
+
+  .rtwrapper { 
+    min-height: 100px;
+  }
+
+/* Annotate Picture */
+
+.quizwidget .ap-cover .ap-picture {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 920px;
+  margin: 20px;
+  background-size:cover;
+}
+
+.quizwidget .ap-picture line {
+  stroke: white;
+  stroke-width: 2;
+}
+
+.quizwidget .line-dashed {  
+  stroke-dasharray:3,3;
+}
+
+.quizwidget .ap-picture circle { 
+  stroke: white;
+  stroke-width: 2;
+  fill: transparent;
+}
+
+.ap-cover .ap-field {
+  position: absolute;
+  display: block;  
+  overflow: hidden;
+  z-index: 1;
+}
+
+.ap-cover .ap-field-bg { 
+  position: absolute;  
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.ap-cover:not(.narrow-mode) input,
+.ap-cover:not(.narrow-mode) textarea {
+  position: absolute;
+  background: transparent;
+}
+
+.ap-cover input,
+.ap-cover textarea {
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  box-sizing: border-box;
+  border: none;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  z-index: 2;
+}
+
+.quizwidget .ap-cover .ap_border_dotted > textarea,
+.quizwidget .ap-cover .ap_border_dotted > input[type=text] {
+  border-style: dotted;
+}
+
+.quizwidget .ap-cover .ap_border_none > textarea,
+.quizwidget .ap-cover .ap_border_none > input[type=text] {  
+  border: 0;
+}
+
+.quizwidget .ap-cover .ap_background_transparent > .ap-field-bg { 
+  background: transparent;
+}
+
+.quizwidget .ap-cover .ap_background_semitransparent > .ap-field-bg {
+  opacity: 0.5;
+}
+
+.ap-cover textarea, 
+.ap-cover input { 
+  text-align: center;
+  padding: 6px;
+}
+
+.ap-cover .ap-table { 
+  display: none;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.ap-cover .ap-table tr,
+.ap-cover .ap-table .fieldwrapper { 
+  width: 100%;
+}
+
+.ap-cover.narrow-mode .ap-table { 
+  display: block;
+}
+
+.ap-cover.narrow-mode:not(.cover-fields) .ap-field { 
+  display: none;
+}
+
+.ap-marker-text { 
+  font-size: 15px;
+  font-family: verdana;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  stroke: none;
+}
+
+.ap-svg-wrapper { 
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.ap-cover.narrow-mode.cover-fields .ap-svg-wrapper {
+  z-index: 2;
+}
+
+.quizwidget .color-correct-answers .ap-cover .cr-marker.picture-marker { 
+  top: 0px;
+}
+
+
+.quizwidget .check-mode .ap-cover .ap-wrong .cr-wrong, 
+.quizwidget .check-mode .ap-cover .ap-wrong .cr-marker {
+  display: inline-block;
+}
+
+.quizwidget .color-correct-answers .ap-cover .ap-answer .cr-correct, 
+.quizwidget .check-mode .ap-cover .ap-answer .cr-correct, 
+.quizwidget .color-correct-answers .ap-cover .ap-answer .cr-marker, 
+.quizwidget .check-mode .ap-cover .ap-answer .cr-marker {
+  display: inline-block;
+}
+
+.quizwidget .check-mode .ap-cover .ap-wrong td.cr-marker,
+.quizwidget .color-correct-answers .ap-cover .ap-answer td.cr-marker, 
+.quizwidget .check-mode .ap-cover .ap-answer td.cr-marker {
+  display: table-cell;
+}
+
+
+/* Question Table */
+
+.quizwidget .question-content.readonly-mode .content[question-type=QuestionTable] {
+  pointer-events: initial;
+}
+
+.quizwidget .question-content.readonly-mode .content[question-type=QuestionTable] input[type="radio"] {
+  pointer-events: none;
+}
+
+.qt-cover { 
+  margin: 20px;
+  overflow-x: auto;
+}
+
+.qt-cover td, .qt-cover th {
+  text-align: center;
+  padding: 10px;
+}
+
+.qt-cover th.nocenter {
+  text-align: left;
+}
+
+.qt-cover td { 
+  text-align: center;
+}
+
+.qt-cover td .bw-simple-radiobutton { 
+  display: inline-block;
+}
+
+.check-mode .qt-cover td.qt-answer { 
+  border-radius: 5px;
+}
+
+.check-mode .qt-cover td.qt-checked { 
+  border-radius: 5px;
+}
+
+.check-mode .qt-cover td.qt-answer.qt-checked, 
+.quizwidget .color-correct-answers  .qt-cover td.qt-answer.qt-checked { 
+  border-radius: 5px;
+}
+
+
+.check-mode .qt-cover .qt-correct .cr-correct,
+.quizwidget .color-correct-answers  .qt-cover .qt-correct .cr-correct { 
+  display: inline-block;
+}
+
+.check-mode .qt-cover .qt-wrong .cr-wrong { 
+  display: inline-block;
+}
+
+/* Drag Drop Words In Sentence */
+
+.dwis-cover { 
+  position: relative;
+  margin: 20px;
+}
+
+.dwis-box, .dwis-word { 
+  display: inline-block;
+}
+
+.quizwidget .dwis-word.ui-draggable-disabled { 
+  opacity: 0.7;
+}
+
+.dwis-word { 
+  position: relative;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.dwis-box { 
+  margin: 2px 0px;
+}
+
+.dwis-words .dwis-word { 
+  margin: 10px;
+  line-height: 100%;
+}
+
+.dwis-box { 
+  min-width: 80px;
+  min-height: 24px;
+  padding: 2px;
+}
+
+.dwis-box .dwis-word {
+  padding: 0px 5px;
+}
+
+.dwis-words { 
+  min-height: 50px;
+  margin-bottom: 20px;
+  padding: 5px;
+
+}
+.dwis-inserted { 
+  border-bottom: 2px solid;  
+}
+
+.quizwidget .dwis-words .drag_placeholder { 
+  opacity: 0.25;
+}
+
+.quizwidget .check-mode .dwis-wrong .cr-wrong { 
+  display: inline-block;
+}
+.quizwidget .color-correct-answers .dwis-correct .cr-correct, 
+.quizwidget .check-mode .dwis-correct .cr-correct {
+  display: inline-block;
+}
+
+.dwis-hover { 
+  outline-style: dotted;  
+  outline-color: black;
+}
+
+/* Mark sentence */
+
+.mas-category { 
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mas-categories { 
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.quizwidget .question-content.readonly-mode .mas-categories { 
+ pointer-events : initial;
+}
+
+.mas-sentence { 
+  margin-left: 20px;
+}
+
+.mas-word {
+  display: inline-block;
+  margin: 2px 0px;
+}
+
+.mas-word[marker]:not([marker="0"]) { 
+  padding: 2px;
+  padding: 3px;
+  border-radius: 5px;
+}
+.mas-category-wrapper { 
+  display: inline-block;
+  padding: 5px 10px;
+  opacity: 0.5;
+} 
+
+.mas-category-wrapper.selected { 
+  opacity: 1;
+}
+
+.mas-category { 
+  padding: 5px 15px;
+}
+
+[marker="0"] .mas-category {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+[marker="1"] .mas-category, .mas-word[marker="1"]:not(.selected) {
+  background-color: rgba(60, 203, 81, 0.5);
+}
+[marker="2"] .mas-category, .mas-word[marker="2"]:not(.selected) {
+  background-color: rgba(204, 129, 101, 0.5);
+}
+[marker="3"] .mas-category, .mas-word[marker="3"]:not(.selected) {
+  background-color: rgba(44, 178,169, 0.5);
+}
+[marker="4"] .mas-category, .mas-word[marker="4"]:not(.selected) {
+  background-color: rgba(237,219,135, 0.5);
+}
+[marker="5"] .mas-category, .mas-word[marker="5"]:not(.selected) {
+  background-color: rgba(132, 116, 252, 0.5);
+}
+[marker="6"] .mas-category, .mas-word[marker="6"]:not(.selected) {
+  background-color: rgba(205,205, 181, 0.5);
+}
+[marker="7"] .mas-category, .mas-word[marker="7"]:not(.selected) {
+  background-color: rgba(253,160,128, 0.5);
+}
+[marker="8"] .mas-category, .mas-word[marker="8"]:not(.selected) {
+  background-color: rgba(165, 212, 237, 0.5);
+}
+
+.mas-category-wrapper.selected .mas-category,
+[mas-selected="1"] .mas-word[marker="1"],
+[mas-selected="2"] .mas-word[marker="2"],
+[mas-selected="3"] .mas-word[marker="3"],
+[mas-selected="4"] .mas-word[marker="4"],
+[mas-selected="5"] .mas-word[marker="5"],
+[mas-selected="6"] .mas-word[marker="6"],
+[mas-selected="7"] .mas-word[marker="7"],
+[mas-selected="8"] .mas-word[marker="8"] { 
+  border-bottom: 2px solid;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}  
+
+
+.quizwidget .mas-word span.cr-marker { 
+  margin: 0px;
+}
+
+.quizwidget .check-mode .mas-wrong .cr-wrong { 
+  display: inline-block;
+}
+
+.quizwidget .check-mode .mas-word span.cr-marker,
+.quizwidget .color-correct-answers .mas-word.cr-correct span.cr-marker { 
+  margin: 0px 2px;
+}
+
+.quizwidget .color-correct-answers .mas-correct .cr-correct, 
+.quizwidget .check-mode .mas-correct .cr-correct {
+  display: inline-block;
+}
+
+
+/* Drag Drop */
+
+.dd-boxes.auto-position { 
+  text-align: center;
+}
+
+.dd-boxes.auto-position .ddbox {
+  height: auto;
+  min-height: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ddbox { 
+  width: 280px;
+  max-width: 100%;
+  height: 195px;
+  position: relative;
+  display: block;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.positioned { 
+  margin: 0px;
+  position: absolute;
+}
+
+
+.quizwidget .dd-cover .ddbox.ddbox_border_dotted {
+  border-style: dotted;
+}
+
+.quizwidget .dd-cover .ddbox.current-drop-target .ddboxbg, 
+.quizwidget .dd-cover .words.current-drop-target,
+.quizwidget .dd-cover .ddbox.current-drop-target { 
+  outline-style: dotted;  
+  outline-color: black;
+}
+
+ 
+.quizwidget .dd-cover .ddbox.ddbox_border_none {
+  border: 0;
+}
+
+.ddbox_box_header { 
+  position: relative;
+}
+
+.ddboxbg { 
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.quizwidget .ddbox_border_none { 
+  margin: 0px;
+}
+
+.quizwidget .dd-cover .ddbox.ddbox_background_transparent .ddboxbg {
+  background: transparent;
+}
+
+.quizwidget .dd-cover .ddbox.ddbox_background_semitransparent .ddboxbg { 
+  opacity: 0.5;
+}
+
+.quizwidget .question-content.readonly-mode .content[question-type=TextDragDrop],
+.quizwidget .question-content.readonly-mode .content[question-type=PictureDragDrop] {
+  pointer-events: initial;
+}
+
+.quizwidget .dd-cover { 
+  display: block;
+  height: auto;
+  text-align: center;
+}
+
+.quizwidget .dd-cover .drag_placeholder { 
+  opacity: 0.25;
+}
+
+.quizwidget .dd-cover .words {
+  text-align: center;
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  min-height: 50px;
+}
+
+.quizwidget .dd-cover .dd-boxes {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 920px;
+}
+.quizwidget .dd-cover .dd-boxes.auto-position {
+  max-width: 100%;
+}
+
+.quizwidget .dditem { 
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  left: 0px;
+  top: 0px;
+}
+
+.quizwidget .ui-draggable-disabled.dditem { 
+  opacity: 0.7;
+}
+
+.quizwidget .entry-mode .dditem { 
+  cursor: pointer;
+}
+
+.quizwidget .dditem-img { 
+  padding: 5px;
+}
+
+.quizwidget .dditem-noframe { 
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.dditem .imgwrapper { 
+  vertical-align: middle;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.dditem .imgwrapper img {
+  max-width: 300px;
+}
+
+.dditem .imgwrapper.fixed-size img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.quizwidget .check-mode .dditem:not(.dd-correct) .cr-wrong { 
+  display: inline-block;
+}
+
+.quizwidget .color-correct-answers .dd-boxes .dditem.dd-correct .cr-correct, 
+.quizwidget .check-mode .dditem.dd-correct .cr-correct {
+  display: inline-block;
+}
+
+
+/* Whiteboard */
+
+.w-cover { 
+  margin: 20px;
+}
+
+.w-cover #drawingareawrapper { 
+  position: relative;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+}
+
+.w-cover #drawingarea, .w-cover #drawingarea #canvasdiv { 
+  line-height: 0px;
+}
+
+.w-cover #drawingarea #canvasdiv canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.w-cover .w-toolbar-wrapper { 
+  text-align: center;
+}
+
+.w-cover #textedit { 
+  font-size: 110%;
+  z-index:30;
+  background-color: white;
+  position: absolute;
+  display: none;
+  border-radius: 3px;
+}
+
+.w-cover .photo-placer {
+  position: absolute;
+}
+
+.w-cover .photo-placer img {
+  -webkit-user-drag: none;
+  user-drag: none;  
+}
+
+.w-cover input {  
+  -webkit-user-select: text;
+}
+
+.bw-toolbutton > .bw-icon.bw-icon-fill-drop {
+  display: block;
+  position: absolute;
+  z-index: 0;
+  left: 4px;
+  top: 4px;
+}
+
+.bw-icon.bw-icon-fill-drop-small {
+  display: block;
+  position: relative;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+}
+
+.tool-container .bw-icon { 
+  font-size: 32px;
+  width: 32px;
+  height: 32px;
+}
+
+.tool-container.tool-bottom { 
+  box-shadow: none ;
+  border: none;
+  background: #777777;
+}
+
+.tool-container.tool-bottom .tool-item { 
+  border: none;
+  color: white;
+}
+
+.tool-container.tool-bottom .tool-item:hover { 
+  background: #aaaaaa;
+}
+
+.tool-container.tool-bottom .arrow { 
+  border-bottom-color: #777777;
+}
+
+.tool-container a { 
+  text-decoration: none;
+}
+
+#widthpopup, #colorpopup, #toolpopup { 
+  display: none;
+}
+
+[selected-tool=draw] canvas { 
+  cursor: crosshair;
+}
+
+[selected-tool=eraser] canvas { 
+  cursor: crosshair;
+}
+
+[selected-tool=pan] canvas { 
+  cursor: move;
+}
+
+[selected-tool=text] canvas { 
+  cursor: text;
+}
+
+/* Correct sentence */
+
+.quizwidget .color-correct-answers .cs-correct, .quizwidget .check-mode .cs-correct .cr-correct {
+  display: inline-block;
+}
+
+.cs-sentence { 
+  margin: 20px;
+}
+.cs-hint { 
+  display: block;
+  position: absolute;
+  color: white;
+  background: black;
+  border: 1px solid white;
+  padding: 3px;
+}
+
+.cs-word { 
+  position: relative;
+  display: inline-block;
+}
+
+.cs-word.empty {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.cs-input { 
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.01;
+}
+
+.cs-input:focus, .cs-input.editing { 
+  opacity: 1;
+}
+
+.cs-changed { 
+  font-style: italic;  
+}
+
+.cs-changed.empty:after { 
+  content: "__";
+}
+
+.cs-word input { 
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+ .cs-word .cr-marker { 
+  display: none;
+}
+
+.quizwidget .check-mode .cs-word.cs-wrong .cr-wrong,
+.quizwidget .check-mode .cs-word.cs-wrong .cr-marker { 
+  display: inline-block;
+}
+
+.quizwidget .color-correct-answers .cs-word.cs-correct .cr-correct, 
+.quizwidget .check-mode .cs-word.cs-correct .cr-correct,
+.quizwidget .color-correct-answers .cs-word.cs-correct .cr-marker, 
+.quizwidget .check-mode .cs-word.cs-correct .cr-marker {
+  display: inline-block;
+}
+
+/* Audio recording */
+.audiorecorder { 
+  height: 60px;  
+  padding-left: 40px;
+}
+
+/* Audio */
+
+.videowrapper { 
+  text-align: center;
+}
+
+.audiowrapper {
+  height: 60px;
+}
+
+audio, .mejs-audio {  
+  display: block;
+  position: absolute;
+  margin-left: 20px;
+}
+
+/* Video */
+
+.videodiv {   
+  display: inline-block;
+  width: 640px;
+  height: 360px;
+}
+
+.videodiv div { 
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.videodiv iframe { 
+  width: 640px;
+  height: 360px;
+}
+
+/* Photo */
+.photo-cover {
+  margin: 20px;
+  text-align: center;
+}
+.photo-place-holder {
+  background: white;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  max-width: 95%;
+}
+.photo-place-holder-inner {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 217px;
+  overflow: hidden;
+}
+
+.photo-place-holder-inner img {
+  max-height: 100%;
+}
+
+.photo-place-holder p, .photo-place-holder p g {
+  text-align: center;
+  position: relative;
+  top: -50px;
+  font-size: 20px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  color: #929292;
+  fill: #929292;
+  stroke: #929292;
+}
+.photo-actual {
+  position: relative;
+  overflow: hidden;
+  background: white;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.photo-actual img {
+  pointer-events: none;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.photo-delete-button {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  padding: 4px;
+  width: 30px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.photo-delete-button .bw-icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+  color: black;
+}
+
+/* Numeric */
+
+.quizwidget .n-cover {
+  padding: 10px;
+}
+
+.quizwidget .n-cover input {
+  min-width: 20px;
+}
+
+
+.quizwidget .n-cover .exponential { 
+  display: inline-block;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.quizwidget .n-cover .exponential input[type=text] {
+  margin: 5px;
+}
+
+.quizwidget .check-mode .n-cover .exponential input[type=text],
+.quizwidget .color-correct-answers .n-cover.n-answer .exponential input[type=text] {
+  margin: 0px;
+}
+
+.quizwidget .n-cover input[part=base][type=text] {
+  position: relative;
+  top: 10px;
+}
+
+.quizwidget .n-cover input[part=exponent][type=text] {
+  position: relative;
+  top: -10px;
+} 
+
+.quizwidget .n-cover input.single[type=text] {
+  margin-left: 50px;
+} 
+
+.quizwidget .n-cover table.fraction { 
+  border-collapse: collapse;
+  margin-left: 50px;
+}
+
+.quizwidget .n-cover td {
+  padding: 10px;
+}
+
+.quizwidget .n-cover td.numeratorcell {
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+} 
+
+.quizwidget .n-cover td.denominatorcell { 
+  border-top-width: 4px;
+  border-top-style: solid;
+}
+
+.quizwidget .color-correct-answers .n-cover.n-answer .cr-correct, 
+.quizwidget .check-mode .n-cover.n-answer .cr-correct {
+  display: inline-block;
+}
+
+.quizwidget .check-mode .n-cover:not(.n-answer) .cr-wrong { 
+  display: inline-block;
+}  
+
+
+.matrix-left { 
+  border-width: 2px;
+  border-left-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  padding: 0px!important;
+  width: 10px;
+}
+
+[matrix-style=parentheses] .matrix-left {
+  border-top-left-radius: 10px 30px;
+  border-bottom-left-radius: 10px 30px;
+}
+
+.matrix-right { 
+  border-width: 2px;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  padding: 0px!important;
+  width: 10px;
+}
+
+[matrix-style=parentheses] .matrix-right {
+  border-top-right-radius: 10px 30px;
+  border-bottom-right-radius: 10px 30px;
+}
+
+/* Ionic compound builder */
+.icb-cover .wordwrapper {
+  z-index: 1000;
+}
+.icb-cover .drag-source {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.icb-cover .drop-target {
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  margin-top: 15px;
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+}
+.icb-cover .ddboxbg {
+  z-index: -1;
+}
+
+.icb-cover .ddboxbg::before {
+  content: attr(data-backdrop);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 200px;
+  text-align: center;
+  font-size: 80px;
+  color: #F4F4F4;
+  font-weight: lighter;
+  pointer-events: none;
+}
+
+.icb-cover .sortable-placeholder {
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.icb-cover .composed-formula {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quizwidget .check-mode .icb-cover .composed-formula.correct, .quizwidget .check-mode .icb-cover .composed-formula.correct g,
+.quizwidget .color-correct-answers .icb-cover .composed-formula.correct, .quizwidget .color-correct-answers .icb-cover .composed-formula.correct g {
+  color: green;
+  stroke: green;
+  fill: green;
+}
+
+.quizwidget .check-mode .icb-cover .composed-formula.wrong, .quizwidget .check-mode .icb-cover .composed-formula.wrong g {
+  color: red;
+  stroke: red;
+  fill: red;
+}
+
+.icb-cover .total-charge {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.quizwidget:not(.practicewidget) .icb-cover .total-charge {
+  display: none;
+}
+
+.icb-cover .trash-button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: inline-block;
+}
+
+.icb-cover .sign {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(230, 230, 230);
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+  line-height: 220px;
+  z-index: -1;
+}
+
+.quizwidget .color-correct-answers .composed-formula.correct .cr-correct, 
+.quizwidget .check-mode .composed-formula.correct .cr-correct {
+  display: inline-block;
+}
+
+.quizwidget .check-mode .composed-formula.wrong .cr-wrong { 
+  display: inline-block;
+}  
+
+
+
+/* Balance Chemical Equation */
+.quizwidget .nowrap {
+  white-space: nowrap;
+}
+
+.bce-cover .bw-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bce-cover .tablewrapper {
+  width: 200px;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.bce-cover .tablewrapper .tabletitle {
+  margin-bottom: 5px;
+}
+
+.bce-cover .balanced-or-not-control {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.bce-cover .balanced-or-not-control table:first-of-type {
+  margin-top: 10px;
+}
+
+.bce-cover[data-subtype='type1'] .bw-table .wtBorder {
+  /* Disable cell selection */
+  display: none !important;
+}
+
+.quizwidget .check-mode .bce-field input[type=text],
+.quizwidget .color-correct-answers .bce-field:not(.wrong):not(.empty) input[type=text] {
+  background: rgb(71, 182, 71);
+}
+
+.quizwidget .check-mode .bce-cover .bw-table td.cell_open,
+.quizwidget .check-mode .bce-cover .bw-table td.cell_wrong,
+.quizwidget .check-mode .bce-field.wrong input[type=text] {
+  background: rgb(255, 102, 102);
+}
+
+.quizwidget .bce-field input[type=text] {
+  width: 40px;
+  text-align: center;
+}
+
+.quizwidget .check-mode .bce-cover [checked='checked'] .bw-button-label,
+.quizwidget .check-mode .bce-cover [checked='checked'] .bw-button-label g {
+  color: red !important;
+  stroke: red !important;
+  fill: red !important;
+}
+
+.quizwidget .color-correct-answers .bce-cover .bce-answer[checked='checked'] .bw-button-label,
+.quizwidget:not(.practicewidget) .check-mode .bce-cover .bce-answer .bw-button-label,
+.quizwidget .color-correct-answers .bce-cover .bce-answer[checked='checked'] .bw-button-label g,
+.quizwidget:not(.practicewidget) .check-mode .bce-cover .bce-answer .bw-button-label g {
+  color: green !important;
+  stroke: green !important;
+  fill: green !important;}
+
+.quizwidget .color-correct-answers .bce-cover .bce-answer[checked=checked] .cr-correct, 
+.quizwidget .check-mode .bce-cover .bce-answer[checked=checked] .cr-correct,
+.quizwidget .color-correct-answers .bce-field:not(.empty):not(.wrong) .cr-correct, 
+.quizwidget .check-mode .bce-field:not(.wrong) .cr-correct {
+  display: inline-block;
+}
+
+.quizwidget .check-mode .bce-cover :not(.bce-answer)[checked=checked] .cr-wrong,
+.quizwidget .check-mode .bce-field.wrong .cr-wrong { 
+  display: inline-block;
+}  
+
+
+.quizwidget .bce-cover td .cell_right_value {
+  display: none;
+}
+
+.quizwidget .check-mode .bce-cover td.cell_wrong .cell_right_value {
+  display: inline-block;
+}
+
+
+@media print { 
+  body.bw-use-border-when-wide { 
+    width: 1024px;
+  }
+  body.bw-use-border-when-wide,
+  .bw #container,
+  #sabottom-container,
+  #scrolling-container {
+    overflow: visible;
+    display: block;
+    height: initial;
+    position: relative;
+  }
+
+  /* hide sections which are not relevant */
+  .bw-toolbar,
+  .submitpage,
+  .screen-only { 
+    display: none;
+  }
+
+  /* show sections specific for print */
+  .print-only-inline {
+    display: inline-block;    
+  }
+
+  /* no page breaks in questions */
+  .content {
+      page-break-inside: avoid;
+  }
+
+  /* math in questions and multiple choice parts */
+
+  .quizwidget .question-content .the-question g,
+  .quizwidget .question-content textdescriptiontitle g,
+  .textdescription g,
+  .quizwidget .tmc-cover g {
+    stroke: black;
+    fill: black;
+  }
+
+  /* Fill-in-text */
+
+  .fit-empty { 
+    display: none; 
+  }
+
+  /* Word ordering */
+  .quizwidget .ms-cover .wordwrapper { 
+    background-color: white!important;
+  }
+
+  /* Word ordering */
+  .quizwidget .ms-cover .wordwrapper { 
+    background: white!important;
+  }
+
+  /* Picture ordering */
+
+  .quizwidget .p-ocover .po-quiz,
+  .quizwidget .po-cover .target-box { 
+    background: white!important;
+  }
+
+  /* Multiline */
+
+  .quizwidget .ml-cover .textareacover,
+  .quizwidget .ml-cover textarea + div
+  { 
+    min-height: 200px!important;
+  }
+
+  /* Rich Text */
+
+  .ml-cover .rteditor {
+    min-height: 200px;
+    overflow: visible;
+  }
+
+  /* Annotate Picture */
+
+  .ap-cover textarea { 
+    overflow: hidden;
+  }
+
+  /* Match */
+  .connectsource:after {
+    content: "\25cb";
+    font-size: 50px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+  }
+
+  .connectsource img, 
+  .connecttarget img { 
+    vertical-align: middle;
+  }
+
+  .connecttarget:before {
+    content: "\25cb";
+    font-size: 50px;
+    position: relative;
+    left: -10px;
+    top: 10px;
+  }
+
+  .connectpicture > .imgwrapper { 
+     background: white!important;
+   }
+
+  /* hide match question connectors, can't layout without javascript */
+  .quizwidget .match ._jsPlumb_endpoint, 
+  .quizwidget .match ._jsPlumb_connector {
+    display: none;
+  }
+
+  /* numeric */
+  .n-cover input {
+    min-width: 50px!important;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+
+  html:not(.ibw-platform-osx-ibooks) .textdescriptiontitle img, 
+  html:not(.ibw-platform-osx-ibooks) .textdescription img, 
+  html:not(.ibw-platform-osx-ibooks) .the-question img, 
+  html:not(.ibw-platform-osx-ibooks) .the-rationale img,
+  html:not(.ibw-platform-osx-ibooks) .hint img {
+    max-width: 100%!important;
+    height: auto!important;
+  }
+	
+  html:not(.ibw-platform-osx-ibooks) .quizwidget .tmc-row.tmc-multi-column { 
+     width: 90%;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .match_table .match_target {
+    padding-left: 20px;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .match_table .match_source {
+    padding-right: 20px;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .match_source .connectword, 
+  html:not(.ibw-platform-osx-ibooks) .match_source .connectpicture {
+    text-align: right;
+    padding-right: 20px;
+    font-size:14px;
+    word-wrap:break-word;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .match_target .connectword, 
+  html:not(.ibw-platform-osx-ibooks) .match_target .connectpicture {
+    text-align: left;
+    padding-left: 20px;
+    font-size:14px;
+    word-wrap:break-word;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .match_table {
+    table-layout:fixed;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .match_table td {
+    width: 45%;
+  }
+
+  /* in case color popup goes over 1 line */
+  html:not(.ibw-platform-osx-ibooks) .tool-container.tool-top, 
+  html:not(.ibw-platform-osx-ibooks) .tool-container.tool-bottom { 
+    height: auto;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .videodiv {   
+    width: 90%!important;
+    height: 360px!important;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .videodiv iframe { 
+    width: 90%!important;
+    height: 360px!important;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .youtubeplaceholder { 
+    max-width: 100%!important;
+    height: auto!important;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .quizwidget .wordwrapper { 
+    padding: 8px;
+    margin: 8px;
+  }
+}
+
+@media only screen and (max-width: 400px) {	
+
+  html:not(.ibw-platform-osx-ibooks) .videodiv {   
+    height: 180px!important;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .videodiv iframe { 
+    height: 180px!important;
+  }
+
+
+  html:not(.ibw-platform-osx-ibooks) .quizwidget .wordwrapper { 
+    padding: 5px;
+    margin: 5px;
+  }
+
+  div.audiorecorder { 
+    height: 100px;
+  }
+
+  div.bw-audio-recorder {
+    max-width: 200px;
+    height: 90px;
+    text-align: center;
+    line-height: 40px;
+    white-space: initial;
+  }
+}
+

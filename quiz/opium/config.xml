@@ -1,0 +1,689 @@
+<QuizPlugin>
+<label>FeiHong_quiz</label>
+<questions>
+<PictureMultiSelect>
+<Question searchable="true">Which of the pictures below were trade items were desired by British merchants in Asia?</Question>
+<Answers>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/76/7624a7a4-fced-40d6-bef9-f06da43b1f4c.jpg?filename=Tin_Tea_Chest_100g-8.jpg</node>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/3d/3d1b2fe9-fdd9-4807-91c0-d9dd39062fed.jpg?filename=beans-corn-fresh-healthy-cooking-1851374.jpg</node>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/ec/ece18ca5-0422-4e01-8518-034ea5260aea.jpg?filename=220px-Faience_with_Chinese_scenes_Nevers_Manufactory_1680_1700.jpg</node>
+</Answers>
+<Valid searchable="true">1 3</Valid>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<policy value="all">Score points when all answers are correct.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</PictureMultiSelect>
+<DragWordsInSentence>
+<Question searchable="true">What was the significance of the events in 1839-42?  Drag and drop words into the sentence to explain.</Question>
+<Sentence searchable="true">The &lt;&lt;Opium War >> took place between 1839 and 1842.  &lt;&lt;Great Britain >> was victorious.  This lead to the continued opening of &lt;&lt;Chinese ports>> and an increase in the economic influence of industrialized &lt;&lt;European powers >>.</Sentence>
+<distractors version="2" searchable="true">Latin America&#xd;
+Invasion of Normandy&#xd;
+France</distractors>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<keyboard value="Alphabetic">Alphabetic</keyboard>
+<policy value="each_wrong">Score points for each wrong word which is corrected, deduct points for each correct word which was changed . Minimum score 0.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</DragWordsInSentence>
+<TextMultpleChoice>
+<Question searchable="true">Using the information in the story, what is the most likely reason that a man such as Fei Hong became involved on the Opium trade?</Question>
+<Answers version="2" searchable="true">The opium trade was one of the only ways for an average person to provide a higher class lifestyle for their family.&#xd;
+Fei Hong had no skills to have a profession&#xd;
+Fei Hong was an evil man&#xd;
+He did not know opium was in the containers</Answers>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<TextMultpleChoice>
+<Question isHtml="true" searchable="true" richData="{&quot;blocks&quot;:[{&quot;text&quot;:&quot;Read the following excerpt from the Treaty of Nanjing:&quot;,&quot;depth&quot;:0,&quot;dataRanges&quot;:[{&quot;type&quot;:&quot;style&quot;,&quot;length&quot;:54,&quot;data&quot;:{&quot;style&quot;:&quot;BOLD&quot;},&quot;offset&quot;:0},{&quot;type&quot;:&quot;style&quot;,&quot;length&quot;:54,&quot;data&quot;:{&quot;style&quot;:&quot;UNDERLINE&quot;},&quot;offset&quot;:0}],&quot;data&quot;:{},&quot;type&quot;:&quot;unstyled&quot;},{&quot;text&quot;:&quot;&quot;,&quot;depth&quot;:0,&quot;dataRanges&quot;:[],&quot;data&quot;:{},&quot;type&quot;:&quot;unstyled&quot;},{&quot;text&quot;:&quot;There shall henceforth be Peace and Friendship between … (England and China) and between their respective Subjects, who shall enjoy full security and protection for their persons and property within the Dominions of the other. &quot;,&quot;depth&quot;:0,&quot;dataRanges&quot;:[],&quot;data&quot;:{},&quot;type&quot;:&quot;unstyled&quot;},{&quot;text&quot;:&quot;&quot;,&quot;depth&quot;:0,&quot;dataRanges&quot;:[],&quot;data&quot;:{},&quot;type&quot;:&quot;unstyled&quot;},{&quot;text&quot;:&quot;Article II His Majesty the Emperor of China agrees that British Subjects, with their families and establishments, shall be allowed to reside, for the purpose of carrying on their commercial pursuits, without  restraint at the Cities and Towns of Canton, Amoy, Foochow- fu, Ningpo, and Shanghai….&quot;,&quot;depth&quot;:0,&quot;dataRanges&quot;:[],&quot;data&quot;:{},&quot;type&quot;:&quot;unstyled&quot;},{&quot;text&quot;:&quot;&quot;,&quot;depth&quot;:0,&quot;dataRanges&quot;:[],&quot;data&quot;:{},&quot;type&quot;:&quot;unstyled&quot;},{&quot;text&quot;:&quot;…... in future at all Ports where British Merchants may reside, and to permit them to carry on their mercantile transactions with whatever persons they please,&quot;,&quot;depth&quot;:0,&quot;dataRanges&quot;:[],&quot;data&quot;:{},&quot;type&quot;:&quot;unstyled&quot;},{&quot;text&quot;:&quot;&quot;,&quot;depth&quot;:0,&quot;dataRanges&quot;:[],&quot;data&quot;:{},&quot;type&quot;:&quot;unstyled&quot;},{&quot;text&quot;:&quot; It being obviously necessary and desirable, that British Subjects should have some Port whereat they may careen and refit their Ships, when required, and keep Stores for that purpose, His Majesty the Emperor of China cedes to Her Majesty the Queen of Great Britain, etc., the Island of Hong-Kong, to be possessed in perpetuity by her Britannic Majesty, Her Heirs and Successors, and to be governed by such Laws and Regulations as Her Majesty the Queen of Great Britain, etc., shall see fit to direct.”&quot;,&quot;depth&quot;:0,&quot;dataRanges&quot;:[],&quot;data&quot;:{},&quot;type&quot;:&quot;unstyled&quot;},{&quot;text&quot;:&quot;&quot;,&quot;depth&quot;:0,&quot;dataRanges&quot;:[],&quot;data&quot;:{},&quot;type&quot;:&quot;unstyled&quot;},{&quot;text&quot;:&quot;What is the main purpose of the treaty?&quot;,&quot;depth&quot;:0,&quot;dataRanges&quot;:[{&quot;type&quot;:&quot;style&quot;,&quot;length&quot;:39,&quot;data&quot;:{&quot;style&quot;:&quot;BOLD&quot;},&quot;offset&quot;:0}],&quot;data&quot;:{},&quot;type&quot;:&quot;unstyled&quot;},{&quot;text&quot;:&quot;&quot;,&quot;depth&quot;:0,&quot;dataRanges&quot;:[],&quot;data&quot;:{},&quot;type&quot;:&quot;unstyled&quot;}]}">&lt;div>&lt;p>&lt;b>&lt;u>Read the following excerpt from the Treaty of Nanjing:&lt;/u>&lt;/b>&lt;/p>&lt;p/>&lt;p>There shall henceforth be Peace and Friendship between … (England and China) and between their respective Subjects, who shall enjoy full security and protection for their persons and property within the Dominions of the other. &lt;/p>&lt;p/>&lt;p>Article II His Majesty the Emperor of China agrees that British Subjects, with their families and establishments, shall be allowed to reside, for the purpose of carrying on their commercial pursuits, without  restraint at the Cities and Towns of Canton, Amoy, Foochow- fu, Ningpo, and Shanghai….&lt;/p>&lt;p/>&lt;p>…... in future at all Ports where British Merchants may reside, and to permit them to carry on their mercantile transactions with whatever persons they please,&lt;/p>&lt;p/>&lt;p> It being obviously necessary and desirable, that British Subjects should have some Port whereat they may careen and refit their Ships, when required, and keep Stores for that purpose, His Majesty the Emperor of China cedes to Her Majesty the Queen of Great Britain, etc., the Island of Hong-Kong, to be possessed in perpetuity by her Britannic Majesty, Her Heirs and Successors, and to be governed by such Laws and Regulations as Her Majesty the Queen of Great Britain, etc., shall see fit to direct.”&lt;/p>&lt;p/>&lt;p>&lt;b>What is the main purpose of the treaty?&lt;/b>&lt;/p>&lt;p/>&lt;/div></Question>
+<Answers version="2" searchable="true">to give Britain control of Hong Kong and free trade in China&#xd;
+to protect Hong Kong from foreign invaders&#xd;
+to stop the flow of opium into China&#xd;
+to force British citizens out of China</Answers>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<PictureMultpleChoice>
+<Question searchable="true">Which political cartoon indicates the European industrialized states practicing economic imperialism?</Question>
+<Answers>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/47/4756ea10-3f87-40ba-b4f9-ce95c19a75b0.jpg?filename=cartoon-imperialism-1885_u-l-po5v1g0.jpg</node>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/b1/b1e7d249-6f5a-4358-93a6-5756a85d7c06.jpg?filename=hone-and-cruickshank.jpg</node>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/08/080c45d7-e827-4b0f-85c2-6c762c91939e.jpeg?filename=images.jpeg</node>
+</Answers>
+<Valid value="1">1</Valid>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</PictureMultpleChoice>
+<TextMultpleChoice>
+<Question searchable="true">What was the main pattern in world history from 1750 to 1900?</Question>
+<Answers version="2" searchable="true">European nations and the United States rapidly industrialized and practiced economic imperialism&#xd;
+Latin America rose to become a dominate economic power&#xd;
+Only nations, not private companies, engaged in trade&#xd;
+Asian nations overtook Europe in economic influence&#xd;
+It was difficult to get raw materials because trade was blocked around most of the world</Answers>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<TextMultpleChoice>
+<Question searchable="true">As the narrative ends, Fei Hong heard the roar of cannonballs.  Based on the story and your knowledge of the time period, what was happening?</Question>
+<Answers version="2" searchable="true">The British were bombarding China in order to force the opening of the ports to British trade.&#xd;
+Fei Hong was being arrested by the British soldiers for opium use&#xd;
+The British and French were fighting a battle against each other&#xd;
+The opium in the ships was flammable and ignited</Answers>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<DragWordsInSentence>
+<Question searchable="true">A pattern of economic imperialism developed across the globe.  The desire for different commodities helped drive this pattern and build European economic dominance. Drag and drop the trade goods into each example.</Question>
+<Sentence searchable="true">&lt;&lt;Cotton>> grown in India was used to make textiles in Britain.&#xd;
+&lt;&lt;Opium>> was produced in the Middle East, then sold by British merchants in China.&#xd;
+&lt;&lt;Palm Oil>> was made in Africa and then used throughout Europe.&#xd;
+&lt;&lt; Copper>> was mined in Chile and used for European products.</Sentence>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<keyboard value="Alphabetic">Alphabetic</keyboard>
+<policy value="each_wrong">Score points for each wrong word which is corrected, deduct points for each correct word which was changed . Minimum score 0.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</DragWordsInSentence>
+<TextMultpleChoice>
+<Question searchable="true">Which historical event is most similar to the Opium Wars?</Question>
+<Answers version="2" searchable="true">The British construction of the port of Buenos Ares in Argentina&#xd;
+The conflict between India and Pakistan&#xd;
+The development of the Silk Road&#xd;
+The Crimean War</Answers>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<TextMultpleChoice>
+<Question searchable="true">With hindsight, what would Fei Hong think about this story?  Make an inference from the narrative.</Question>
+<Answers version="2" searchable="true">Fei Hong ruined his family's life by getting involved with opium.&#xd;
+Being an opium trafficker was good even though it was illegal.&#xd;
+Woodworking was much worse for one's health than opium.&#xd;
+China benefited greatly from British trade.</Answers>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+</questions>
+<id searchable="true">FeiHong_quiz</id>
+<submit_answers>false</submit_answers>
+<submitformfields>
+<formfield isEditable="true" isVisible="true" defaultValue="">student_name</formfield>
+<formfield isEditable="true" isVisible="true" defaultValue="">student_email</formfield>
+<formfield isEditable="true" isVisible="false" defaultValue="">student_class_id</formfield>
+<formfield isEditable="true" isVisible="true" defaultValue="">teacher_email</formfield>
+<formfield isEditable="true" isVisible="false" defaultValue="">student_id</formfield>
+</submitformfields>
+<email_should_have_grading>true</email_should_have_grading>
+<action searchable="true">https://api.bookwidgets.com/api/v1/quiz/post</action>
+<servertype value="BookWidgets">BookWidgets</servertype>
+<examination_mode>false</examination_mode>
+<countdown_time searchable="true">30</countdown_time>
+<exam_mode_submit_dialog_clear>true</exam_mode_submit_dialog_clear>
+<support_student_account value="no">No student accounts</support_student_account>
+<student_account_authproviders/>
+<student_account_school>
+<code/>
+<name/>
+</student_account_school>
+<student_account_authrestrict>true</student_account_authrestrict>
+<show_answers>true</show_answers>
+<color_correct_answers>false</color_correct_answers>
+<show_score value="Score vs maximum">Score vs maximum</show_score>
+<allow_edit_after_check_or_send>false</allow_edit_after_check_or_send>
+<feedback/>
+<show_question_points>false</show_question_points>
+<allow_sharing>false</allow_sharing>
+<share_action searchable="true">https://api.bookwidgets.com/api/v1/quiz/share</share_action>
+<allow_download>false</allow_download>
+<download_action searchable="true">https://api.bookwidgets.com/api/v1/quiz/download</download_action>
+<download_includes_correction value="no">Never include correction when downloading.</download_includes_correction>
+<save_answers>true</save_answers>
+<uuid2>{79a3fd40-ecef-11e9-8b73-df19d20725a8}</uuid2>
+<require_password value="Once">Once</require_password>
+<spellcheck>true</spellcheck>
+<random_order>false</random_order>
+<auto_numbering>true</auto_numbering>
+<info_numbering>false</info_numbering>
+<provide_calculator value="None">None</provide_calculator>
+<allow_text_selection>false</allow_text_selection>
+<auto_play_audio>false</auto_play_audio>
+<direction value="left-to-right">left-to-right</direction>
+<LocalizationMap>
+<localization>
+<phrase>Quiz</phrase>
+</localization>
+<localization>
+<phrase>All done !</phrase>
+</localization>
+<localization>
+<phrase>Click the button to submit or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Click the button to see the correct answers or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Click the button to see your score or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Show question list</phrase>
+</localization>
+<localization>
+<phrase>Previous question</phrase>
+</localization>
+<localization>
+<phrase>Next question</phrase>
+</localization>
+<localization>
+<phrase>Switch to edit mode</phrase>
+</localization>
+<localization>
+<phrase>QUESTION</phrase>
+</localization>
+<localization>
+<phrase>Submit</phrase>
+</localization>
+<localization>
+<phrase>Share the quiz by email.</phrase>
+</localization>
+<localization>
+<phrase>Unable to send quiz. Make sure you're connected to the internet.</phrase>
+</localization>
+<localization>
+<phrase>The time allowed for this test has expired.  You can no longer change your answers.</phrase>
+</localization>
+<localization>
+<phrase>Show answers</phrase>
+</localization>
+<localization>
+<phrase>Are you done and do you want to show the answers?</phrase>
+</localization>
+<localization>
+<phrase>Show score</phrase>
+</localization>
+<localization>
+<phrase>Are you done and do you want to show your score?</phrase>
+</localization>
+<localization>
+<phrase>Clear answers and start over</phrase>
+</localization>
+<localization>
+<phrase>Ok</phrase>
+</localization>
+<localization>
+<phrase>The quiz was sent successfully!</phrase>
+</localization>
+<localization>
+<phrase>Your results were sent successfully!  You can now review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Your results were sent successfully!</phrase>
+</localization>
+<localization>
+<phrase>Unable to send quiz results. Make sure you're connected to the internet.</phrase>
+</localization>
+<localization>
+<phrase>Quiz results not accepted.</phrase>
+</localization>
+<localization>
+<phrase>Email address and student name can't be empty.</phrase>
+</localization>
+<localization>
+<phrase>You need to log in to the course before you can send your results! Use the Sign In widget at the start of this book to do so.</phrase>
+</localization>
+<localization>
+<phrase>Please enter password</phrase>
+</localization>
+<localization>
+<phrase>Wrong password...</phrase>
+</localization>
+<localization>
+<phrase>Password</phrase>
+</localization>
+<localization>
+<phrase>Your score is</phrase>
+</localization>
+<localization>
+<phrase>Score</phrase>
+</localization>
+<localization>
+<phrase>Feedback</phrase>
+</localization>
+<localization>
+<phrase>Your answer:</phrase>
+</localization>
+<localization>
+<phrase>The answer:</phrase>
+</localization>
+<localization>
+<phrase>The answers:</phrase>
+</localization>
+<localization>
+<phrase>Correct answers:</phrase>
+</localization>
+<localization>
+<phrase>Tap to select picture</phrase>
+</localization>
+<localization>
+<phrase>No camera on this device</phrase>
+</localization>
+<localization>
+<phrase>This word is correct.</phrase>
+</localization>
+<localization>
+<phrase>Clear the answers and start over?</phrase>
+</localization>
+<localization>
+<phrase>The answers will be permanently deleted and cannot be recovered. Are you sure?</phrase>
+</localization>
+<localization>
+<phrase>Yes, clear</phrase>
+</localization>
+<localization>
+<phrase>No, keep</phrase>
+</localization>
+<localization>
+<phrase>Clear the text and start over?</phrase>
+</localization>
+<localization>
+<phrase>Show hint</phrase>
+</localization>
+<localization>
+<phrase>Answer keys</phrase>
+</localization>
+<localization>
+<phrase>Yes</phrase>
+</localization>
+<localization>
+<phrase>No</phrase>
+</localization>
+<localization>
+<phrase>Clear and restart</phrase>
+</localization>
+<localization>
+<phrase>Check answers</phrase>
+</localization>
+<localization>
+<phrase>Correct answers</phrase>
+</localization>
+<localization>
+<phrase>Wrong answers</phrase>
+</localization>
+<localization>
+<phrase>Unanswered</phrase>
+</localization>
+<localization>
+<phrase>CLEAR</phrase>
+</localization>
+<localization>
+<phrase>Yes, this equation is balanced</phrase>
+</localization>
+<localization>
+<phrase>No, this equation is not balanced</phrase>
+</localization>
+<localization>
+<phrase>Sum of charges:</phrase>
+</localization>
+<localization>
+<phrase>Reactants</phrase>
+</localization>
+<localization>
+<phrase>Products</phrase>
+</localization>
+<localization>
+<phrase>Are you sure?</phrase>
+</localization>
+<localization>
+<phrase>Clear the image and start over?</phrase>
+</localization>
+<localization>
+<phrase>Yes, clear the image</phrase>
+</localization>
+<localization>
+<phrase>No, keep my image</phrase>
+</localization>
+<localization>
+<phrase>Accessing the camera and photo library does not work on this platform.</phrase>
+</localization>
+<localization>
+<phrase>Camera not supported</phrase>
+</localization>
+<localization>
+<phrase>Could not store picture</phrase>
+</localization>
+<localization>
+<phrase>Error inserting picture</phrase>
+</localization>
+<localization>
+<phrase>This widget needs internet access to store pictures.  Please connect and try again.</phrase>
+</localization>
+<localization>
+<phrase>Image upload error</phrase>
+</localization>
+<localization>
+<phrase>Error using picture</phrase>
+</localization>
+<localization>
+<phrase>Authentication error.</phrase>
+</localization>
+<localization>
+<phrase>Cancel</phrase>
+</localization>
+<localization>
+<phrase>Could not connect to server, check your internet connection.</phrase>
+</localization>
+<localization>
+<phrase>Email</phrase>
+</localization>
+<localization>
+<phrase>Forgot password?</phrase>
+</localization>
+<localization>
+<phrase>Not logged in</phrase>
+</localization>
+<localization>
+<phrase>OK</phrase>
+</localization>
+<localization>
+<phrase>Offline</phrase>
+</localization>
+<localization>
+<phrase>Online</phrase>
+</localization>
+<localization>
+<phrase>Password</phrase>
+</localization>
+<localization>
+<phrase>Please sign in</phrase>
+</localization>
+<localization>
+<phrase>Received error trying to sign in</phrase>
+</localization>
+<localization>
+<phrase>School code</phrase>
+</localization>
+<localization>
+<phrase>Server error when signing in.</phrase>
+</localization>
+<localization>
+<phrase>Sign in</phrase>
+</localization>
+<localization>
+<phrase>Sign in failed</phrase>
+</localization>
+<localization>
+<phrase>Sign in to save your answers online</phrase>
+</localization>
+<localization>
+<phrase>Sign in using</phrase>
+</localization>
+<localization>
+<phrase>Sign in using email and password</phrase>
+</localization>
+<localization>
+<phrase>Sign in using school account</phrase>
+</localization>
+<localization>
+<phrase>Sign out</phrase>
+</localization>
+<localization>
+<phrase>Sign up here</phrase>
+</localization>
+<localization>
+<phrase>Username</phrase>
+</localization>
+<localization>
+<phrase>Waiting</phrase>
+</localization>
+<localization>
+<phrase>Waiting for account sign in to complete...</phrase>
+</localization>
+<localization>
+<phrase>Widget configuration error: school doesn't exist</phrase>
+</localization>
+<localization>
+<phrase>Wrong username or password, please try again.</phrase>
+</localization>
+<localization>
+<phrase>You need to be signed in to use this widget.</phrase>
+</localization>
+<localization>
+<phrase>You're currently offline and logged in as user:</phrase>
+</localization>
+<localization>
+<phrase>You're currently online and logged in as user:</phrase>
+</localization>
+<localization>
+<phrase>You're offline</phrase>
+</localization>
+<localization>
+<phrase>Class ID</phrase>
+</localization>
+<localization>
+<phrase>Send</phrase>
+</localization>
+<localization>
+<phrase>Send Answer</phrase>
+</localization>
+<localization>
+<phrase>Send Failed</phrase>
+</localization>
+<localization>
+<phrase>Sending, please wait...</phrase>
+</localization>
+<localization>
+<phrase>Student Email</phrase>
+</localization>
+<localization>
+<phrase>Student ID</phrase>
+</localization>
+<localization>
+<phrase>Student Name</phrase>
+</localization>
+<localization>
+<phrase>Teacher Email</phrase>
+</localization>
+<localization>
+<phrase>This field is required:</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading audio</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>You can't specify multiple addresses for field:</phrase>
+</localization>
+<localization>
+<phrase>Submit is disabled because you're not logged in with a student account. e.g. you may be using a parent account.</phrase>
+</localization>
+<localization>
+<phrase>Sent successfully</phrase>
+</localization>
+<localization>
+<phrase>The email address you provided has not been registered.</phrase>
+</localization>
+<localization>
+<phrase>The email address you provided has not been activated.</phrase>
+</localization>
+<localization>
+<phrase>To prevent abuse, results can only be sent to registered email addresses.</phrase>
+</localization>
+<localization>
+<phrase>Activate by clicking on the link in the email which was sent to the address provided.</phrase>
+</localization>
+<localization>
+<phrase>You can also register at www.bookwidgets.com.</phrase>
+</localization>
+<localization>
+<phrase>Unknown error</phrase>
+</localization>
+<localization>
+<phrase>Optional Message</phrase>
+</localization>
+<localization>
+<phrase>Send</phrase>
+</localization>
+<localization>
+<phrase>Send Failed</phrase>
+</localization>
+<localization>
+<phrase>Sending, please wait...</phrase>
+</localization>
+<localization>
+<phrase>Share</phrase>
+</localization>
+<localization>
+<phrase>This field is required:</phrase>
+</localization>
+<localization>
+<phrase>To Email</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>You can't specify multiple addresses for field:</phrase>
+</localization>
+<localization>
+<phrase>Your Email</phrase>
+</localization>
+<localization>
+<phrase>Your Name</phrase>
+</localization>
+<localization>
+<phrase>Click here to download your PDF</phrase>
+</localization>
+<localization>
+<phrase>Could not generate PDF.  Please try again later.</phrase>
+</localization>
+<localization>
+<phrase>Download Failed</phrase>
+</localization>
+<localization>
+<phrase>Download as PDF</phrase>
+</localization>
+<localization>
+<phrase>Generate</phrase>
+</localization>
+<localization>
+<phrase>Generate PDF failed</phrase>
+</localization>
+<localization>
+<phrase>Generating PDF, please wait...</phrase>
+</localization>
+<localization>
+<phrase>PDF generated</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>Your Name</phrase>
+</localization>
+<localization>
+<phrase>Enter your name and click 'Generate' to generate the PDF.</phrase>
+</localization>
+<localization>
+<phrase>Download</phrase>
+</localization>
+</LocalizationMap>
+<DesignConstants template="Light Background" widget_font="Verdana" widget_color="#3498DB" widget_backgroundimage=",auto"/>
+<cover autosize="true"/>
+<widget_orientation value="Vertical">Vertical</widget_orientation>
+</QuizPlugin>

@@ -1,0 +1,206 @@
+.rtwrapper { 
+  position: relative;
+}
+
+.rteditor { 
+  -webkit-box-sizing: border-box; 
+          box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  background-color: white;
+  outline: none;
+  padding: 10px; 
+  position: relative;
+  min-height: 100px;
+}
+
+.rteditor, .rteditor * { 
+  -webkit-user-select: auto;
+  -khtml-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+}
+
+.rteditor-toolbar-wrapper {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-info .bw-icon { 
+  color: red;
+}
+
+.rteditor-toolbar-wrapper > .bw-toolbar > .bw-button-group > .bw-toolbutton { 
+  position: relative;
+}
+
+.rteditor-toolbar-wrapper > .bw-toolbar > .bw-button-group > .bw-toolbutton > .bw-icon.bw-icon-fill-drop {
+  display: block;
+  position: absolute;
+  z-index: 0;
+  left: 2px;
+  top: 2px;
+}
+
+.rteditor-toolbar-wrapper > .bw-toolbar > .bw-button-group > .bw-toolbutton > .bw-icon.bw-icon-fill-drop-small {
+  display: block;
+  position: relative;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+}
+
+.stickers {
+  background: white;
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.sticker { 
+  width: 150px;
+  max-height: 150px;
+  margin: 10px;
+  border: 1px solid #d8d8d8;
+}
+
+
+.bw-audio-recorder {
+  display: inline-block;
+  background: black;
+  height: 50px;
+  padding: 0px 10px;
+  border-radius: 24px;
+  white-space: nowrap;
+  position: relative;
+}
+
+.bw-audio-recorder-button {
+  display: inline-block;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  font-size: 32px;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.bw-audio-record {
+  fill: #e04347;
+}
+
+.bw-audio-pause, .bw-audio-play, .bw-audio-stop {
+  fill: white;
+}
+
+.bw-audio-recorder-time {
+  display: inline-block;
+  font-size: 16px;
+  color: #ddd;
+  position: relative;
+  padding: 0px 5px;
+  font-family: verdana;
+  opacity: 0.8
+}
+
+.bw-audio-recorder-time { 
+  top: -9px;
+}
+
+.bw-audio-recorder-notsupported {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.bw-audio-recorder.recorder-initialized[state=stopped]:not(.readonly) .bw-audio-record,
+.bw-audio-recorder.play-initialized[state=stopped] .bw-audio-play,
+.bw-audio-recorder[state=recording] .bw-audio-stop,
+.bw-audio-recorder[state=recording] .bw-audio-pause,
+.bw-audio-recorder[state=recording_paused]:not(.readonly) .bw-audio-record,
+.bw-audio-recorder[state=recording_paused] .bw-audio-stop,
+.bw-audio-recorder[state=playing_paused] .bw-audio-play,
+.bw-audio-recorder[state=playing_paused] .bw-audio-stop,
+.bw-audio-recorder[state=playing] .bw-audio-pause,
+.bw-audio-recorder[state=playing] .bw-audio-stop,
+.bw-audio-recorder[state=playing] .bw-audio-recorder-slash,
+.bw-audio-recorder[state=playing] .bw-audio-recorder-playtime
+{
+  opacity: 1;
+  cursor: pointer;
+  pointer-events: initial;
+}
+.bw-audio-recorder[state=recording_paused] .bw-audio-recorder-slash,
+.bw-audio-recorder[state=recording] .bw-audio-recorder-slash,
+.bw-audio-recorder[state=playing_paused] .bw-audio-recorder-slash,
+.bw-audio-recorder[state=playing_paused] .bw-audio-recorder-playtime,
+.bw-audio-recorder[state=recording_paused] .bw-audio-recorder-recordedtime,
+.bw-audio-recorder[state=recording] .bw-audio-recorder-recordedtime { 
+  opacity: 1;
+}
+
+.bw-audio-record-not-supported {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  stroke: black;
+  stroke-width: 3;
+  display: none;
+}
+
+.bw-audio-recorder.recording-not-supported .bw-audio-record-not-supported { 
+  display: block;
+}
+
+.bw-audio-recorder.recording-not-supported .bw-audio-record { 
+  opacity: 0.7!important;
+}
+
+.bw-audio-recorder-player { 
+  display: none;
+}
+
+.bw-audio-recorder[state=encoding] {
+  -webkit-animation: blinker 1s linear infinite;
+          animation: blinker 1s linear infinite;
+  opacity: 0.7;
+}
+
+@-webkit-keyframes blinker {
+  50% {
+    opacity: 0.1;
+  }
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.1;
+  }
+}
+
+.bw-encoding-msg {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  padding: 12px;
+  font-size: 20px;
+  color: white;
+  display: none;
+  background: black;
+  border-radius: 24px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+}
+
+.bw-audio-recorder[state=encoding] .bw-encoding-msg { 
+  display: block;
+}

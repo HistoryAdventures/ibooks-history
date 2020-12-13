@@ -46,7 +46,7 @@ for name in ${allSequences[@]}; do
 done
 
 # creates all quizes
-allQuizes=("ioannina" "luis" "ishi" "william" "jonas" "arun")
+allQuizes=("ioannina" "luis" "ishi" "william" "jonas" "arun" "agent" "chicago" "jemba" "khari" "opium")
 for name in ${allQuizes[@]}; do
     # copy quiz source and shared files in one wdgt folder
     cp -rf quiz/${name} quiz-${name}.wdgt

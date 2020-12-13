@@ -1,0 +1,2249 @@
+<!DOCTYPE widget>
+<QuizPlugin>
+<questions>
+<TextMultiSelect>
+<Question searchable="true">Which shifts in global power can be seen in the American colonies from 1750 - 1789?  Select all that apply.</Question>
+<Answers version="2" searchable="true">Constitutional governments began to replace traditional monarchies.
+England and France were the dominate Atlantic powers as Portugal and Spain began to lose influence.
+Massive use of coal, oil, and steam lead to urbanized industrial states.
+Marxism became a powerful political force.
+
+</Answers>
+<Valid>1 2</Valid>
+<random-answer-order>yes</random-answer-order>
+<multi-column>no</multi-column>
+<Rationale searchable="true"></Rationale>
+<rationale_alttext searchable="true"></rationale_alttext>
+<rationale_img rid="5ZFCWIY09BARY01LHZQ2" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></rationale_img>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"></hint>
+<audio rid="PBJ3E7PSIHZC6T0JTB1V"></audio>
+<img rid="TUBA33U5GNR3Q22OMI45" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></img>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<number searchable="true"></number>
+<policy value="all">Score points when all answers are correct.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultiSelect>
+<PictureMultpleChoice>
+<Question searchable="true">Consider all the clues in each picture.  Which image shows Major John Andre?</Question>
+<Answers>
+<node rid="88JIRBJAYZWZHZ7WXAF3" alttext="" height="0" orientation="1" caption="" autosize="true" width="0">https://www.bookwidgets.com/create/api/resources/51/5142246421692416/58/586b78ae-f30c-40e8-8e1a-1c8721e16e68.jpg?filename=first%20thanksgiving.jpg</node>
+<node rid="P8JN3X7I1GM9F8Y0Q7CA" alttext="" height="0" orientation="1" caption="" autosize="true" width="0">https://www.bookwidgets.com/create/api/resources/51/5142246421692416/22/2227d0af-ad5e-4855-952f-e07f02992ddc.jpg?filename=john-andre-large-56a61b553df78cf7728b5f20.jpg</node>
+<node rid="VJL630BJ4MFLFPDO8HII" alttext="" height="0" orientation="1" caption="" autosize="true" width="0">https://www.bookwidgets.com/create/api/resources/51/5142246421692416/61/613bbc8d-f006-4145-8b6d-03049317b3fa.jpg?filename=GETTYSBURG-1--800x450-800x0-c-default.jpg</node>
+</Answers>
+<Valid value="2">2</Valid>
+<Rationale searchable="true"></Rationale>
+<rationale_alttext searchable="true"></rationale_alttext>
+<rationale_img rid="ABG2HAF8KG8ZW2TJ1QP3" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></rationale_img>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"></hint>
+<audio rid="0PO72C6598IKPD4LZ6BG"></audio>
+<img rid="1C30SKYU880GHS2801HP" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></img>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<number searchable="true"></number>
+<scoring-weight searchable="true">1</scoring-weight>
+</PictureMultpleChoice>
+<TextMultpleChoice>
+<Question searchable="true">What was the connection between the ideals of the Enlightenment and the American Revolution?</Question>
+<Answers version="2" searchable="true">Enlightenment thinkers believed that governments required the consent of the citizens.
+Both reason and scientific advancement was important.
+The ideals of the Enlightenment included freedom of religion.
+Industrial growth powered the Enlightenment.
+
+</Answers>
+<Valid>1</Valid>
+<random-answer-order>yes</random-answer-order>
+<multi-column>no</multi-column>
+<Rationale searchable="true"></Rationale>
+<rationale_alttext searchable="true"></rationale_alttext>
+<rationale_img rid="NBI1LJ2N5Q6UTD7C8XPM" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></rationale_img>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"></hint>
+<audio rid="MH0UY1HFFBV5R00DAZZJ"></audio>
+<img rid="5UXADTW1MZEIOE97T1BR" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></img>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<number searchable="true"></number>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<TextMultpleChoice>
+<Question searchable="true">Secret Agent 355 feels proud that she is a patriot fighting for freedom.  In the context of the American Revolution, which type of freedom is she most likely to be referencing?</Question>
+<Answers version="2" searchable="true">Freedom from tyrannical governments
+Freedom of religion
+Freedom of enslaved people
+Women's rights
+
+</Answers>
+<Valid>1</Valid>
+<random-answer-order>yes</random-answer-order>
+<multi-column>no</multi-column>
+<Rationale searchable="true"></Rationale>
+<rationale_alttext searchable="true"></rationale_alttext>
+<rationale_img rid="6TD41K6EJPYOYF1J1XDK" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></rationale_img>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"></hint>
+<audio rid="X53MZ5K27VVVI667MY0G"></audio>
+<img rid="QIW76FEJO9VNV5X13C7A" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></img>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<number searchable="true"></number>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<DragWordsInSentence>
+<Question searchable="true">In the narrative, we can see how complex identities and loyalties were during the American Revolution.  Drag and drop the correct figure from the narrative into the sentence.</Question>
+<Sentence searchable="true">&lt;&lt;Secret Agent 355>> is a daring female patriot, while  &lt;&lt;Major Andre>> and his boss &lt;&lt;Benedict Arnold>> are shown to betray the states by staying loyal to the crown.
+
+
+</Sentence>
+<distractors version="2" searchable="true">George Washington 
+Molly Pitcher</distractors>
+<Rationale searchable="true"></Rationale>
+<rationale_alttext searchable="true"></rationale_alttext>
+<rationale_img rid="RE80YMCJQCP736C4FTOS" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></rationale_img>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"></hint>
+<audio rid="PJ39EKNF167VJ2SMKI5D"></audio>
+<img rid="UW14HCYWTJ3CRUS8VJJ5" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></img>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<keyboard value="Alphabetic">Alphabetic</keyboard>
+<number searchable="true"></number>
+<policy value="each_wrong">Score points for each wrong word which is corrected, deduct points for each correct word which was changed . Minimum score 0.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</DragWordsInSentence>
+<TextMultiSelect>
+<Question searchable="true"> What do the  Declaration of Independence, Simon Bolivar’s Letter from Jamaica, and the  Declaration of the Rights of Man all have in common?  Select all that apply.</Question>
+<Answers version="2" searchable="true">They are documents that helped spark revolution against European monarchies.
+They all list grievances against the King of England.
+They all support government that gives more personal liberty and freedom.
+The writers all ultimately sided with the colonial power
+
+</Answers>
+<Valid>1 3</Valid>
+<random-answer-order>yes</random-answer-order>
+<multi-column>no</multi-column>
+<Rationale searchable="true"></Rationale>
+<rationale_alttext searchable="true"></rationale_alttext>
+<rationale_img rid="XGZTHDDFP1J1ABCHSC6Y" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></rationale_img>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"></hint>
+<audio rid="J57Q4PQ56QVCXUKW65I8"></audio>
+<img rid="BKR9STT8Y5OHVO4LGZIA" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></img>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<number searchable="true"></number>
+<policy value="all">Score points when all answers are correct.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultiSelect>
+<TextMultpleChoice>
+<Question searchable="true">Secret Agent 355 frequently mentioned ideas such as , “volatile times”, and “age of transformation” and  a desire for “simpler times”.  Based on her perspective and the time period, what historical pattern is she most likely recording?</Question>
+<Answers version="2" searchable="true">The 18th century saw a period of great change where traditional monarchies were overthrown in revolution.
+Women's rights advanced to nearly equal status of men including voting and property rights.
+The 13 British colonies were taken over by France.
+Native Americans were the victims of genocide and disease.
+
+</Answers>
+<Valid>1</Valid>
+<random-answer-order>yes</random-answer-order>
+<multi-column>no</multi-column>
+<Rationale searchable="true"></Rationale>
+<rationale_alttext searchable="true"></rationale_alttext>
+<rationale_img rid="M0MPYI0PIXDVRMW0FV63" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></rationale_img>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"></hint>
+<audio rid="6DE3E4Y1NH4GORJFUOX6"></audio>
+<img rid="9VO691LP0R37UOPW3RIH" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></img>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<number searchable="true"></number>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<TextMultpleChoice>
+<Question searchable="true">Secret Agent 355 states that "I am not a soldier and I will not wield a musket or face cannon fire. I am just a woman. But I am a patriot. I believe in freedom, I believe in representation, and I believe in these colonies." Why does she mention "representation" in this passage?
+
+</Question>
+<Answers version="2" searchable="true">She thinks the colonies should have members in parliament in London
+She thinks the Continental Congress should meet
+Major John Andre is a representative
+The House of Representatives was just founded
+She thinks that George Washington should have many representatives to advise him
+
+</Answers>
+<Valid>1</Valid>
+<random-answer-order>yes</random-answer-order>
+<multi-column>no</multi-column>
+<Rationale searchable="true"></Rationale>
+<rationale_alttext searchable="true"></rationale_alttext>
+<rationale_img rid="XWBBNR8IEUG2MYQ9YTO7" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></rationale_img>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"></hint>
+<audio rid="16X5EDF7MEOJXKHLWNHH"></audio>
+<img rid="99KIO5AFZNHYY279WEFV" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></img>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<number searchable="true"></number>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<TextMultpleChoice>
+<Question searchable="true">Which document argued enlightenment principles as motivation for the patriots such as Secret Agent 355?</Question>
+<Answers version="2" searchable="true">The Crisis
+The United States Constitution
+The Magna Carta
+The Emancipation Proclamation
+
+</Answers>
+<Valid>1</Valid>
+<random-answer-order>yes</random-answer-order>
+<multi-column>no</multi-column>
+<Rationale searchable="true"></Rationale>
+<rationale_alttext searchable="true"></rationale_alttext>
+<rationale_img rid="NAPB3DMIF2XJUWMWPU2D" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></rationale_img>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"></hint>
+<audio rid="4CP6KW8N970WJGQRSLYK"></audio>
+<img rid="EIDD6JHAMQNPZSDU01RH" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></img>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<number searchable="true"></number>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<TextMultpleChoice>
+<Question searchable="true">Secret Agent 355 hopes her communication may get to General Washington.  As commander of the Continental Army, George Washington became the most popular leader in the new United States after the Revolution.  What did he use his power and fame from his military success to accomplish?</Question>
+<Answers version="2" searchable="true">He held the fragile new nation together during the difficult early years.
+He used the opportunity to establish a military dictatorship.
+He shunned public service thereafter.
+He became a popular figure and celebrity throughout Europe.
+
+</Answers>
+<Valid>1</Valid>
+<random-answer-order>yes</random-answer-order>
+<multi-column>no</multi-column>
+<Rationale searchable="true"></Rationale>
+<rationale_alttext searchable="true"></rationale_alttext>
+<rationale_img rid="DPVTJQ57RFKRM70ZOO9C" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></rationale_img>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"></hint>
+<audio rid="UZLQLQT1DPU6VU4PTLRY"></audio>
+<img rid="7Z9X1K89IDLBLLUNFWSO" alttext="" height="0" orientation="1" caption="" autosize="true" width="0"></img>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<number searchable="true"></number>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+</questions>
+<id searchable="true">Time Period 3: AP Units 5 &amp; 6</id>
+<book_title searchable="true">HA</book_title>
+<submit_answers>no</submit_answers>
+<submitformfields>
+<formfield isEditable="yes" isVisible="yes" defaultValue="">student_name</formfield>
+<formfield isEditable="yes" isVisible="yes" defaultValue="">student_email</formfield>
+<formfield isEditable="yes" isVisible="no" defaultValue="">student_id</formfield>
+<formfield isEditable="yes" isVisible="no" defaultValue="">student_class_id</formfield>
+<formfield isEditable="yes" isVisible="yes" defaultValue="">teacher_email</formfield>
+</submitformfields>
+<email_should_have_grading>yes</email_should_have_grading>
+<company_name searchable="true">Melvile Senior High School</company_name>
+<company_address searchable="true">18 Potts Street,
+Melville Western Australia 6156</company_address>
+<company_phone searchable="true">(08) 9330 0300</company_phone>
+<company_website searchable="true">http://www.melville.wa.edu.au</company_website>
+<action searchable="true">https://api.bookwidgets.com/api/v1/quiz/post</action>
+<servertype value="BookWidgets">BookWidgets</servertype>
+<course_id searchable="true"></course_id>
+<widget_sequence_number searchable="true"></widget_sequence_number>
+<examination_mode>no</examination_mode>
+<countdown_time searchable="true">30</countdown_time>
+<exam_mode_submit_dialog_clear>yes</exam_mode_submit_dialog_clear>
+<support_student_account value="no">No student accounts</support_student_account>
+<student_account_authproviders>
+<provider>google</provider>
+</student_account_authproviders>
+<student_account_school>
+<code></code>
+<name>Anyone</name>
+</student_account_school>
+<student_account_authrestrict>yes</student_account_authrestrict>
+<show_answers>yes</show_answers>
+<show_password searchable="true"></show_password>
+<color_correct_answers>no</color_correct_answers>
+<show_score value="Score vs maximum">Score vs maximum</show_score>
+<allow_edit_after_check_or_send>no</allow_edit_after_check_or_send>
+<feedback/>
+<show_question_points>no</show_question_points>
+<allow_sharing>no</allow_sharing>
+<share_action searchable="true">https://api.bookwidgets.com/api/v1/quiz/share</share_action>
+<allow_download>no</allow_download>
+<download_action searchable="true">https://api.bookwidgets.com/api/v1/quiz/download</download_action>
+<download_includes_correction value="no">Never include correction when downloading.</download_includes_correction>
+<save_answers>yes</save_answers>
+<uuid2>{0a0257c0-de26-11e9-94e7-ffd50a22b313}</uuid2>
+<startup_password searchable="true"></startup_password>
+<require_password value="Once">Once</require_password>
+<answer_keys_password searchable="true"></answer_keys_password>
+<spellcheck>yes</spellcheck>
+<random_order>no</random_order>
+<auto_numbering>yes</auto_numbering>
+<info_numbering>no</info_numbering>
+<provide_calculator value="None">None</provide_calculator>
+<allow_text_selection>no</allow_text_selection>
+<auto_play_audio>no</auto_play_audio>
+<direction value="left-to-right">left-to-right</direction>
+<widget_language></widget_language>
+<LocalizationMap>
+<localization>
+<phrase>Accessing the camera and photo library does not work on this platform.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Activate by clicking on the link in the email which was sent to the address provided.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>All done !</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Answer keys</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Are you done and do you want to show the answers?</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Are you done and do you want to show your score?</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Are you sure?</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>CLEAR</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Camera not supported</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Check answers</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Class ID</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Clear and restart</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Clear answers and start over</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Clear the answers and start over?</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Clear the image and start over?</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Clear the text and start over?</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Click here to download your PDF</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Click the button to see the correct answers or go back to review your answers.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Click the button to see your score or go back to review your answers.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Click the button to submit or go back to review your answers.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Correct answers</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Correct answers:</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Could not generate PDF.  Please try again later.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Could not store picture</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Download</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Download Failed</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Download as PDF</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Email address and student name can't be empty.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Enter your name and click 'Generate' to generate the PDF.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Error inserting picture</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Error using picture</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Feedback</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Generate</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Generate PDF failed</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Generating PDF, please wait...</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Image upload error</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Next question</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>No</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>No camera on this device</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>No, keep</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>No, keep my image</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>No, this equation is not balanced</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Ok</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Optional Message</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>PDF generated</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Password</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Please enter password</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Previous question</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Products</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>QUESTION</phrase>
+<translation></translation>
+<modified>false</modified>
+</localization>
+<localization>
+<phrase>Quiz</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Quiz results not accepted.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Reactants</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Score</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Send</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Send Answer</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Send Failed</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Sending, please wait...</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Sent successfully</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Share</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Share the quiz by email.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Show answers</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Show hint</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Show question list</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Show score</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Student Email</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Student ID</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Student Name</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Submit</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Submit is disabled because you're not logged in with a student account. e.g. you may be using a parent account.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Sum of charges:</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Switch to edit mode</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Tap to select picture</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Teacher Email</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>The answer:</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>The answers will be permanently deleted and cannot be recovered. Are you sure?</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>The answers:</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>The email address you provided has not been activated.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>The email address you provided has not been registered.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>The quiz was sent successfully!</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>The time allowed for this test has expired.  You can no longer change your answers.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>This field is required:</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>This widget needs internet access to store pictures.  Please connect and try again.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>This word is correct.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>To Email</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>To prevent abuse, results can only be sent to registered email addresses.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Unable to send quiz results. Make sure you're connected to the internet.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Unable to send quiz. Make sure you're connected to the internet.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Unanswered</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Unknown error</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Uploading audio</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Wrong answers</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Wrong password...</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Yes</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Yes, clear</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Yes, clear the image</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Yes, this equation is balanced</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>You can also register at www.bookwidgets.com.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>You can't specify multiple addresses for field:</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>You need to log in to the course before you can send your results! Use the Sign In widget at the start of this book to do so.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Your Email</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Your Name</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Your answer:</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Your results were sent successfully!</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Your results were sent successfully!  You can now review your answers.</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+<localization>
+<phrase>Your score is</phrase>
+<translation></translation>
+<modified>true</modified>
+</localization>
+</LocalizationMap>
+<DesignConstants template="Light Background" widget_color="#3498DB" widget_font="Verdana" widget_backgroundimage="">
+<constant>
+<name>borderbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#88badb, #88badb, 255, 255</value>
+</constant>
+<constant>
+<name>backgroundbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>backgroundimage</name>
+<kind>BackgroundImage</kind>
+<value></value>
+</constant>
+<constant>
+<name>backgroundoutline</name>
+<kind>Outline</kind>
+<value>2px, dotted, #3498DB, 127</value>
+</constant>
+<constant>
+<name>titlefont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 20</value>
+</constant>
+<constant>
+<name>titlecolor</name>
+<kind>TextColor</kind>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>titlebackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>titleborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #bbbbbb, 255</value>
+</constant>
+<constant>
+<name>titleborderradius</name>
+<kind>BorderRadius</kind>
+<value>0px, 0px, 0px, 0px</value>
+</constant>
+<constant>
+<name>titleshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>sspopuptoolbarbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>sspopuptoolbarcolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>sspopuptoolbarshadow</name>
+<kind>BoxShadow</kind>
+<value>-1px, 1px, 1px, 0px, #010539, 32</value>
+</constant>
+<constant>
+<name>questionnumberfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 14</value>
+</constant>
+<constant>
+<name>questionnumbercolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>questionfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 24</value>
+</constant>
+<constant>
+<name>questioncolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>answerfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 16</value>
+</constant>
+<constant>
+<name>answercolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>answercorrectcolor</name>
+<kind>TextColor</kind>
+<value>#008000</value>
+</constant>
+<constant>
+<name>answercorrectbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>answerwrongcolor</name>
+<kind>TextColor</kind>
+<value>#c00000</value>
+</constant>
+<constant>
+<name>answerwrongbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>textdescriptiontitlefont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 24</value>
+</constant>
+<constant>
+<name>textdescriptiontitlecolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>textdescriptionfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 16</value>
+</constant>
+<constant>
+<name>textdescriptioncolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>selectedanswercolor</name>
+<kind>TextColor</kind>
+<value>#226592</value>
+</constant>
+<constant>
+<name>dragdropboxfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 24</value>
+</constant>
+<constant>
+<name>dragdropboxcolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>dragdropboxbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>dragdropboxborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>dragdropboxborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>dragdropboxbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>dragdropboxborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>dragdropboxborderradius</name>
+<kind>BorderRadius</kind>
+<value>10px, 10px, 10px, 10px</value>
+</constant>
+<constant>
+<name>dragdropboxshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>dragdroptoolbuttoncolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>dragdropwordfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 20</value>
+</constant>
+<constant>
+<name>dragdropwordcolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>dragdropwordbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>dragdropwordborderleft</name>
+<kind>BorderLeft</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dragdropwordborderright</name>
+<kind>BorderRight</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dragdropwordbordertop</name>
+<kind>BorderTop</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dragdropwordborderbottom</name>
+<kind>BorderBottom</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dragdropwordborderradius</name>
+<kind>BorderRadius</kind>
+<value>0px, 0px, 0px, 0px</value>
+</constant>
+<constant>
+<name>dragdropwordshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>dragdropcorrectcolor</name>
+<kind>TextColor</kind>
+<value>#008000</value>
+</constant>
+<constant>
+<name>dragdropcorrectborderleft</name>
+<kind>BorderLeft</kind>
+<value>3px, solid, #008000, 255</value>
+</constant>
+<constant>
+<name>dragdropcorrectborderright</name>
+<kind>BorderRight</kind>
+<value>3px, solid, #008000, 255</value>
+</constant>
+<constant>
+<name>dragdropcorrectbordertop</name>
+<kind>BorderTop</kind>
+<value>3px, solid, #008000, 255</value>
+</constant>
+<constant>
+<name>dragdropcorrectborderbottom</name>
+<kind>BorderBottom</kind>
+<value>3px, solid, #008000, 255</value>
+</constant>
+<constant>
+<name>dragdropwrongcolor</name>
+<kind>TextColor</kind>
+<value>#c00000</value>
+</constant>
+<constant>
+<name>dragdropwrongborderleft</name>
+<kind>BorderLeft</kind>
+<value>3px, solid, #c00000, 255</value>
+</constant>
+<constant>
+<name>dragdropwrongborderright</name>
+<kind>BorderRight</kind>
+<value>3px, solid, #c00000, 255</value>
+</constant>
+<constant>
+<name>dragdropwrongbordertop</name>
+<kind>BorderTop</kind>
+<value>3px, solid, #c00000, 255</value>
+</constant>
+<constant>
+<name>dragdropwrongborderbottom</name>
+<kind>BorderBottom</kind>
+<value>3px, solid, #c00000, 255</value>
+</constant>
+<constant>
+<name>editfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 18</value>
+</constant>
+<constant>
+<name>editcolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>editbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>editborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>editborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>editbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>editborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>editborderradius</name>
+<kind>BorderRadius</kind>
+<value>24px, 24px, 24px, 24px</value>
+</constant>
+<constant>
+<name>editshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>editpadding</name>
+<kind>Padding</kind>
+<value>20px, 20px, 20px, 20px</value>
+</constant>
+<constant>
+<name>editcorrectcolor</name>
+<kind>TextColor</kind>
+<value>#008000</value>
+</constant>
+<constant>
+<name>editcorrectbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>editwrongcolor</name>
+<kind>TextColor</kind>
+<value>#c00000</value>
+</constant>
+<constant>
+<name>editwrongbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>editopencolor</name>
+<kind>TextColor</kind>
+<value>blue</value>
+</constant>
+<constant>
+<name>editopenbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>numericinputboxfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 18</value>
+</constant>
+<constant>
+<name>numericinputboxcolor</name>
+<kind>TextColor</kind>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>numericinputboxbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>numericinputboxbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, dashed, #3498DB, 255</value>
+</constant>
+<constant>
+<name>numericinputboxborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, dashed, #3498DB, 255</value>
+</constant>
+<constant>
+<name>numericinputboxborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, dashed, #3498DB, 255</value>
+</constant>
+<constant>
+<name>numericinputboxborderright</name>
+<kind>BorderRight</kind>
+<value>1px, dashed, #3498DB, 255</value>
+</constant>
+<constant>
+<name>numericinputboxborderradius</name>
+<kind>BorderRadius</kind>
+<value>0px, 0px, 0px, 0px</value>
+</constant>
+<constant>
+<name>numericinputboxshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>numericinputboxpadding</name>
+<kind>Padding</kind>
+<value>5px, 5px, 5px, 5px</value>
+</constant>
+<constant>
+<name>numericinputboxopencolor</name>
+<kind>TextColor</kind>
+<value>#0000c0</value>
+</constant>
+<constant>
+<name>numericinputboxopenbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>numericinputboxopenborderleft</name>
+<kind>BorderLeft</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>numericinputboxopenborderright</name>
+<kind>BorderRight</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>numericinputboxopenbordertop</name>
+<kind>BorderTop</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>numericinputboxopenborderbottom</name>
+<kind>BorderBottom</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>numericinputboxcorrectcolor</name>
+<kind>TextColor</kind>
+<value>#008000</value>
+</constant>
+<constant>
+<name>numericinputboxcorrectbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>numericinputboxcorrectborderleft</name>
+<kind>BorderLeft</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>numericinputboxcorrectborderright</name>
+<kind>BorderRight</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>numericinputboxcorrectbordertop</name>
+<kind>BorderTop</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>numericinputboxcorrectborderbottom</name>
+<kind>BorderBottom</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>numericinputboxwrongcolor</name>
+<kind>TextColor</kind>
+<value>#c00000</value>
+</constant>
+<constant>
+<name>numericinputboxwrongbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>numericinputboxwrongborderleft</name>
+<kind>BorderLeft</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>numericinputboxwrongborderright</name>
+<kind>BorderRight</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>numericinputboxwrongbordertop</name>
+<kind>BorderTop</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>numericinputboxwrongborderbottom</name>
+<kind>BorderBottom</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>minimalinputboxfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 20</value>
+</constant>
+<constant>
+<name>minimalinputboxcolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>minimalinputboxbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>minimalinputboxbordertop</name>
+<kind>BorderTop</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>minimalinputboxborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #010539, 255</value>
+</constant>
+<constant>
+<name>minimalinputboxborderleft</name>
+<kind>BorderLeft</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>minimalinputboxborderright</name>
+<kind>BorderRight</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>minimalinputboxborderradius</name>
+<kind>BorderRadius</kind>
+<value>0px, 0px, 0px, 0px</value>
+</constant>
+<constant>
+<name>minimalinputboxshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>minimalinputboxpadding</name>
+<kind>Padding</kind>
+<value>4px, 0px, 4px, 0px</value>
+</constant>
+<constant>
+<name>picmultchoicecorrectbackgroundcolor</name>
+<kind>BackgroundColor</kind>
+<value>#008000</value>
+</constant>
+<constant>
+<name>picmultchoicewrongbackgroundcolor</name>
+<kind>BackgroundColor</kind>
+<value>#c00000</value>
+</constant>
+<constant>
+<name>showhintbuttonfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 14</value>
+</constant>
+<constant>
+<name>showhintbuttoncolor</name>
+<kind>TextColor</kind>
+<value>#888888</value>
+</constant>
+<constant>
+<name>hintfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 16</value>
+</constant>
+<constant>
+<name>hintcolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>strokecolor</name>
+<kind>StrokeColor</kind>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>fillcolor</name>
+<kind>FillColor</kind>
+<value>#ffffff</value>
+</constant>
+<constant>
+<name>matchconnectionstrokecolor</name>
+<kind>StrokeColor</kind>
+<value>#0000ff</value>
+</constant>
+<constant>
+<name>matchconnectionwrongstrokecolor</name>
+<kind>StrokeColor</kind>
+<value>#c00000</value>
+</constant>
+<constant>
+<name>matchconnectioncorrectstrokecolor</name>
+<kind>StrokeColor</kind>
+<value>#008000</value>
+</constant>
+<constant>
+<name>matchpicturebackground</name>
+<kind>BackgroundGradient</kind>
+<value>#88badb, #88badb, 255, 255</value>
+</constant>
+<constant>
+<name>matchpictureborderleft</name>
+<kind>BorderLeft</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>matchpictureborderright</name>
+<kind>BorderRight</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>matchpicturebordertop</name>
+<kind>BorderTop</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>matchpictureborderbottom</name>
+<kind>BorderBottom</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>matchpictureborderradius</name>
+<kind>BorderRadius</kind>
+<value>5px, 5px, 5px, 5px</value>
+</constant>
+<constant>
+<name>matchpictureshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 2px, 4px, 1px, #010539, 48</value>
+</constant>
+<constant>
+<name>questiontablequestionfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 16</value>
+</constant>
+<constant>
+<name>questiontablequestioncolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>questiontablecorrectbackgroundcolor</name>
+<kind>BackgroundColor</kind>
+<value>#008000</value>
+</constant>
+<constant>
+<name>questiontablewrongbackgroundcolor</name>
+<kind>BackgroundColor</kind>
+<value>#c00000</value>
+</constant>
+<constant>
+<name>pictureborderleft</name>
+<kind>BorderLeft</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>pictureborderright</name>
+<kind>BorderRight</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>picturebordertop</name>
+<kind>BorderTop</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>pictureborderbottom</name>
+<kind>BorderBottom</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>pictureborderradius</name>
+<kind>BorderRadius</kind>
+<value>5px, 5px, 5px, 5px</value>
+</constant>
+<constant>
+<name>pictureshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 2px, 4px, 1px, #010539, 48</value>
+</constant>
+<constant>
+<name>boxborderleft</name>
+<kind>BorderLeft</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>boxborderright</name>
+<kind>BorderRight</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>boxbordertop</name>
+<kind>BorderTop</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>boxborderbottom</name>
+<kind>BorderBottom</kind>
+<value>5px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>boxborderradius</name>
+<kind>BorderRadius</kind>
+<value>5px, 5px, 5px, 5px</value>
+</constant>
+<constant>
+<name>boxshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 2px, 4px, 1px, #010539, 48</value>
+</constant>
+<constant>
+<name>boxbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#88badb, #88badb, 255, 255</value>
+</constant>
+<constant>
+<name>rationalefont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 20</value>
+</constant>
+<constant>
+<name>rationalecolor</name>
+<kind>TextColor</kind>
+<value>#1d5480</value>
+</constant>
+<constant>
+<name>rationaleborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>rationaleborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>rationalebordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>rationaleborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>rationaleborderradius</name>
+<kind>BorderRadius</kind>
+<value>0px, 0px, 0px, 0px</value>
+</constant>
+<constant>
+<name>rationaleshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 2px, 4px, 1px, #010539, 48</value>
+</constant>
+<constant>
+<name>rationalebackground</name>
+<kind>BackgroundGradient</kind>
+<value>#f0f0da, #f0f0da, 255, 255</value>
+</constant>
+<constant>
+<name>rationaleanswerfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, italic, 20</value>
+</constant>
+<constant>
+<name>rationaleanswercolor</name>
+<kind>TextColor</kind>
+<value>#1d5480</value>
+</constant>
+<constant>
+<name>tabledefaultfontcolor</name>
+<kind>TextColor</kind>
+<value>#000000</value>
+</constant>
+<constant>
+<name>tabledefaultfontbackgroundcolor</name>
+<kind>BackgroundColor</kind>
+<value>#ffffff</value>
+</constant>
+<constant>
+<name>timerfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 28</value>
+</constant>
+<constant>
+<name>timercolor</name>
+<kind>TextColor</kind>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>whiteboardtoolbarbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>orderwordfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 16</value>
+</constant>
+<constant>
+<name>orderwordcolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>orderwordbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#88badb, #88badb, 255, 255</value>
+</constant>
+<constant>
+<name>orderwordborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>orderwordborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>orderwordbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>orderwordborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>orderwordborderradius</name>
+<kind>BorderRadius</kind>
+<value>0px, 0px, 0px, 0px</value>
+</constant>
+<constant>
+<name>orderwordshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 2px, 4px, 1px, #010539, 48</value>
+</constant>
+<constant>
+<name>orderwordcorrectcolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>orderwordcorrectbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#88badb, #88badb, 255, 255</value>
+</constant>
+<constant>
+<name>orderwordcorrectborderleft</name>
+<kind>BorderLeft</kind>
+<value>3px, solid, #008000, 255</value>
+</constant>
+<constant>
+<name>orderwordcorrectborderright</name>
+<kind>BorderRight</kind>
+<value>3px, solid, #008000, 255</value>
+</constant>
+<constant>
+<name>orderwordcorrectbordertop</name>
+<kind>BorderTop</kind>
+<value>3px, solid, #008000, 255</value>
+</constant>
+<constant>
+<name>orderwordcorrectborderbottom</name>
+<kind>BorderBottom</kind>
+<value>3px, solid, #008000, 255</value>
+</constant>
+<constant>
+<name>orderwordwrongcolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>orderwordwrongbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#88badb, #88badb, 255, 255</value>
+</constant>
+<constant>
+<name>orderwordwrongborderleft</name>
+<kind>BorderLeft</kind>
+<value>3px, solid, #c00000, 255</value>
+</constant>
+<constant>
+<name>orderwordwrongborderright</name>
+<kind>BorderRight</kind>
+<value>3px, solid, #c00000, 255</value>
+</constant>
+<constant>
+<name>orderwordwrongbordertop</name>
+<kind>BorderTop</kind>
+<value>3px, solid, #c00000, 255</value>
+</constant>
+<constant>
+<name>orderwordwrongborderbottom</name>
+<kind>BorderBottom</kind>
+<value>3px, solid, #c00000, 255</value>
+</constant>
+<constant>
+<name>marksentenceselectioncolor</name>
+<kind>TextColor</kind>
+<value>#226592</value>
+</constant>
+<constant>
+<name>marksentenceselectionbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#010539, #010539, 32, 32</value>
+</constant>
+<constant>
+<name>marksentenceboxborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>marksentenceboxborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>marksentenceboxbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>marksentenceboxborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>marksentenceboxborderradius</name>
+<kind>BorderRadius</kind>
+<value>10px, 10px, 10px, 10px</value>
+</constant>
+<constant>
+<name>marksentenceboxshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>wordboxfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 20</value>
+</constant>
+<constant>
+<name>wordboxcolor</name>
+<kind>TextColor</kind>
+<value>#010539</value>
+</constant>
+<constant>
+<name>wordboxbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>wordboxborderleft</name>
+<kind>BorderLeft</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>wordboxborderright</name>
+<kind>BorderRight</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>wordboxbordertop</name>
+<kind>BorderTop</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>wordboxborderbottom</name>
+<kind>BorderBottom</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>wordboxborderradius</name>
+<kind>BorderRadius</kind>
+<value>0px, 0px, 0px, 0px</value>
+</constant>
+<constant>
+<name>wordboxshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>wordboxpadding</name>
+<kind>Padding</kind>
+<value>$PaddingNone</value>
+</constant>
+<constant>
+<name>questionpointsbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#010539, #010539, 15, 15</value>
+</constant>
+<constant>
+<name>questionpointsfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 18</value>
+</constant>
+<constant>
+<name>questionpointscolor</name>
+<kind>TextColor</kind>
+<value>#888888</value>
+</constant>
+<constant>
+<name>questionpointsborderleft</name>
+<kind>BorderLeft</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>questionpointsborderright</name>
+<kind>BorderRight</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>questionpointsbordertop</name>
+<kind>BorderTop</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>questionpointsborderbottom</name>
+<kind>BorderBottom</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>questionpointsborderradius</name>
+<kind>BorderRadius</kind>
+<value>10px, 10px, 10px, 10px</value>
+</constant>
+<constant>
+<name>questionpointsshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>questionpointspadding</name>
+<kind>Padding</kind>
+<value>8px, 8px, 8px, 8px</value>
+</constant>
+<constant>
+<name>dialogborderradius</name>
+<kind>BorderRadius</kind>
+<value>24px, 24px, 24px, 24px</value>
+</constant>
+<constant>
+<name>dialogshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 2px, 4px, 1px, #010539, 48</value>
+</constant>
+<constant>
+<name>dialogbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#3498DB, #3498DB, 255, 255</value>
+</constant>
+<constant>
+<name>dialogborderleft</name>
+<kind>BorderLeft</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogborderright</name>
+<kind>BorderRight</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogbordertop</name>
+<kind>BorderTop</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogborderbottom</name>
+<kind>BorderBottom</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogcontentfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 14</value>
+</constant>
+<constant>
+<name>dialogcontentcolor</name>
+<kind>TextColor</kind>
+<value>#ffffff</value>
+</constant>
+<constant>
+<name>dialogtitlefont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, bold, 18</value>
+</constant>
+<constant>
+<name>dialogtitleborderradius</name>
+<kind>BorderRadius</kind>
+<value>0px, 0px, 0px, 0px</value>
+</constant>
+<constant>
+<name>dialogtitleshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>dialogtitlecolor</name>
+<kind>TextColor</kind>
+<value>#ffffff</value>
+</constant>
+<constant>
+<name>dialogtitlebackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>dialogtitleborderleft</name>
+<kind>BorderLeft</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogtitleborderright</name>
+<kind>BorderRight</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogtitlebordertop</name>
+<kind>BorderTop</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogtitleborderbottom</name>
+<kind>BorderBottom</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>dialogbuttonfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 16</value>
+</constant>
+<constant>
+<name>dialogbuttonborderradius</name>
+<kind>BorderRadius</kind>
+<value>24px, 24px, 24px, 24px</value>
+</constant>
+<constant>
+<name>dialogbuttonshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>dialogbuttoncolor</name>
+<kind>TextColor</kind>
+<value>#ffffff</value>
+</constant>
+<constant>
+<name>dialogbuttonbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>dialogbuttonborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>dialogbuttonborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>dialogbuttonbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>dialogbuttonborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #ffffff, 255</value>
+</constant>
+<constant>
+<name>dialogbuttonpadding</name>
+<kind>Padding</kind>
+<value>8px, 12px, 8px, 12px</value>
+</constant>
+<constant>
+<name>dialogbuttonoutline</name>
+<kind>Outline</kind>
+<value>2px, dotted, #ffffff, 127</value>
+</constant>
+<constant>
+<name>questionsbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#88badb, #88badb, 255, 255</value>
+</constant>
+<constant>
+<name>questionbuttonfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 24</value>
+</constant>
+<constant>
+<name>questionbuttoncolor</name>
+<kind>TextColor</kind>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>questionbuttonbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>questionbuttonborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>questionbuttonborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>questionbuttonbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>questionbuttonborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>questionbuttonborderradius</name>
+<kind>BorderRadius</kind>
+<value>32px, 32px, 32px, 32px</value>
+</constant>
+<constant>
+<name>questionbuttonshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>questionbuttonoutline</name>
+<kind>Outline</kind>
+<value>2px, dotted, #ffffff, 127</value>
+</constant>
+<constant>
+<name>questionbuttonansweredfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 24</value>
+</constant>
+<constant>
+<name>questionbuttonansweredcolor</name>
+<kind>TextColor</kind>
+<value>#ffffff</value>
+</constant>
+<constant>
+<name>questionbuttonansweredbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#3498DB, #3498DB, 255, 255</value>
+</constant>
+<constant>
+<name>questionbuttonansweredborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>questionbuttonansweredborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>questionbuttonansweredbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>questionbuttonansweredborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>questionbuttonansweredborderradius</name>
+<kind>BorderRadius</kind>
+<value>32px, 32px, 32px, 32px</value>
+</constant>
+<constant>
+<name>questionbuttonansweredshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>textbuttonfont</name>
+<kind>TextFont</kind>
+<value>Verdana, font-stack, 16</value>
+</constant>
+<constant>
+<name>textbuttoncolor</name>
+<kind>TextColor</kind>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>textbuttonbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>textbuttonborderleft</name>
+<kind>BorderLeft</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>textbuttonborderright</name>
+<kind>BorderRight</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>textbuttonbordertop</name>
+<kind>BorderTop</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>textbuttonborderbottom</name>
+<kind>BorderBottom</kind>
+<value>1px, solid, #3498DB, 255</value>
+</constant>
+<constant>
+<name>textbuttonborderradius</name>
+<kind>BorderRadius</kind>
+<value>24px, 24px, 24px, 24px</value>
+</constant>
+<constant>
+<name>textbuttonshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>textbuttonpadding</name>
+<kind>Padding</kind>
+<value>8px, 12px, 8px, 12px</value>
+</constant>
+<constant>
+<name>navigationcolor</name>
+<kind>TextColor</kind>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>navigationbackground</name>
+<kind>BackgroundGradient</kind>
+<value>#ffffff, #ffffff, 0, 0</value>
+</constant>
+<constant>
+<name>navigationborderleft</name>
+<kind>BorderLeft</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>navigationborderright</name>
+<kind>BorderRight</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>navigationbordertop</name>
+<kind>BorderTop</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>navigationborderbottom</name>
+<kind>BorderBottom</kind>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>navigationborderradius</name>
+<kind>BorderRadius</kind>
+<value>0px, 0px, 0px, 0px</value>
+</constant>
+<constant>
+<name>navigationshadow</name>
+<kind>BoxShadow</kind>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+</constant>
+<constant>
+<name>progresscolor</name>
+<kind>TextColor</kind>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>progressstrokecolor</name>
+<kind>StrokeColor</kind>
+<value>#3498DB</value>
+</constant>
+<constant>
+<name>progressfillcolor</name>
+<kind>FillColor</kind>
+<value>#226592</value>
+</constant>
+</DesignConstants>
+<cover rid="5ZFCWIY09BARY01LHZQ2" alttext="" height="768" orientation="1" caption="" autosize="false" width="576">/Users/julius/Documents/Documents - Julius MacBook Pro/01_work/01_freelance/01_Upwork/Spencer Striker/02_work/Assessments/Cover_Agent355.png</cover>
+<widget_orientation value="Vertical">Vertical</widget_orientation>
+<BookWidgetsVersion>6.0.3</BookWidgetsVersion>
+<shortcode></shortcode>
+<label searchable="true"></label>
+<lastupload></lastupload>
+</QuizPlugin>

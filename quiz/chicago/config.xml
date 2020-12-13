@@ -1,0 +1,702 @@
+<QuizPlugin>
+<label>Chicago_quiz</label>
+<questions>
+<PictureMultpleChoice>
+<Question searchable="true">Which of the following books exposed the harsh conditions of the Chicago meatpacking industry?</Question>
+<Answers>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/d4/d46e5059-3ff9-40fc-8cc1-0b3ac80b20ad.jpeg?filename=download%20(3).jpeg</node>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/c4/c4281ba1-8fbc-4d85-a469-70979c0d5d14.jpg?filename=Unsafeatanyspeedcover.jpg</node>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/3c/3c63113f-ed32-47ef-9cee-f56a405fdd8f.jpg?filename=TheJungleSinclair.jpg</node>
+</Answers>
+<Valid value="2">2</Valid>
+<Rationale searchable="true"/>
+<rationale_img autosize="true" alttext=""/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true" alttext=""/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</PictureMultpleChoice>
+<TextMultpleChoice>
+<Question searchable="true">What factor made Chicago an important city in commerce?</Question>
+<Answers searchable="true" version="2">Chicago was an important railroad terminal in the agricultural Midwest.&#xd;
+Chicago had perfect weather conditions for factories and commerce.&#xd;
+Chicago had an early large tourism industry.&#xd;
+Chicago had large amounts of animals and farm land.</Answers>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img autosize="true" alttext=""/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true" alttext=""/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<TextMultpleChoice>
+<Question searchable="true">For what reason is Thomas Brown posing as a janitor?</Question>
+<Answers searchable="true" version="2">To make eyewitness observations of the conditions in a meatpacking plant.&#xd;
+To determine the effectiveness of Progressive policy.&#xd;
+To overtake the Chicago Tribune in readership.&#xd;
+To rescue workers who are in danger.</Answers>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img autosize="true" alttext=""/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true" alttext=""/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<TextMultpleChoice>
+<Question searchable="true">What pattern of the industrial age is reflected in the rise of Chicago a a meatpacking center?</Question>
+<Answers searchable="true" version="2">Pioneers moved west to wide open lands in order to farm large ranches.&#xd;
+Native Americans were forced to live on reservations.&#xd;
+Immigrants from Europe moved to United States urban centers to work in industry.&#xd;
+Air travel revolutionized the industrial productivity of the Midwest.</Answers>
+<Valid value="3">3</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img autosize="true" alttext=""/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true" alttext=""/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<DragWordsInSentence>
+<Question searchable="true">Chicago is located in a key place in the United States.  Drag and drop the correct terms into the paragraph to complete the description.</Question>
+<Sentence searchable="true">Chicago is a key terminal in commerce throughout the United States.  The settlement began by the shores of &lt;&lt;Lake Michigan>>, allowing for ships to bring in lumber and other materials.  As &lt;&lt;railroads>> were constructed across the country, Chicago became the leading mid-continent city.  Farmers in more remote areas could bring in vegetables and meat for &lt;&lt;processing>> and shipment to the East Coast.  Today, Chicago still serves as a major hub.  In fact, O'Hare &lt;&lt;Airport>> is the busiest in the country.  Chicago is one of the key cities in American history.</Sentence>
+<distractors searchable="true" version="2">&lt;&lt;Pacific Ocean>>  &#xd;
+&lt;&lt;Great Salt Lake>>  &#xd;
+&lt;&lt;trolley car>> &#xd;
+&lt;&lt;skyscrapers>>  &#xd;
+&lt;&lt;automobiles>></distractors>
+<Rationale searchable="true"/>
+<rationale_img autosize="true" alttext=""/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true" alttext=""/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<keyboard value="Alphabetic">Alphabetic</keyboard>
+<policy value="each_wrong">Score points for each wrong word which is corrected, deduct points for each correct word which was changed . Minimum score 0.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</DragWordsInSentence>
+<TextMultiSelect>
+<Question searchable="true">What is a core purpose of a labor union?  Select all that apply.</Question>
+<Answers searchable="true" version="2">To bargain for wages on behalf of members with the employer.&#xd;
+To file grievances if work conditions are unfair or unsafe.&#xd;
+To raise profits for the corporation.&#xd;
+To create motivational activities for union members.</Answers>
+<Valid>1 2</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img autosize="true" alttext=""/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true" alttext=""/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<policy value="all">Score points when all answers are correct.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultiSelect>
+<PictureMultiSelect>
+<Question searchable="true">Which political cartoons show the progressive desire to reduce the exploitation of workers by industry?</Question>
+<Answers>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/ef/ef4ffed6-8404-4b5c-9300-d38bc3c816b8.jpeg?filename=download%20(5).jpeg</node>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/59/59bd6699-4801-42c7-827c-d341d86ad023.jpeg?filename=download%20(4).jpeg</node>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/0a/0a6a9c8d-edcd-407b-b6b8-d5344a268e02.jpeg?filename=TRMuckrake.jpeg</node>
+</Answers>
+<Valid searchable="true">2 3</Valid>
+<Rationale searchable="true"/>
+<rationale_img autosize="true" alttext=""/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true" alttext=""/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<policy value="all">Score points when all answers are correct.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</PictureMultiSelect>
+<TextMultiSelect>
+<Question searchable="true">Why did Progressives oppose child labor?  Select all that apply.</Question>
+<Answers searchable="true" version="2">Children who worked could not get an education.&#xd;
+Factories had dangerous conditions where kids could be injured.&#xd;
+Child labor encouraged immigration to Chicago.&#xd;
+Children should learn job skills to make them more marketable.</Answers>
+<Valid>1 2</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img autosize="true" alttext=""/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true" alttext=""/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<policy value="all">Score points when all answers are correct.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultiSelect>
+<DragWordsInSentence>
+<Question searchable="true">Match the idea from the narrative of Thomas Brown to the pattern in history.</Question>
+<Sentence searchable="true">&lt;&lt;A kid was injured>>  Progressive policies ended child labor.&#xd;
+&#xd;
+&lt;&lt;Chicago was a hub of commerce>> Chicago is a meatpacking center.&#xd;
+&#xd;
+&lt;&lt;Thomas was writing a news story>> Writers brought attention to the conditions in meatpacking plants.</Sentence>
+<distractors searchable="true" version="2">Police provided little help to the worker&#xd;
+Thomas is discovered by the manager&#xd;
+The workers are frightened>>&#xd;
+Some of the workers disappear and then are reported dead</distractors>
+<Rationale searchable="true"/>
+<rationale_img autosize="true" alttext=""/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true" alttext=""/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<keyboard value="Alphabetic">Alphabetic</keyboard>
+<policy value="each_wrong">Score points for each wrong word which is corrected, deduct points for each correct word which was changed . Minimum score 0.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</DragWordsInSentence>
+<TextMultiSelect>
+<Question searchable="true">Consider the narrative of Thomas Brown.  What adjectives describe Thomas and his mission in this story?</Question>
+<Answers searchable="true" version="2">Brave&#xd;
+Unaware&#xd;
+Risk Averse&#xd;
+Important&#xd;
+Unsuccessful&#xd;
+Enlightening</Answers>
+<Valid>5 6 4 1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img autosize="true" alttext=""/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img autosize="true" alttext=""/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<policy value="all">Score points when all answers are correct.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultiSelect>
+</questions>
+<id searchable="true">Chicago_quiz</id>
+<submit_answers>false</submit_answers>
+<submitformfields>
+<formfield isEditable="true" isVisible="true" defaultValue="">student_name</formfield>
+<formfield isEditable="true" isVisible="true" defaultValue="">student_email</formfield>
+<formfield isEditable="true" isVisible="false" defaultValue="">student_class_id</formfield>
+<formfield isEditable="true" isVisible="true" defaultValue="">teacher_email</formfield>
+<formfield isEditable="true" isVisible="false" defaultValue="">student_id</formfield>
+</submitformfields>
+<email_should_have_grading>true</email_should_have_grading>
+<action searchable="true">https://api.bookwidgets.com/api/v1/quiz/post</action>
+<servertype value="BookWidgets">BookWidgets</servertype>
+<examination_mode>false</examination_mode>
+<countdown_time searchable="true">30</countdown_time>
+<exam_mode_submit_dialog_clear>true</exam_mode_submit_dialog_clear>
+<support_student_account value="no">No student accounts</support_student_account>
+<student_account_authproviders/>
+<student_account_school>
+<code/>
+<name/>
+</student_account_school>
+<student_account_authrestrict>true</student_account_authrestrict>
+<show_answers>true</show_answers>
+<color_correct_answers>false</color_correct_answers>
+<show_score value="Score vs maximum">Score vs maximum</show_score>
+<allow_edit_after_check_or_send>false</allow_edit_after_check_or_send>
+<feedback/>
+<show_question_points>false</show_question_points>
+<allow_sharing>false</allow_sharing>
+<share_action searchable="true">https://api.bookwidgets.com/api/v1/quiz/share</share_action>
+<allow_download>false</allow_download>
+<download_action searchable="true">https://api.bookwidgets.com/api/v1/quiz/download</download_action>
+<download_includes_correction value="no">Never include correction when downloading.</download_includes_correction>
+<save_answers>true</save_answers>
+<uuid2>{ef4024d0-fdbf-11e9-9a86-3ff0138310ff}</uuid2>
+<require_password value="Once">Once</require_password>
+<spellcheck>true</spellcheck>
+<random_order>false</random_order>
+<auto_numbering>true</auto_numbering>
+<info_numbering>false</info_numbering>
+<provide_calculator value="None">None</provide_calculator>
+<allow_text_selection>false</allow_text_selection>
+<auto_play_audio>false</auto_play_audio>
+<direction value="left-to-right">left-to-right</direction>
+<LocalizationMap>
+<localization>
+<phrase>Quiz</phrase>
+</localization>
+<localization>
+<phrase>All done !</phrase>
+<translation>All Done!</translation>
+</localization>
+<localization>
+<phrase>Click the button to submit or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Click the button to see the correct answers or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Click the button to see your score or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Show question list</phrase>
+</localization>
+<localization>
+<phrase>Previous question</phrase>
+</localization>
+<localization>
+<phrase>Next question</phrase>
+</localization>
+<localization>
+<phrase>Switch to edit mode</phrase>
+</localization>
+<localization>
+<phrase>QUESTION</phrase>
+</localization>
+<localization>
+<phrase>Submit</phrase>
+</localization>
+<localization>
+<phrase>Share the quiz by email.</phrase>
+</localization>
+<localization>
+<phrase>Unable to send quiz. Make sure you're connected to the internet.</phrase>
+</localization>
+<localization>
+<phrase>The time allowed for this test has expired.  You can no longer change your answers.</phrase>
+</localization>
+<localization>
+<phrase>Show Answers</phrase>
+<translation>Show Answers!</translation>
+</localization>
+<localization>
+<phrase>Are you done and do you want to show the answers?</phrase>
+</localization>
+<localization>
+<phrase>Show score</phrase>
+</localization>
+<localization>
+<phrase>Are you done and do you want to show your score?</phrase>
+</localization>
+<localization>
+<phrase>Clear answers and start over</phrase>
+</localization>
+<localization>
+<phrase>Ok</phrase>
+</localization>
+<localization>
+<phrase>The quiz was sent successfully!</phrase>
+</localization>
+<localization>
+<phrase>Your results were sent successfully!  You can now review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Your results were sent successfully!</phrase>
+</localization>
+<localization>
+<phrase>Unable to send quiz results. Make sure you're connected to the internet.</phrase>
+</localization>
+<localization>
+<phrase>Quiz results not accepted.</phrase>
+</localization>
+<localization>
+<phrase>Email address and student name can't be empty.</phrase>
+</localization>
+<localization>
+<phrase>You need to log in to the course before you can send your results! Use the Sign In widget at the start of this book to do so.</phrase>
+</localization>
+<localization>
+<phrase>Please enter password</phrase>
+</localization>
+<localization>
+<phrase>Wrong password...</phrase>
+</localization>
+<localization>
+<phrase>Password</phrase>
+</localization>
+<localization>
+<phrase>Your score is</phrase>
+</localization>
+<localization>
+<phrase>Score</phrase>
+</localization>
+<localization>
+<phrase>Feedback</phrase>
+</localization>
+<localization>
+<phrase>Your answer:</phrase>
+</localization>
+<localization>
+<phrase>The answer:</phrase>
+</localization>
+<localization>
+<phrase>The answers:</phrase>
+</localization>
+<localization>
+<phrase>Correct answers:</phrase>
+</localization>
+<localization>
+<phrase>Tap to select picture</phrase>
+</localization>
+<localization>
+<phrase>No camera on this device</phrase>
+</localization>
+<localization>
+<phrase>This word is correct.</phrase>
+</localization>
+<localization>
+<phrase>Clear the answers and start over?</phrase>
+</localization>
+<localization>
+<phrase>The answers will be permanently deleted and cannot be recovered. Are you sure?</phrase>
+</localization>
+<localization>
+<phrase>Yes, clear</phrase>
+</localization>
+<localization>
+<phrase>No, keep</phrase>
+</localization>
+<localization>
+<phrase>Clear the text and start over?</phrase>
+</localization>
+<localization>
+<phrase>Show hint</phrase>
+</localization>
+<localization>
+<phrase>Answer keys</phrase>
+</localization>
+<localization>
+<phrase>Yes</phrase>
+</localization>
+<localization>
+<phrase>No</phrase>
+</localization>
+<localization>
+<phrase>Clear and restart</phrase>
+</localization>
+<localization>
+<phrase>Check answers</phrase>
+</localization>
+<localization>
+<phrase>Correct answers</phrase>
+</localization>
+<localization>
+<phrase>Wrong answers</phrase>
+</localization>
+<localization>
+<phrase>Unanswered</phrase>
+</localization>
+<localization>
+<phrase>CLEAR</phrase>
+</localization>
+<localization>
+<phrase>Yes, this equation is balanced</phrase>
+</localization>
+<localization>
+<phrase>No, this equation is not balanced</phrase>
+</localization>
+<localization>
+<phrase>Sum of charges:</phrase>
+</localization>
+<localization>
+<phrase>Reactants</phrase>
+</localization>
+<localization>
+<phrase>Products</phrase>
+</localization>
+<localization>
+<phrase>Are you sure?</phrase>
+</localization>
+<localization>
+<phrase>Clear the image and start over?</phrase>
+</localization>
+<localization>
+<phrase>Yes, clear the image</phrase>
+</localization>
+<localization>
+<phrase>No, keep my image</phrase>
+</localization>
+<localization>
+<phrase>Accessing the camera and photo library does not work on this platform.</phrase>
+</localization>
+<localization>
+<phrase>Camera not supported</phrase>
+</localization>
+<localization>
+<phrase>Could not store picture</phrase>
+</localization>
+<localization>
+<phrase>Error inserting picture</phrase>
+</localization>
+<localization>
+<phrase>This widget needs internet access to store pictures.  Please connect and try again.</phrase>
+</localization>
+<localization>
+<phrase>Image upload error</phrase>
+</localization>
+<localization>
+<phrase>Error using picture</phrase>
+</localization>
+<localization>
+<phrase>Authentication error.</phrase>
+</localization>
+<localization>
+<phrase>Cancel</phrase>
+</localization>
+<localization>
+<phrase>Could not connect to server, check your internet connection.</phrase>
+</localization>
+<localization>
+<phrase>Email</phrase>
+</localization>
+<localization>
+<phrase>Forgot password?</phrase>
+</localization>
+<localization>
+<phrase>Not logged in</phrase>
+</localization>
+<localization>
+<phrase>OK</phrase>
+</localization>
+<localization>
+<phrase>Offline</phrase>
+</localization>
+<localization>
+<phrase>Online</phrase>
+</localization>
+<localization>
+<phrase>Password</phrase>
+</localization>
+<localization>
+<phrase>Please sign in</phrase>
+</localization>
+<localization>
+<phrase>Received error trying to sign in</phrase>
+</localization>
+<localization>
+<phrase>School code</phrase>
+</localization>
+<localization>
+<phrase>Server error when signing in.</phrase>
+</localization>
+<localization>
+<phrase>Sign in</phrase>
+</localization>
+<localization>
+<phrase>Sign in failed</phrase>
+</localization>
+<localization>
+<phrase>Sign in to save your answers online</phrase>
+</localization>
+<localization>
+<phrase>Sign in using</phrase>
+</localization>
+<localization>
+<phrase>Sign in using email and password</phrase>
+</localization>
+<localization>
+<phrase>Sign in using school account</phrase>
+</localization>
+<localization>
+<phrase>Sign out</phrase>
+</localization>
+<localization>
+<phrase>Sign up here</phrase>
+</localization>
+<localization>
+<phrase>Username</phrase>
+</localization>
+<localization>
+<phrase>Waiting</phrase>
+</localization>
+<localization>
+<phrase>Waiting for account sign in to complete...</phrase>
+</localization>
+<localization>
+<phrase>Widget configuration error: school doesn't exist</phrase>
+</localization>
+<localization>
+<phrase>Wrong username or password, please try again.</phrase>
+</localization>
+<localization>
+<phrase>You need to be signed in to use this widget.</phrase>
+</localization>
+<localization>
+<phrase>You're currently offline and logged in as user:</phrase>
+</localization>
+<localization>
+<phrase>You're currently online and logged in as user:</phrase>
+</localization>
+<localization>
+<phrase>You're offline</phrase>
+</localization>
+<localization>
+<phrase>Class ID</phrase>
+</localization>
+<localization>
+<phrase>Send</phrase>
+</localization>
+<localization>
+<phrase>Send Answer</phrase>
+</localization>
+<localization>
+<phrase>Send Failed</phrase>
+</localization>
+<localization>
+<phrase>Sending, please wait...</phrase>
+</localization>
+<localization>
+<phrase>Student Email</phrase>
+</localization>
+<localization>
+<phrase>Student ID</phrase>
+</localization>
+<localization>
+<phrase>Student Name</phrase>
+</localization>
+<localization>
+<phrase>Teacher Email</phrase>
+</localization>
+<localization>
+<phrase>This field is required:</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading audio</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>You can't specify multiple addresses for field:</phrase>
+</localization>
+<localization>
+<phrase>Submit is disabled because you're not logged in with a student account. e.g. you may be using a parent account.</phrase>
+</localization>
+<localization>
+<phrase>Sent successfully</phrase>
+</localization>
+<localization>
+<phrase>The email address you provided has not been registered.</phrase>
+</localization>
+<localization>
+<phrase>The email address you provided has not been activated.</phrase>
+</localization>
+<localization>
+<phrase>To prevent abuse, results can only be sent to registered email addresses.</phrase>
+</localization>
+<localization>
+<phrase>Activate by clicking on the link in the email which was sent to the address provided.</phrase>
+</localization>
+<localization>
+<phrase>You can also register at www.bookwidgets.com.</phrase>
+</localization>
+<localization>
+<phrase>Unknown error</phrase>
+</localization>
+<localization>
+<phrase>Optional Message</phrase>
+</localization>
+<localization>
+<phrase>Send</phrase>
+</localization>
+<localization>
+<phrase>Send Failed</phrase>
+</localization>
+<localization>
+<phrase>Sending, please wait...</phrase>
+</localization>
+<localization>
+<phrase>Share</phrase>
+</localization>
+<localization>
+<phrase>This field is required:</phrase>
+</localization>
+<localization>
+<phrase>To Email</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>You can't specify multiple addresses for field:</phrase>
+</localization>
+<localization>
+<phrase>Your Email</phrase>
+</localization>
+<localization>
+<phrase>Your Name</phrase>
+</localization>
+<localization>
+<phrase>Click here to download your PDF</phrase>
+</localization>
+<localization>
+<phrase>Could not generate PDF.  Please try again later.</phrase>
+</localization>
+<localization>
+<phrase>Download Failed</phrase>
+</localization>
+<localization>
+<phrase>Download as PDF</phrase>
+</localization>
+<localization>
+<phrase>Generate</phrase>
+</localization>
+<localization>
+<phrase>Generate PDF failed</phrase>
+</localization>
+<localization>
+<phrase>Generating PDF, please wait...</phrase>
+</localization>
+<localization>
+<phrase>PDF generated</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>Your Name</phrase>
+</localization>
+<localization>
+<phrase>Enter your name and click 'Generate' to generate the PDF.</phrase>
+</localization>
+<localization>
+<phrase>Download</phrase>
+</localization>
+</LocalizationMap>
+<DesignConstants widget_font="Verdana" widget_backgroundimage=",auto" widget_color="#3498DB" template="Light Background"/>
+<cover autosize="true"/>
+<widget_orientation value="Vertical">Vertical</widget_orientation>
+</QuizPlugin>

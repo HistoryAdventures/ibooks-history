@@ -1,0 +1,503 @@
+.pwd-mode #bottom-container{
+  display: none;
+}
+
+.pwd-mode #title-toolbar {
+  display: none;
+}
+
+.question-content {
+    overflow-x: hidden;
+    overflow-y: auto;
+    }
+
+.quizwidget .question-content .the-question, .quizwidget .question-content .textdescriptiontitle { 
+  margin-top: 40px;
+}
+
+.left-container, .right-container { 
+  width: 80px;
+}
+
+.left-container .navbutton, .right-container .navbutton { 
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: -15px;
+}
+
+.right-to-left {
+/* Xaf: setting moved to js code for epub check */
+/*  direction: rtl; */
+}
+
+.right-to-left div.wtSpreader {
+  left: initial !important; /* Make HandsOnTable play nice with RTL languages */
+}
+
+.quizwidget input[type=text], .quizwidget textarea { 
+  -webkit-user-select: text;
+}
+
+.quizwidget select {
+  -webkit-appearance: none;
+}
+
+.ui-disabled, .disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
+.quizwidget .question-content h1 { 
+  text-shadow: none;
+}
+
+.quizwidget .question-content h3 { 
+  text-shadow: none;
+}
+
+.quizwidget .question-content a { 
+  text-shadow: none;
+}
+
+.quizwidget a {
+  text-decoration: none;
+  outline-width: 0;
+}
+
+.quizwidget .question-content.readonly-mode .content {
+  pointer-events: none;
+}
+
+.quizwidget .question-content.readonly-mode .content .rtlink,
+.quizwidget .question-content.readonly-mode .content .audiowrapper,
+.quizwidget .question-content.readonly-mode .content .videowrapper,
+.quizwidget .question-content.readonly-mode .content .youtubeplaceholder,
+.quizwidget .question-content.readonly-mode .content .mejs-container,
+.quizwidget .question-content.readonly-mode .content .audiobutton,
+.quizwidget .question-content.readonly-mode .content video,
+.quizwidget .question-content.readonly-mode .content .picture {
+  pointer-events: auto;
+}
+
+.quizwidget .question-content-wrapper { 
+  position: relative;
+  overflow: hidden;
+}
+
+.quizwidget #question-content { 
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.quizwidget .question-content .page-type {
+  position: relative;
+  overflow: hidden;
+}
+
+.quizwidget .question-content .content, 
+.quizwidget .question-content .submitpage {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  overflow: hidden;
+  display: none;
+}
+
+.quizwidget .question-content .content { 
+  height: 0px;
+}
+
+.quizwidget .question-content .content.active, .quizwidget .question-content .submitpage.active {
+  display: block;
+  overflow: visible;
+}
+
+.quizwidget .question-content h1 {
+  margin: 20px;
+}
+
+.quizwidget .check-mode .the-answer {
+  display: block;
+  margin: 20px;
+}
+
+.picture { 
+  display:block; 
+  margin:0 auto; 
+  text-align: center;
+}
+
+.small .picture-left {
+  -webkit-flex: 1 1 500px;
+  -ms-flex: 1 1 500px;
+  flex: 1 1 500px;
+}
+
+.small .picture-right {
+  -webkit-flex: 1 1 300px;
+  -ms-flex: 1 1 300px;
+  flex: 1 1 300px;
+}
+
+.medium .picture-left {
+  -webkit-flex: 1 1 400px;
+  -ms-flex: 1 1 400px;
+  flex: 1 1 400px;
+}
+
+.medium .picture-right {
+  -webkit-flex: 1 1 400px;
+  -ms-flex: 1 1 400px;
+  flex: 1 1 400px;
+}
+
+.picture-right { 
+  margin-top: 30px;
+}
+
+.picture img, .picture-right-s img, .picture-right-m img, .quizwidget .pmc-cover .pmc-quiz, .quizwidget .pmc-cover .pmc-quiz:hover, .quizwidget .entry-mode .pmc-cover .selected  {
+  margin: 10px;
+}
+
+/* Picture multiple choice */
+
+.quizwidget .pmc-cover {
+  margin: 100px auto;
+}
+
+/* Picture ordering */
+
+/* Text Description */
+.textdescriptiontitle{ 
+  margin: 20px;
+}
+
+/* Drag Drop */
+
+.ddbox { 
+  width: 264px;
+}
+
+.quizwidget .ddbox_border_none { 
+  margin: 0px;
+}
+
+
+/* Match */
+
+.scoretext { 
+}
+
+.score { 
+  text-align:center;
+  font-size:1.5em;
+  font-weight:bold;
+}
+
+.ui-dialog input {  
+  -webkit-user-select: text;
+  box-sizing:border-box;
+  width: 100%;
+}
+
+.linkbutton {
+  -webkit-tap-highlight-color: rgba(200,0,0,0.0)
+}
+
+#bwcountdown { 
+  display: inline-block;
+  position: relative;
+  top: -6px;
+  margin: 4px;
+}
+
+#questions-wrapper { 
+  width: 0px;
+}
+
+#questions { 
+  position: absolute;
+  left: 100%;
+  background: white;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.question-button { 
+  display: inline-block;
+  padding: 10px;
+  margin: 14px;
+  min-width: 32px;
+  color: black;
+  text-align: center;  
+}
+
+.question-button.bw-info { 
+  font: italic bold 29px serif;
+  position: relative;
+  top: -2px;
+}
+
+.question-button.correct { 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, green), color-stop(100%, green));
+  background: -moz-linear-gradient(top, green, green);
+  background-image: -ms-linear-gradient(top, green, green);
+}
+
+.question-button.wrong { 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, red), color-stop(100%, red));
+  background: -moz-linear-gradient(top, red, red);
+  background-image: -ms-linear-gradient(top, red, red);
+}
+
+.question-button.manual { 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, blue), color-stop(100%, blue));
+  background: -moz-linear-gradient(top, blue, blue);
+  background-image: -ms-linear-gradient(top, blue, blue);
+}
+
+.progress-container {
+  height: 80px;
+  text-align: center;
+  position: relative;
+  top: -80px;
+  z-index: 50;
+  left: 90px;
+}
+
+/* .progress-container:before {
+  content: '';
+  position: absolute;
+  top: 36px;
+  height: 10px;
+  background-color: #0087cb;
+  width: 60px;
+  left: 10px;
+} */
+
+.bw-progress-circle:after {
+  content: 'List';
+  position: absolute;
+  top: 26px;
+  left: 75%;
+  color: transparent;
+  font-size: 24px;
+  padding: 0 4px;
+}
+
+.progress-container #progress {
+  color: transparent;
+  stroke: transparent;
+  fill: transparent;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+#listbutton {
+  z-index: 0;
+}
+
+.bw-progress-circle {
+  position: relative;
+  font-size: 24px;
+  width: 80px;
+  height: 80px;
+}
+
+.bw-progress-circle .bw-progress-circle-drawing { 
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.bw-progress-circle-drawing path { 
+  fill: transparent;
+  stroke-width: 2px;
+}
+
+.bw-progress-circle-drawing path.done { 
+  fill: transparent;
+  stroke-width: 2px;
+}
+
+.bw-progress-circle-drawing path.half { 
+  fill: transparent;
+  stroke-width: 2px;
+}
+
+.bw-progress-circle-drawing path.the.marker { 
+  fill: transparent;
+  stroke-width: 2px;
+}
+
+.bw-progress-circle-text > .bw-info {
+  position: relative;
+  font: italic bold 38px serif;
+  top: 3px;
+ }
+
+.submitpage { 
+  height: 100%;
+}
+
+.submitpage .pre-submit { 
+  text-align: center;
+}
+
+.submitpage .pre-submit .textdescriptiontitle {
+  color: #ffffff;
+}
+
+.submitpage .post-submit { 
+  margin: 20px;
+}
+
+.submitpage p { 
+  margin: 20px;
+}
+
+.textbutton { 
+  display: inline-block;
+  min-width: 150px;  
+}
+
+.picture .big { 
+  max-height: 400px;
+  max-width: 90%;
+}
+
+.picture .medium { 
+  max-height: 300px;
+  max-width: 90%;
+}
+
+.picture .small { 
+  max-height: 200px;
+  max-width: 90%;
+}
+
+.question-points {
+  float: right;
+  text-align: right;
+  margin: 10px;
+}
+
+.submitpage .question-points {
+  float: right;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: flex-end;
+  align-self: flex-end;  
+}
+
+@media print { 
+  body.bw-use-border-when-wide,
+  .bw #container,
+  #bottom-container,
+  .quizwidget .question-content,
+  .question-content-wrapper,
+  .quizwidget .question-content .content
+  {
+    overflow: visible;
+    display: block;
+    height: initial;
+    position: relative;
+    top: 0px;
+    visibility: visible;
+  }
+
+  .quizwidget .question-content .content {
+    border-bottom: 1px solid #bbbbbb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .left-container, .right-container { 
+    display: none;
+  }
+
+  html, body, #container {
+    background: white!important;
+  }
+
+}
+
+#mobile-navcontainer { 
+  display: none;
+}
+
+#top-container .progress-container { 
+    position: absolute;
+    right: 90px;
+    top: 35px;
+    z-index: 1;
+}
+
+.answer-keys-dlg #start_code { 
+  display: none;
+}
+
+.view-results-dlg #start_pwd, .start-code-dlg #start_pwd { 
+  display: none;
+}
+
+@media only screen and (max-width: 750px) {	
+
+  html:not(.ibw-platform-osx-ibooks) #top-container .progress-container { 
+    display: inline-block;
+    height: 32px;
+    position: relative;
+    top: -7px;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) #top-container .bw-progress-circle {
+    font-size: 14px;
+    height: 40px;
+    width: 40px;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) #top-container .bw-progress-circle svg { 
+    height: 100%;
+    width: 100%;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .bw-progress-circle-text > .bw-info {
+    font-size: 19px;
+    top: 2px;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .left-container, 
+  html:not(.ibw-platform-osx-ibooks) .right-container{
+    width: 0px;
+    display: none;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) #mobile-navcontainer {
+    display: block;
+    bottom: 0;
+    position:absolute;
+    width: 100%;
+    pointer-events: none;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .prevarrow {
+    float:left;	
+    pointer-events: auto;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .nextarrow {
+    float:right;	
+    pointer-events: auto;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .narrow-screen-padding { 
+    height: 40px;
+ }
+}

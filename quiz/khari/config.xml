@@ -1,0 +1,713 @@
+<QuizPlugin>
+<label>Khari_quiz</label>
+<questions>
+<TextMultpleChoice>
+<Question searchable="true">Khari's activities in the story are best viewed as an example of what historical pattern?</Question>
+<Answers version="2" searchable="true">Indigenous people's resistance to colonial exploitation&#xd;
+Indigenous people's collaboration with Europeans&#xd;
+The rivalry between colonial powers&#xd;
+The wealth obtained from resources in the Congo region</Answers>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<PictureMultiSelect>
+<Question searchable="true">Which images show examples of valuable natural resources from the Congo Free State?  Select all that apply.</Question>
+<Answers>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/82/8226a626-cdfd-45d8-8767-73972c59fa94.jpeg?filename=madras.jpeg</node>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/68/683c302f-a6f1-481c-bcef-8487a75f3c79.jpeg?filename=ivory.jpeg</node>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/f5/f5f9cced-26a2-4fa1-9fee-61834635e5ec.jpeg?filename=rubber.jpeg</node>
+</Answers>
+<Valid searchable="true">2 3</Valid>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<policy value="all">Score points when all answers are correct.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</PictureMultiSelect>
+<TextMultpleChoice>
+<Question searchable="true">The narrative states that Khari was learning "better ways to fight the superior firepower of their enemy:.  This most likely refers to:</Question>
+<Answers version="2" searchable="true">The indigenous people needed to use innovative strategy to overcome the Belgian use of guns.&#xd;
+The Belgians far outnumbered the indigenous people in the Congo.&#xd;
+The Belgians had established a military training facility for the Mongo.&#xd;
+Khari needed to improve the Belgian military so that they could battle the French in central Africa.</Answers>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<PictureMultpleChoice>
+<Question searchable="true">Consider each of the political cartoons below.  Which one depicts King Leopold and the scramble for Africa?</Question>
+<Answers>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/c4/c492a87f-8073-447e-aeb0-6de3711fe89b.jpg?filename=The%20Magnificent%20African%20Cake.jpg</node>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/82/828174ce-009e-47a0-b859-ea281ade9064.jpg?filename=monroe4_1.jpg</node>
+<node autosize="true">https://www.bookwidgets.com/create/api/resources/64/6458091810848768/39/39e4cfb8-dfc4-41c9-b547-e8fa693f5ef7.jpeg?filename=tiger.jpeg</node>
+</Answers>
+<Valid value="1">1</Valid>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</PictureMultpleChoice>
+<TextMultpleChoice>
+<Question searchable="true">What historical pattern was seen as the Congo Free State changed after 1908?  </Question>
+<Answers version="2" searchable="true">The rise of nationally controlled colonies as corporate or personal control weakened.&#xd;
+Democracies arose in Africa during teh early 1900's.&#xd;
+Indigenous people won many victories leading to independent states by 1915.&#xd;
+The need for more raw materials from Africa.</Answers>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+<WordMatch>
+<Question searchable="true">Match the term to the correct description.</Question>
+<pairs>
+<WordPair>
+<source searchable="true">Mango</source>
+<target searchable="true">indigenous people</target>
+</WordPair>
+<WordPair>
+<source searchable="true">Congo Free State</source>
+<target searchable="true">Colony owned by the King</target>
+</WordPair>
+<WordPair>
+<source searchable="true">Belgium</source>
+<target searchable="true">colonizer</target>
+</WordPair>
+<WordPair>
+<source searchable="true">rubber</source>
+<target searchable="true">a type of tree which produces a valuable sap</target>
+</WordPair>
+<WordPair>
+<source searchable="true">ivory</source>
+<target searchable="true">material of the elephant tusk</target>
+</WordPair>
+<WordPair/>
+</pairs>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+<version>1</version>
+</WordMatch>
+<TextMultiSelect>
+<Question searchable="true">What were the most valued natural resources in the Congo region?  Select all that apply.</Question>
+<Answers version="2" searchable="true">rubber&#xd;
+ivory&#xd;
+wheat&#xd;
+cotton&#xd;
+potatos</Answers>
+<Valid>1 2</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<policy value="all">Score points when all answers are correct.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultiSelect>
+<DragWordsInSentence>
+<Question searchable="true">Drag the terms into the correct space in the paragraph.</Question>
+<Sentence searchable="true">From 1885 to 1908, the Congo Free State was ruled by &lt;&lt;King Leopold of Belgium>>.  The Belgian rule in the region was &lt;&lt;brutal>>.  Indigenous people were killed and abused by the &lt;&lt;Force Publique>>, the private army that terrorized the Congo.  Despite being very large in area, there were never many Belgians in the Congo.  A few thousand troops and a combination of mercenaries and native African soldiers in the force reigned over the mass of indigenous people.  During this time, Belgium benefited from the many natural resources of the region.</Sentence>
+<distractors version="2" searchable="true">kind&#xd;
+benevolent&#xd;
+Belgian Government&#xd;
+King of France&#xd;
+Belgian Army&#xd;
+The militia</distractors>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<keyboard value="Alphabetic">Alphabetic</keyboard>
+<policy value="each_wrong">Score points for each wrong word which is corrected, deduct points for each correct word which was changed . Minimum score 0.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</DragWordsInSentence>
+<TextMultiSelect>
+<Question searchable="true">What historical patterns can be detected in Khari's narrative?  Select all that apply.</Question>
+<Answers version="2" searchable="true">European colonial control in Africa.&#xd;
+Indigenous people's direct resistance to colonial powers.&#xd;
+Increase in settler colonies.&#xd;
+Immigration to work in industrialized factories.&#xd;
+European desire for valuable natural resources.</Answers>
+<Valid>1 2 5</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<policy value="all">Score points when all answers are correct.</policy>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultiSelect>
+<TextMultpleChoice>
+<Question searchable="true">The American mercenary stated that the situation in the Congo Free State was "just another side of the same old dirty coin."  What was the likely meaning of his metaphor?</Question>
+<Answers version="2" searchable="true">The Belgian rule was just as harsh as the Arab slave trade, despite positive descriptions back in Europe.&#xd;
+The Belgian currency was insufficient just as the Arab and French had been before.&#xd;
+The American government often supported colonial powers in this region.&#xd;
+The Congo Free State was just one example of the superior technology of Europe during the industrial age.</Answers>
+<Valid value="1">1</Valid>
+<random-answer-order>true</random-answer-order>
+<multi-column>false</multi-column>
+<Rationale searchable="true"/>
+<rationale_img alttext="" autosize="true"/>
+<rationale_imgsize value="Big">Big</rationale_imgsize>
+<hint searchable="true"/>
+<audio/>
+<img alttext="" autosize="true"/>
+<imgsize value="Big">Big</imgsize>
+<imgpos value="After question">After question</imgpos>
+<scoring-weight searchable="true">1</scoring-weight>
+</TextMultpleChoice>
+</questions>
+<id searchable="true">Khari_quiz</id>
+<submit_answers>false</submit_answers>
+<submitformfields>
+<formfield isEditable="true" isVisible="true" defaultValue="">student_name</formfield>
+<formfield isEditable="true" isVisible="true" defaultValue="">student_email</formfield>
+<formfield isEditable="true" isVisible="false" defaultValue="">student_class_id</formfield>
+<formfield isEditable="true" isVisible="true" defaultValue="">teacher_email</formfield>
+<formfield isEditable="true" isVisible="false" defaultValue="">student_id</formfield>
+</submitformfields>
+<email_should_have_grading>true</email_should_have_grading>
+<action searchable="true">https://api.bookwidgets.com/api/v1/quiz/post</action>
+<servertype value="BookWidgets">BookWidgets</servertype>
+<examination_mode>false</examination_mode>
+<countdown_time searchable="true">30</countdown_time>
+<exam_mode_submit_dialog_clear>true</exam_mode_submit_dialog_clear>
+<support_student_account value="no">No student accounts</support_student_account>
+<student_account_authproviders/>
+<student_account_school>
+<code/>
+<name/>
+</student_account_school>
+<student_account_authrestrict>true</student_account_authrestrict>
+<show_answers>true</show_answers>
+<color_correct_answers>false</color_correct_answers>
+<show_score value="Score vs maximum">Score vs maximum</show_score>
+<allow_edit_after_check_or_send>false</allow_edit_after_check_or_send>
+<feedback/>
+<show_question_points>false</show_question_points>
+<allow_sharing>false</allow_sharing>
+<share_action searchable="true">https://api.bookwidgets.com/api/v1/quiz/share</share_action>
+<allow_download>false</allow_download>
+<download_action searchable="true">https://api.bookwidgets.com/api/v1/quiz/download</download_action>
+<download_includes_correction value="no">Never include correction when downloading.</download_includes_correction>
+<save_answers>true</save_answers>
+<uuid2>{e2794e70-f8c4-11e9-93d7-a591760a1a26}</uuid2>
+<require_password value="Once">Once</require_password>
+<spellcheck>true</spellcheck>
+<random_order>false</random_order>
+<auto_numbering>true</auto_numbering>
+<info_numbering>false</info_numbering>
+<provide_calculator value="None">None</provide_calculator>
+<allow_text_selection>false</allow_text_selection>
+<auto_play_audio>false</auto_play_audio>
+<direction value="left-to-right">left-to-right</direction>
+<LocalizationMap>
+<localization>
+<phrase>Quiz</phrase>
+</localization>
+<localization>
+<phrase>All done !</phrase>
+</localization>
+<localization>
+<phrase>Click the button to submit or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Click the button to see the correct answers or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Click the button to see your score or go back to review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Show question list</phrase>
+</localization>
+<localization>
+<phrase>Previous question</phrase>
+</localization>
+<localization>
+<phrase>Next question</phrase>
+</localization>
+<localization>
+<phrase>Switch to edit mode</phrase>
+</localization>
+<localization>
+<phrase>QUESTION</phrase>
+</localization>
+<localization>
+<phrase>Submit</phrase>
+</localization>
+<localization>
+<phrase>Share the quiz by email.</phrase>
+</localization>
+<localization>
+<phrase>Unable to send quiz. Make sure you're connected to the internet.</phrase>
+</localization>
+<localization>
+<phrase>The time allowed for this test has expired.  You can no longer change your answers.</phrase>
+</localization>
+<localization>
+<phrase>Show answers</phrase>
+</localization>
+<localization>
+<phrase>Are you done and do you want to show the answers?</phrase>
+</localization>
+<localization>
+<phrase>Show score</phrase>
+</localization>
+<localization>
+<phrase>Are you done and do you want to show your score?</phrase>
+</localization>
+<localization>
+<phrase>Clear answers and start over</phrase>
+</localization>
+<localization>
+<phrase>Ok</phrase>
+</localization>
+<localization>
+<phrase>The quiz was sent successfully!</phrase>
+</localization>
+<localization>
+<phrase>Your results were sent successfully!  You can now review your answers.</phrase>
+</localization>
+<localization>
+<phrase>Your results were sent successfully!</phrase>
+</localization>
+<localization>
+<phrase>Unable to send quiz results. Make sure you're connected to the internet.</phrase>
+</localization>
+<localization>
+<phrase>Quiz results not accepted.</phrase>
+</localization>
+<localization>
+<phrase>Email address and student name can't be empty.</phrase>
+</localization>
+<localization>
+<phrase>You need to log in to the course before you can send your results! Use the Sign In widget at the start of this book to do so.</phrase>
+</localization>
+<localization>
+<phrase>Please enter password</phrase>
+</localization>
+<localization>
+<phrase>Wrong password...</phrase>
+</localization>
+<localization>
+<phrase>Password</phrase>
+</localization>
+<localization>
+<phrase>Your score is</phrase>
+</localization>
+<localization>
+<phrase>Score</phrase>
+</localization>
+<localization>
+<phrase>Feedback</phrase>
+</localization>
+<localization>
+<phrase>Your answer:</phrase>
+</localization>
+<localization>
+<phrase>The answer:</phrase>
+</localization>
+<localization>
+<phrase>The answers:</phrase>
+</localization>
+<localization>
+<phrase>Correct answers:</phrase>
+</localization>
+<localization>
+<phrase>Tap to select picture</phrase>
+</localization>
+<localization>
+<phrase>No camera on this device</phrase>
+</localization>
+<localization>
+<phrase>This word is correct.</phrase>
+</localization>
+<localization>
+<phrase>Clear the answers and start over?</phrase>
+</localization>
+<localization>
+<phrase>The answers will be permanently deleted and cannot be recovered. Are you sure?</phrase>
+</localization>
+<localization>
+<phrase>Yes, clear</phrase>
+</localization>
+<localization>
+<phrase>No, keep</phrase>
+</localization>
+<localization>
+<phrase>Clear the text and start over?</phrase>
+</localization>
+<localization>
+<phrase>Show hint</phrase>
+</localization>
+<localization>
+<phrase>Answer keys</phrase>
+</localization>
+<localization>
+<phrase>Yes</phrase>
+</localization>
+<localization>
+<phrase>No</phrase>
+</localization>
+<localization>
+<phrase>Clear and restart</phrase>
+</localization>
+<localization>
+<phrase>Check answers</phrase>
+</localization>
+<localization>
+<phrase>Correct answers</phrase>
+</localization>
+<localization>
+<phrase>Wrong answers</phrase>
+</localization>
+<localization>
+<phrase>Unanswered</phrase>
+</localization>
+<localization>
+<phrase>CLEAR</phrase>
+</localization>
+<localization>
+<phrase>Yes, this equation is balanced</phrase>
+</localization>
+<localization>
+<phrase>No, this equation is not balanced</phrase>
+</localization>
+<localization>
+<phrase>Sum of charges:</phrase>
+</localization>
+<localization>
+<phrase>Reactants</phrase>
+</localization>
+<localization>
+<phrase>Products</phrase>
+</localization>
+<localization>
+<phrase>Are you sure?</phrase>
+</localization>
+<localization>
+<phrase>Clear the image and start over?</phrase>
+</localization>
+<localization>
+<phrase>Yes, clear the image</phrase>
+</localization>
+<localization>
+<phrase>No, keep my image</phrase>
+</localization>
+<localization>
+<phrase>Accessing the camera and photo library does not work on this platform.</phrase>
+</localization>
+<localization>
+<phrase>Camera not supported</phrase>
+</localization>
+<localization>
+<phrase>Could not store picture</phrase>
+</localization>
+<localization>
+<phrase>Error inserting picture</phrase>
+</localization>
+<localization>
+<phrase>This widget needs internet access to store pictures.  Please connect and try again.</phrase>
+</localization>
+<localization>
+<phrase>Image upload error</phrase>
+</localization>
+<localization>
+<phrase>Error using picture</phrase>
+</localization>
+<localization>
+<phrase>Authentication error.</phrase>
+</localization>
+<localization>
+<phrase>Cancel</phrase>
+</localization>
+<localization>
+<phrase>Could not connect to server, check your internet connection.</phrase>
+</localization>
+<localization>
+<phrase>Email</phrase>
+</localization>
+<localization>
+<phrase>Forgot password?</phrase>
+</localization>
+<localization>
+<phrase>Not logged in</phrase>
+</localization>
+<localization>
+<phrase>OK</phrase>
+</localization>
+<localization>
+<phrase>Offline</phrase>
+</localization>
+<localization>
+<phrase>Online</phrase>
+</localization>
+<localization>
+<phrase>Password</phrase>
+</localization>
+<localization>
+<phrase>Please sign in</phrase>
+</localization>
+<localization>
+<phrase>Received error trying to sign in</phrase>
+</localization>
+<localization>
+<phrase>School code</phrase>
+</localization>
+<localization>
+<phrase>Server error when signing in.</phrase>
+</localization>
+<localization>
+<phrase>Sign in</phrase>
+</localization>
+<localization>
+<phrase>Sign in failed</phrase>
+</localization>
+<localization>
+<phrase>Sign in to save your answers online</phrase>
+</localization>
+<localization>
+<phrase>Sign in using</phrase>
+</localization>
+<localization>
+<phrase>Sign in using email and password</phrase>
+</localization>
+<localization>
+<phrase>Sign in using school account</phrase>
+</localization>
+<localization>
+<phrase>Sign out</phrase>
+</localization>
+<localization>
+<phrase>Sign up here</phrase>
+</localization>
+<localization>
+<phrase>Username</phrase>
+</localization>
+<localization>
+<phrase>Waiting</phrase>
+</localization>
+<localization>
+<phrase>Waiting for account sign in to complete...</phrase>
+</localization>
+<localization>
+<phrase>Widget configuration error: school doesn't exist</phrase>
+</localization>
+<localization>
+<phrase>Wrong username or password, please try again.</phrase>
+</localization>
+<localization>
+<phrase>You need to be signed in to use this widget.</phrase>
+</localization>
+<localization>
+<phrase>You're currently offline and logged in as user:</phrase>
+</localization>
+<localization>
+<phrase>You're currently online and logged in as user:</phrase>
+</localization>
+<localization>
+<phrase>You're offline</phrase>
+</localization>
+<localization>
+<phrase>Class ID</phrase>
+</localization>
+<localization>
+<phrase>Send</phrase>
+</localization>
+<localization>
+<phrase>Send Answer</phrase>
+</localization>
+<localization>
+<phrase>Send Failed</phrase>
+</localization>
+<localization>
+<phrase>Sending, please wait...</phrase>
+</localization>
+<localization>
+<phrase>Student Email</phrase>
+</localization>
+<localization>
+<phrase>Student ID</phrase>
+</localization>
+<localization>
+<phrase>Student Name</phrase>
+</localization>
+<localization>
+<phrase>Teacher Email</phrase>
+</localization>
+<localization>
+<phrase>This field is required:</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading audio</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>You can't specify multiple addresses for field:</phrase>
+</localization>
+<localization>
+<phrase>Submit is disabled because you're not logged in with a student account. e.g. you may be using a parent account.</phrase>
+</localization>
+<localization>
+<phrase>Sent successfully</phrase>
+</localization>
+<localization>
+<phrase>The email address you provided has not been registered.</phrase>
+</localization>
+<localization>
+<phrase>The email address you provided has not been activated.</phrase>
+</localization>
+<localization>
+<phrase>To prevent abuse, results can only be sent to registered email addresses.</phrase>
+</localization>
+<localization>
+<phrase>Activate by clicking on the link in the email which was sent to the address provided.</phrase>
+</localization>
+<localization>
+<phrase>You can also register at www.bookwidgets.com.</phrase>
+</localization>
+<localization>
+<phrase>Unknown error</phrase>
+</localization>
+<localization>
+<phrase>Optional Message</phrase>
+</localization>
+<localization>
+<phrase>Send</phrase>
+</localization>
+<localization>
+<phrase>Send Failed</phrase>
+</localization>
+<localization>
+<phrase>Sending, please wait...</phrase>
+</localization>
+<localization>
+<phrase>Share</phrase>
+</localization>
+<localization>
+<phrase>This field is required:</phrase>
+</localization>
+<localization>
+<phrase>To Email</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>You can't specify multiple addresses for field:</phrase>
+</localization>
+<localization>
+<phrase>Your Email</phrase>
+</localization>
+<localization>
+<phrase>Your Name</phrase>
+</localization>
+<localization>
+<phrase>Click here to download your PDF</phrase>
+</localization>
+<localization>
+<phrase>Could not generate PDF.  Please try again later.</phrase>
+</localization>
+<localization>
+<phrase>Download Failed</phrase>
+</localization>
+<localization>
+<phrase>Download as PDF</phrase>
+</localization>
+<localization>
+<phrase>Generate</phrase>
+</localization>
+<localization>
+<phrase>Generate PDF failed</phrase>
+</localization>
+<localization>
+<phrase>Generating PDF, please wait...</phrase>
+</localization>
+<localization>
+<phrase>PDF generated</phrase>
+</localization>
+<localization>
+<phrase>Uploading image</phrase>
+</localization>
+<localization>
+<phrase>Uploading your answers...</phrase>
+</localization>
+<localization>
+<phrase>Your Name</phrase>
+</localization>
+<localization>
+<phrase>Enter your name and click 'Generate' to generate the PDF.</phrase>
+</localization>
+<localization>
+<phrase>Download</phrase>
+</localization>
+</LocalizationMap>
+<DesignConstants template="Light Background" widget_font="Verdana" widget_color="#3498DB" widget_backgroundimage=",auto"/>
+<cover autosize="true"/>
+<widget_orientation value="Vertical">Vertical</widget_orientation>
+</QuizPlugin>
