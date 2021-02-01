@@ -17,7 +17,7 @@ function zipMoveCleanUp {
 }
 
 # creates all scenes
-allScenes=("scene-opium" "scene-ioannina" "scene-luis" "scene-ishi" "scene-william" "scene-jonas" "scene-arun" "scene-agent-v1" "scene-chicago-v1" "scene-jemba-v1" "scene-khari-v1")
+allScenes=("scene-opium" "scene-ioannina" "scene-luis" "scene-ishi" "scene-william" "scene-jonas" "scene-arun" "scene-agent-v1" "scene-chicago-v1" "scene-jemba-v1" "scene-khari-v1" "scene-opium-3d" "scene-agent-3d" "scene-chicago-3d" "scene-jemba-3d" "scene-khari-3d")
 for name in ${allScenes[@]}; do
     # copy scene source and shared files in one wdgt folder
     cp -rf ${name} ${name}.wdgt
