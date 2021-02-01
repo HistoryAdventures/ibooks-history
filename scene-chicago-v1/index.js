@@ -26,22 +26,19 @@ var features = {
 
 window.cameraTargets = {
     "hotspot-1": {
-        x: -2.7, y: 1, z: -3
+        x: -3.6, y: 2, z: 1.3
     },
     "hotspot-2": {
-        x: 1.4, y: -0.6, z: 3.4
+        x: -1.6, y: 2, z: -3.5
     },
     "hotspot-3": {
-        x: -3.6, y: 0.2, z: 1.5
+        x: 0.3, y: 1.6, z: -3.9
     },
     "hotspot-4": {
-        x: 1.1, y: 0.9, z: 3.8
+        x: 1.8, y: 2.8, z: -3.1
     },
     "hotspot-5": {
-        x: 3.9, y: 1, z: 0.7
-    },
-    "hotspot-6": {
-        x: 2.5, y: 1.4, z: -3.1
+        x: -1.3, y: 1.1, z: -1
     }
 };
 window.hotspots = [];
@@ -58,7 +55,6 @@ window.audioLib = {
         "hotspot-3": null,
         "hotspot-4": null,
         "hotspot-5": null,
-        "hotspot-6": null,
     }
 };
 
@@ -97,7 +93,7 @@ function init() {
     // invert the geometry on the x-axis so that all of the faces point inward
     geometry.scale( - 1, 1, 1 );
 
-    var texture = new THREE.TextureLoader().load( 'textures/Jonas_SphericalMap_03.jpg' );
+    var texture = new THREE.TextureLoader().load( 'textures/ThomasBrown_pano.jpg' );
     var material = new THREE.MeshBasicMaterial( { map: texture } );
 
     mesh = new THREE.Mesh( geometry, material );
@@ -105,36 +101,31 @@ function init() {
     scene.add( mesh );
 
     var sprite1 = createButton('hotspot-1');
-    sprite1.position.set(200, 7, 172);
+    sprite1.position.set(200, -38, -99);
     sprite1.lookAt(0 ,0 ,0);
     scene.add( sprite1 );
 
     var sprite2 = createButton('hotspot-2');
-    sprite2.position.set(-92, 116, -187);
+    sprite2.position.set(109, -64, 196);
     sprite2.lookAt(0 ,0 ,0);
     scene.add( sprite2 );
 
     var sprite3 = createButton('hotspot-3');
-    sprite3.position.set(200, 12, -75);
+    sprite3.position.set(-4, -21, 196);
     sprite3.lookAt(0 ,0 ,0);
     scene.add( sprite3 );
 
     var sprite4 = createButton('hotspot-4');
-    sprite4.position.set(-71, 1, -200);
+    sprite4.position.set(-69, -69, 161);
     sprite4.lookAt(0 ,0 ,0);
     scene.add( sprite4 );
 
     var sprite5 = createButton('hotspot-5');
-    sprite5.position.set(-200, -1, -32);
+    sprite5.position.set(200, 18, 135);
     sprite5.lookAt(0 ,0 ,0);
     scene.add( sprite5 );
 
-    var sprite6 = createButton('hotspot-6');
-    sprite6.position.set(-135, 3, 200);
-    sprite6.lookAt(0 ,0 ,0);
-    scene.add( sprite6 );
-
-    hotspots = [sprite1, sprite2, sprite3, sprite4, sprite5, sprite6];
+    hotspots = [sprite1, sprite2, sprite3, sprite4, sprite5];
 
     const scaleFactor = 10;
     hotspots.forEach(hotspot => {
@@ -179,10 +170,10 @@ function init() {
     controls.screenSpacePanning = false;
     controls.minDistance = 0.01;
     controls.maxDistance = 4;
-    controls.target.set(0, 1, 0);
+    controls.target.set(6, -3, 6);
     controls.zoomSpeed = 0.5;
     controls.maxPolarAngle = Math.PI / 1.3;
-    controls.minPolarAngle = Math.PI / 2.9;
+    controls.minPolarAngle = Math.PI / 5;
     controls.update();
 
     window.addEventListener("resize", onWindowResize, false);
@@ -201,20 +192,20 @@ function init() {
 
     // outlinePass.selectedObjects = hotspots;
     if (features.sfx) {
-        audioLib.hotspots["hotspot-1"] = new Audio('./audio/Jonas_SFX_PhletoraOfPIrates.m4a');
-        audioLib.hotspots["hotspot-2"] = new Audio('./audio/Jonas_SFX_GoldenAge.m4a');
-        audioLib.hotspots["hotspot-3"] = new Audio('./audio/Jonas_SFX_BountyfulBoats.m4a');
-        audioLib.hotspots["hotspot-4"] = new Audio('./audio/Jonas_SFX_Charles.m4a');
-        audioLib.hotspots["hotspot-5"] = new Audio('./audio/Jonas_SFX_Edward.m4a');
-        audioLib.hotspots["hotspot-6"] = new Audio('./audio/Jonas_SFX_Jack.m4a');
+        audioLib.hotspots["hotspot-1"] = new Audio('./audio/Tom Brown 3d Endangering Enviroment.m4a');
+        audioLib.hotspots["hotspot-2"] = new Audio('./audio/Tom Brown 3d Beef Trust.m4a');
+        audioLib.hotspots["hotspot-3"] = new Audio('./audio/Tom Brown 3d As Far as the eye could see.m4a');
+        audioLib.hotspots["hotspot-4"] = new Audio('./audio/Tom Brown 3d A growing concern.m4a');
+        audioLib.hotspots["hotspot-5"] = new Audio('./audio/Tom Brown 3d Muckraking.m4a');
 
-        audioLib.ambient = new Audio('./audio/Jonas_Ambience.m4a');
+        audioLib.ambient = new Audio('./audio/Tom Brown 3d Background.m4a');
         audioLib.ambient.loop = true;
-        try {
-            audioLib.ambient.play();
-        } catch (e) {
-            // for autoplay https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide
-        }
+        
+        audioLib.ambient.play().then(() => {}).catch(error => {
+            window.addEventListener('click', () => {
+                audioLib.ambient.play();
+            })
+        });
 
         audioLib.muteButton.addEventListener('click', () => {
             audioLib.ambient.pause();
