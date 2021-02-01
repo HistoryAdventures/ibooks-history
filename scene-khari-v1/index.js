@@ -26,23 +26,41 @@ var features = {
 
 window.cameraTargets = {
     "hotspot-1": {
-        x: -2.7, y: 1, z: -3
+        x: -3.7, y: 0.5, z: -1.4
     },
     "hotspot-2": {
-        x: 1.4, y: -0.6, z: 3.4
+        x: -2.8, y: 0.4, z: -2.8
     },
     "hotspot-3": {
-        x: -3.6, y: 0.2, z: 1.5
+        x: -0.8, y: 0.4, z: -3.9
     },
     "hotspot-4": {
-        x: 1.1, y: 0.9, z: 3.8
+        x: 0.7, y: 0.5, z: -3.9
     },
     "hotspot-5": {
-        x: 3.9, y: 1, z: 0.7
+        x: 2.3, y: 0.5, z: -3.2
     },
     "hotspot-6": {
-        x: 2.5, y: 1.4, z: -3.1
-    }
+        x: 3.6, y: 0.4, z: -1.7
+    },
+    "hotspot-7": {
+        x: 3.9, y: 0.3, z: -0.1
+    },
+    "hotspot-8": {
+        x: 2.9, y: 0.2, z: 2.7
+    },
+    "hotspot-9": {
+        x: 0.3, y: 0.2, z: 3.9
+    },
+    "hotspot-10": {
+        x: -1.5, y: 0.1, z: 3.6
+    },
+    "hotspot-11": {
+        x: -3.6, y: 0.2, z: 1.5
+    },
+    "hotspot-12": {
+        x: -3.9, y: 0.1, z: 0
+    },
 };
 window.hotspots = [];
 window.selectedTooltip = null;
@@ -59,6 +77,12 @@ window.audioLib = {
         "hotspot-4": null,
         "hotspot-5": null,
         "hotspot-6": null,
+        "hotspot-7": null,
+        "hotspot-8": null,
+        "hotspot-9": null,
+        "hotspot-10": null,
+        "hotspot-11": null,
+        "hotspot-12": null,
     }
 };
 
@@ -76,7 +100,7 @@ function init() {
     }
 
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 2000);
-    camera.position.set(-6, -1, 3);
+    camera.position.set(6, -1, 3);
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0x000000);
 
@@ -97,7 +121,7 @@ function init() {
     // invert the geometry on the x-axis so that all of the faces point inward
     geometry.scale( - 1, 1, 1 );
 
-    var texture = new THREE.TextureLoader().load( 'textures/Jonas_SphericalMap_03.jpg' );
+    var texture = new THREE.TextureLoader().load( 'textures/Khari_pano.jpg' );
     var material = new THREE.MeshBasicMaterial( { map: texture } );
 
     mesh = new THREE.Mesh( geometry, material );
@@ -105,36 +129,66 @@ function init() {
     scene.add( mesh );
 
     var sprite1 = createButton('hotspot-1');
-    sprite1.position.set(200, 7, 172);
+    sprite1.position.set(200, 47.5, 46.5);
     sprite1.lookAt(0 ,0 ,0);
     scene.add( sprite1 );
 
     var sprite2 = createButton('hotspot-2');
-    sprite2.position.set(-92, 116, -187);
+    sprite2.position.set(200, 51, 135);
     sprite2.lookAt(0 ,0 ,0);
     scene.add( sprite2 );
 
     var sprite3 = createButton('hotspot-3');
-    sprite3.position.set(200, 12, -75);
+    sprite3.position.set(95, 45.5, 200);
     sprite3.lookAt(0 ,0 ,0);
     scene.add( sprite3 );
 
     var sprite4 = createButton('hotspot-4');
-    sprite4.position.set(-71, 1, -200);
+    sprite4.position.set(3, 44, 200);
     sprite4.lookAt(0 ,0 ,0);
     scene.add( sprite4 );
 
     var sprite5 = createButton('hotspot-5');
-    sprite5.position.set(-200, -1, -32);
+    sprite5.position.set(-104, 47, 200);
     sprite5.lookAt(0 ,0 ,0);
     scene.add( sprite5 );
 
     var sprite6 = createButton('hotspot-6');
-    sprite6.position.set(-135, 3, 200);
+    sprite6.position.set(-200, 54, 144);
     sprite6.lookAt(0 ,0 ,0);
     scene.add( sprite6 );
 
-    hotspots = [sprite1, sprite2, sprite3, sprite4, sprite5, sprite6];
+    var sprite7 = createButton('hotspot-7');
+    sprite7.position.set(-200, 52.5, 43.5);
+    sprite7.lookAt(0 ,0 ,0);
+    scene.add( sprite7 );
+
+    var sprite8 = createButton('hotspot-8');
+    sprite8.position.set(-192, 54, -120);
+    sprite8.lookAt(0 ,0 ,0);
+    scene.add( sprite8 );
+
+    var sprite9 = createButton('hotspot-9');
+    sprite9.position.set(-50, 47, -200);
+    sprite9.lookAt(0 ,0 ,0);
+    scene.add( sprite9 );
+
+    var sprite10 = createButton('hotspot-10');
+    sprite10.position.set(46, 48.5, -200);
+    sprite10.lookAt(0 ,0 ,0);
+    scene.add( sprite10 );
+
+    var sprite11 = createButton('hotspot-11');
+    sprite11.position.set(200, 51, -142);
+    sprite11.lookAt(0 ,0 ,0);
+    scene.add( sprite11 );
+
+    var sprite12 = createButton('hotspot-12');
+    sprite12.position.set(200, 48, -47);
+    sprite12.lookAt(0 ,0 ,0);
+    scene.add( sprite12 );
+
+    hotspots = [sprite1, sprite2, sprite3, sprite4, sprite5, sprite6, sprite7, sprite8, sprite9, sprite10, sprite11, sprite12];
 
     const scaleFactor = 10;
     hotspots.forEach(hotspot => {
@@ -201,20 +255,27 @@ function init() {
 
     // outlinePass.selectedObjects = hotspots;
     if (features.sfx) {
-        audioLib.hotspots["hotspot-1"] = new Audio('./audio/Jonas_SFX_PhletoraOfPIrates.m4a');
-        audioLib.hotspots["hotspot-2"] = new Audio('./audio/Jonas_SFX_GoldenAge.m4a');
-        audioLib.hotspots["hotspot-3"] = new Audio('./audio/Jonas_SFX_BountyfulBoats.m4a');
-        audioLib.hotspots["hotspot-4"] = new Audio('./audio/Jonas_SFX_Charles.m4a');
-        audioLib.hotspots["hotspot-5"] = new Audio('./audio/Jonas_SFX_Edward.m4a');
-        audioLib.hotspots["hotspot-6"] = new Audio('./audio/Jonas_SFX_Jack.m4a');
+        audioLib.hotspots["hotspot-1"] = new Audio('./audio/Khari 3d Button_1.m4a');
+        audioLib.hotspots["hotspot-2"] = new Audio('./audio/Khari 3d Button_2.m4a');
+        audioLib.hotspots["hotspot-3"] = new Audio('./audio/Khari 3d Button_3.m4a');
+        audioLib.hotspots["hotspot-4"] = new Audio('./audio/Khari 3d Button_4.m4a');
+        audioLib.hotspots["hotspot-5"] = new Audio('./audio/Khari 3d Button_5.m4a');
+        audioLib.hotspots["hotspot-6"] = new Audio('./audio/Khari 3d Button_6.m4a');
+        audioLib.hotspots["hotspot-7"] = new Audio('./audio/Khari 3d Button_7.m4a');
+        audioLib.hotspots["hotspot-8"] = new Audio('./audio/Khari 3d Button_8.m4a');
+        audioLib.hotspots["hotspot-9"] = new Audio('./audio/Khari 3d Button_9.m4a');
+        audioLib.hotspots["hotspot-10"] = new Audio('./audio/Khari 3d Button_10.m4a');
+        audioLib.hotspots["hotspot-11"] = new Audio('./audio/Khari 3d Button_11.m4a');
+        audioLib.hotspots["hotspot-12"] = new Audio('./audio/Khari 3d Button_12.m4a');
 
-        audioLib.ambient = new Audio('./audio/Jonas_Ambience.m4a');
+        audioLib.ambient = new Audio('./audio/Khari 3d Background.m4a');
         audioLib.ambient.loop = true;
-        try {
-            audioLib.ambient.play();
-        } catch (e) {
-            // for autoplay https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide
-        }
+        
+        audioLib.ambient.play().then(() => {}).catch(error => {
+            window.addEventListener('click', () => {
+                audioLib.ambient.play();
+            })
+        });
 
         audioLib.muteButton.addEventListener('click', () => {
             audioLib.ambient.pause();
