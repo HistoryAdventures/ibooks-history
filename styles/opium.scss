@@ -1,7 +1,7 @@
 
 $theme-color: #f2003d;
-$tooltip-text: white;
-$tooltip-gradient: ffffff; // should be without hash
+$tooltip-text: #ffffff;
+$tooltip-gradient: "f2003d"; // should be without hash
 $tooltip-gradient-rgb: rgba($theme-color, 0.75);
 
 @import 'scene_main';
