@@ -12,7 +12,7 @@ import tooltips from '@scripts/tooltips';
 import outlineCompose from '@scripts/outlineCompose';
 import createButton from '@scripts/createHotspotButton';
 
-import '../styles/jonas.scss';
+import '../styles/jiemba.scss';
 
 var container, stats, controls;
 var camera, scene, renderer;
@@ -105,7 +105,7 @@ function init() {
     sprite1.lookAt(0 ,0 ,0);
     scene.add( sprite1 );
 
-    var sprite2 = createButton('hotspot-camps');
+    var sprite2 = createButton('hotspot-settlers');
     sprite2.position.set(35, 9, 200);
     sprite2.lookAt(0 ,0 ,0);
     scene.add( sprite2 );
@@ -115,7 +115,7 @@ function init() {
     sprite3.lookAt(0 ,0 ,0);
     scene.add( sprite3 );
 
-    var sprite4 = createButton('hotspot-settlers');
+    var sprite4 = createButton('hotspot-camps');
     sprite4.position.set(-103, 9, 200);
     sprite4.lookAt(0 ,0 ,0);
     scene.add( sprite4 );
