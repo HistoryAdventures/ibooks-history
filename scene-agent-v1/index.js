@@ -12,7 +12,7 @@ import tooltips from '@scripts/tooltips';
 import outlineCompose from '@scripts/outlineCompose';
 import createButton from '@scripts/createHotspotButton';
 
-import '../styles/jonas.scss';
+import '../styles/agent.scss';
 
 var container, stats, controls;
 var camera, scene, renderer;
