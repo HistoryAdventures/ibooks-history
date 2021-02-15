@@ -1,0 +1,6 @@
+$theme-color: #1bafa3;
+$tooltip-text: #1bafa3;
+$tooltip-gradient: "1bafa3"; // should be without hash
+$tooltip-gradient-rgb: rgba($theme-color, 0.75);
+
+@import 'scene_main';
