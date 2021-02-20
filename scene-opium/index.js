@@ -195,9 +195,7 @@ function init() {
         audioLib.hotspots["hotspot-paper1"] = new Audio('./audio/FeiHong_3d Lin Zexu.m4a');
         audioLib.hotspots["hotspot-paper2"] = new Audio('./audio/FeiHong_3d Canton.m4a');
         audioLib.hotspots["hotspot-emperor"] = new Audio('./audio/FeiHong_3d Daoguang Emperor.m4a');
-        audioLib.hotspots["OpiumBalls"] = new Audio('./audio/FeiHong_3d Opium.m4a');
-        audioLib.hotspots["OpiumBalls2"] = new Audio('./audio/FeiHong_3d Opium.m4a');
-        audioLib.hotspots["OpiumBox"] = new Audio('./audio/FeiHong_3d Opium.m4a');
+        audioLib.hotspots["hotspot-opium1"] = new Audio('./audio/FeiHong_3d Opium.m4a');
         audioLib.hotspots["hotspot-mirror-back"] = new Audio('./audio/FeiHong_3d Opium Destruction.mp3');
 
         audioLib.ambient = new Audio('./audio/FeiHong_3d Background.m4a');
